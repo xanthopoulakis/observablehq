@@ -1,0 +1,227 @@
+[
+  {
+    "id": "d03ee571-015d-4ecd-9117-de54c6f9509f",
+    "name": "Καραμανλής Κωνσταντίνος (Κώστας)",
+    "party": "ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ",
+    "constituency": "A",
+    "last_name": "Καραμανλής",
+    "first_name": "Κωνσταντίνος (Κώστας)",
+    "profile_image": "https://vouliwatch.gr/resources/image/2018/5/18/c7064e80-d763-453c-a084-a239abe8e899.jpg"
+  },
+  {
+    "id": "03e4757b-ddb5-4624-9d0d-f695f535ec70",
+    "name": "Καλαφάτης Σταύρος",
+    "party": "ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ",
+    "constituency": "A",
+    "last_name": "Καλαφάτης",
+    "first_name": "Σταύρος",
+    "profile_image": "https://vouliwatch.gr/resources/image/2018/5/18/55dd2934-cd0a-45e4-b0ad-82caab4fdcac.jpg"
+  },
+  {
+    "id": "069a3316-27c1-4948-9827-aa8d00d81ecc",
+    "name": "Βαρτζόπουλος Δημήτριος",
+    "party": "ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ",
+    "constituency": "B",
+    "last_name": "Βαρτζόπουλος",
+    "first_name": "Δημήτριος",
+    "profile_image": "https://vouliwatch.gr/resources/image/2019/7/9/26a30fdb-c7be-480e-b677-8f9eae9d4e60.jpg"
+  },
+  {
+    "id": "a4cf96e1-8984-422d-8519-b5bf62479e0d",
+    "name": "Γκιουλέκας Κωνσταντίνος",
+    "party": "ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ",
+    "constituency": "A",
+    "last_name": "Γκιουλέκας",
+    "first_name": "Κωνσταντίνος",
+    "profile_image": "https://vouliwatch.gr/resources/image/2018/5/18/44f91544-ed75-46be-8d07-fb6b1b90dfa2.jpeg"
+  },
+  {
+    "id": "258255fe-ab95-4a89-a696-a43401550689",
+    "name": "Ευθυμίου Άννα",
+    "party": "ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ",
+    "constituency": "A",
+    "last_name": "Ευθυμίου",
+    "first_name": "Άννα",
+    "profile_image": "https://vouliwatch.gr/resources/image/2019/7/15/a2fb18df-9da3-4686-bfe7-edf3925ee117.jpg"
+  },
+  {
+    "id": "3748608f-bfb7-4ba7-8c4e-e0c99baff2ae",
+    "name": "Καράογλου Θεόδωρος",
+    "party": "ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ",
+    "constituency": "B",
+    "last_name": "Καράογλου",
+    "first_name": "Θεόδωρος",
+    "profile_image": "https://vouliwatch.gr/resources/image/2018/5/18/046d45ed-9f4d-4822-8567-4b26f1c463c8.jpg"
+  },
+  {
+    "id": "505981d5-5775-451b-bfb0-4760476c0775",
+    "name": "Ράπτη Ελένη",
+    "party": "ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ",
+    "constituency": "A",
+    "last_name": "Ράπτη",
+    "first_name": "Ελένη",
+    "profile_image": "https://vouliwatch.gr/resources/image/2018/5/21/ea5abbcc-b695-4001-a6ef-e02f9171e603.jpg"
+  },
+  {
+    "id": "8e826bdc-6daf-471a-b6fc-aa8d00f068fc",
+    "name": "Σιμόπουλος Ευστράτιος (Στράτος)",
+    "party": "ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ",
+    "constituency": "A",
+    "last_name": "Σιμόπουλος",
+    "first_name": "Ευστράτιος (Στράτος)",
+    "profile_image": "https://vouliwatch.gr/resources/image/2019/7/15/9134d649-f7da-4266-9be2-9ae88e7d109a.jpg"
+  },
+  {
+    "id": "d58c4c67-86d5-4d14-a37d-a43400d64a50",
+    "name": "Κούβελας Δημήτριος",
+    "party": "ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ",
+    "constituency": "A",
+    "last_name": "Κούβελας",
+    "first_name": "Δημήτριος",
+    "profile_image": "https://vouliwatch.gr/resources/image/2019/7/16/a090c52a-a456-42f1-9239-0e827636c850.jpg"
+  },
+  {
+    "id": "5082921e-17ac-4d75-a63b-f799fa6722d7",
+    "name": "Αναστασιάδης Σάββας",
+    "party": "ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ",
+    "constituency": "B",
+    "last_name": "Αναστασιάδης",
+    "first_name": "Σάββας",
+    "profile_image": "https://www.vouliwatch.gr/wp-content/uploads/2013/12/Screen-shot-2014-02-19-at-5.00.32-PM.png"
+  },
+  {
+    "id": "5e0215a5-a1f9-425a-99d5-a4340143221c",
+    "name": "Τριανταφυλλίδης Αλέξανδρος (Αλέκος)",
+    "party": "ΣΥΝΑΣΠΙΣΜΟΣ ΡΙΖΟΣΠΑΣΤΙΚΗΣ ΑΡΙΣΤΕΡΑΣ",
+    "constituency": "A",
+    "last_name": "Τριανταφυλλίδης",
+    "first_name": "Αλέξανδρος (Αλέκος)",
+    "profile_image": "https://vouliwatch.gr/resources/image/2022/3/9/1ff19c1f-3082-428e-99d3-4799ea6dcaef.png"
+  },
+  {
+    "id": "11acdafa-2597-405c-8a67-aa8d00d53106",
+    "name": "Αυγέρη Θεοδώρα",
+    "party": "ΣΥΝΑΣΠΙΣΜΟΣ ΡΙΖΟΣΠΑΣΤΙΚΗΣ ΑΡΙΣΤΕΡΑΣ",
+    "constituency": "B",
+    "last_name": "Αυγέρη",
+    "first_name": "Θεοδώρα",
+    "profile_image": "https://vouliwatch.gr/resources/image/2019/7/9/c00e91eb-0f2b-4c9e-8cd0-6046e648df7d.jpg"
+  },
+  {
+    "id": "ba66f008-ae84-4d5a-ad10-a434014470a0",
+    "name": "Φάμελλος Σωκράτης",
+    "party": "ΣΥΝΑΣΠΙΣΜΟΣ ΡΙΖΟΣΠΑΣΤΙΚΗΣ ΑΡΙΣΤΕΡΑΣ",
+    "constituency": "B",
+    "last_name": "Φάμελλος",
+    "first_name": "Σωκράτης",
+    "profile_image": "https://www.vouliwatch.gr/wp-content/uploads/2015/02/famellos160.jpg"
+  },
+  {
+    "id": "6a54b198-aaf2-4f20-8d72-f0cb1364263a",
+    "name": "Αμανατίδης Ιωάννης",
+    "party": "ΣΥΝΑΣΠΙΣΜΟΣ ΡΙΖΟΣΠΑΣΤΙΚΗΣ ΑΡΙΣΤΕΡΑΣ",
+    "constituency": "A",
+    "last_name": "Αμανατίδης",
+    "first_name": "Ιωάννης",
+    "profile_image": "https://new.vouliwatch.gr/resources/image/2017/5/25/9dc7f22e-c16f-4fb5-9fe7-198d7f25eaa7.jpg"
+  },
+  {
+    "id": "32741c33-fb45-49c2-8602-a434014e75d8",
+    "name": "Γιαννούλης Χρήστος",
+    "party": "ΣΥΝΑΣΠΙΣΜΟΣ ΡΙΖΟΣΠΑΣΤΙΚΗΣ ΑΡΙΣΤΕΡΑΣ",
+    "constituency": "A",
+    "last_name": "Γιαννούλης",
+    "first_name": "Χρήστος",
+    "profile_image": "https://vouliwatch.gr/resources/image/2019/7/12/636863eb-0699-4c81-8439-7e6e7c5ffabc.jpg"
+  },
+  {
+    "id": "32c16bf0-3283-4ada-bc19-a43400e5a058",
+    "name": "Ζουράρης Κωνσταντίνος (Κώστας)",
+    "party": "ΣΥΝΑΣΠΙΣΜΟΣ ΡΙΖΟΣΠΑΣΤΙΚΗΣ ΑΡΙΣΤΕΡΑΣ",
+    "constituency": "A",
+    "last_name": "Ζουράρης",
+    "first_name": "Κωνσταντίνος (Κώστας)",
+    "profile_image": "https://vouliwatch.gr/resources/image/2018/5/18/a4c38aa8-871d-44a2-92f7-902c2929abee.jpg"
+  },
+  {
+    "id": "e9f224d9-16de-4c81-9831-aa8d00ee54c7",
+    "name": "Νοτοπούλου Αικατερίνη (Κατερίνα)",
+    "party": "ΣΥΝΑΣΠΙΣΜΟΣ ΡΙΖΟΣΠΑΣΤΙΚΗΣ ΑΡΙΣΤΕΡΑΣ",
+    "constituency": "A",
+    "last_name": "Νοτοπούλου",
+    "first_name": "Αικατερίνη (Κατερίνα)",
+    "profile_image": "https://vouliwatch.gr/resources/image/2019/7/17/b73c07f0-6fb8-4e40-83a4-c147c4c8e523.jpg"
+  },
+  {
+    "id": "be36f6c3-3fc0-445c-b8aa-895650a798cf",
+    "name": "Αρβανιτίδης Γιώργος",
+    "party": "ΚΙΝΗΜΑ ΑΛΛΑΓΗΣ",
+    "constituency": "B",
+    "last_name": "Αρβανιτίδης",
+    "first_name": "Γιώργος",
+    "profile_image": "https://vouliwatch.gr/resources/image/2022/4/8/b4e4c754-2d5b-49b4-aa15-b56f7ad213e9.png"
+  },
+  {
+    "id": "b7d84e07-c593-42ca-a753-5e1b9708a128",
+    "name": "Καστανίδης Χαράλαμπος (Χάρης)",
+    "party": "ΚΙΝΗΜΑ ΑΛΛΑΓΗΣ",
+    "constituency": "A",
+    "last_name": "Καστανίδης",
+    "first_name": "Χαράλαμπος (Χάρης)",
+    "profile_image": "https://new.vouliwatch.gr/resources/image/2017/7/13/1d1bc75c-cc6e-4ed7-b803-1d846751a2a2.jpg"
+  },
+  {
+    "id": "0b6ff748-6b8b-4798-9cb6-aa8d00cdbf07",
+    "name": "Αδάμου Κωνσταντίνα",
+    "party": "ΚΙΝΗΜΑ ΑΛΛΑΓΗΣ",
+    "constituency": "B",
+    "last_name": "Αδάμου",
+    "first_name": "Κωνσταντίνα",
+    "profile_image": "https://vouliwatch.gr/resources/image/2022/4/7/2d025940-d584-4175-bfcf-6bda42deab91.jpeg"
+  },
+  {
+    "id": "2aa0aca0-2dc7-4c59-8c32-aa8d00f2382d",
+    "name": "Στολτίδης Λεωνίδας",
+    "party": "ΚΟΜΜΟΥΝΙΣΤΙΚΟ ΚΟΜΜΑ ΕΛΛΑΔΑΣ",
+    "constituency": "B",
+    "last_name": "Στολτίδης",
+    "first_name": "Λεωνίδας",
+    "profile_image": "https://vouliwatch.gr/resources/image/2019/7/15/c1290e6f-50d4-481b-acba-9c480bab128f.jpg"
+  },
+  {
+    "id": "4a87f876-92ab-47c7-8386-a52500ae79b1",
+    "name": "Δελής Ιωάννης",
+    "party": "ΚΟΜΜΟΥΝΙΣΤΙΚΟ ΚΟΜΜΑ ΕΛΛΑΔΑΣ",
+    "constituency": "A",
+    "last_name": "Δελής",
+    "first_name": "Ιωάννης",
+    "profile_image": "https://www.vouliwatch.gr/wp-content/uploads/2015/09/Δελής-Γιάννης.png"
+  },
+  {
+    "id": "b5627c17-7cbc-4ab9-8590-aa8d00f70326",
+    "name": "Χήτας Κωνσταντίνος",
+    "party": "ΕΛΛΗΝΙΚΗ ΛΥΣΗ - ΚΥΡΙΑΚΟΣ ΒΕΛΟΠΟΥΛΟΣ",
+    "constituency": "B",
+    "last_name": "Χήτας",
+    "first_name": "Κωνσταντίνος",
+    "profile_image": "https://vouliwatch.gr/resources/image/2022/3/10/9b25703d-ce35-40ba-8f55-796a3b9f7460.jpg"
+  },
+  {
+    "id": "61b64b90-87bc-4952-b0c8-aa8d00ca88ce",
+    "name": "Αβδελάς Απόστολος",
+    "party": "ΕΛΛΗΝΙΚΗ ΛΥΣΗ - ΚΥΡΙΑΚΟΣ ΒΕΛΟΠΟΥΛΟΣ",
+    "constituency": "A",
+    "last_name": "Αβδελάς",
+    "first_name": "Απόστολος ",
+    "profile_image": "https://vouliwatch.gr/resources/image/2019/7/8/15cad03b-9478-469b-aa2c-f5c709a9e096.jpg"
+  },
+  {
+    "id": "4a0c3a28-52ac-4cd9-b78c-a43400d55a05",
+    "name": "Βαρουφάκης Γιάνης",
+    "party": "ΜέΡΑ25",
+    "constituency": "A",
+    "last_name": "Βαρουφάκης",
+    "first_name": "Γιάνης",
+    "profile_image": "https://vouliwatch.gr/resources/image/2022/3/9/920ab5d0-67df-4026-b6a9-4c7f822b1b46.jpg"
+  }
+]
