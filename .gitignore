@@ -28,3 +28,5 @@ yarn-error.log*
 /thessaloniki_parliamentary_control/Rakefile
 /thessaloniki_parliamentary_control/tasks
 
+/ekloges/Rakefile
+/ekloges/tasks

@@ -1,0 +1,1409 @@
+[
+  {
+    "ekloges_id": "v2019",
+    "Updated": "2019-11-08 16:48:56.457",
+    "Gramenoi": 9984934,
+    "Egkyra": 5649527,
+    "Akyra": 77477,
+    "Leyka": 42640,
+    "NumTm": 21544,
+    "NumTmK": 21184,
+    "NumTmE": 227,
+    "NumTmM": 133,
+    "WIN_ID": 2,
+    "official": 0,
+    "party": [
+      {
+        "PARTY_ID": 2,
+        "VOTES": 2251618,
+        "Perc": 39.8549825498,
+        "TakesEdres": 1,
+        "Edres": 153,
+        "EdresEpik": 5,
+        "Rank": 1
+      },
+      {
+        "PARTY_ID": 4,
+        "VOTES": 1781057,
+        "Perc": 31.5257719805,
+        "TakesEdres": 1,
+        "Edres": 82,
+        "EdresEpik": 4,
+        "Rank": 2
+      },
+      {
+        "PARTY_ID": 106,
+        "VOTES": 457623,
+        "Perc": 8.1002002468,
+        "TakesEdres": 1,
+        "Edres": 21,
+        "EdresEpik": 1,
+        "Rank": 3
+      },
+      {
+        "PARTY_ID": 3,
+        "VOTES": 299621,
+        "Perc": 5.3034705383,
+        "TakesEdres": 1,
+        "Edres": 14,
+        "EdresEpik": 1,
+        "Rank": 4
+      },
+      {
+        "PARTY_ID": 108,
+        "VOTES": 209290,
+        "Perc": 3.7045579213,
+        "TakesEdres": 1,
+        "Edres": 9,
+        "EdresEpik": 1,
+        "Rank": 5
+      },
+      {
+        "PARTY_ID": 122,
+        "VOTES": 194576,
+        "Perc": 3.4441113388,
+        "TakesEdres": 1,
+        "Edres": 9,
+        "EdresEpik": 0,
+        "Rank": 6
+      },
+      {
+        "PARTY_ID": 41,
+        "VOTES": 165620,
+        "Perc": 2.9315728555,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 7
+      },
+      {
+        "PARTY_ID": 123,
+        "VOTES": 82786,
+        "Perc": 1.4653616134,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 8
+      },
+      {
+        "PARTY_ID": 15,
+        "VOTES": 70178,
+        "Perc": 1.2421924879,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 9
+      },
+      {
+        "PARTY_ID": 60,
+        "VOTES": 41631,
+        "Perc": 0.7368935487,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 10
+      },
+      {
+        "PARTY_ID": 126,
+        "VOTES": 28313,
+        "Perc": 0.5011569995,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 11
+      },
+      {
+        "PARTY_ID": 44,
+        "VOTES": 23239,
+        "Perc": 0.4113441709,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 12
+      },
+      {
+        "PARTY_ID": 100,
+        "VOTES": 15612,
+        "Perc": 0.2763417185,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 13
+      },
+      {
+        "PARTY_ID": 113,
+        "VOTES": 14079,
+        "Perc": 0.2492067034,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 14
+      },
+      {
+        "PARTY_ID": 125,
+        "VOTES": 7760,
+        "Perc": 0.1373566318,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 15
+      },
+      {
+        "PARTY_ID": 10,
+        "VOTES": 2706,
+        "Perc": 0.0478978151,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 16
+      },
+      {
+        "PARTY_ID": 40,
+        "VOTES": 1719,
+        "Perc": 0.030427326,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 17
+      },
+      {
+        "PARTY_ID": 66,
+        "VOTES": 1576,
+        "Perc": 0.0278961406,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 18
+      },
+      {
+        "PARTY_ID": 998,
+        "VOTES": 472,
+        "Perc": 0.0083546817,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 19
+      },
+      {
+        "PARTY_ID": 127,
+        "VOTES": 51,
+        "Perc": 0.0009027304,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 20
+      },
+      {
+        "PARTY_ID": 20,
+        "VOTES": 0,
+        "Perc": 0,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 21
+      }
+    ],
+    "LockLevel": 3,
+    "LockEdres": 1
+  },
+  {
+    "ekloges_id": "e2019",
+    "Updated": "2019-06-03 13:05:35.697",
+    "Gramenoi": 10088325,
+    "Egkyra": 5656119,
+    "Akyra": 173781,
+    "Leyka": 90455,
+    "NumTm": 22675,
+    "NumTmK": 22675,
+    "NumTmE": 0,
+    "NumTmM": 0,
+    "WIN_ID": 2,
+    "official": 0,
+    "party": [
+      {
+        "PARTY_ID": 2,
+        "VOTES": 1873137,
+        "Perc": 33.1170013,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 8,
+        "Rank": 1
+      },
+      {
+        "PARTY_ID": 4,
+        "VOTES": 1343595,
+        "Perc": 23.7547159,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 6,
+        "Rank": 2
+      },
+      {
+        "PARTY_ID": 106,
+        "VOTES": 436726,
+        "Perc": 7.7213015,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 2,
+        "Rank": 3
+      },
+      {
+        "PARTY_ID": 3,
+        "VOTES": 302603,
+        "Perc": 5.3500112,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 2,
+        "Rank": 4
+      },
+      {
+        "PARTY_ID": 41,
+        "VOTES": 275734,
+        "Perc": 4.8749682,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 2,
+        "Rank": 5
+      },
+      {
+        "PARTY_ID": 108,
+        "VOTES": 236347,
+        "Perc": 4.1786073,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 1,
+        "Rank": 6
+      },
+      {
+        "PARTY_ID": 122,
+        "VOTES": 169635,
+        "Perc": 2.9991413,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 7
+      },
+      {
+        "PARTY_ID": 123,
+        "VOTES": 90927,
+        "Perc": 1.6075864,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 8
+      },
+      {
+        "PARTY_ID": 75,
+        "VOTES": 85934,
+        "Perc": 1.5193103,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 9
+      },
+      {
+        "PARTY_ID": 15,
+        "VOTES": 82084,
+        "Perc": 1.4512425,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 10
+      },
+      {
+        "PARTY_ID": 114,
+        "VOTES": 70347,
+        "Perc": 1.2437327,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 11
+      },
+      {
+        "PARTY_ID": 16,
+        "VOTES": 69779,
+        "Perc": 1.2336905,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 12
+      },
+      {
+        "PARTY_ID": 107,
+        "VOTES": 51398,
+        "Perc": 0.908715,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 13
+      },
+      {
+        "PARTY_ID": 28,
+        "VOTES": 49418,
+        "Perc": 0.8737086,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 14
+      },
+      {
+        "PARTY_ID": 57,
+        "VOTES": 45148,
+        "Perc": 0.7982152,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 15
+      },
+      {
+        "PARTY_ID": 110,
+        "VOTES": 41269,
+        "Perc": 0.7296346,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 16
+      },
+      {
+        "PARTY_ID": 73,
+        "VOTES": 40211,
+        "Perc": 0.7109292,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 17
+      },
+      {
+        "PARTY_ID": 60,
+        "VOTES": 39217,
+        "Perc": 0.6933553,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 18
+      },
+      {
+        "PARTY_ID": 124,
+        "VOTES": 37540,
+        "Perc": 0.663706,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 19
+      },
+      {
+        "PARTY_ID": 44,
+        "VOTES": 36361,
+        "Perc": 0.6428613,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 20
+      },
+      {
+        "PARTY_ID": 86,
+        "VOTES": 32014,
+        "Perc": 0.5660065,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 21
+      },
+      {
+        "PARTY_ID": 100,
+        "VOTES": 31648,
+        "Perc": 0.5595356,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 22
+      },
+      {
+        "PARTY_ID": 113,
+        "VOTES": 29509,
+        "Perc": 0.5217182,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 23
+      },
+      {
+        "PARTY_ID": 79,
+        "VOTES": 25245,
+        "Perc": 0.4463308,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 24
+      },
+      {
+        "PARTY_ID": 112,
+        "VOTES": 22341,
+        "Perc": 0.3949882,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 25
+      },
+      {
+        "PARTY_ID": 50,
+        "VOTES": 18458,
+        "Perc": 0.3263368,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 26
+      },
+      {
+        "PARTY_ID": 121,
+        "VOTES": 18207,
+        "Perc": 0.3218992,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 27
+      },
+      {
+        "PARTY_ID": 116,
+        "VOTES": 12278,
+        "Perc": 0.2170746,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 28
+      },
+      {
+        "PARTY_ID": 10,
+        "VOTES": 12231,
+        "Perc": 0.2162437,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 29
+      },
+      {
+        "PARTY_ID": 20,
+        "VOTES": 11511,
+        "Perc": 0.2035141,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 30
+      },
+      {
+        "PARTY_ID": 111,
+        "VOTES": 10742,
+        "Perc": 0.1899182,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 31
+      },
+      {
+        "PARTY_ID": 109,
+        "VOTES": 10264,
+        "Perc": 0.1814672,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 32
+      },
+      {
+        "PARTY_ID": 117,
+        "VOTES": 9893,
+        "Perc": 0.1749079,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 33
+      },
+      {
+        "PARTY_ID": 118,
+        "VOTES": 9242,
+        "Perc": 0.1633983,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 34
+      },
+      {
+        "PARTY_ID": 119,
+        "VOTES": 6364,
+        "Perc": 0.1125153,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 35
+      },
+      {
+        "PARTY_ID": 23,
+        "VOTES": 6032,
+        "Perc": 0.1066456,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 36
+      },
+      {
+        "PARTY_ID": 66,
+        "VOTES": 4803,
+        "Perc": 0.0849169,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 37
+      },
+      {
+        "PARTY_ID": 80,
+        "VOTES": 3065,
+        "Perc": 0.0541891,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 38
+      },
+      {
+        "PARTY_ID": 120,
+        "VOTES": 2886,
+        "Perc": 0.0510244,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 39
+      },
+      {
+        "PARTY_ID": 115,
+        "VOTES": 1976,
+        "Perc": 0.0349356,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 40
+      }
+    ],
+    "LockLevel": 3,
+    "LockEdres": 1
+  },
+  {
+    "ekloges_id": "v2015b",
+    "Updated": "2015-12-17 00:07:12.537",
+    "Gramenoi": 9913609,
+    "Egkyra": 5433376,
+    "Akyra": 69884,
+    "Leyka": 64670,
+    "NumTm": 19513,
+    "NumTmK": 19160,
+    "NumTmE": 228,
+    "NumTmM": 125,
+    "WIN_ID": 4,
+    "official": 1,
+    "party": [
+      {
+        "PARTY_ID": 4,
+        "VOTES": 1926526,
+        "Perc": 35.4572553,
+        "TakesEdres": 1,
+        "Edres": 140,
+        "EdresEpik": 5,
+        "Rank": 1
+      },
+      {
+        "PARTY_ID": 2,
+        "VOTES": 1526400,
+        "Perc": 28.0930309,
+        "TakesEdres": 1,
+        "Edres": 71,
+        "EdresEpik": 4,
+        "Rank": 2
+      },
+      {
+        "PARTY_ID": 41,
+        "VOTES": 379722,
+        "Perc": 6.9886936,
+        "TakesEdres": 1,
+        "Edres": 17,
+        "EdresEpik": 1,
+        "Rank": 3
+      },
+      {
+        "PARTY_ID": 105,
+        "VOTES": 341732,
+        "Perc": 6.2894966,
+        "TakesEdres": 1,
+        "Edres": 16,
+        "EdresEpik": 1,
+        "Rank": 4
+      },
+      {
+        "PARTY_ID": 3,
+        "VOTES": 301684,
+        "Perc": 5.5524227,
+        "TakesEdres": 1,
+        "Edres": 14,
+        "EdresEpik": 1,
+        "Rank": 5
+      },
+      {
+        "PARTY_ID": 75,
+        "VOTES": 222349,
+        "Perc": 4.0922807,
+        "TakesEdres": 1,
+        "Edres": 11,
+        "EdresEpik": 0,
+        "Rank": 6
+      },
+      {
+        "PARTY_ID": 57,
+        "VOTES": 200532,
+        "Perc": 3.690744,
+        "TakesEdres": 1,
+        "Edres": 10,
+        "EdresEpik": 0,
+        "Rank": 7
+      },
+      {
+        "PARTY_ID": 15,
+        "VOTES": 186644,
+        "Perc": 3.4351387,
+        "TakesEdres": 1,
+        "Edres": 9,
+        "EdresEpik": 0,
+        "Rank": 8
+      },
+      {
+        "PARTY_ID": 100,
+        "VOTES": 155320,
+        "Perc": 2.8586279,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 9
+      },
+      {
+        "PARTY_ID": 104,
+        "VOTES": 46183,
+        "Perc": 0.8499872,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 10
+      },
+      {
+        "PARTY_ID": 76,
+        "VOTES": 41626,
+        "Perc": 0.7661167,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 11
+      },
+      {
+        "PARTY_ID": 42,
+        "VOTES": 35594,
+        "Perc": 0.6550992,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 12
+      },
+      {
+        "PARTY_ID": 60,
+        "VOTES": 28909,
+        "Perc": 0.5320633,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 13
+      },
+      {
+        "PARTY_ID": 103,
+        "VOTES": 15282,
+        "Perc": 0.2812616,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 14
+      },
+      {
+        "PARTY_ID": 12,
+        "VOTES": 8873,
+        "Perc": 0.1633055,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 15
+      },
+      {
+        "PARTY_ID": 92,
+        "VOTES": 6070,
+        "Perc": 0.1117169,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 16
+      },
+      {
+        "PARTY_ID": 98,
+        "VOTES": 4421,
+        "Perc": 0.0813675,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 17
+      },
+      {
+        "PARTY_ID": 66,
+        "VOTES": 2433,
+        "Perc": 0.0447788,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 18
+      },
+      {
+        "PARTY_ID": 11,
+        "VOTES": 2230,
+        "Perc": 0.0410426,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 19
+      },
+      {
+        "PARTY_ID": 998,
+        "VOTES": 846,
+        "Perc": 0.0155704,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 20
+      }
+    ]
+  },
+  {
+    "ekloges_id": "v2015a",
+    "Updated": "2015-03-11 17:42:07.230",
+    "Gramenoi": 9900403,
+    "Egkyra": 6180872,
+    "Akyra": 114654,
+    "Leyka": 34830,
+    "NumTm": 19509,
+    "NumTmK": 19159,
+    "NumTmE": 223,
+    "NumTmM": 127,
+    "WIN_ID": 4,
+    "official": 1,
+    "party": [
+      {
+        "PARTY_ID": 4,
+        "VOTES": 2245978,
+        "Perc": 36.3375588,
+        "TakesEdres": 1,
+        "Edres": 144,
+        "EdresEpik": 5,
+        "Rank": 1
+      },
+      {
+        "PARTY_ID": 2,
+        "VOTES": 1718694,
+        "Perc": 27.806659,
+        "TakesEdres": 1,
+        "Edres": 72,
+        "EdresEpik": 4,
+        "Rank": 2
+      },
+      {
+        "PARTY_ID": 41,
+        "VOTES": 388387,
+        "Perc": 6.2836927,
+        "TakesEdres": 1,
+        "Edres": 16,
+        "EdresEpik": 1,
+        "Rank": 3
+      },
+      {
+        "PARTY_ID": 75,
+        "VOTES": 373924,
+        "Perc": 6.0496965,
+        "TakesEdres": 1,
+        "Edres": 16,
+        "EdresEpik": 1,
+        "Rank": 4
+      },
+      {
+        "PARTY_ID": 3,
+        "VOTES": 338188,
+        "Perc": 5.4715257,
+        "TakesEdres": 1,
+        "Edres": 14,
+        "EdresEpik": 1,
+        "Rank": 5
+      },
+      {
+        "PARTY_ID": 57,
+        "VOTES": 293683,
+        "Perc": 4.7514817,
+        "TakesEdres": 1,
+        "Edres": 13,
+        "EdresEpik": 0,
+        "Rank": 6
+      },
+      {
+        "PARTY_ID": 1,
+        "VOTES": 289469,
+        "Perc": 4.6833036,
+        "TakesEdres": 1,
+        "Edres": 13,
+        "EdresEpik": 0,
+        "Rank": 7
+      },
+      {
+        "PARTY_ID": 93,
+        "VOTES": 152557,
+        "Perc": 2.4682116,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 8
+      },
+      {
+        "PARTY_ID": 15,
+        "VOTES": 110923,
+        "Perc": 1.7946173,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 9
+      },
+      {
+        "PARTY_ID": 94,
+        "VOTES": 109500,
+        "Perc": 1.7715947,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 10
+      },
+      {
+        "PARTY_ID": 16,
+        "VOTES": 63669,
+        "Perc": 1.0300974,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 11
+      },
+      {
+        "PARTY_ID": 44,
+        "VOTES": 39497,
+        "Perc": 0.6390199,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 12
+      },
+      {
+        "PARTY_ID": 99,
+        "VOTES": 29820,
+        "Perc": 0.4824562,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 13
+      },
+      {
+        "PARTY_ID": 12,
+        "VOTES": 7999,
+        "Perc": 0.1294154,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 14
+      },
+      {
+        "PARTY_ID": 96,
+        "VOTES": 7615,
+        "Perc": 0.1232027,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 15
+      },
+      {
+        "PARTY_ID": 98,
+        "VOTES": 4740,
+        "Perc": 0.0766882,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 16
+      },
+      {
+        "PARTY_ID": 40,
+        "VOTES": 2363,
+        "Perc": 0.0382309,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 17
+      },
+      {
+        "PARTY_ID": 66,
+        "VOTES": 1854,
+        "Perc": 0.0299958,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 18
+      },
+      {
+        "PARTY_ID": 998,
+        "VOTES": 1301,
+        "Perc": 0.0210488,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 19
+      },
+      {
+        "PARTY_ID": 67,
+        "VOTES": 618,
+        "Perc": 0.0099986,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 20
+      },
+      {
+        "PARTY_ID": 95,
+        "VOTES": 76,
+        "Perc": 0.0012296,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 21
+      },
+      {
+        "PARTY_ID": 97,
+        "VOTES": 16,
+        "Perc": 0.0002589,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 22
+      },
+      {
+        "PARTY_ID": 70,
+        "VOTES": 1,
+        "Perc": 1.62e-5,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 23
+      }
+    ]
+  },
+  {
+    "ekloges_id": "e2014",
+    "Updated": "2014-11-06 14:19:33.780",
+    "Gramenoi": 10013834,
+    "Egkyra": 5715985,
+    "Akyra": 157094,
+    "Leyka": 68557,
+    "NumTm": 22612,
+    "NumTmK": 22612,
+    "NumTmE": 0,
+    "NumTmM": 0,
+    "WIN_ID": 4,
+    "official": 1,
+    "party": [
+      {
+        "PARTY_ID": 4,
+        "VOTES": 1518376,
+        "Perc": 26.5636806,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 6,
+        "Rank": 1
+      },
+      {
+        "PARTY_ID": 2,
+        "VOTES": 1298948,
+        "Perc": 22.7248322,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 5,
+        "Rank": 2
+      },
+      {
+        "PARTY_ID": 41,
+        "VOTES": 536913,
+        "Perc": 9.3931842,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 3,
+        "Rank": 3
+      },
+      {
+        "PARTY_ID": 87,
+        "VOTES": 458514,
+        "Perc": 8.0216096,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 2,
+        "Rank": 4
+      },
+      {
+        "PARTY_ID": 75,
+        "VOTES": 377662,
+        "Perc": 6.6071202,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 2,
+        "Rank": 5
+      },
+      {
+        "PARTY_ID": 3,
+        "VOTES": 349342,
+        "Perc": 6.1116675,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 2,
+        "Rank": 6
+      },
+      {
+        "PARTY_ID": 57,
+        "VOTES": 197837,
+        "Perc": 3.4611182,
+        "TakesEdres": 1,
+        "Edres": 0,
+        "EdresEpik": 1,
+        "Rank": 7
+      },
+      {
+        "PARTY_ID": 16,
+        "VOTES": 154029,
+        "Perc": 2.6947062,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 8
+      },
+      {
+        "PARTY_ID": 84,
+        "VOTES": 82381,
+        "Perc": 1.4412389,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 9
+      },
+      {
+        "PARTY_ID": 56,
+        "VOTES": 68630,
+        "Perc": 1.200668,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 10
+      },
+      {
+        "PARTY_ID": 91,
+        "VOTES": 59482,
+        "Perc": 1.0406255,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 11
+      },
+      {
+        "PARTY_ID": 43,
+        "VOTES": 56851,
+        "Perc": 0.9945967,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 12
+      },
+      {
+        "PARTY_ID": 88,
+        "VOTES": 51738,
+        "Perc": 0.9051458,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 13
+      },
+      {
+        "PARTY_ID": 90,
+        "VOTES": 51703,
+        "Perc": 0.9045335,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 14
+      },
+      {
+        "PARTY_ID": 76,
+        "VOTES": 49334,
+        "Perc": 0.8630883,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 15
+      },
+      {
+        "PARTY_ID": 73,
+        "VOTES": 42792,
+        "Perc": 0.7486374,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 16
+      },
+      {
+        "PARTY_ID": 65,
+        "VOTES": 42252,
+        "Perc": 0.7391902,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 17
+      },
+      {
+        "PARTY_ID": 44,
+        "VOTES": 41299,
+        "Perc": 0.7225176,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 18
+      },
+      {
+        "PARTY_ID": 15,
+        "VOTES": 36804,
+        "Perc": 0.6438785,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 19
+      },
+      {
+        "PARTY_ID": 42,
+        "VOTES": 34487,
+        "Perc": 0.6033431,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 20
+      },
+      {
+        "PARTY_ID": 86,
+        "VOTES": 32356,
+        "Perc": 0.5660617,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 21
+      },
+      {
+        "PARTY_ID": 79,
+        "VOTES": 28365,
+        "Perc": 0.4962399,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 22
+      },
+      {
+        "PARTY_ID": 85,
+        "VOTES": 20856,
+        "Perc": 0.3648715,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 23
+      },
+      {
+        "PARTY_ID": 64,
+        "VOTES": 17146,
+        "Perc": 0.2999658,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 24
+      },
+      {
+        "PARTY_ID": 82,
+        "VOTES": 11307,
+        "Perc": 0.1978137,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 25
+      },
+      {
+        "PARTY_ID": 83,
+        "VOTES": 11106,
+        "Perc": 0.1942972,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 26
+      },
+      {
+        "PARTY_ID": 10,
+        "VOTES": 10771,
+        "Perc": 0.1884365,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 27
+      },
+      {
+        "PARTY_ID": 80,
+        "VOTES": 8978,
+        "Perc": 0.1570683,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 28
+      },
+      {
+        "PARTY_ID": 48,
+        "VOTES": 8899,
+        "Perc": 0.1556862,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 29
+      },
+      {
+        "PARTY_ID": 78,
+        "VOTES": 8783,
+        "Perc": 0.1536568,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 30
+      },
+      {
+        "PARTY_ID": 89,
+        "VOTES": 8724,
+        "Perc": 0.1526246,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 31
+      },
+      {
+        "PARTY_ID": 81,
+        "VOTES": 6801,
+        "Perc": 0.1189821,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 32
+      },
+      {
+        "PARTY_ID": 32,
+        "VOTES": 5737,
+        "Perc": 0.1003677,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 33
+      },
+      {
+        "PARTY_ID": 20,
+        "VOTES": 5608,
+        "Perc": 0.0981108,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 34
+      },
+      {
+        "PARTY_ID": 92,
+        "VOTES": 4614,
+        "Perc": 0.080721,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 35
+      },
+      {
+        "PARTY_ID": 40,
+        "VOTES": 4496,
+        "Perc": 0.0786566,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 36
+      },
+      {
+        "PARTY_ID": 8,
+        "VOTES": 3627,
+        "Perc": 0.0634536,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 37
+      },
+      {
+        "PARTY_ID": 66,
+        "VOTES": 3045,
+        "Perc": 0.0532717,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 38
+      },
+      {
+        "PARTY_ID": 11,
+        "VOTES": 2872,
+        "Perc": 0.0502451,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 39
+      },
+      {
+        "PARTY_ID": 67,
+        "VOTES": 2383,
+        "Perc": 0.0416901,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 40
+      },
+      {
+        "PARTY_ID": 70,
+        "VOTES": 63,
+        "Perc": 0.0011022,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 41
+      },
+      {
+        "PARTY_ID": 74,
+        "VOTES": 62,
+        "Perc": 0.0010847,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 42
+      },
+      {
+        "PARTY_ID": 77,
+        "VOTES": 12,
+        "Perc": 0.0002099,
+        "TakesEdres": 0,
+        "Edres": 0,
+        "EdresEpik": 0,
+        "Rank": 43
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "v2019",
+    "type": "parliament",
+    "date": "2019-07-07",
+    "url": "https://ekloges.ypes.gr/current",
+    "suffix": "/dyn/v",
+    "suffix2": "/dyn1/v",
+    "layout": "eklogikes_perifereies"
+  },
+  {
+    "id": "e2019",
+    "date": "2019-05-26",
+    "type": "europarliament",
+    "url": "https://ekloges.ypes.gr/current",
+    "suffix": "/dyn/e",
+    "suffix2": "/dyn1/e",
+    "layout": "eklogikes_perifereies"
+  },
+  {
+    "id": "v2015b",
+    "type": "parliament",
+    "date": "2015-09-20",
+    "url": "http://ekloges-prev.singularlogic.eu/v2015b",
+    "suffix": "/dyn/v",
+    "suffix2": "/dyn1/v",
+    "layout": "eklogikes_perifereies0"
+  },
+  {
+    "id": "v2015a",
+    "type": "parliament",
+    "date": "2015-01-25",
+    "url": "http://ekloges-prev.singularlogic.eu/v2015a",
+    "suffix": "/dyn/v",
+    "suffix2": "/dyn1/v",
+    "layout": "eklogikes_perifereies0"
+  },
+  {
+    "id": "e2014",
+    "type": "europarliament",
+    "date": "2014-05-25",
+    "url": "https://ekloges-prev.singularlogic.eu/may2014",
+    "suffix": "/dyn/e",
+    "suffix2": "/dyn/e",
+    "layout": "eklogikes_perifereies0"
+  }
+]
