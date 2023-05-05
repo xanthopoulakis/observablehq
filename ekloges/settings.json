@@ -1,0 +1,14 @@
+ {
+    "modes": ["eklogikes_perifereies", "kallikratikoi_dhmoi", "koinotites"],
+    "mapping": {
+      "eklogikes_perifereies": "eklogiki_perifereia_id",
+      "eklogikes_perifereies0": "eklogiki_perifereia_id0",
+      "kallikratikoi_dhmoi": "kallikratis_id",
+      "koinotites": "kapodistrias_id"
+    },
+    "mode2Id": {
+      "eklogikes_perifereies": "EP_ID",
+      "kallikratikoi_dhmoi": "DHM_ID",
+      "koinotites": "DEN_ID"
+    }
+  }
