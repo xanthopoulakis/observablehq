@@ -1,5 +1,14 @@
 [
   {
+    "id": "v2023a",
+    "type": "parliament",
+    "date": "2023-05-21",
+    "url": "https://ekloges.ypes.gr/current",
+    "suffix": "/dyn/v",
+    "suffix2": "/dyn1/v",
+    "layout": "eklogikes_perifereies"
+  },
+  {
     "id": "v2019",
     "type": "parliament",
     "date": "2019-07-07",
