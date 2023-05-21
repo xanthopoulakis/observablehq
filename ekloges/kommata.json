@@ -18,7 +18,7 @@
     "short_name": "ΝΔ",
     "short_name_el": "ΝΔ",
     "short_name_en": "ND",
-    "color": "#1A5CC6",
+    "color": "#0C99FF",
     "logo": "y2.svg"
   },
   {
@@ -29,7 +29,7 @@
     "short_name": "ΚΚΕ",
     "short_name_el": "ΚΚΕ",
     "short_name_en": "KKE",
-    "color": "#E30101",
+    "color": "#D80000",
     "logo": "y3.svg"
   },
   {
@@ -40,7 +40,7 @@
     "short_name": "ΣΥΡΙΖΑ",
     "short_name_el": "ΣΥΡΙΖΑ",
     "short_name_en": "SYRIZA",
-    "color": "#EE818F",
+    "color": "#FF8080",
     "logo": "y4.png"
   },
   {
@@ -62,14 +62,14 @@
     "short_name": "Μ-Λ ΚΚΕ",
     "short_name_el": "Μ-Λ ΚΚΕ",
     "short_name_en": "M-L KKE",
-    "color": "#DCEE47",
+    "color": "#D71920",
     "logo": "y10.png"
   },
   {
     "title_el": "Ο.Α.Κ.Κ.Ε. ΟΡΓΑΝΩΣΗ ΓΙΑ ΤΗΝ ΑΝΑΣΥΓΚΡΟΤΗΣΗ ΤΟΥ ΚΚΕ",
     "title_en": "O.A.K.K.E. ORGANOSI GIA TIN ANASYGKROTISI TOU KKE",
     "id": 11,
-    "color": "#004D33",
+    "color": "#CA0904",
     "title": "Ο.Α.Κ.Κ.Ε. ΟΡΓΑΝΩΣΗ ΓΙΑ ΤΗΝ ΑΝΑΣΥΓΚΡΟΤΗΣΗ ΤΟΥ ΚΚΕ",
     "short_name": "Ο.Α.Κ.Κ.Ε.",
     "short_name_el": "Ο.Α.Κ.Κ.Ε.",
@@ -84,7 +84,7 @@
     "short_name": "ΕΝ. ΚΕΝΤΡΩΩΝ",
     "short_name_el": "ΕΝ. ΚΕΝΤΡΩΩΝ",
     "short_name_en": "EN. KENTROON",
-    "color": "#FA6608",
+    "color": "#F2D400",
     "logo": "y15.svg"
   },
   {
@@ -106,7 +106,7 @@
     "short_name": "ΕΛΛ. ΟΙΚΟΛΟΓΟΙ",
     "short_name_el": "ΕΛΛ. ΟΙΚΟΛΟΓΟΙ",
     "short_name_en": "ELL. OIKOLOGOI",
-    "color": "#A5114F",
+    "color": "#533631",
     "logo": "y20.png"
   },
   {
@@ -128,7 +128,7 @@
     "short_name": "ΟΙΚΟΛ. ΠΡΑΣΙΝΟΙ",
     "short_name_el": "ΟΙΚΟΛ. ΠΡΑΣΙΝΟΙ",
     "short_name_en": "OIKOL. PRASINOI",
-    "color": "#FFCD00",
+    "color": "#FFCF00",
     "logo": "y28.svg"
   },
   {
@@ -194,7 +194,7 @@
     "short_name": "ΑΝΤ.ΑΡ.ΣΥ.Α.",
     "short_name_el": "ΑΝΤ.ΑΡ.ΣΥ.Α.",
     "short_name_en": "ANT.AR.SY.A.",
-    "color": "#8f0057",
+    "color": "#E00B1D",
     "logo": "y44.png"
   },
   {
@@ -249,7 +249,7 @@
     "short_name": "ΔΗΜΙΟΥΡΓΙΑ ΞΑΝΑ!",
     "short_name_el": "ΔΗΜΙΟΥΡΓΙΑ ΞΑΝΑ!",
     "short_name_en": "DIMIOURGIA XANA!",
-    "color": "#7A7CBA",
+    "color": "#EF8C19",
     "logo": "y60.png"
   },
   {
@@ -282,7 +282,7 @@
     "short_name": "ΟΚΔΕ",
     "short_name_el": "ΟΚΔΕ",
     "short_name_en": "OKDE",
-    "color": "#7A2167",
+    "color": "#E31E24",
     "logo": "y66.png"
   },
   {
@@ -443,7 +443,7 @@
     "title_el": "ΚΟΙΝΩΝΙΑ ΑΞΙΩΝ",
     "title_en": "KOINONIA AXION",
     "id": 85,
-    "color": "#9D6D55",
+    "color": "#652B90",
     "title": "ΚΟΙΝΩΝΙΑ ΑΞΙΩΝ",
     "short_name": "ΚΟΙΝΩΝΙΑ ΑΞΙΩΝ",
     "short_name_el": "ΚΟΙΝΩΝΙΑ ΑΞΙΩΝ",
@@ -590,7 +590,7 @@
     "short_name": "ΚΙΝ.ΑΛ.",
     "short_name_el": "ΚΙΝ.ΑΛ.",
     "short_name_en": "KIN.AL.",
-    "color": "#179046",
+    "color": "#00CC0C",
     "logo": "y106.png"
   },
   {
@@ -612,7 +612,7 @@
     "short_name": "ΕΛΛΗΝΙΚΗ ΛΥΣΗ",
     "short_name_el": "ΕΛΛΗΝΙΚΗ ΛΥΣΗ",
     "short_name_en": "ELLINIKI LYSI",
-    "color": "#D47850",
+    "color": "#0A5FAE",
     "logo": "y108.png"
   },
   {
@@ -667,7 +667,7 @@
     "short_name": "ΕΛΛ. ΣΥΝΕΛΕΥΣΙΣ",
     "short_name_el": "ΕΛΛ. ΣΥΝΕΛΕΥΣΙΣ",
     "short_name_en": "ELL. SYNELEYSIS",
-    "color": "#59A312",
+    "color": "#1F4FA4",
     "logo": "y113.png"
   },
   {
@@ -766,7 +766,7 @@
     "short_name": "ΜΕΡΑ25",
     "short_name_el": "ΜΕΡΑ25",
     "short_name_en": "MERA25",
-    "color": "#565C22",
+    "color": "#F04E23",
     "logo": "y122.png"
   },
   {
@@ -777,7 +777,7 @@
     "short_name": "ΠΛΕΥΣΗ ΕΛΕΥΘΕΡΙΑΣ",
     "short_name_el": "ΠΛΕΥΣΗ ΕΛΕΥΘΕΡΙΑΣ",
     "short_name_en": "PLEYSI ELEYTHERIAS",
-    "color": "#D0B19B",
+    "color": "#9F1897",
     "logo": "y123.svg"
   },
   {
@@ -793,7 +793,7 @@
   },
   {
     "id": 125,
-    "color": "#B20000",
+    "color": "#89001C",
     "logo": "y125.png",
     "title": "ΚΟΜΜΟΥΝΙΣΤΙΚΟ ΚΟΜΜΑ ΕΛΛΑΔΑΣ (μαρξιστικό-λενινιστικό)",
     "title_el": "ΚΟΜΜΟΥΝΙΣΤΙΚΟ ΚΟΜΜΑ ΕΛΛΑΔΑΣ (μαρξιστικό-λενινιστικό)",
@@ -827,7 +827,7 @@
   {
     "id": 998,
     "logo": "y998.png",
-    "color": "#CCC",
+    "color": "#FFFFFF",
     "title": "Ανεξάρτητοι/Μεμονωμένοι Υποψήφιοι",
     "title_el": "Ανεξάρτητοι/Μεμονωμένοι Υποψήφιοι",
     "title_en": "Independent candidates",
@@ -854,7 +854,7 @@
     "short_name": "ΕΝΩΝΩ ΣΥΜΜΑΧΙΑ ΕΛΕΥΘΕΡΙΑΣ",
     "short_name_el": "ΕΝΩΝΩ ΣΥΜΜΑΧΙΑ ΕΛΕΥΘΕΡΙΑΣ",
     "short_name_en": "ENONO SYMMAXIA ELEYTHERIAS",
-    "color": "#F28E2C",
+    "color": "#F16022",
     "logo": "y998.png"
   },
   {
@@ -865,7 +865,7 @@
     "short_name": "Κίνημα 21",
     "short_name_el": "Κίνημα 21",
     "short_name_en": "KINIMA 21",
-    "color": "#E15759",
+    "color": "#551225",
     "logo": "y998.png"
   },
   {
@@ -876,7 +876,7 @@
     "short_name": "ΚΙΝΗΜΑ ΦΤΩΧΩΝ ΕΛΛΑΔΟΣ",
     "short_name_el": "ΚΙΝΗΜΑ ΦΤΩΧΩΝ ΕΛΛΑΔΟΣ",
     "short_name_en": "KINHMA FTOXON ELLADOS",
-    "color": "#76B7B2",
+    "color": "#FF6600",
     "logo": "y998.png"
   },
   {
@@ -898,7 +898,7 @@
     "short_name": "ΝΙΚΗ",
     "short_name_el": "ΝΙΚΗ",
     "short_name_en": "NIKH",
-    "color": "#EDC949",
+    "color": "#DD6C6D",
     "logo": "y998.png"
   },
   {
@@ -909,7 +909,7 @@
     "short_name": "ΕΛΛΗΝΙΚΟ ΟΡΑΜΑ",
     "short_name_el": "ΕΛΛΗΝΙΚΟ ΟΡΑΜΑ",
     "short_name_en": "ELLHNIKO ORAMA",
-    "color": "#AF7AA1",
+    "color": "#7CA431",
     "logo": "y998.png"
   },
   {
@@ -920,7 +920,7 @@
     "short_name": "ΒΟΡΕΙΑ ΛΕΓΚΑ - ΚΡΑΜΑ",
     "short_name_el": "ΒΟΡΕΙΑ ΛΕΓΚΑ - ΚΡΑΜΑ",
     "short_name_en": "BOREIA LEGKA - KRAMA",
-    "color": "#FF9DA7",
+    "color": "#D2BFA3",
     "logo": "y998.png"
   },
   {
@@ -931,7 +931,7 @@
     "short_name": "Τ.ΟΛ.ΜΑ",
     "short_name_el": "Τ.ΟΛ.ΜΑ",
     "short_name_en": "T.OL.MA",
-    "color": "#9C755F",
+    "color": "#023F7E",
     "logo": "y998.png"
   },
   {
@@ -942,7 +942,7 @@
     "short_name": "ΣΥΜΜΑΧΙΑ ΑΝΑΤΡΟΠΗΣ",
     "short_name_el": "ΣΥΜΜΑΧΙΑ ΑΝΑΤΡΟΠΗΣ",
     "short_name_en": "SYMMAXIA ANATROPHS",
-    "color": "#BAB0AB",
+    "color": "#274A98",
     "logo": "y998.png"
   },
   {
@@ -953,7 +953,7 @@
     "short_name": "ΝΕΑ ΔΟΜΗ",
     "short_name_el": "ΝΕΑ ΔΟΜΗ",
     "short_name_en": "NEA DOMH",
-    "color": "#4E79A7",
+    "color": "#226475",
     "logo": "y998.png"
   },
   {
@@ -964,7 +964,7 @@
     "short_name": "ΠΟΛΙΤΙΚΗ ΠΡΩΤΟΒΟΥΛΙΑ",
     "short_name_el": "ΠΟΛΙΤΙΚΗ ΠΡΩΤΟΒΟΥΛΙΑ",
     "short_name_en": "POLITIKH PROTOBOYLIA",
-    "color": "#F28E2C",
+    "color": "#000000",
     "logo": "y998.png"
   },
   {
@@ -975,7 +975,7 @@
     "short_name": "ΕΛΕΥΘΕΡΟΙ ΞΑΝΑ",
     "short_name_el": "ΕΛΕΥΘΕΡΟΙ ΞΑΝΑ",
     "short_name_en": "ELEYTHEROI KSANA",
-    "color": "#E15759",
+    "color": "#0299D3",
     "logo": "y998.png"
   },
   {
@@ -986,7 +986,7 @@
     "short_name": "Κ.Ο.Τ.Ε.Σ.",
     "short_name_el": "Κ.Ο.Τ.Ε.Σ.",
     "short_name_en": "K.O.T.E.S.",
-    "color": "#76B7B2",
+    "color": "#F99825",
     "logo": "y998.png"
   },
   {
@@ -997,7 +997,7 @@
     "short_name": "SOCIAL",
     "short_name_el": "SOCIAL",
     "short_name_en": "SOCIAL",
-    "color": "#59A14F",
+    "color": "#FA3B70",
     "logo": "y998.png"
   },
   {
@@ -1008,7 +1008,7 @@
     "short_name": "ΠΝΟΗ ΔΗΜΟΚΡΑΤΙΑΣ",
     "short_name_el": "ΠΝΟΗ ΔΗΜΟΚΡΑΤΙΑΣ",
     "short_name_en": "PNOH DHMOKRATIAS",
-    "color": "#EDC949",
+    "color": "#8DAE5F",
     "logo": "y998.png"
   },
   {
@@ -1019,7 +1019,7 @@
     "short_name": "ΠΡΑΣΙΝΟ ΚΙΝΗΜΑ",
     "short_name_el": "ΠΡΑΣΙΝΟ ΚΙΝΗΜΑ",
     "short_name_en": "PRASINO KINHMA",
-    "color": "#AF7AA1",
+    "color": "#049445",
     "logo": "y998.png"
   },
   {
@@ -1030,7 +1030,7 @@
     "short_name": "ΕΑΝ...",
     "short_name_el": "ΕΑΝ...",
     "short_name_en": "EAN...",
-    "color": "#FF9DA7",
+    "color": "#EB7A69",
     "logo": "y998.png"
   },
   {
@@ -1041,7 +1041,7 @@
     "short_name": "ΕΝΟΤΗΤΑ - ΑΛΗΘΕΙΑ ΕΝ.Α",
     "short_name_el": "ΕΝΟΤΗΤΑ - ΑΛΗΘΕΙΑ ΕΝ.Α",
     "short_name_en": "ENOTHTA - ALHTHEIA EN.A",
-    "color": "#9C755F",
+    "color": "#0177BB",
     "logo": "y998.png"
   }
 ]
