@@ -30,3 +30,5 @@ yarn-error.log*
 
 /ekloges/Rakefile
 /ekloges/tasks
+/ekloges/history
+
