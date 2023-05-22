@@ -2,7 +2,7 @@
   "eklogikes_perifereies": [
     {
       "EP_ID": 38,
-      "Updated": "2023-05-22 10:33:50.147",
+      "Updated": "2023-05-22 10:36:43.273",
       "Gramenoi": 453017,
       "Egkyra": 246333,
       "Akyra": 5681,
@@ -13,7 +13,7 @@
       "NumTmE": 6,
       "NumTmM": 9,
       "WIN_ID": 2,
-      "vid": 64770,
+      "vid": 64774,
       "official": 0,
       "party": [
         {
@@ -24,7 +24,7 @@
           "Perc": 42.1766471,
           "Edres": 7,
           "Rank": 1,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -34,7 +34,7 @@
           "Perc": 22.5519926,
           "Edres": 3,
           "Rank": 2,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -44,7 +44,7 @@
           "Perc": 8.5940576,
           "Edres": 1,
           "Rank": 3,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -54,7 +54,7 @@
           "Perc": 6.706369,
           "Edres": 1,
           "Rank": 4,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -64,7 +64,7 @@
           "Perc": 3.5955394,
           "Edres": 0,
           "Rank": 5,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -74,7 +74,7 @@
           "Perc": 3.3527786,
           "Edres": 0,
           "Rank": 6,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -84,7 +84,7 @@
           "Perc": 3.0280149,
           "Edres": 1,
           "Rank": 7,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -94,7 +94,7 @@
           "Perc": 1.9631962,
           "Edres": 0,
           "Rank": 8,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -104,7 +104,7 @@
           "Perc": 1.0165102,
           "Edres": 0,
           "Rank": 9,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -114,7 +114,7 @@
           "Perc": 0.9600825,
           "Edres": 0,
           "Rank": 10,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -124,7 +124,7 @@
           "Perc": 0.865901,
           "Edres": 0,
           "Rank": 11,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -134,7 +134,7 @@
           "Perc": 0.7079847,
           "Edres": 0,
           "Rank": 12,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -144,7 +144,7 @@
           "Perc": 0.6198926,
           "Edres": 0,
           "Rank": 13,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -154,7 +154,7 @@
           "Perc": 0.5516922,
           "Edres": 0,
           "Rank": 14,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -164,7 +164,7 @@
           "Perc": 0.4392428,
           "Edres": 0,
           "Rank": 15,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -174,7 +174,7 @@
           "Perc": 0.4035188,
           "Edres": 0,
           "Rank": 16,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -184,7 +184,7 @@
           "Perc": 0.3600817,
           "Edres": 0,
           "Rank": 17,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -194,7 +194,7 @@
           "Perc": 0.3470911,
           "Edres": 0,
           "Rank": 18,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -204,7 +204,7 @@
           "Perc": 0.3142088,
           "Edres": 0,
           "Rank": 19,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -214,7 +214,7 @@
           "Perc": 0.2240869,
           "Edres": 0,
           "Rank": 20,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -224,7 +224,7 @@
           "Perc": 0.2062249,
           "Edres": 0,
           "Rank": 21,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -234,7 +234,7 @@
           "Perc": 0.1948582,
           "Edres": 0,
           "Rank": 22,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -244,7 +244,7 @@
           "Perc": 0.1672533,
           "Edres": 0,
           "Rank": 23,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -254,7 +254,7 @@
           "Perc": 0.1627878,
           "Edres": 0,
           "Rank": 24,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -264,7 +264,7 @@
           "Perc": 0.1331531,
           "Edres": 0,
           "Rank": 25,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -274,7 +274,7 @@
           "Perc": 0.1132613,
           "Edres": 0,
           "Rank": 26,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -284,7 +284,7 @@
           "Perc": 0.088904,
           "Edres": 0,
           "Rank": 27,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -294,7 +294,7 @@
           "Perc": 0.0604872,
           "Edres": 0,
           "Rank": 28,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -304,7 +304,7 @@
           "Perc": 0.0543979,
           "Edres": 0,
           "Rank": 29,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -314,7 +314,7 @@
           "Perc": 0.0194858,
           "Edres": 0,
           "Rank": 30,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -324,7 +324,7 @@
           "Perc": 0.018268,
           "Edres": 0,
           "Rank": 31,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -334,7 +334,7 @@
           "Perc": 0.000406,
           "Edres": 0,
           "Rank": 33,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -344,7 +344,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 34,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -354,7 +354,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 35,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -364,7 +364,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 36,
-          "vid": 64770
+          "vid": 64774
         },
         {
           "EP_ID": 38,
@@ -374,7 +374,7 @@
           "Perc": 0.0016238,
           "Edres": 0,
           "Rank": 32,
-          "vid": 64770
+          "vid": 64774
         }
       ]
     },
@@ -758,329 +758,329 @@
     },
     {
       "EP_ID": 61,
-      "Updated": "2023-05-22 10:08:21.227",
-      "Gramenoi": 368005,
-      "Egkyra": 242026,
+      "Updated": "2023-05-22 10:37:18.307",
+      "Gramenoi": 368074,
+      "Egkyra": 242073,
       "Akyra": 5650,
       "Leyka": 1489,
       "NumTmGeo": 696,
-      "NumTm": 701,
+      "NumTm": 702,
       "NumTmK": 696,
       "NumTmE": 0,
-      "NumTmM": 5,
+      "NumTmM": 6,
       "WIN_ID": 2,
-      "vid": 64731,
+      "vid": 64775,
       "official": 0,
       "party": [
         {
           "EP_ID": 61,
           "PARTY_ID": 2,
           "Cands": 15,
-          "VOTES": 83412,
-          "Perc": 34.4640658,
+          "VOTES": 83429,
+          "Perc": 34.4643971,
           "Edres": 5,
           "Rank": 1,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 4,
           "Cands": 15,
-          "VOTES": 54942,
-          "Perc": 22.7008668,
+          "VOTES": 54963,
+          "Perc": 22.7051344,
           "Edres": 3,
           "Rank": 2,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 3,
           "Cands": 15,
-          "VOTES": 27653,
-          "Perc": 11.425632,
+          "VOTES": 27656,
+          "Perc": 11.4246529,
           "Edres": 2,
           "Rank": 3,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 106,
           "Cands": 14,
           "VOTES": 21302,
-          "Perc": 8.8015337,
+          "Perc": 8.7998248,
           "Edres": 1,
           "Rank": 4,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 108,
           "Cands": 15,
-          "VOTES": 9896,
-          "Perc": 4.0888169,
+          "VOTES": 9898,
+          "Perc": 4.0888492,
           "Edres": 1,
           "Rank": 5,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 123,
           "Cands": 7,
-          "VOTES": 9685,
-          "Perc": 4.0016362,
+          "VOTES": 9687,
+          "Perc": 4.0016854,
           "Edres": 0,
           "Rank": 6,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 122,
           "Cands": 15,
           "VOTES": 8026,
-          "Perc": 3.3161726,
+          "Perc": 3.3155288,
           "Edres": 0,
           "Rank": 7,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 131,
           "Cands": 8,
           "VOTES": 5414,
-          "Perc": 2.2369497,
+          "Perc": 2.2365154,
           "Edres": 0,
           "Rank": 8,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 135,
           "Cands": 12,
           "VOTES": 2456,
-          "Perc": 1.014767,
+          "Perc": 1.01457,
           "Edres": 0,
           "Rank": 9,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 44,
           "Cands": 15,
-          "VOTES": 2205,
-          "Perc": 0.9110591,
+          "VOTES": 2206,
+          "Perc": 0.9112954,
           "Edres": 0,
           "Rank": 10,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 130,
           "Cands": 2,
           "VOTES": 1880,
-          "Perc": 0.776776,
+          "Perc": 0.7766252,
           "Edres": 0,
           "Rank": 11,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 28,
           "Cands": 2,
           "VOTES": 1859,
-          "Perc": 0.7680993,
+          "Perc": 0.7679502,
           "Edres": 0,
           "Rank": 12,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 129,
           "Cands": 2,
           "VOTES": 1577,
-          "Perc": 0.6515829,
+          "Perc": 0.6514564,
           "Edres": 0,
           "Rank": 13,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 60,
           "Cands": 4,
           "VOTES": 1542,
-          "Perc": 0.6371216,
+          "Perc": 0.6369979,
           "Edres": 0,
           "Rank": 14,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 128,
           "Cands": 6,
           "VOTES": 1208,
-          "Perc": 0.4991199,
+          "Perc": 0.499023,
           "Edres": 0,
           "Rank": 15,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 138,
           "Cands": 4,
           "VOTES": 1122,
-          "Perc": 0.4635866,
+          "Perc": 0.4634965,
           "Edres": 0,
           "Rank": 16,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 15,
           "Cands": 10,
           "VOTES": 1088,
-          "Perc": 0.4495385,
+          "Perc": 0.4494512,
           "Edres": 0,
           "Rank": 17,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 54,
           "Cands": 3,
           "VOTES": 1081,
-          "Perc": 0.4466462,
+          "Perc": 0.4465595,
           "Edres": 0,
           "Rank": 18,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 140,
           "Cands": 1,
           "VOTES": 901,
-          "Perc": 0.3722741,
+          "Perc": 0.3722018,
           "Edres": 0,
           "Rank": 19,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 141,
           "Cands": 9,
           "VOTES": 768,
-          "Perc": 0.3173213,
+          "Perc": 0.3172597,
           "Edres": 0,
           "Rank": 20,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 142,
           "Cands": 1,
           "VOTES": 737,
-          "Perc": 0.3045127,
+          "Perc": 0.3044536,
           "Edres": 0,
           "Rank": 21,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 125,
           "Cands": 10,
           "VOTES": 720,
-          "Perc": 0.2974887,
+          "Perc": 0.2974309,
           "Edres": 0,
           "Rank": 22,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 134,
           "Cands": 5,
-          "VOTES": 643,
-          "Perc": 0.2656739,
+          "VOTES": 644,
+          "Perc": 0.2660355,
           "Edres": 0,
           "Rank": 23,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 143,
           "Cands": 2,
           "VOTES": 514,
-          "Perc": 0.2123739,
+          "Perc": 0.2123326,
           "Edres": 0,
           "Rank": 24,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 113,
           "Cands": 10,
           "VOTES": 445,
-          "Perc": 0.1838645,
+          "Perc": 0.1838288,
           "Edres": 0,
           "Rank": 25,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 137,
           "Cands": 3,
           "VOTES": 306,
-          "Perc": 0.1264327,
+          "Perc": 0.1264081,
           "Edres": 0,
           "Rank": 26,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 85,
           "Cands": 2,
           "VOTES": 210,
-          "Perc": 0.0867675,
+          "Perc": 0.0867507,
           "Edres": 0,
           "Rank": 27,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 10,
           "Cands": 2,
           "VOTES": 178,
-          "Perc": 0.0735458,
+          "Perc": 0.0735315,
           "Edres": 0,
           "Rank": 28,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 133,
           "Cands": 5,
           "VOTES": 164,
-          "Perc": 0.0677613,
+          "Perc": 0.0677482,
           "Edres": 0,
           "Rank": 29,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 66,
           "Cands": 2,
           "VOTES": 50,
-          "Perc": 0.0206589,
+          "Perc": 0.0206549,
           "Edres": 0,
           "Rank": 30,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
           "PARTY_ID": 11,
           "Cands": 1,
           "VOTES": 42,
-          "Perc": 0.0173535,
+          "Perc": 0.0173501,
           "Edres": 0,
           "Rank": 31,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
@@ -1090,7 +1090,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 34,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
@@ -1100,7 +1100,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 32,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
@@ -1110,7 +1110,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 33,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
@@ -1120,7 +1120,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 35,
-          "vid": 64731
+          "vid": 64775
         },
         {
           "EP_ID": 61,
@@ -1130,15 +1130,15 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 36,
-          "vid": 64731
+          "vid": 64775
         }
       ]
     },
     {
       "EP_ID": 62,
-      "Updated": "2023-05-22 09:59:45.807",
+      "Updated": "2023-05-22 10:40:11.370",
       "Gramenoi": 607802,
-      "Egkyra": 396779,
+      "Egkyra": 396780,
       "Akyra": 7822,
       "Leyka": 2732,
       "NumTmGeo": 1144,
@@ -1147,7 +1147,7 @@
       "NumTmE": 5,
       "NumTmM": 9,
       "WIN_ID": 2,
-      "vid": 64715,
+      "vid": 64777,
       "official": 0,
       "party": [
         {
@@ -1155,310 +1155,310 @@
           "PARTY_ID": 2,
           "Cands": 23,
           "VOTES": 164933,
-          "Perc": 41.5679761,
+          "Perc": 41.5678714,
           "Edres": 11,
           "Rank": 1,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 4,
           "Cands": 23,
           "VOTES": 81499,
-          "Perc": 20.5401496,
+          "Perc": 20.5400978,
           "Edres": 4,
           "Rank": 2,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 3,
           "Cands": 23,
           "VOTES": 38427,
-          "Perc": 9.6847363,
+          "Perc": 9.6847119,
           "Edres": 2,
           "Rank": 3,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 106,
           "Cands": 23,
           "VOTES": 29928,
-          "Perc": 7.5427379,
+          "Perc": 7.5427189,
           "Edres": 1,
           "Rank": 4,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 123,
           "Cands": 7,
           "VOTES": 13626,
-          "Perc": 3.4341535,
+          "Perc": 3.4341449,
           "Edres": 0,
           "Rank": 5,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 122,
           "Cands": 23,
           "VOTES": 13520,
-          "Perc": 3.4074384,
+          "Perc": 3.4074298,
           "Edres": 0,
           "Rank": 6,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 108,
           "Cands": 23,
           "VOTES": 13330,
-          "Perc": 3.3595528,
+          "Perc": 3.3595443,
           "Edres": 1,
           "Rank": 7,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 131,
           "Cands": 14,
           "VOTES": 8183,
-          "Perc": 2.0623571,
+          "Perc": 2.0623519,
           "Edres": 0,
           "Rank": 8,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 135,
           "Cands": 15,
           "VOTES": 4145,
-          "Perc": 1.0446621,
+          "Perc": 1.0446595,
           "Edres": 0,
           "Rank": 9,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 28,
           "Cands": 7,
           "VOTES": 3645,
-          "Perc": 0.9186474,
+          "Perc": 0.9186451,
           "Edres": 0,
           "Rank": 10,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 60,
           "Cands": 16,
           "VOTES": 3450,
-          "Perc": 0.8695017,
+          "Perc": 0.8694995,
           "Edres": 0,
           "Rank": 11,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 44,
           "Cands": 23,
           "VOTES": 3100,
-          "Perc": 0.7812913,
+          "Perc": 0.7812894,
           "Edres": 0,
           "Rank": 12,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 130,
           "Cands": 3,
           "VOTES": 2759,
-          "Perc": 0.6953493,
+          "Perc": 0.6953475,
           "Edres": 0,
           "Rank": 13,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 129,
           "Cands": 1,
           "VOTES": 2281,
-          "Perc": 0.5748792,
+          "Perc": 0.5748778,
           "Edres": 0,
           "Rank": 14,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 140,
           "Cands": 3,
           "VOTES": 1989,
-          "Perc": 0.5012866,
+          "Perc": 0.5012853,
           "Edres": 0,
           "Rank": 15,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 15,
           "Cands": 19,
           "VOTES": 1953,
-          "Perc": 0.4922135,
+          "Perc": 0.4922123,
           "Edres": 0,
           "Rank": 16,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 54,
           "Cands": 1,
           "VOTES": 1337,
-          "Perc": 0.3369634,
+          "Perc": 0.3369625,
           "Edres": 0,
           "Rank": 17,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 141,
           "Cands": 13,
           "VOTES": 1217,
-          "Perc": 0.3067199,
+          "Perc": 0.3067191,
           "Edres": 0,
           "Rank": 18,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 138,
           "Cands": 3,
           "VOTES": 1189,
-          "Perc": 0.299663,
+          "Perc": 0.2996623,
           "Edres": 0,
           "Rank": 19,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 128,
           "Cands": 10,
           "VOTES": 1140,
-          "Perc": 0.2873136,
+          "Perc": 0.2873129,
           "Edres": 0,
           "Rank": 20,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 142,
           "Cands": 4,
           "VOTES": 993,
-          "Perc": 0.2502653,
+          "Perc": 0.2502646,
           "Edres": 0,
           "Rank": 21,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 125,
           "Cands": 10,
-          "VOTES": 894,
-          "Perc": 0.2253143,
+          "VOTES": 895,
+          "Perc": 0.2255658,
           "Edres": 0,
           "Rank": 22,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 134,
           "Cands": 3,
           "VOTES": 634,
-          "Perc": 0.1597867,
+          "Perc": 0.1597863,
           "Edres": 0,
           "Rank": 23,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 143,
           "Cands": 4,
           "VOTES": 605,
-          "Perc": 0.1524778,
+          "Perc": 0.1524774,
           "Edres": 0,
           "Rank": 24,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 113,
           "Cands": 15,
           "VOTES": 529,
-          "Perc": 0.1333236,
+          "Perc": 0.1333233,
           "Edres": 0,
           "Rank": 25,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 85,
           "Cands": 2,
           "VOTES": 405,
-          "Perc": 0.1020719,
+          "Perc": 0.1020717,
           "Edres": 0,
           "Rank": 26,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 137,
           "Cands": 3,
           "VOTES": 395,
-          "Perc": 0.0995516,
+          "Perc": 0.0995514,
           "Edres": 0,
           "Rank": 27,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 10,
           "Cands": 3,
           "VOTES": 308,
-          "Perc": 0.0776251,
+          "Perc": 0.0776249,
           "Edres": 0,
           "Rank": 28,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 133,
           "Cands": 3,
           "VOTES": 186,
-          "Perc": 0.0468775,
+          "Perc": 0.0468774,
           "Edres": 0,
           "Rank": 29,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 66,
           "Cands": 1,
           "VOTES": 105,
-          "Perc": 0.0264631,
+          "Perc": 0.026463,
           "Edres": 0,
           "Rank": 30,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
           "PARTY_ID": 11,
           "Cands": 1,
           "VOTES": 46,
-          "Perc": 0.0115934,
+          "Perc": 0.0115933,
           "Edres": 0,
           "Rank": 31,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
@@ -1468,7 +1468,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 35,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
@@ -1478,7 +1478,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 33,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
@@ -1488,7 +1488,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 34,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
@@ -1498,7 +1498,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 36,
-          "vid": 64715
+          "vid": 64777
         },
         {
           "EP_ID": 62,
@@ -1508,7 +1508,7 @@
           "Perc": 0.0070568,
           "Edres": 0,
           "Rank": 32,
-          "vid": 64715
+          "vid": 64777
         }
       ]
     },
@@ -9452,7 +9452,7 @@
     },
     {
       "EP_ID": 6,
-      "Updated": "2023-05-22 09:00:29.847",
+      "Updated": "2023-05-22 10:38:51.940",
       "Gramenoi": 533696,
       "Egkyra": 330774,
       "Akyra": 8509,
@@ -9463,7 +9463,7 @@
       "NumTmE": 6,
       "NumTmM": 6,
       "WIN_ID": 2,
-      "vid": 64638,
+      "vid": 64776,
       "official": 0,
       "party": [
         {
@@ -9474,7 +9474,7 @@
           "Perc": 34.1447635,
           "Edres": 9,
           "Rank": 1,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9484,7 +9484,7 @@
           "Perc": 19.6992508,
           "Edres": 4,
           "Rank": 2,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9494,7 +9494,7 @@
           "Perc": 8.3531354,
           "Edres": 2,
           "Rank": 3,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9504,7 +9504,7 @@
           "Perc": 7.9401646,
           "Edres": 1,
           "Rank": 4,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9514,7 +9514,7 @@
           "Perc": 7.438009,
           "Edres": 1,
           "Rank": 5,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9524,7 +9524,7 @@
           "Perc": 4.5747247,
           "Edres": 0,
           "Rank": 6,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9534,7 +9534,7 @@
           "Perc": 4.5248417,
           "Edres": 0,
           "Rank": 7,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9544,7 +9544,7 @@
           "Perc": 3.3219056,
           "Edres": 0,
           "Rank": 8,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9554,7 +9554,7 @@
           "Perc": 1.4435838,
           "Edres": 0,
           "Rank": 9,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9564,17 +9564,17 @@
           "Perc": 1.106798,
           "Edres": 0,
           "Rank": 10,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
           "PARTY_ID": 28,
           "Cands": 4,
-          "VOTES": 3029,
-          "Perc": 0.915731,
+          "VOTES": 3030,
+          "Perc": 0.9160333,
           "Edres": 0,
           "Rank": 11,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9584,7 +9584,7 @@
           "Perc": 0.8697782,
           "Edres": 0,
           "Rank": 12,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9594,7 +9594,7 @@
           "Perc": 0.7346406,
           "Edres": 0,
           "Rank": 13,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9604,7 +9604,7 @@
           "Perc": 0.5592943,
           "Edres": 0,
           "Rank": 14,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9614,7 +9614,7 @@
           "Perc": 0.54962,
           "Edres": 0,
           "Rank": 15,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9624,7 +9624,7 @@
           "Perc": 0.4214358,
           "Edres": 0,
           "Rank": 16,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9634,7 +9634,7 @@
           "Perc": 0.3712505,
           "Edres": 0,
           "Rank": 17,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9644,7 +9644,7 @@
           "Perc": 0.3485764,
           "Edres": 0,
           "Rank": 18,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9654,7 +9654,7 @@
           "Perc": 0.3467624,
           "Edres": 0,
           "Rank": 19,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9664,7 +9664,7 @@
           "Perc": 0.3050421,
           "Edres": 0,
           "Rank": 20,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9674,7 +9674,7 @@
           "Perc": 0.2896237,
           "Edres": 0,
           "Rank": 21,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9684,7 +9684,7 @@
           "Perc": 0.2841819,
           "Edres": 0,
           "Rank": 22,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9694,17 +9694,17 @@
           "Perc": 0.2714845,
           "Edres": 0,
           "Rank": 23,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
           "PARTY_ID": 141,
           "Cands": 8,
-          "VOTES": 851,
-          "Perc": 0.2572754,
+          "VOTES": 850,
+          "Perc": 0.256973,
           "Edres": 0,
           "Rank": 24,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9714,7 +9714,7 @@
           "Perc": 0.2092063,
           "Edres": 0,
           "Rank": 25,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9724,7 +9724,7 @@
           "Perc": 0.1868345,
           "Edres": 0,
           "Rank": 26,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9734,7 +9734,7 @@
           "Perc": 0.1584163,
           "Edres": 0,
           "Rank": 27,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9744,7 +9744,7 @@
           "Perc": 0.1306028,
           "Edres": 0,
           "Rank": 28,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9754,7 +9754,7 @@
           "Perc": 0.0861615,
           "Edres": 0,
           "Rank": 29,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9764,7 +9764,7 @@
           "Perc": 0.0843476,
           "Edres": 0,
           "Rank": 30,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9774,7 +9774,7 @@
           "Perc": 0.0471621,
           "Edres": 0,
           "Rank": 31,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9784,7 +9784,7 @@
           "Perc": 0.0148137,
           "Edres": 0,
           "Rank": 32,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9794,7 +9794,7 @@
           "Perc": 0.0081627,
           "Edres": 0,
           "Rank": 33,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9804,7 +9804,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 36,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9814,7 +9814,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 35,
-          "vid": 64638
+          "vid": 64776
         },
         {
           "EP_ID": 6,
@@ -9824,7 +9824,7 @@
           "Perc": 0.0024186,
           "Edres": 0,
           "Rank": 34,
-          "vid": 64638
+          "vid": 64776
         }
       ]
     },
@@ -10964,299 +10964,299 @@
     },
     {
       "EP_ID": 25,
-      "Updated": "2023-05-22 09:25:39.933",
-      "Gramenoi": 128633,
-      "Egkyra": 75833,
-      "Akyra": 1355,
-      "Leyka": 333,
-      "NumTmGeo": 285,
-      "NumTm": 297,
-      "NumTmK": 285,
+      "Updated": "2023-05-22 10:40:59.943",
+      "Gramenoi": 129088,
+      "Egkyra": 76130,
+      "Akyra": 1360,
+      "Leyka": 336,
+      "NumTmGeo": 286,
+      "NumTm": 298,
+      "NumTmK": 286,
       "NumTmE": 9,
       "NumTmM": 3,
       "WIN_ID": 2,
-      "vid": 64660,
+      "vid": 64778,
       "official": 0,
       "party": [
         {
           "EP_ID": 25,
           "PARTY_ID": 2,
           "Cands": 6,
-          "VOTES": 35139,
-          "Perc": 46.3373465,
+          "VOTES": 35298,
+          "Perc": 46.3654276,
           "Edres": 2,
           "Rank": 1,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 4,
           "Cands": 6,
-          "VOTES": 15053,
-          "Perc": 19.8501971,
+          "VOTES": 15088,
+          "Perc": 19.8187311,
           "Edres": 1,
           "Rank": 2,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 106,
           "Cands": 6,
-          "VOTES": 10378,
-          "Perc": 13.6853349,
+          "VOTES": 10430,
+          "Perc": 13.7002496,
           "Edres": 1,
           "Rank": 3,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 3,
           "Cands": 6,
-          "VOTES": 5534,
-          "Perc": 7.2976145,
+          "VOTES": 5540,
+          "Perc": 7.2770261,
           "Edres": 0,
           "Rank": 4,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 108,
           "Cands": 6,
-          "VOTES": 2053,
-          "Perc": 2.7072646,
+          "VOTES": 2065,
+          "Perc": 2.7124655,
           "Edres": 0,
           "Rank": 5,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 131,
           "Cands": 4,
-          "VOTES": 1430,
-          "Perc": 1.8857226,
+          "VOTES": 1436,
+          "Perc": 1.8862472,
           "Edres": 0,
           "Rank": 6,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 123,
           "Cands": 2,
-          "VOTES": 1158,
-          "Perc": 1.5270397,
+          "VOTES": 1165,
+          "Perc": 1.5302772,
           "Edres": 0,
           "Rank": 7,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 122,
           "Cands": 4,
-          "VOTES": 1136,
-          "Perc": 1.4980286,
+          "VOTES": 1143,
+          "Perc": 1.5013792,
           "Edres": 0,
           "Rank": 8,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 129,
           "Cands": 1,
-          "VOTES": 383,
-          "Perc": 0.5050572,
+          "VOTES": 384,
+          "Perc": 0.5044004,
           "Edres": 0,
           "Rank": 9,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 60,
           "Cands": 2,
-          "VOTES": 376,
-          "Perc": 0.4958264,
+          "VOTES": 380,
+          "Perc": 0.4991462,
           "Edres": 0,
           "Rank": 10,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 128,
           "Cands": 3,
-          "VOTES": 370,
-          "Perc": 0.4879142,
+          "VOTES": 371,
+          "Perc": 0.4873243,
           "Edres": 0,
           "Rank": 11,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 44,
           "Cands": 4,
-          "VOTES": 357,
-          "Perc": 0.4707713,
+          "VOTES": 358,
+          "Perc": 0.4702483,
           "Edres": 0,
           "Rank": 12,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 135,
           "Cands": 2,
           "VOTES": 352,
-          "Perc": 0.4641779,
+          "Perc": 0.462367,
           "Edres": 0,
           "Rank": 13,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 143,
           "Cands": 1,
-          "VOTES": 327,
-          "Perc": 0.4312107,
+          "VOTES": 328,
+          "Perc": 0.430842,
           "Edres": 0,
           "Rank": 14,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 140,
           "Cands": 1,
-          "VOTES": 299,
-          "Perc": 0.3942874,
+          "VOTES": 300,
+          "Perc": 0.3940628,
           "Edres": 0,
           "Rank": 15,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 141,
           "Cands": 4,
           "VOTES": 289,
-          "Perc": 0.3811006,
+          "Perc": 0.3796138,
           "Edres": 0,
           "Rank": 16,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 138,
           "Cands": 1,
-          "VOTES": 238,
-          "Perc": 0.3138475,
+          "VOTES": 239,
+          "Perc": 0.3139367,
           "Edres": 0,
           "Rank": 17,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 125,
           "Cands": 5,
           "VOTES": 227,
-          "Perc": 0.299342,
+          "Perc": 0.2981742,
           "Edres": 0,
           "Rank": 18,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 134,
           "Cands": 1,
-          "VOTES": 193,
-          "Perc": 0.2545066,
+          "VOTES": 194,
+          "Perc": 0.2548273,
           "Edres": 0,
           "Rank": 19,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 15,
           "Cands": 2,
           "VOTES": 140,
-          "Perc": 0.1846162,
+          "Perc": 0.183896,
           "Edres": 0,
           "Rank": 20,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 113,
           "Cands": 2,
           "VOTES": 107,
-          "Perc": 0.1410995,
+          "Perc": 0.1405491,
           "Edres": 0,
           "Rank": 21,
-          "vid": 64660
+          "vid": 64778
+        },
+        {
+          "EP_ID": 25,
+          "PARTY_ID": 137,
+          "Cands": 1,
+          "VOTES": 72,
+          "Perc": 0.0945751,
+          "Edres": 0,
+          "Rank": 22,
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 85,
           "Cands": 1,
           "VOTES": 70,
-          "Perc": 0.0923081,
-          "Edres": 0,
-          "Rank": 22,
-          "vid": 64660
-        },
-        {
-          "EP_ID": 25,
-          "PARTY_ID": 137,
-          "Cands": 1,
-          "VOTES": 70,
-          "Perc": 0.0923081,
+          "Perc": 0.091948,
           "Edres": 0,
           "Rank": 23,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 133,
           "Cands": 1,
           "VOTES": 52,
-          "Perc": 0.0685717,
+          "Perc": 0.0683042,
           "Edres": 0,
           "Rank": 24,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 10,
           "Cands": 1,
           "VOTES": 48,
-          "Perc": 0.063297,
+          "Perc": 0.06305,
           "Edres": 0,
           "Rank": 25,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 136,
           "Cands": 1,
           "VOTES": 25,
-          "Perc": 0.0329672,
+          "Perc": 0.0328386,
           "Edres": 0,
           "Rank": 26,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 66,
           "Cands": 1,
           "VOTES": 23,
-          "Perc": 0.0303298,
+          "Perc": 0.0302115,
           "Edres": 0,
           "Rank": 27,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
           "PARTY_ID": 11,
           "Cands": 1,
           "VOTES": 6,
-          "Perc": 0.0079121,
+          "Perc": 0.0078813,
           "Edres": 0,
           "Rank": 28,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
@@ -11266,7 +11266,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 32,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
@@ -11276,7 +11276,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 34,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
@@ -11286,7 +11286,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 31,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
@@ -11296,7 +11296,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 29,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
@@ -11306,7 +11306,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 30,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
@@ -11316,7 +11316,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 33,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
@@ -11326,7 +11326,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 35,
-          "vid": 64660
+          "vid": 64778
         },
         {
           "EP_ID": 25,
@@ -11336,7 +11336,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 36,
-          "vid": 64660
+          "vid": 64778
         }
       ]
     },
@@ -15878,329 +15878,329 @@
     },
     {
       "EP_ID": 23,
-      "Updated": "2023-05-22 05:42:29.033",
-      "Gramenoi": 175187,
-      "Egkyra": 108338,
+      "Updated": "2023-05-22 10:41:32.797",
+      "Gramenoi": 175229,
+      "Egkyra": 108369,
       "Akyra": 2354,
       "Leyka": 637,
       "NumTmGeo": 355,
-      "NumTm": 360,
+      "NumTm": 361,
       "NumTmK": 355,
       "NumTmE": 5,
-      "NumTmM": 0,
+      "NumTmM": 1,
       "WIN_ID": 2,
-      "vid": 64314,
+      "vid": 64779,
       "official": 0,
       "party": [
         {
           "EP_ID": 23,
           "PARTY_ID": 2,
           "Cands": 7,
-          "VOTES": 47230,
-          "Perc": 43.5950451,
+          "VOTES": 47239,
+          "Perc": 43.5908793,
           "Edres": 3,
           "Rank": 1,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 4,
           "Cands": 7,
-          "VOTES": 20832,
-          "Perc": 19.2287101,
+          "VOTES": 20846,
+          "Perc": 19.2361284,
           "Edres": 1,
           "Rank": 2,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 106,
           "Cands": 7,
-          "VOTES": 8778,
-          "Perc": 8.1024202,
+          "VOTES": 8779,
+          "Perc": 8.1010252,
           "Edres": 0,
           "Rank": 3,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 3,
           "Cands": 7,
           "VOTES": 7820,
-          "Perc": 7.2181506,
+          "Perc": 7.2160858,
           "Edres": 1,
           "Rank": 4,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 108,
           "Cands": 7,
-          "VOTES": 4475,
-          "Perc": 4.1305913,
+          "VOTES": 4477,
+          "Perc": 4.1312552,
           "Edres": 0,
           "Rank": 5,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 123,
           "Cands": 7,
-          "VOTES": 3838,
-          "Perc": 3.5426166,
+          "VOTES": 3839,
+          "Perc": 3.542526,
           "Edres": 0,
           "Rank": 6,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 131,
           "Cands": 5,
-          "VOTES": 3390,
-          "Perc": 3.129096,
+          "VOTES": 3392,
+          "Perc": 3.1300464,
           "Edres": 0,
           "Rank": 7,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 122,
           "Cands": 7,
-          "VOTES": 3047,
-          "Perc": 2.8124942,
+          "VOTES": 3048,
+          "Perc": 2.8126125,
           "Edres": 0,
           "Rank": 8,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 135,
           "Cands": 5,
-          "VOTES": 1398,
-          "Perc": 1.290406,
+          "VOTES": 1399,
+          "Perc": 1.2909596,
           "Edres": 0,
           "Rank": 9,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 138,
           "Cands": 2,
           "VOTES": 891,
-          "Perc": 0.8224261,
+          "Perc": 0.8221908,
           "Edres": 0,
           "Rank": 10,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 60,
           "Cands": 2,
           "VOTES": 779,
-          "Perc": 0.7190459,
+          "Perc": 0.7188403,
           "Edres": 0,
           "Rank": 11,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 129,
           "Cands": 1,
           "VOTES": 693,
-          "Perc": 0.6396648,
+          "Perc": 0.6394818,
           "Edres": 0,
           "Rank": 12,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 28,
           "Cands": 1,
           "VOTES": 648,
-          "Perc": 0.5981281,
+          "Perc": 0.597957,
           "Edres": 0,
           "Rank": 13,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 128,
           "Cands": 1,
           "VOTES": 576,
-          "Perc": 0.5316694,
+          "Perc": 0.5315173,
           "Edres": 0,
           "Rank": 14,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 130,
           "Cands": 1,
           "VOTES": 571,
-          "Perc": 0.5270542,
+          "Perc": 0.5269035,
           "Edres": 0,
           "Rank": 15,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 44,
           "Cands": 7,
           "VOTES": 542,
-          "Perc": 0.5002861,
+          "Perc": 0.500143,
           "Edres": 0,
           "Rank": 16,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 141,
           "Cands": 6,
           "VOTES": 432,
-          "Perc": 0.3987521,
+          "Perc": 0.398638,
           "Edres": 0,
           "Rank": 17,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 140,
           "Cands": 1,
           "VOTES": 380,
-          "Perc": 0.3507541,
+          "Perc": 0.3506538,
           "Edres": 0,
           "Rank": 18,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 15,
           "Cands": 5,
           "VOTES": 365,
-          "Perc": 0.3369086,
+          "Perc": 0.3368122,
           "Edres": 0,
           "Rank": 19,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 142,
           "Cands": 1,
           "VOTES": 342,
-          "Perc": 0.3156787,
+          "Perc": 0.3155884,
           "Edres": 0,
           "Rank": 20,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 125,
           "Cands": 3,
           "VOTES": 293,
-          "Perc": 0.2704499,
+          "Perc": 0.2703725,
           "Edres": 0,
           "Rank": 21,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 134,
           "Cands": 1,
           "VOTES": 211,
-          "Perc": 0.1947608,
+          "Perc": 0.1947051,
           "Edres": 0,
           "Rank": 22,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 143,
           "Cands": 1,
           "VOTES": 205,
-          "Perc": 0.1892226,
+          "Perc": 0.1891685,
           "Edres": 0,
           "Rank": 23,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 113,
           "Cands": 1,
           "VOTES": 147,
-          "Perc": 0.1356865,
+          "Perc": 0.1356476,
           "Edres": 0,
           "Rank": 24,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 137,
           "Cands": 1,
           "VOTES": 135,
-          "Perc": 0.12461,
+          "Perc": 0.1245744,
           "Edres": 0,
           "Rank": 25,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 10,
           "Cands": 1,
           "VOTES": 107,
-          "Perc": 0.098765,
+          "Perc": 0.0987367,
           "Edres": 0,
           "Rank": 26,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 133,
           "Cands": 3,
           "VOTES": 90,
-          "Perc": 0.0830733,
+          "Perc": 0.0830496,
           "Edres": 0,
           "Rank": 27,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 85,
           "Cands": 1,
           "VOTES": 81,
-          "Perc": 0.074766,
+          "Perc": 0.0747446,
           "Edres": 0,
           "Rank": 28,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 66,
           "Cands": 1,
           "VOTES": 21,
-          "Perc": 0.0193838,
+          "Perc": 0.0193782,
           "Edres": 0,
           "Rank": 29,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 11,
           "Cands": 1,
           "VOTES": 16,
-          "Perc": 0.0147686,
+          "Perc": 0.0147644,
           "Edres": 0,
           "Rank": 30,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
           "PARTY_ID": 136,
           "Cands": 1,
           "VOTES": 5,
-          "Perc": 0.0046152,
+          "Perc": 0.0046139,
           "Edres": 0,
           "Rank": 31,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
@@ -16210,7 +16210,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 34,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
@@ -16220,7 +16220,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 33,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
@@ -16230,7 +16230,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 32,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
@@ -16240,7 +16240,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 35,
-          "vid": 64314
+          "vid": 64779
         },
         {
           "EP_ID": 23,
@@ -16250,7 +16250,7 @@
           "Perc": 0,
           "Edres": 0,
           "Rank": 36,
-          "vid": 64314
+          "vid": 64779
         }
       ]
     },
@@ -22306,7 +22306,7 @@
   "kallikratikoi_dhmoi": [
     {
       "DHM_ID": 9186,
-      "Updated": "2023-05-22 10:33:50.147",
+      "Updated": "2023-05-22 10:36:43.273",
       "NumTm": 849,
       "Gramenoi": 451834,
       "Egkyra": 245561,
@@ -25685,10 +25685,10 @@
     },
     {
       "DHM_ID": 9200,
-      "Updated": "2023-05-22 09:54:55.720",
+      "Updated": "2023-05-22 10:40:11.370",
       "NumTm": 108,
       "Gramenoi": 56730,
-      "Egkyra": 37080,
+      "Egkyra": 37081,
       "Akyra": 618,
       "Leyka": 265,
       "party": [
@@ -25766,7 +25766,7 @@
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 85
+          "VOTES": 86
         },
         {
           "PARTY_ID": 138,
@@ -43082,7 +43082,7 @@
     },
     {
       "DHM_ID": 9035,
-      "Updated": "2023-05-22 07:49:19.563",
+      "Updated": "2023-05-22 10:38:51.940",
       "NumTm": 129,
       "Gramenoi": 69238,
       "Egkyra": 42842,
@@ -43135,7 +43135,7 @@
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 400
+          "VOTES": 401
         },
         {
           "PARTY_ID": 15,
@@ -43183,7 +43183,7 @@
         },
         {
           "PARTY_ID": 141,
-          "VOTES": 99
+          "VOTES": 98
         },
         {
           "PARTY_ID": 113,
@@ -46095,52 +46095,52 @@
     },
     {
       "DHM_ID": 9092,
-      "Updated": "2023-05-22 08:21:59.980",
-      "NumTm": 101,
-      "Gramenoi": 49627,
-      "Egkyra": 31345,
-      "Akyra": 641,
-      "Leyka": 153,
+      "Updated": "2023-05-22 10:40:59.943",
+      "NumTm": 102,
+      "Gramenoi": 50082,
+      "Egkyra": 31642,
+      "Akyra": 646,
+      "Leyka": 156,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 13207
+          "VOTES": 13366
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 6369
+          "VOTES": 6404
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 4336
+          "VOTES": 4388
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 2933
+          "VOTES": 2939
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 874
+          "VOTES": 886
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 657
+          "VOTES": 663
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 607
+          "VOTES": 614
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 569
+          "VOTES": 576
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 192
+          "VOTES": 193
         },
         {
           "PARTY_ID": 60,
-          "VOTES": 182
+          "VOTES": 186
         },
         {
           "PARTY_ID": 135,
@@ -46148,19 +46148,19 @@
         },
         {
           "PARTY_ID": 129,
-          "VOTES": 171
+          "VOTES": 172
+        },
+        {
+          "PARTY_ID": 128,
+          "VOTES": 150
         },
         {
           "PARTY_ID": 141,
           "VOTES": 150
         },
         {
-          "PARTY_ID": 128,
-          "VOTES": 149
-        },
-        {
           "PARTY_ID": 143,
-          "VOTES": 144
+          "VOTES": 145
         },
         {
           "PARTY_ID": 125,
@@ -46168,15 +46168,15 @@
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 121
+          "VOTES": 122
         },
         {
           "PARTY_ID": 138,
-          "VOTES": 102
+          "VOTES": 103
         },
         {
           "PARTY_ID": 134,
-          "VOTES": 78
+          "VOTES": 79
         },
         {
           "PARTY_ID": 15,
@@ -46184,7 +46184,7 @@
         },
         {
           "PARTY_ID": 137,
-          "VOTES": 32
+          "VOTES": 34
         },
         {
           "PARTY_ID": 113,
@@ -53999,7 +53999,7 @@
     },
     {
       "DHM_ID": 9104,
-      "Updated": "2023-05-22 04:18:57.330",
+      "Updated": "2023-05-22 10:41:32.797",
       "NumTm": 45,
       "Gramenoi": 18741,
       "Egkyra": 12006,
@@ -63839,7 +63839,7 @@
   "koinotites": [
     {
       "DEN_ID": 105,
-      "Updated": "2023-05-22 10:33:50.147",
+      "Updated": "2023-05-22 10:36:43.273",
       "NumTm": 849,
       "Gramenoi": 451834,
       "Egkyra": 245561,
@@ -70053,10 +70053,10 @@
     },
     {
       "DEN_ID": 132,
-      "Updated": "2023-05-22 09:54:55.720",
+      "Updated": "2023-05-22 10:40:11.370",
       "NumTm": 108,
       "Gramenoi": 56730,
-      "Egkyra": 37080,
+      "Egkyra": 37081,
       "Akyra": 618,
       "Leyka": 265,
       "party": [
@@ -70134,7 +70134,7 @@
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 85
+          "VOTES": 86
         },
         {
           "PARTY_ID": 138,
@@ -119902,7 +119902,7 @@
     },
     {
       "DEN_ID": 2140,
-      "Updated": "2023-05-22 07:44:34.523",
+      "Updated": "2023-05-22 10:38:51.940",
       "NumTm": 57,
       "Gramenoi": 30542,
       "Egkyra": 18960,
@@ -119951,7 +119951,7 @@
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 180
+          "VOTES": 181
         },
         {
           "PARTY_ID": 140,
@@ -120003,7 +120003,7 @@
         },
         {
           "PARTY_ID": 141,
-          "VOTES": 36
+          "VOTES": 35
         },
         {
           "PARTY_ID": 133,
@@ -194973,9 +194973,9 @@
   ],
   "epikrateia": {
     "EPIK_ID": 1,
-    "Updated": "2023-05-22 10:41:32.797",
+    "Updated": "2023-05-22 10:48:45.457",
     "Gramenoi": 9931678,
-    "Egkyra": 5892417,
+    "Egkyra": 5892416,
     "Akyra": 123386,
     "Leyka": 34702,
     "NumTm": 21631,
@@ -194989,7 +194989,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 2,
         "VOTES": 2403673,
-        "Perc": 40.7925939,
+        "Perc": 40.7926008,
         "TakesEdres": 1,
         "Edres": 139,
         "EdresEpik": 7,
@@ -194999,7 +194999,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 4,
         "VOTES": 1182402,
-        "Perc": 20.0664752,
+        "Perc": 20.0664786,
         "TakesEdres": 1,
         "Edres": 67,
         "EdresEpik": 4,
@@ -195009,7 +195009,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 106,
         "VOTES": 675271,
-        "Perc": 11.4599846,
+        "Perc": 11.4599866,
         "TakesEdres": 1,
         "Edres": 39,
         "EdresEpik": 2,
@@ -195019,7 +195019,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 3,
         "VOTES": 425754,
-        "Perc": 7.2254462,
+        "Perc": 7.2254475,
         "TakesEdres": 1,
         "Edres": 25,
         "EdresEpik": 1,
@@ -195029,7 +195029,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 108,
         "VOTES": 262303,
-        "Perc": 4.4515289,
+        "Perc": 4.4515296,
         "TakesEdres": 1,
         "Edres": 15,
         "EdresEpik": 1,
@@ -195039,7 +195039,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 131,
         "VOTES": 171980,
-        "Perc": 2.9186625,
+        "Perc": 2.918663,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195049,7 +195049,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 123,
         "VOTES": 170021,
-        "Perc": 2.8854164,
+        "Perc": 2.8854169,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195059,7 +195059,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 122,
         "VOTES": 154185,
-        "Perc": 2.6166646,
+        "Perc": 2.6166651,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195069,7 +195069,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 135,
         "VOTES": 53212,
-        "Perc": 0.9030577,
+        "Perc": 0.9030579,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195079,7 +195079,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 60,
         "VOTES": 47882,
-        "Perc": 0.8126026,
+        "Perc": 0.8126028,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195089,7 +195089,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 128,
         "VOTES": 37290,
-        "Perc": 0.6328464,
+        "Perc": 0.6328465,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195099,7 +195099,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 28,
         "VOTES": 35152,
-        "Perc": 0.5965625,
+        "Perc": 0.5965626,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195109,7 +195109,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 129,
         "VOTES": 34899,
-        "Perc": 0.5922689,
+        "Perc": 0.592269,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195119,7 +195119,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 44,
         "VOTES": 31641,
-        "Perc": 0.5369776,
+        "Perc": 0.5369777,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195128,8 +195128,8 @@
       {
         "EPIK_ID": 1,
         "PARTY_ID": 140,
-        "VOTES": 27556,
-        "Perc": 0.4676513,
+        "VOTES": 27555,
+        "Perc": 0.4676344,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195149,7 +195149,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 138,
         "VOTES": 20417,
-        "Perc": 0.3464957,
+        "Perc": 0.3464958,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195159,7 +195159,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 130,
         "VOTES": 18458,
-        "Perc": 0.3132496,
+        "Perc": 0.3132497,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195169,7 +195169,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 142,
         "VOTES": 15168,
-        "Perc": 0.2574152,
+        "Perc": 0.2574153,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195199,7 +195199,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 125,
         "VOTES": 12773,
-        "Perc": 0.2167698,
+        "Perc": 0.2167699,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195209,7 +195209,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 113,
         "VOTES": 12735,
-        "Perc": 0.2161249,
+        "Perc": 0.216125,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
@@ -195239,7 +195239,7 @@
         "EPIK_ID": 1,
         "PARTY_ID": 137,
         "VOTES": 6076,
-        "Perc": 0.1031154,
+        "Perc": 0.1031155,
         "TakesEdres": 0,
         "Edres": 0,
         "EdresEpik": 0,
