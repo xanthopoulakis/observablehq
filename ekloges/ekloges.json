@@ -1,9 +1,18 @@
 [
   {
+    "id": "v2023b",
+    "type": "parliament",
+    "date": "2023-06-25",
+    "url": "https://ekloges.ypes.gr/current",
+    "suffix": "/dyn/v",
+    "suffix2": "/dyn1/v",
+    "layout": "eklogikes_perifereies"
+  },
+  {
     "id": "v2023a",
     "type": "parliament",
     "date": "2023-05-21",
-    "url": "https://ekloges.ypes.gr/current",
+    "url": "https://ekloges-prev.singularlogic.eu/2023/may",
     "suffix": "/dyn/v",
     "suffix2": "/dyn1/v",
     "layout": "eklogikes_perifereies"
@@ -12,7 +21,7 @@
     "id": "v2019",
     "type": "parliament",
     "date": "2019-07-07",
-    "url": "https://ekloges.ypes.gr/current",
+    "url": "https://ekloges-prev.singularlogic.eu/2019",
     "suffix": "/dyn/v",
     "suffix2": "/dyn1/v",
     "layout": "eklogikes_perifereies"
@@ -21,7 +30,7 @@
     "id": "e2019",
     "date": "2019-05-26",
     "type": "europarliament",
-    "url": "https://ekloges.ypes.gr/current",
+    "url": "http://ekloges-prev.singularlogic.eu/2019",
     "suffix": "/dyn/e",
     "suffix2": "/dyn1/e",
     "layout": "eklogikes_perifereies"
