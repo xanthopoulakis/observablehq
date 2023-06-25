@@ -1046,10 +1046,13 @@
   },
   {
     "id": 157,
-    "name": "ΣΠΑΡΤΙΑΤΕΣ",
-    "shortName": "ΣΠΑΡΤΙΑΤΕΣ",
+    "title_el": "ΣΠΑΡΤΙΑΤΕΣ",
+    "title": "ΣΠΑΡΤΙΑΤΕΣ",
+    "title_en": "SPARTIATES",
+    "short_name": "ΣΠΑΡΤΙΑΤΕΣ",
+    "short_name_el": "ΣΠΑΡΤΙΑΤΕΣ",
+    "short_name_en": "SPARTIATES",
     "color": "#E9B460",
-    "logo": "y157.png",
-    "parliamentOrder": 95
+    "logo": "y157.png"
   }
 ]
