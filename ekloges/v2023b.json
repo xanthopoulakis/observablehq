@@ -19479,52 +19479,52 @@
     },
     {
       "DHM_ID": 9179,
-      "Updated": "2023-06-25 21:46:16.680",
-      "NumTm": 41,
-      "Gramenoi": 21344,
-      "Egkyra": 10811,
+      "Updated": "2023-06-25 22:03:07.073",
+      "NumTm": 42,
+      "Gramenoi": 21850,
+      "Egkyra": 11104,
       "Akyra": 73,
       "Leyka": 51,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 3461
+          "VOTES": 3545
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 2294
+          "VOTES": 2371
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 1215
+          "VOTES": 1255
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1026
+          "VOTES": 1062
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 672
+          "VOTES": 682
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 601
+          "VOTES": 614
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 465
-        },
-        {
-          "PARTY_ID": 131,
-          "VOTES": 282
+          "VOTES": 477
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 281
+          "VOTES": 288
+        },
+        {
+          "PARTY_ID": 131,
+          "VOTES": 287
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 67
+          "VOTES": 69
         },
         {
           "PARTY_ID": 158,
@@ -19532,11 +19532,11 @@
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 63
+          "VOTES": 64
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 51
+          "VOTES": 52
         },
         {
           "PARTY_ID": 153,
@@ -19544,11 +19544,11 @@
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 39
+          "VOTES": 41
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 36
+          "VOTES": 37
         },
         {
           "PARTY_ID": 125,
@@ -19560,7 +19560,7 @@
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 25
+          "VOTES": 26
         },
         {
           "PARTY_ID": 113,
@@ -19568,7 +19568,7 @@
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 16
+          "VOTES": 17
         },
         {
           "PARTY_ID": 11,
@@ -21117,7 +21117,7 @@
     },
     {
       "DHM_ID": 9191,
-      "Updated": "2023-06-25 21:59:45.953",
+      "Updated": "2023-06-25 22:03:41.603",
       "NumTm": 108,
       "Gramenoi": 56867,
       "Egkyra": 34716,
@@ -22521,7 +22521,7 @@
     },
     {
       "DHM_ID": 9175,
-      "Updated": "2023-06-25 21:56:10.213",
+      "Updated": "2023-06-25 22:04:50.137",
       "NumTm": 65,
       "Gramenoi": 34791,
       "Egkyra": 23878,
@@ -25079,7 +25079,7 @@
     },
     {
       "DHM_ID": 9215,
-      "Updated": "2023-06-25 21:55:26.477",
+      "Updated": "2023-06-25 22:04:42.180",
       "NumTm": 132,
       "Gramenoi": 69662,
       "Egkyra": 36686,
@@ -28837,7 +28837,7 @@
     },
     {
       "DHM_ID": 9074,
-      "Updated": "2023-06-25 21:53:48.273",
+      "Updated": "2023-06-25 22:03:20.883",
       "NumTm": 30,
       "Gramenoi": 10332,
       "Egkyra": 4163,
@@ -38050,7 +38050,7 @@
     },
     {
       "DHM_ID": 9034,
-      "Updated": "2023-06-25 21:58:17.977",
+      "Updated": "2023-06-25 22:04:33.010",
       "NumTm": 101,
       "Gramenoi": 49488,
       "Egkyra": 28031,
@@ -38280,7 +38280,7 @@
     },
     {
       "DHM_ID": 9038,
-      "Updated": "2023-06-25 21:59:06.407",
+      "Updated": "2023-06-25 22:01:11.643",
       "NumTm": 62,
       "Gramenoi": 31096,
       "Egkyra": 18518,
@@ -45906,7 +45906,7 @@
     },
     {
       "DHM_ID": 9310,
-      "Updated": "2023-06-25 21:47:17.203",
+      "Updated": "2023-06-25 22:02:29.633",
       "NumTm": 58,
       "Gramenoi": 22789,
       "Egkyra": 13114,
@@ -46009,7 +46009,7 @@
     },
     {
       "DHM_ID": 9311,
-      "Updated": "2023-06-25 21:33:34.863",
+      "Updated": "2023-06-25 22:01:49.620",
       "NumTm": 51,
       "Gramenoi": 22700,
       "Egkyra": 12677,
@@ -46215,7 +46215,7 @@
     },
     {
       "DHM_ID": 9313,
-      "Updated": "2023-06-25 21:50:28.427",
+      "Updated": "2023-06-25 22:00:24.587",
       "NumTm": 49,
       "Gramenoi": 18692,
       "Egkyra": 10364,
@@ -46837,7 +46837,7 @@
     },
     {
       "DHM_ID": 9104,
-      "Updated": "2023-06-25 21:57:39.207",
+      "Updated": "2023-06-25 22:04:54.900",
       "NumTm": 45,
       "Gramenoi": 18741,
       "Egkyra": 10687,
@@ -47182,7 +47182,7 @@
     },
     {
       "DHM_ID": 9106,
-      "Updated": "2023-06-25 21:55:42.907",
+      "Updated": "2023-06-25 22:00:30.593",
       "NumTm": 15,
       "Gramenoi": 7039,
       "Egkyra": 3441,
@@ -47297,7 +47297,7 @@
     },
     {
       "DHM_ID": 9107,
-      "Updated": "2023-06-25 21:52:04.750",
+      "Updated": "2023-06-25 22:04:24.667",
       "NumTm": 27,
       "Gramenoi": 11375,
       "Egkyra": 5777,
@@ -47757,44 +47757,44 @@
     },
     {
       "DHM_ID": 9253,
-      "Updated": "2023-06-25 21:56:32.097",
-      "NumTm": 26,
-      "Gramenoi": 8489,
-      "Egkyra": 3892,
-      "Akyra": 32,
-      "Leyka": 20,
+      "Updated": "2023-06-25 22:02:59.267",
+      "NumTm": 27,
+      "Gramenoi": 9045,
+      "Egkyra": 4142,
+      "Akyra": 35,
+      "Leyka": 21,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 1774
+          "VOTES": 1909
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 618
+          "VOTES": 651
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 445
+          "VOTES": 457
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 317
+          "VOTES": 336
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 258
+          "VOTES": 274
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 134
+          "VOTES": 143
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 101
+          "VOTES": 115
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 89
+          "VOTES": 93
         },
         {
           "PARTY_ID": 131,
@@ -47802,15 +47802,15 @@
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 19
+          "VOTES": 20
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 15
+          "VOTES": 16
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 14
+          "VOTES": 16
         },
         {
           "PARTY_ID": 140,
@@ -47818,30 +47818,30 @@
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 12
+          "VOTES": 13
+        },
+        {
+          "PARTY_ID": 150,
+          "VOTES": 7
         },
         {
           "PARTY_ID": 15,
           "VOTES": 6
         },
         {
-          "PARTY_ID": 150,
-          "VOTES": 6
-        },
-        {
           "PARTY_ID": 28,
-          "VOTES": 5
+          "VOTES": 6
         },
         {
           "PARTY_ID": 10,
           "VOTES": 4
         },
         {
-          "PARTY_ID": 66,
-          "VOTES": 3
+          "PARTY_ID": 125,
+          "VOTES": 4
         },
         {
-          "PARTY_ID": 125,
+          "PARTY_ID": 66,
           "VOTES": 3
         },
         {
@@ -47868,48 +47868,48 @@
     },
     {
       "DHM_ID": 9254,
-      "Updated": "2023-06-25 21:59:10.640",
-      "NumTm": 135,
-      "Gramenoi": 65461,
-      "Egkyra": 32873,
-      "Akyra": 196,
-      "Leyka": 174,
+      "Updated": "2023-06-25 22:03:52.270",
+      "NumTm": 136,
+      "Gramenoi": 66003,
+      "Egkyra": 33171,
+      "Akyra": 198,
+      "Leyka": 177,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 13919
+          "VOTES": 14049
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 6188
+          "VOTES": 6242
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 2854
+          "VOTES": 2882
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 2610
+          "VOTES": 2633
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 2218
+          "VOTES": 2236
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 1248
+          "VOTES": 1260
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 929
+          "VOTES": 938
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 870
+          "VOTES": 877
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 834
+          "VOTES": 840
         },
         {
           "PARTY_ID": 153,
@@ -47917,47 +47917,47 @@
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 159
+          "VOTES": 160
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 152
+          "VOTES": 153
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 143
+          "VOTES": 144
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 137
+          "VOTES": 138
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 106
+          "VOTES": 107
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 91
+          "VOTES": 92
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 87
+          "VOTES": 88
         },
         {
           "PARTY_ID": 113,
-          "VOTES": 53
+          "VOTES": 54
+        },
+        {
+          "PARTY_ID": 125,
+          "VOTES": 32
         },
         {
           "PARTY_ID": 78,
           "VOTES": 31
         },
         {
-          "PARTY_ID": 125,
-          "VOTES": 30
-        },
-        {
           "PARTY_ID": 10,
-          "VOTES": 14
+          "VOTES": 15
         },
         {
           "PARTY_ID": 11,
@@ -48201,7 +48201,7 @@
     },
     {
       "DHM_ID": 9257,
-      "Updated": "2023-06-25 21:58:29.613",
+      "Updated": "2023-06-25 22:01:54.833",
       "NumTm": 72,
       "Gramenoi": 27160,
       "Egkyra": 11112,
@@ -48851,7 +48851,7 @@
     },
     {
       "DHM_ID": 9042,
-      "Updated": "2023-06-25 21:57:36.420",
+      "Updated": "2023-06-25 22:00:17.953",
       "NumTm": 60,
       "Gramenoi": 28994,
       "Egkyra": 15831,
@@ -49065,7 +49065,7 @@
     },
     {
       "DHM_ID": 9044,
-      "Updated": "2023-06-25 21:59:06.830",
+      "Updated": "2023-06-25 22:04:59.350",
       "NumTm": 132,
       "Gramenoi": 64167,
       "Egkyra": 34253,
@@ -49172,7 +49172,7 @@
     },
     {
       "DHM_ID": 9045,
-      "Updated": "2023-06-25 21:54:44.680",
+      "Updated": "2023-06-25 22:02:42.100",
       "NumTm": 45,
       "Gramenoi": 20025,
       "Egkyra": 11243,
@@ -50254,56 +50254,56 @@
     },
     {
       "DHM_ID": 9317,
-      "Updated": "2023-06-25 21:55:25.633",
-      "NumTm": 46,
-      "Gramenoi": 13716,
-      "Egkyra": 8220,
-      "Akyra": 35,
+      "Updated": "2023-06-25 22:04:02.310",
+      "NumTm": 47,
+      "Gramenoi": 14081,
+      "Egkyra": 8462,
+      "Akyra": 37,
       "Leyka": 26,
       "party": [
         {
           "PARTY_ID": 106,
-          "VOTES": 3528
+          "VOTES": 3600
         },
         {
           "PARTY_ID": 2,
-          "VOTES": 2868
+          "VOTES": 2961
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 1074
+          "VOTES": 1111
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 140
+          "VOTES": 146
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 120
+          "VOTES": 125
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 108
+          "VOTES": 118
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 103
+          "VOTES": 109
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 97
+          "VOTES": 105
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 57
+          "VOTES": 58
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 25
+          "VOTES": 27
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 22
+          "VOTES": 23
         },
         {
           "PARTY_ID": 28,
@@ -50326,15 +50326,15 @@
           "VOTES": 8
         },
         {
+          "PARTY_ID": 125,
+          "VOTES": 5
+        },
+        {
           "PARTY_ID": 150,
           "VOTES": 5
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 4
-        },
-        {
-          "PARTY_ID": 125,
           "VOTES": 4
         },
         {
@@ -51007,7 +51007,7 @@
     },
     {
       "DHM_ID": 9264,
-      "Updated": "2023-06-25 21:54:00.253",
+      "Updated": "2023-06-25 22:04:51.320",
       "NumTm": 45,
       "Gramenoi": 20941,
       "Egkyra": 9262,
@@ -52121,7 +52121,7 @@
     },
     {
       "DHM_ID": 9113,
-      "Updated": "2023-06-25 21:58:51.543",
+      "Updated": "2023-06-25 22:03:55.080",
       "NumTm": 67,
       "Gramenoi": 24057,
       "Egkyra": 12085,
@@ -52351,7 +52351,7 @@
     },
     {
       "DHM_ID": 9115,
-      "Updated": "2023-06-25 21:57:13.647",
+      "Updated": "2023-06-25 22:04:38.673",
       "NumTm": 41,
       "Gramenoi": 18181,
       "Egkyra": 7761,
@@ -52577,7 +52577,7 @@
     },
     {
       "DHM_ID": 9159,
-      "Updated": "2023-06-25 21:56:41.300",
+      "Updated": "2023-06-25 22:04:26.360",
       "NumTm": 38,
       "Gramenoi": 12283,
       "Egkyra": 6889,
@@ -52799,7 +52799,7 @@
     },
     {
       "DHM_ID": 9161,
-      "Updated": "2023-06-25 21:59:21.160",
+      "Updated": "2023-06-25 22:00:14.953",
       "NumTm": 39,
       "Gramenoi": 17936,
       "Egkyra": 10879,
@@ -53132,7 +53132,7 @@
     },
     {
       "DHM_ID": 9164,
-      "Updated": "2023-06-25 21:42:32.763",
+      "Updated": "2023-06-25 22:00:45.120",
       "NumTm": 30,
       "Gramenoi": 12343,
       "Egkyra": 7351,
@@ -54670,44 +54670,44 @@
     },
     {
       "DHM_ID": 9322,
-      "Updated": "2023-06-25 21:54:29.183",
-      "NumTm": 38,
-      "Gramenoi": 12031,
-      "Egkyra": 6563,
-      "Akyra": 36,
-      "Leyka": 49,
+      "Updated": "2023-06-25 22:03:12.093",
+      "NumTm": 39,
+      "Gramenoi": 12494,
+      "Egkyra": 6812,
+      "Akyra": 38,
+      "Leyka": 50,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 3011
+          "VOTES": 3112
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 976
+          "VOTES": 1001
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 849
+          "VOTES": 892
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 398
+          "VOTES": 427
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 304
+          "VOTES": 322
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 267
+          "VOTES": 283
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 205
+          "VOTES": 212
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 175
+          "VOTES": 176
         },
         {
           "PARTY_ID": 122,
@@ -54715,19 +54715,19 @@
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 48
+          "VOTES": 49
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 36
+          "VOTES": 37
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 32
+          "VOTES": 36
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 28
+          "VOTES": 29
         },
         {
           "PARTY_ID": 113,
@@ -54746,16 +54746,16 @@
           "VOTES": 13
         },
         {
+          "PARTY_ID": 15,
+          "VOTES": 12
+        },
+        {
           "PARTY_ID": 155,
           "VOTES": 12
         },
         {
-          "PARTY_ID": 15,
-          "VOTES": 11
-        },
-        {
           "PARTY_ID": 140,
-          "VOTES": 7
+          "VOTES": 8
         },
         {
           "PARTY_ID": 10,
@@ -54781,52 +54781,52 @@
     },
     {
       "DHM_ID": 9323,
-      "Updated": "2023-06-25 21:58:05.427",
-      "NumTm": 58,
-      "Gramenoi": 20218,
-      "Egkyra": 11009,
-      "Akyra": 58,
-      "Leyka": 55,
+      "Updated": "2023-06-25 22:04:17.440",
+      "NumTm": 60,
+      "Gramenoi": 21010,
+      "Egkyra": 11417,
+      "Akyra": 60,
+      "Leyka": 57,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 4275
+          "VOTES": 4373
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 1909
+          "VOTES": 1988
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1432
+          "VOTES": 1466
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 1095
+          "VOTES": 1228
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 536
+          "VOTES": 550
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 367
+          "VOTES": 380
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 360
+          "VOTES": 368
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 302
+          "VOTES": 308
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 285
+          "VOTES": 300
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 75
+          "VOTES": 77
         },
         {
           "PARTY_ID": 28,
@@ -54838,31 +54838,31 @@
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 43
+          "VOTES": 45
         },
         {
           "PARTY_ID": 130,
           "VOTES": 32
         },
         {
+          "PARTY_ID": 15,
+          "VOTES": 30
+        },
+        {
           "PARTY_ID": 125,
           "VOTES": 30
         },
         {
-          "PARTY_ID": 15,
-          "VOTES": 29
+          "PARTY_ID": 150,
+          "VOTES": 30
         },
         {
-          "PARTY_ID": 150,
-          "VOTES": 29
+          "PARTY_ID": 113,
+          "VOTES": 28
         },
         {
           "PARTY_ID": 140,
           "VOTES": 27
-        },
-        {
-          "PARTY_ID": 113,
-          "VOTES": 26
         },
         {
           "PARTY_ID": 155,
@@ -55425,92 +55425,92 @@
   "koinotites": [
     {
       "DEN_ID": 105,
-      "Updated": "2023-06-25 21:59:21.137",
-      "NumTm": 828,
-      "Gramenoi": 440583,
-      "Egkyra": 211743,
-      "Akyra": 1149,
-      "Leyka": 1138,
+      "Updated": "2023-06-25 22:04:12.407",
+      "NumTm": 833,
+      "Gramenoi": 443241,
+      "Egkyra": 213054,
+      "Akyra": 1157,
+      "Leyka": 1144,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 91759
+          "VOTES": 92313
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 42213
+          "VOTES": 42488
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 18802
+          "VOTES": 18928
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 14528
+          "VOTES": 14631
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 9023
+          "VOTES": 9059
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 8470
+          "VOTES": 8533
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 7171
+          "VOTES": 7216
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 6227
+          "VOTES": 6260
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 5530
+          "VOTES": 5562
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 1183
+          "VOTES": 1187
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 966
+          "VOTES": 974
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 936
+          "VOTES": 939
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 879
+          "VOTES": 884
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 821
+          "VOTES": 828
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 728
+          "VOTES": 733
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 678
+          "VOTES": 680
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 583
+          "VOTES": 588
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 543
+          "VOTES": 545
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 261
+          "VOTES": 263
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 124
+          "VOTES": 125
         },
         {
           "PARTY_ID": 113,
@@ -55786,56 +55786,56 @@
     },
     {
       "DEN_ID": 110,
-      "Updated": "2023-06-25 21:50:33.510",
-      "NumTm": 42,
-      "Gramenoi": 22040,
-      "Egkyra": 14618,
+      "Updated": "2023-06-25 22:00:31.520",
+      "NumTm": 43,
+      "Gramenoi": 22584,
+      "Egkyra": 14972,
       "Akyra": 66,
       "Leyka": 88,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 7543
+          "VOTES": 7738
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 2296
+          "VOTES": 2343
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 1226
+          "VOTES": 1257
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1148
+          "VOTES": 1179
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 538
+          "VOTES": 549
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 436
+          "VOTES": 449
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 366
+          "VOTES": 373
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 356
+          "VOTES": 367
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 262
+          "VOTES": 265
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 79
+          "VOTES": 82
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 65
+          "VOTES": 66
         },
         {
           "PARTY_ID": 155,
@@ -55847,7 +55847,7 @@
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 39
+          "VOTES": 40
         },
         {
           "PARTY_ID": 130,
@@ -55905,60 +55905,60 @@
     },
     {
       "DEN_ID": 119,
-      "Updated": "2023-06-25 21:54:44.663",
-      "NumTm": 67,
-      "Gramenoi": 36104,
-      "Egkyra": 22187,
-      "Akyra": 102,
-      "Leyka": 100,
+      "Updated": "2023-06-25 22:03:47.247",
+      "NumTm": 68,
+      "Gramenoi": 36634,
+      "Egkyra": 22535,
+      "Akyra": 103,
+      "Leyka": 107,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 8696
+          "VOTES": 8816
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 4303
+          "VOTES": 4378
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 2537
+          "VOTES": 2584
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1927
+          "VOTES": 1959
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 948
+          "VOTES": 957
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 877
+          "VOTES": 894
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 745
+          "VOTES": 760
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 658
+          "VOTES": 664
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 653
+          "VOTES": 662
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 131
+          "VOTES": 133
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 121
+          "VOTES": 124
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 96
+          "VOTES": 103
         },
         {
           "PARTY_ID": 150,
@@ -55966,11 +55966,11 @@
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 79
+          "VOTES": 81
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 75
+          "VOTES": 76
         },
         {
           "PARTY_ID": 140,
@@ -55978,15 +55978,15 @@
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 69
+          "VOTES": 70
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 48
+          "VOTES": 49
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 24
+          "VOTES": 25
         },
         {
           "PARTY_ID": 113,
@@ -56143,52 +56143,52 @@
     },
     {
       "DEN_ID": 124,
-      "Updated": "2023-06-25 21:57:06.170",
-      "NumTm": 72,
-      "Gramenoi": 38428,
-      "Egkyra": 24754,
-      "Akyra": 94,
-      "Leyka": 136,
+      "Updated": "2023-06-25 22:04:22.990",
+      "NumTm": 73,
+      "Gramenoi": 38965,
+      "Egkyra": 25093,
+      "Akyra": 95,
+      "Leyka": 138,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 15745
+          "VOTES": 15941
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 2690
+          "VOTES": 2733
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 1268
+          "VOTES": 1293
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1263
+          "VOTES": 1281
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 680
+          "VOTES": 690
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 648
+          "VOTES": 663
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 602
+          "VOTES": 612
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 559
+          "VOTES": 564
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 550
+          "VOTES": 560
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 112
+          "VOTES": 115
         },
         {
           "PARTY_ID": 153,
@@ -56199,24 +56199,24 @@
           "VOTES": 107
         },
         {
-          "PARTY_ID": 150,
+          "PARTY_ID": 44,
           "VOTES": 74
         },
         {
-          "PARTY_ID": 44,
-          "VOTES": 73
+          "PARTY_ID": 150,
+          "VOTES": 74
         },
         {
           "PARTY_ID": 130,
           "VOTES": 67
         },
         {
-          "PARTY_ID": 158,
+          "PARTY_ID": 140,
           "VOTES": 54
         },
         {
-          "PARTY_ID": 140,
-          "VOTES": 53
+          "PARTY_ID": 158,
+          "VOTES": 54
         },
         {
           "PARTY_ID": 15,
@@ -56232,7 +56232,7 @@
         },
         {
           "PARTY_ID": 113,
-          "VOTES": 8
+          "VOTES": 10
         },
         {
           "PARTY_ID": 78,
@@ -56619,7 +56619,7 @@
     },
     {
       "DEN_ID": 127,
-      "Updated": "2023-06-25 21:58:00.783",
+      "Updated": "2023-06-25 22:03:50.243",
       "NumTm": 36,
       "Gramenoi": 19627,
       "Egkyra": 11671,
@@ -57809,7 +57809,7 @@
     },
     {
       "DEN_ID": 146,
-      "Updated": "2023-06-25 21:58:25.870",
+      "Updated": "2023-06-25 22:04:39.230",
       "NumTm": 94,
       "Gramenoi": 50265,
       "Egkyra": 30766,
@@ -57928,52 +57928,52 @@
     },
     {
       "DEN_ID": 101,
-      "Updated": "2023-06-25 21:46:16.680",
-      "NumTm": 41,
-      "Gramenoi": 21344,
-      "Egkyra": 10811,
+      "Updated": "2023-06-25 22:03:07.073",
+      "NumTm": 42,
+      "Gramenoi": 21850,
+      "Egkyra": 11104,
       "Akyra": 73,
       "Leyka": 51,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 3461
+          "VOTES": 3545
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 2294
+          "VOTES": 2371
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 1215
+          "VOTES": 1255
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1026
+          "VOTES": 1062
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 672
+          "VOTES": 682
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 601
+          "VOTES": 614
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 465
-        },
-        {
-          "PARTY_ID": 131,
-          "VOTES": 282
+          "VOTES": 477
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 281
+          "VOTES": 288
+        },
+        {
+          "PARTY_ID": 131,
+          "VOTES": 287
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 67
+          "VOTES": 69
         },
         {
           "PARTY_ID": 158,
@@ -57981,11 +57981,11 @@
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 63
+          "VOTES": 64
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 51
+          "VOTES": 52
         },
         {
           "PARTY_ID": 153,
@@ -57993,11 +57993,11 @@
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 39
+          "VOTES": 41
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 36
+          "VOTES": 37
         },
         {
           "PARTY_ID": 125,
@@ -58009,7 +58009,7 @@
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 25
+          "VOTES": 26
         },
         {
           "PARTY_ID": 113,
@@ -58017,7 +58017,7 @@
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 16
+          "VOTES": 17
         },
         {
           "PARTY_ID": 11,
@@ -58404,92 +58404,92 @@
     },
     {
       "DEN_ID": 120,
-      "Updated": "2023-06-25 21:58:10.820",
-      "NumTm": 101,
-      "Gramenoi": 53450,
-      "Egkyra": 30626,
-      "Akyra": 187,
-      "Leyka": 139,
+      "Updated": "2023-06-25 22:01:46.837",
+      "NumTm": 103,
+      "Gramenoi": 54516,
+      "Egkyra": 31241,
+      "Akyra": 191,
+      "Leyka": 142,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 10359
+          "VOTES": 10563
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 6761
+          "VOTES": 6892
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 3502
+          "VOTES": 3588
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 2898
+          "VOTES": 2964
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 1615
+          "VOTES": 1641
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 1290
+          "VOTES": 1313
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 1189
+          "VOTES": 1206
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 901
+          "VOTES": 918
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 864
+          "VOTES": 880
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 167
+          "VOTES": 172
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 146
+          "VOTES": 152
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 143
+          "VOTES": 145
+        },
+        {
+          "PARTY_ID": 130,
+          "VOTES": 144
         },
         {
           "PARTY_ID": 158,
           "VOTES": 143
         },
         {
-          "PARTY_ID": 130,
-          "VOTES": 140
-        },
-        {
           "PARTY_ID": 150,
-          "VOTES": 133
-        },
-        {
-          "PARTY_ID": 125,
-          "VOTES": 76
+          "VOTES": 135
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 75
+          "VOTES": 78
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 75
+          "VOTES": 78
+        },
+        {
+          "PARTY_ID": 125,
+          "VOTES": 77
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 70
+          "VOTES": 71
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 29
+          "VOTES": 31
         },
         {
           "PARTY_ID": 113,
@@ -58761,88 +58761,88 @@
     },
     {
       "DEN_ID": 145,
-      "Updated": "2023-06-25 21:54:59.807",
-      "NumTm": 62,
-      "Gramenoi": 32433,
-      "Egkyra": 19984,
+      "Updated": "2023-06-25 22:00:06.423",
+      "NumTm": 63,
+      "Gramenoi": 32952,
+      "Egkyra": 20355,
       "Akyra": 106,
-      "Leyka": 97,
+      "Leyka": 99,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 7613
+          "VOTES": 7771
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 3866
+          "VOTES": 3926
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 2461
+          "VOTES": 2497
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1621
+          "VOTES": 1656
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 879
+          "VOTES": 894
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 831
+          "VOTES": 846
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 710
+          "VOTES": 726
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 696
+          "VOTES": 707
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 471
+          "VOTES": 476
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 121
+          "VOTES": 123
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 103
+          "VOTES": 105
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 102
+          "VOTES": 103
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 92
+          "VOTES": 94
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 91
+          "VOTES": 94
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 85
+          "VOTES": 87
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 67
+          "VOTES": 68
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 61
+          "VOTES": 62
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 38
+          "VOTES": 41
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 35
+          "VOTES": 37
         },
         {
           "PARTY_ID": 113,
@@ -58850,7 +58850,7 @@
         },
         {
           "PARTY_ID": 78,
-          "VOTES": 7
+          "VOTES": 8
         },
         {
           "PARTY_ID": 10,
@@ -59114,52 +59114,52 @@
     },
     {
       "DEN_ID": 114,
-      "Updated": "2023-06-25 21:46:57.097",
-      "NumTm": 33,
-      "Gramenoi": 17720,
-      "Egkyra": 9140,
-      "Akyra": 47,
-      "Leyka": 35,
+      "Updated": "2023-06-25 22:02:37.020",
+      "NumTm": 34,
+      "Gramenoi": 18255,
+      "Egkyra": 9436,
+      "Akyra": 49,
+      "Leyka": 37,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 3575
+          "VOTES": 3698
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 1867
+          "VOTES": 1920
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 1002
+          "VOTES": 1037
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 715
+          "VOTES": 733
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 374
+          "VOTES": 392
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 323
+          "VOTES": 334
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 308
+          "VOTES": 319
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 305
+          "VOTES": 311
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 277
+          "VOTES": 289
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 59
+          "VOTES": 60
         },
         {
           "PARTY_ID": 153,
@@ -59171,7 +59171,7 @@
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 45
+          "VOTES": 46
         },
         {
           "PARTY_ID": 130,
@@ -59183,7 +59183,7 @@
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 25
+          "VOTES": 26
         },
         {
           "PARTY_ID": 125,
@@ -59195,15 +59195,15 @@
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 19
+          "VOTES": 21
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 13
+          "VOTES": 14
         },
         {
           "PARTY_ID": 113,
-          "VOTES": 7
+          "VOTES": 10
         },
         {
           "PARTY_ID": 78,
@@ -59344,84 +59344,84 @@
     },
     {
       "DEN_ID": 117,
-      "Updated": "2023-06-25 21:46:47.000",
-      "NumTm": 89,
-      "Gramenoi": 46920,
-      "Egkyra": 27466,
-      "Akyra": 132,
-      "Leyka": 162,
+      "Updated": "2023-06-25 22:00:51.610",
+      "NumTm": 90,
+      "Gramenoi": 47421,
+      "Egkyra": 27853,
+      "Akyra": 134,
+      "Leyka": 164,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 10868
+          "VOTES": 11036
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 5905
+          "VOTES": 5972
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 2980
+          "VOTES": 3018
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 2359
+          "VOTES": 2386
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 1083
+          "VOTES": 1100
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 910
+          "VOTES": 931
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 873
+          "VOTES": 882
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 796
+          "VOTES": 804
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 738
+          "VOTES": 752
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 147
+          "VOTES": 149
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 135
+          "VOTES": 138
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 122
+          "VOTES": 123
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 109
+          "VOTES": 110
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 89
-        },
-        {
-          "PARTY_ID": 15,
-          "VOTES": 70
+          "VOTES": 91
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 70
+          "VOTES": 73
         },
         {
-          "PARTY_ID": 155,
-          "VOTES": 68
+          "PARTY_ID": 15,
+          "VOTES": 71
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 68
+          "VOTES": 71
+        },
+        {
+          "PARTY_ID": 155,
+          "VOTES": 70
         },
         {
           "PARTY_ID": 125,
@@ -59459,7 +59459,7 @@
     },
     {
       "DEN_ID": 118,
-      "Updated": "2023-06-25 21:59:45.953",
+      "Updated": "2023-06-25 22:03:41.603",
       "NumTm": 108,
       "Gramenoi": 56867,
       "Egkyra": 34716,
@@ -59574,67 +59574,67 @@
     },
     {
       "DEN_ID": 121,
-      "Updated": "2023-06-25 21:58:51.027",
-      "NumTm": 41,
-      "Gramenoi": 21634,
-      "Egkyra": 13136,
-      "Akyra": 69,
-      "Leyka": 72,
+      "Updated": "2023-06-25 22:00:16.467",
+      "NumTm": 42,
+      "Gramenoi": 22172,
+      "Egkyra": 13581,
+      "Akyra": 72,
+      "Leyka": 75,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 4710
+          "VOTES": 4886
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 2777
+          "VOTES": 2870
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 2032
+          "VOTES": 2073
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 934
+          "VOTES": 980
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 594
+          "VOTES": 610
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 424
+          "VOTES": 435
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 419
-        },
-        {
-          "PARTY_ID": 131,
-          "VOTES": 361
+          "VOTES": 433
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 355
+          "VOTES": 371
+        },
+        {
+          "PARTY_ID": 131,
+          "VOTES": 367
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 97
+          "VOTES": 100
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 92
+          "VOTES": 99
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 60
-        },
-        {
-          "PARTY_ID": 28,
-          "VOTES": 49
+          "VOTES": 62
         },
         {
           "PARTY_ID": 130,
+          "VOTES": 53
+        },
+        {
+          "PARTY_ID": 28,
           "VOTES": 49
         },
         {
@@ -59643,19 +59643,19 @@
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 36
+          "VOTES": 38
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 30
+          "VOTES": 33
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 26
+          "VOTES": 28
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 19
+          "VOTES": 21
         },
         {
           "PARTY_ID": 10,
@@ -59666,15 +59666,15 @@
           "VOTES": 7
         },
         {
+          "PARTY_ID": 66,
+          "VOTES": 4
+        },
+        {
           "PARTY_ID": 78,
           "VOTES": 4
         },
         {
           "PARTY_ID": 11,
-          "VOTES": 3
-        },
-        {
-          "PARTY_ID": 66,
           "VOTES": 3
         },
         {
@@ -59927,48 +59927,48 @@
     },
     {
       "DEN_ID": 103,
-      "Updated": "2023-06-25 21:59:21.120",
-      "NumTm": 83,
-      "Gramenoi": 44300,
-      "Egkyra": 26190,
-      "Akyra": 150,
-      "Leyka": 141,
+      "Updated": "2023-06-25 22:02:16.943",
+      "NumTm": 84,
+      "Gramenoi": 44829,
+      "Egkyra": 26520,
+      "Akyra": 152,
+      "Leyka": 144,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 9836
+          "VOTES": 9956
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 5048
+          "VOTES": 5119
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 3026
+          "VOTES": 3063
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 2372
+          "VOTES": 2404
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 1126
+          "VOTES": 1145
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 1025
+          "VOTES": 1036
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 933
+          "VOTES": 944
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 914
+          "VOTES": 923
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 852
+          "VOTES": 863
         },
         {
           "PARTY_ID": 130,
@@ -59980,19 +59980,19 @@
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 113
+          "VOTES": 115
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 105
-        },
-        {
-          "PARTY_ID": 158,
-          "VOTES": 101
+          "VOTES": 106
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 100
+          "VOTES": 102
+        },
+        {
+          "PARTY_ID": 158,
+          "VOTES": 102
         },
         {
           "PARTY_ID": 44,
@@ -60004,7 +60004,7 @@
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 74
+          "VOTES": 75
         },
         {
           "PARTY_ID": 125,
@@ -60016,11 +60016,11 @@
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 20
+          "VOTES": 21
         },
         {
           "PARTY_ID": 78,
-          "VOTES": 12
+          "VOTES": 13
         },
         {
           "PARTY_ID": 66,
@@ -60502,60 +60502,60 @@
     },
     {
       "DEN_ID": 122,
-      "Updated": "2023-06-25 21:52:50.890",
-      "NumTm": 136,
-      "Gramenoi": 72265,
-      "Egkyra": 36904,
-      "Akyra": 237,
-      "Leyka": 217,
+      "Updated": "2023-06-25 22:00:56.627",
+      "NumTm": 137,
+      "Gramenoi": 72790,
+      "Egkyra": 37201,
+      "Akyra": 238,
+      "Leyka": 220,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 14076
+          "VOTES": 14184
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 7316
+          "VOTES": 7379
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 3824
+          "VOTES": 3850
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 3040
+          "VOTES": 3075
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 1935
+          "VOTES": 1952
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 1688
+          "VOTES": 1711
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 1340
+          "VOTES": 1345
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 1190
+          "VOTES": 1195
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 967
+          "VOTES": 972
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 213
+          "VOTES": 214
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 201
+          "VOTES": 203
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 170
+          "VOTES": 172
         },
         {
           "PARTY_ID": 150,
@@ -60579,7 +60579,7 @@
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 92
+          "VOTES": 94
         },
         {
           "PARTY_ID": 125,
@@ -60587,15 +60587,15 @@
         },
         {
           "PARTY_ID": 113,
-          "VOTES": 48
+          "VOTES": 49
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 37
+          "VOTES": 38
         },
         {
           "PARTY_ID": 78,
-          "VOTES": 23
+          "VOTES": 24
         },
         {
           "PARTY_ID": 66,
@@ -60962,55 +60962,59 @@
     },
     {
       "DEN_ID": 136,
-      "Updated": "2023-06-25 21:57:40.937",
-      "NumTm": 89,
-      "Gramenoi": 47496,
-      "Egkyra": 27521,
-      "Akyra": 113,
-      "Leyka": 153,
+      "Updated": "2023-06-25 22:04:02.293",
+      "NumTm": 90,
+      "Gramenoi": 48045,
+      "Egkyra": 27842,
+      "Akyra": 118,
+      "Leyka": 157,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 14332
+          "VOTES": 14514
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 4191
+          "VOTES": 4232
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 2044
+          "VOTES": 2071
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1718
+          "VOTES": 1739
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 987
+          "VOTES": 997
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 956
+          "VOTES": 966
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 831
+          "VOTES": 839
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 785
+          "VOTES": 794
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 715
+          "VOTES": 720
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 148
+          "VOTES": 150
         },
         {
           "PARTY_ID": 153,
+          "VOTES": 105
+        },
+        {
+          "PARTY_ID": 130,
           "VOTES": 104
         },
         {
@@ -61018,20 +61022,16 @@
           "VOTES": 103
         },
         {
-          "PARTY_ID": 130,
-          "VOTES": 102
-        },
-        {
           "PARTY_ID": 155,
-          "VOTES": 94
+          "VOTES": 95
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 87
+          "VOTES": 88
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 87
+          "VOTES": 88
         },
         {
           "PARTY_ID": 44,
@@ -61077,64 +61077,64 @@
     },
     {
       "DEN_ID": 4012,
-      "Updated": "2023-06-25 21:48:12.520",
-      "NumTm": 272,
-      "Gramenoi": 144528,
-      "Egkyra": 72279,
-      "Akyra": 410,
-      "Leyka": 368,
+      "Updated": "2023-06-25 22:04:29.057",
+      "NumTm": 273,
+      "Gramenoi": 145061,
+      "Egkyra": 72533,
+      "Akyra": 415,
+      "Leyka": 369,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 32865
+          "VOTES": 32981
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 12705
+          "VOTES": 12757
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 6486
+          "VOTES": 6504
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 4593
+          "VOTES": 4608
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 3319
+          "VOTES": 3333
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 3020
+          "VOTES": 3030
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 2488
+          "VOTES": 2496
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 2092
+          "VOTES": 2096
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 1897
+          "VOTES": 1903
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 407
+          "VOTES": 411
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 334
+          "VOTES": 335
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 294
+          "VOTES": 295
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 279
+          "VOTES": 280
         },
         {
           "PARTY_ID": 44,
@@ -61142,11 +61142,11 @@
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 233
+          "VOTES": 234
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 227
+          "VOTES": 228
         },
         {
           "PARTY_ID": 140,
@@ -61154,7 +61154,7 @@
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 212
+          "VOTES": 213
         },
         {
           "PARTY_ID": 125,
@@ -61178,7 +61178,7 @@
         },
         {
           "PARTY_ID": 11,
-          "VOTES": 23
+          "VOTES": 24
         },
         {
           "PARTY_ID": 66,
@@ -61307,7 +61307,7 @@
     },
     {
       "DEN_ID": 4003,
-      "Updated": "2023-06-25 21:29:11.657",
+      "Updated": "2023-06-25 22:04:04.350",
       "NumTm": 26,
       "Gramenoi": 12691,
       "Egkyra": 6847,
@@ -62572,7 +62572,7 @@
     },
     {
       "DEN_ID": 4001,
-      "Updated": "2023-06-25 21:32:04.447",
+      "Updated": "2023-06-25 22:02:33.623",
       "NumTm": 25,
       "Gramenoi": 13124,
       "Egkyra": 6425,
@@ -62802,7 +62802,7 @@
     },
     {
       "DEN_ID": 4013,
-      "Updated": "2023-06-25 21:59:41.243",
+      "Updated": "2023-06-25 22:03:28.657",
       "NumTm": 42,
       "Gramenoi": 22039,
       "Egkyra": 10548,
@@ -63147,7 +63147,7 @@
     },
     {
       "DEN_ID": 309,
-      "Updated": "2023-06-25 21:55:26.477",
+      "Updated": "2023-06-25 22:04:42.180",
       "NumTm": 123,
       "Gramenoi": 64862,
       "Egkyra": 33346,
@@ -64479,7 +64479,7 @@
     },
     {
       "DEN_ID": 326,
-      "Updated": "2023-06-25 21:52:23.820",
+      "Updated": "2023-06-25 22:02:55.677",
       "NumTm": 40,
       "Gramenoi": 19982,
       "Egkyra": 11460,
@@ -65367,7 +65367,7 @@
     },
     {
       "DEN_ID": 330,
-      "Updated": "2023-06-25 21:52:11.400",
+      "Updated": "2023-06-25 22:03:17.163",
       "NumTm": 30,
       "Gramenoi": 14914,
       "Egkyra": 9296,
@@ -66255,7 +66255,7 @@
     },
     {
       "DEN_ID": 303,
-      "Updated": "2023-06-25 21:54:44.693",
+      "Updated": "2023-06-25 22:01:37.147",
       "NumTm": 11,
       "Gramenoi": 5937,
       "Egkyra": 3645,
@@ -66366,7 +66366,7 @@
     },
     {
       "DEN_ID": 321,
-      "Updated": "2023-06-25 21:53:34.373",
+      "Updated": "2023-06-25 22:02:27.120",
       "NumTm": 18,
       "Gramenoi": 9631,
       "Egkyra": 5807,
@@ -66588,7 +66588,7 @@
     },
     {
       "DEN_ID": 335,
-      "Updated": "2023-06-25 21:46:41.963",
+      "Updated": "2023-06-25 22:02:02.293",
       "NumTm": 5,
       "Gramenoi": 2810,
       "Egkyra": 1769,
@@ -67920,7 +67920,7 @@
     },
     {
       "DEN_ID": 347,
-      "Updated": "2023-06-25 21:44:21.053",
+      "Updated": "2023-06-25 22:03:22.340",
       "NumTm": 14,
       "Gramenoi": 6584,
       "Egkyra": 4058,
@@ -77624,7 +77624,7 @@
     },
     {
       "DEN_ID": 615,
-      "Updated": "2023-06-25 21:53:48.273",
+      "Updated": "2023-06-25 22:03:20.883",
       "NumTm": 13,
       "Gramenoi": 4378,
       "Egkyra": 1544,
@@ -80923,7 +80923,7 @@
     },
     {
       "DEN_ID": 717,
-      "Updated": "2023-06-25 21:03:58.983",
+      "Updated": "2023-06-25 22:04:55.263",
       "NumTm": 13,
       "Gramenoi": 6159,
       "Egkyra": 3607,
@@ -82124,7 +82124,7 @@
     },
     {
       "DEN_ID": 817,
-      "Updated": "2023-06-25 22:00:00.473",
+      "Updated": "2023-06-25 22:02:41.127",
       "NumTm": 11,
       "Gramenoi": 4610,
       "Egkyra": 2479,
@@ -82231,7 +82231,7 @@
     },
     {
       "DEN_ID": 806,
-      "Updated": "2023-06-25 21:11:54.080",
+      "Updated": "2023-06-25 22:04:02.150",
       "NumTm": 5,
       "Gramenoi": 1943,
       "Egkyra": 1130,
@@ -82873,7 +82873,7 @@
     },
     {
       "DEN_ID": 816,
-      "Updated": "2023-06-25 21:58:58.303",
+      "Updated": "2023-06-25 22:03:54.663",
       "NumTm": 21,
       "Gramenoi": 9276,
       "Egkyra": 4582,
@@ -83087,7 +83087,7 @@
     },
     {
       "DEN_ID": 815,
-      "Updated": "2023-06-25 21:40:43.760",
+      "Updated": "2023-06-25 22:04:54.683",
       "NumTm": 8,
       "Gramenoi": 3338,
       "Egkyra": 1938,
@@ -83717,7 +83717,7 @@
     },
     {
       "DEN_ID": 904,
-      "Updated": "2023-06-25 21:59:45.577",
+      "Updated": "2023-06-25 22:03:09.287",
       "NumTm": 37,
       "Gramenoi": 14735,
       "Egkyra": 7352,
@@ -84026,7 +84026,7 @@
     },
     {
       "DEN_ID": 908,
-      "Updated": "2023-06-25 21:48:32.457",
+      "Updated": "2023-06-25 22:00:06.643",
       "NumTm": 14,
       "Gramenoi": 3595,
       "Egkyra": 1573,
@@ -93294,7 +93294,7 @@
     },
     {
       "DEN_ID": 1426,
-      "Updated": "2023-06-25 21:52:59.197",
+      "Updated": "2023-06-25 22:03:30.460",
       "NumTm": 81,
       "Gramenoi": 42830,
       "Egkyra": 23180,
@@ -93805,7 +93805,7 @@
     },
     {
       "DEN_ID": 1511,
-      "Updated": "2023-06-25 21:14:45.220",
+      "Updated": "2023-06-25 22:03:04.320",
       "NumTm": 11,
       "Gramenoi": 2759,
       "Egkyra": 915,
@@ -94003,7 +94003,7 @@
     },
     {
       "DEN_ID": 1506,
-      "Updated": "2023-06-25 21:46:48.547",
+      "Updated": "2023-06-25 22:03:34.337",
       "NumTm": 27,
       "Gramenoi": 9346,
       "Egkyra": 4298,
@@ -94300,7 +94300,7 @@
     },
     {
       "DEN_ID": 1509,
-      "Updated": "2023-06-25 21:31:41.620",
+      "Updated": "2023-06-25 22:01:12.173",
       "NumTm": 11,
       "Gramenoi": 1577,
       "Egkyra": 391,
@@ -94597,7 +94597,7 @@
     },
     {
       "DEN_ID": 1602,
-      "Updated": "2023-06-25 21:54:31.567",
+      "Updated": "2023-06-25 22:02:26.097",
       "NumTm": 12,
       "Gramenoi": 5135,
       "Egkyra": 2597,
@@ -94696,7 +94696,7 @@
     },
     {
       "DEN_ID": 1603,
-      "Updated": "2023-06-25 21:52:09.183",
+      "Updated": "2023-06-25 22:03:16.293",
       "NumTm": 16,
       "Gramenoi": 5119,
       "Egkyra": 2436,
@@ -94894,7 +94894,7 @@
     },
     {
       "DEN_ID": 1605,
-      "Updated": "2023-06-25 21:58:59.197",
+      "Updated": "2023-06-25 22:01:39.987",
       "NumTm": 31,
       "Gramenoi": 14996,
       "Egkyra": 7281,
@@ -94993,7 +94993,7 @@
     },
     {
       "DEN_ID": 1606,
-      "Updated": "2023-06-25 21:25:21.480",
+      "Updated": "2023-06-25 22:03:01.287",
       "NumTm": 15,
       "Gramenoi": 6328,
       "Egkyra": 2944,
@@ -98667,7 +98667,7 @@
     },
     {
       "DEN_ID": 1811,
-      "Updated": "2023-06-25 21:49:38.090",
+      "Updated": "2023-06-25 22:04:34.000",
       "NumTm": 37,
       "Gramenoi": 19554,
       "Egkyra": 10747,
@@ -99849,56 +99849,56 @@
     },
     {
       "DEN_ID": 1912,
-      "Updated": "2023-06-25 21:59:41.280",
-      "NumTm": 210,
-      "Gramenoi": 108559,
-      "Egkyra": 64288,
+      "Updated": "2023-06-25 22:02:57.057",
+      "NumTm": 211,
+      "Gramenoi": 109088,
+      "Egkyra": 64576,
       "Akyra": 376,
-      "Leyka": 340,
+      "Leyka": 342,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 22661
+          "VOTES": 22750
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 14431
+          "VOTES": 14488
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 11624
+          "VOTES": 11686
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 4249
+          "VOTES": 4278
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 2384
+          "VOTES": 2395
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 2197
+          "VOTES": 2205
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 1867
+          "VOTES": 1874
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 1489
+          "VOTES": 1496
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 1242
+          "VOTES": 1250
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 338
+          "VOTES": 341
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 266
+          "VOTES": 268
         },
         {
           "PARTY_ID": 130,
@@ -99906,11 +99906,11 @@
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 201
+          "VOTES": 202
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 193
+          "VOTES": 194
         },
         {
           "PARTY_ID": 150,
@@ -99918,7 +99918,7 @@
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 177
+          "VOTES": 178
         },
         {
           "PARTY_ID": 15,
@@ -99930,7 +99930,7 @@
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 112
+          "VOTES": 114
         },
         {
           "PARTY_ID": 113,
@@ -99968,56 +99968,56 @@
     },
     {
       "DEN_ID": 1919,
-      "Updated": "2023-06-25 22:00:01.400",
-      "NumTm": 21,
-      "Gramenoi": 10738,
-      "Egkyra": 6513,
-      "Akyra": 51,
-      "Leyka": 34,
+      "Updated": "2023-06-25 22:00:41.573",
+      "NumTm": 22,
+      "Gramenoi": 11262,
+      "Egkyra": 6830,
+      "Akyra": 52,
+      "Leyka": 36,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 2238
+          "VOTES": 2346
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 1378
+          "VOTES": 1431
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1227
+          "VOTES": 1298
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 502
+          "VOTES": 522
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 349
+          "VOTES": 366
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 171
+          "VOTES": 185
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 166
-        },
-        {
-          "PARTY_ID": 122,
-          "VOTES": 127
+          "VOTES": 175
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 125
+          "VOTES": 135
+        },
+        {
+          "PARTY_ID": 122,
+          "VOTES": 131
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 45
+          "VOTES": 46
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 33
+          "VOTES": 37
         },
         {
           "PARTY_ID": 130,
@@ -100025,35 +100025,35 @@
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 25
+          "VOTES": 26
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 24
+          "VOTES": 25
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 16
+          "VOTES": 17
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 12
+          "VOTES": 13
         },
         {
           "PARTY_ID": 125,
           "VOTES": 11
         },
         {
+          "PARTY_ID": 113,
+          "VOTES": 10
+        },
+        {
           "PARTY_ID": 15,
           "VOTES": 9
         },
         {
-          "PARTY_ID": 113,
-          "VOTES": 9
-        },
-        {
           "PARTY_ID": 140,
-          "VOTES": 7
+          "VOTES": 8
         },
         {
           "PARTY_ID": 10,
@@ -101872,7 +101872,7 @@
     },
     {
       "DEN_ID": 2002,
-      "Updated": "2023-06-25 21:56:33.380",
+      "Updated": "2023-06-25 22:01:28.593",
       "NumTm": 32,
       "Gramenoi": 15689,
       "Egkyra": 7414,
@@ -102300,44 +102300,44 @@
     },
     {
       "DEN_ID": 2009,
-      "Updated": "2023-06-25 21:35:15.137",
-      "NumTm": 9,
-      "Gramenoi": 3671,
-      "Egkyra": 1685,
+      "Updated": "2023-06-25 22:02:31.963",
+      "NumTm": 10,
+      "Gramenoi": 4066,
+      "Egkyra": 1900,
       "Akyra": 4,
       "Leyka": 9,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 734
+          "VOTES": 838
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 305
+          "VOTES": 350
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 244
-        },
-        {
-          "PARTY_ID": 157,
-          "VOTES": 83
+          "VOTES": 275
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 80
+          "VOTES": 89
+        },
+        {
+          "PARTY_ID": 157,
+          "VOTES": 84
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 77
+          "VOTES": 82
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 41
+          "VOTES": 44
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 37
+          "VOTES": 43
         },
         {
           "PARTY_ID": 131,
@@ -102345,30 +102345,30 @@
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 9
-        },
-        {
-          "PARTY_ID": 140,
-          "VOTES": 7
+          "VOTES": 11
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 7
+          "VOTES": 9
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 6
-        },
-        {
-          "PARTY_ID": 28,
-          "VOTES": 6
+          "VOTES": 8
         },
         {
           "PARTY_ID": 113,
-          "VOTES": 6
+          "VOTES": 8
+        },
+        {
+          "PARTY_ID": 140,
+          "VOTES": 8
         },
         {
           "PARTY_ID": 158,
+          "VOTES": 7
+        },
+        {
+          "PARTY_ID": 28,
           "VOTES": 6
         },
         {
@@ -102377,7 +102377,7 @@
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 2
+          "VOTES": 3
         },
         {
           "PARTY_ID": 155,
@@ -103402,7 +103402,7 @@
     },
     {
       "DEN_ID": 2120,
-      "Updated": "2023-06-25 21:59:47.497",
+      "Updated": "2023-06-25 22:04:38.717",
       "NumTm": 102,
       "Gramenoi": 54574,
       "Egkyra": 33007,
@@ -103517,7 +103517,7 @@
     },
     {
       "DEN_ID": 2112,
-      "Updated": "2023-06-25 21:57:30.543",
+      "Updated": "2023-06-25 22:03:50.627",
       "NumTm": 39,
       "Gramenoi": 19461,
       "Egkyra": 10342,
@@ -103747,7 +103747,7 @@
     },
     {
       "DEN_ID": 2103,
-      "Updated": "2023-06-25 20:40:17.213",
+      "Updated": "2023-06-25 22:01:14.750",
       "NumTm": 10,
       "Gramenoi": 5219,
       "Egkyra": 2664,
@@ -103862,7 +103862,7 @@
     },
     {
       "DEN_ID": 2132,
-      "Updated": "2023-06-25 21:45:06.190",
+      "Updated": "2023-06-25 22:00:13.683",
       "NumTm": 45,
       "Gramenoi": 24467,
       "Egkyra": 12095,
@@ -104092,7 +104092,7 @@
     },
     {
       "DEN_ID": 2140,
-      "Updated": "2023-06-25 21:57:58.667",
+      "Updated": "2023-06-25 22:04:54.817",
       "NumTm": 53,
       "Gramenoi": 28380,
       "Egkyra": 15335,
@@ -104129,7 +104129,7 @@
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 763
+          "VOTES": 754
         },
         {
           "PARTY_ID": 122,
@@ -104153,7 +104153,7 @@
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 82
+          "VOTES": 79
         },
         {
           "PARTY_ID": 155,
@@ -104176,16 +104176,16 @@
           "VOTES": 28
         },
         {
+          "PARTY_ID": 113,
+          "VOTES": 24
+        },
+        {
           "PARTY_ID": 66,
           "VOTES": 19
         },
         {
           "PARTY_ID": 78,
-          "VOTES": 13
-        },
-        {
-          "PARTY_ID": 113,
-          "VOTES": 13
+          "VOTES": 14
         },
         {
           "PARTY_ID": 10,
@@ -104322,80 +104322,80 @@
     },
     {
       "DEN_ID": 2135,
-      "Updated": "2023-06-25 21:47:52.417",
-      "NumTm": 48,
-      "Gramenoi": 25054,
-      "Egkyra": 13989,
-      "Akyra": 101,
-      "Leyka": 80,
+      "Updated": "2023-06-25 22:01:46.820",
+      "NumTm": 49,
+      "Gramenoi": 25554,
+      "Egkyra": 14228,
+      "Akyra": 104,
+      "Leyka": 83,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 3969
+          "VOTES": 4038
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 2418
+          "VOTES": 2451
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 1366
+          "VOTES": 1393
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 1360
+          "VOTES": 1388
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1186
+          "VOTES": 1207
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 963
+          "VOTES": 976
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 940
+          "VOTES": 955
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 664
+          "VOTES": 678
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 410
+          "VOTES": 417
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 108
+          "VOTES": 109
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 96
+          "VOTES": 99
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 90
-        },
-        {
-          "PARTY_ID": 28,
-          "VOTES": 87
+          "VOTES": 91
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 86
+          "VOTES": 88
+        },
+        {
+          "PARTY_ID": 28,
+          "VOTES": 88
         },
         {
           "PARTY_ID": 140,
           "VOTES": 53
         },
         {
-          "PARTY_ID": 150,
-          "VOTES": 41
+          "PARTY_ID": 155,
+          "VOTES": 42
         },
         {
-          "PARTY_ID": 155,
-          "VOTES": 40
+          "PARTY_ID": 150,
+          "VOTES": 41
         },
         {
           "PARTY_ID": 44,
@@ -104403,11 +104403,11 @@
         },
         {
           "PARTY_ID": 113,
-          "VOTES": 26
+          "VOTES": 27
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 24
+          "VOTES": 25
         },
         {
           "PARTY_ID": 10,
@@ -104667,7 +104667,7 @@
     },
     {
       "DEN_ID": 2106,
-      "Updated": "2023-06-25 21:41:11.713",
+      "Updated": "2023-06-25 22:01:04.460",
       "NumTm": 9,
       "Gramenoi": 4616,
       "Egkyra": 2607,
@@ -106162,7 +106162,7 @@
     },
     {
       "DEN_ID": 2130,
-      "Updated": "2023-06-25 21:56:08.933",
+      "Updated": "2023-06-25 22:00:52.990",
       "NumTm": 23,
       "Gramenoi": 11623,
       "Egkyra": 7591,
@@ -106737,7 +106737,7 @@
     },
     {
       "DEN_ID": 2125,
-      "Updated": "2023-06-25 21:58:17.977",
+      "Updated": "2023-06-25 22:04:33.010",
       "NumTm": 36,
       "Gramenoi": 18000,
       "Egkyra": 10432,
@@ -107427,7 +107427,7 @@
     },
     {
       "DEN_ID": 2101,
-      "Updated": "2023-06-25 21:59:06.407",
+      "Updated": "2023-06-25 22:01:11.643",
       "NumTm": 26,
       "Gramenoi": 12982,
       "Egkyra": 8031,
@@ -113360,7 +113360,7 @@
     },
     {
       "DEN_ID": 2307,
-      "Updated": "2023-06-25 21:30:07.427",
+      "Updated": "2023-06-25 22:04:17.220",
       "NumTm": 13,
       "Gramenoi": 5392,
       "Egkyra": 2960,
@@ -113467,7 +113467,7 @@
     },
     {
       "DEN_ID": 2308,
-      "Updated": "2023-06-25 21:08:24.347",
+      "Updated": "2023-06-25 22:03:22.203",
       "NumTm": 13,
       "Gramenoi": 5837,
       "Egkyra": 2567,
@@ -114216,7 +114216,7 @@
     },
     {
       "DEN_ID": 2408,
-      "Updated": "2023-06-25 21:51:29.167",
+      "Updated": "2023-06-25 22:01:06.683",
       "NumTm": 12,
       "Gramenoi": 5435,
       "Egkyra": 3097,
@@ -114323,48 +114323,48 @@
     },
     {
       "DEN_ID": 2409,
-      "Updated": "2023-06-25 21:48:17.647",
-      "NumTm": 58,
-      "Gramenoi": 30404,
-      "Egkyra": 16711,
-      "Akyra": 135,
-      "Leyka": 76,
+      "Updated": "2023-06-25 22:03:45.033",
+      "NumTm": 59,
+      "Gramenoi": 30956,
+      "Egkyra": 17020,
+      "Akyra": 137,
+      "Leyka": 78,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 6466
+          "VOTES": 6597
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 3189
+          "VOTES": 3238
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 2398
+          "VOTES": 2438
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 1422
+          "VOTES": 1451
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 843
+          "VOTES": 865
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 570
+          "VOTES": 581
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 503
+          "VOTES": 512
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 403
+          "VOTES": 410
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 326
+          "VOTES": 329
         },
         {
           "PARTY_ID": 44,
@@ -114372,19 +114372,19 @@
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 66
+          "VOTES": 67
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 65
+          "VOTES": 66
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 63
+          "VOTES": 64
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 61
+          "VOTES": 64
         },
         {
           "PARTY_ID": 150,
@@ -114392,7 +114392,7 @@
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 55
+          "VOTES": 56
         },
         {
           "PARTY_ID": 155,
@@ -114412,7 +114412,7 @@
         },
         {
           "PARTY_ID": 113,
-          "VOTES": 7
+          "VOTES": 8
         },
         {
           "PARTY_ID": 66,
@@ -117533,7 +117533,7 @@
     },
     {
       "DEN_ID": 2601,
-      "Updated": "2023-06-25 21:51:41.820",
+      "Updated": "2023-06-25 22:03:25.237",
       "NumTm": 15,
       "Gramenoi": 4619,
       "Egkyra": 2101,
@@ -118068,7 +118068,7 @@
     },
     {
       "DEN_ID": 2606,
-      "Updated": "2023-06-25 21:56:49.980",
+      "Updated": "2023-06-25 22:04:10.253",
       "NumTm": 6,
       "Gramenoi": 2362,
       "Egkyra": 1125,
@@ -119887,63 +119887,63 @@
     },
     {
       "DEN_ID": 2707,
-      "Updated": "2023-06-25 21:14:17.317",
-      "NumTm": 23,
-      "Gramenoi": 9656,
-      "Egkyra": 3653,
-      "Akyra": 30,
-      "Leyka": 22,
+      "Updated": "2023-06-25 22:02:11.877",
+      "NumTm": 24,
+      "Gramenoi": 10197,
+      "Egkyra": 3876,
+      "Akyra": 31,
+      "Leyka": 23,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 1147
+          "VOTES": 1228
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 820
+          "VOTES": 863
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 646
+          "VOTES": 686
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 406
+          "VOTES": 430
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 165
+          "VOTES": 171
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 117
+          "VOTES": 127
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 115
+          "VOTES": 120
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 69
+          "VOTES": 74
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 57
+          "VOTES": 59
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 22
-        },
-        {
-          "PARTY_ID": 125,
-          "VOTES": 12
+          "VOTES": 23
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 12
+          "VOTES": 13
         },
         {
           "PARTY_ID": 150,
+          "VOTES": 13
+        },
+        {
+          "PARTY_ID": 125,
           "VOTES": 12
         },
         {
@@ -119952,7 +119952,7 @@
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 11
+          "VOTES": 12
         },
         {
           "PARTY_ID": 10,
@@ -119964,15 +119964,15 @@
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 6
+          "VOTES": 7
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 4
+          "VOTES": 5
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 1
+          "VOTES": 2
         },
         {
           "PARTY_ID": 66,
@@ -120414,44 +120414,44 @@
     },
     {
       "DEN_ID": 2806,
-      "Updated": "2023-06-25 21:55:37.227",
-      "NumTm": 48,
-      "Gramenoi": 22775,
-      "Egkyra": 11501,
+      "Updated": "2023-06-25 22:01:21.703",
+      "NumTm": 49,
+      "Gramenoi": 23271,
+      "Egkyra": 11794,
       "Akyra": 42,
-      "Leyka": 50,
+      "Leyka": 51,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 3994
+          "VOTES": 4036
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 1742
+          "VOTES": 1812
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1679
+          "VOTES": 1746
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 1077
+          "VOTES": 1098
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 866
+          "VOTES": 927
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 700
+          "VOTES": 710
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 559
+          "VOTES": 570
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 291
+          "VOTES": 295
         },
         {
           "PARTY_ID": 122,
@@ -120463,7 +120463,7 @@
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 46
+          "VOTES": 47
         },
         {
           "PARTY_ID": 28,
@@ -120471,11 +120471,11 @@
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 35
+          "VOTES": 37
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 35
+          "VOTES": 37
         },
         {
           "PARTY_ID": 155,
@@ -120491,7 +120491,7 @@
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 23
+          "VOTES": 25
         },
         {
           "PARTY_ID": 113,
@@ -120826,7 +120826,7 @@
     },
     {
       "DEN_ID": 2812,
-      "Updated": "2023-06-25 21:52:49.197",
+      "Updated": "2023-06-25 22:04:44.167",
       "NumTm": 11,
       "Gramenoi": 5120,
       "Egkyra": 2316,
@@ -134489,7 +134489,7 @@
     },
     {
       "DEN_ID": 3401,
-      "Updated": "2023-06-25 21:47:17.203",
+      "Updated": "2023-06-25 22:02:29.633",
       "NumTm": 39,
       "Gramenoi": 16802,
       "Egkyra": 9710,
@@ -134592,7 +134592,7 @@
     },
     {
       "DEN_ID": 3406,
-      "Updated": "2023-06-25 21:20:12.663",
+      "Updated": "2023-06-25 22:01:21.127",
       "NumTm": 16,
       "Gramenoi": 4752,
       "Egkyra": 2709,
@@ -134798,7 +134798,7 @@
     },
     {
       "DEN_ID": 3402,
-      "Updated": "2023-06-25 21:33:34.863",
+      "Updated": "2023-06-25 22:01:49.620",
       "NumTm": 45,
       "Gramenoi": 20064,
       "Egkyra": 11211,
@@ -135004,7 +135004,7 @@
     },
     {
       "DEN_ID": 3407,
-      "Updated": "2023-06-25 21:23:26.830",
+      "Updated": "2023-06-25 22:01:04.603",
       "NumTm": 10,
       "Gramenoi": 2602,
       "Egkyra": 1480,
@@ -135040,16 +135040,16 @@
           "VOTES": 20
         },
         {
-          "PARTY_ID": 131,
-          "VOTES": 18
-        },
-        {
           "PARTY_ID": 122,
           "VOTES": 17
         },
         {
+          "PARTY_ID": 131,
+          "VOTES": 17
+        },
+        {
           "PARTY_ID": 15,
-          "VOTES": 3
+          "VOTES": 4
         },
         {
           "PARTY_ID": 28,
@@ -135313,7 +135313,7 @@
     },
     {
       "DEN_ID": 3408,
-      "Updated": "2023-06-25 21:50:28.427",
+      "Updated": "2023-06-25 22:00:24.587",
       "NumTm": 33,
       "Gramenoi": 13262,
       "Egkyra": 7308,
@@ -135519,52 +135519,56 @@
     },
     {
       "DEN_ID": 3501,
-      "Updated": "2023-06-25 21:55:29.107",
-      "NumTm": 5,
-      "Gramenoi": 2639,
-      "Egkyra": 1077,
-      "Akyra": 6,
-      "Leyka": 17,
+      "Updated": "2023-06-25 22:02:11.900",
+      "NumTm": 6,
+      "Gramenoi": 3207,
+      "Egkyra": 1296,
+      "Akyra": 7,
+      "Leyka": 18,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 503
+          "VOTES": 601
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 204
+          "VOTES": 257
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 105
+          "VOTES": 124
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 77
+          "VOTES": 94
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 52
+          "VOTES": 58
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 44
+          "VOTES": 53
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 21
+          "VOTES": 24
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 18
+          "VOTES": 22
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 13
+          "VOTES": 14
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 11
+          "VOTES": 12
+        },
+        {
+          "PARTY_ID": 125,
+          "VOTES": 7
         },
         {
           "PARTY_ID": 158,
@@ -135572,7 +135576,7 @@
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 5
+          "VOTES": 6
         },
         {
           "PARTY_ID": 140,
@@ -135583,7 +135587,7 @@
           "VOTES": 3
         },
         {
-          "PARTY_ID": 125,
+          "PARTY_ID": 155,
           "VOTES": 3
         },
         {
@@ -135591,7 +135595,7 @@
           "VOTES": 2
         },
         {
-          "PARTY_ID": 155,
+          "PARTY_ID": 113,
           "VOTES": 2
         },
         {
@@ -135612,10 +135616,6 @@
         },
         {
           "PARTY_ID": 78,
-          "VOTES": 0
-        },
-        {
-          "PARTY_ID": 113,
           "VOTES": 0
         },
         {
@@ -136803,56 +136803,56 @@
     },
     {
       "DEN_ID": 3518,
-      "Updated": "2023-06-25 21:58:52.130",
-      "NumTm": 12,
-      "Gramenoi": 5267,
-      "Egkyra": 2245,
+      "Updated": "2023-06-25 22:03:42.223",
+      "NumTm": 13,
+      "Gramenoi": 5806,
+      "Egkyra": 2443,
       "Akyra": 24,
       "Leyka": 17,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 920
+          "VOTES": 1006
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 353
-        },
-        {
-          "PARTY_ID": 3,
-          "VOTES": 331
+          "VOTES": 375
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 327
+          "VOTES": 363
+        },
+        {
+          "PARTY_ID": 3,
+          "VOTES": 361
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 85
+          "VOTES": 91
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 60
+          "VOTES": 65
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 51
+          "VOTES": 55
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 35
+          "VOTES": 38
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 24
+          "VOTES": 25
+        },
+        {
+          "PARTY_ID": 28,
+          "VOTES": 9
         },
         {
           "PARTY_ID": 125,
           "VOTES": 9
-        },
-        {
-          "PARTY_ID": 28,
-          "VOTES": 8
         },
         {
           "PARTY_ID": 158,
@@ -136864,19 +136864,19 @@
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 5
+          "VOTES": 6
         },
         {
           "PARTY_ID": 10,
           "VOTES": 4
         },
         {
-          "PARTY_ID": 140,
+          "PARTY_ID": 15,
           "VOTES": 4
         },
         {
-          "PARTY_ID": 15,
-          "VOTES": 3
+          "PARTY_ID": 140,
+          "VOTES": 4
         },
         {
           "PARTY_ID": 44,
@@ -136887,16 +136887,16 @@
           "VOTES": 3
         },
         {
-          "PARTY_ID": 113,
-          "VOTES": 2
-        },
-        {
           "PARTY_ID": 150,
-          "VOTES": 2
+          "VOTES": 3
         },
         {
           "PARTY_ID": 66,
-          "VOTES": 1
+          "VOTES": 2
+        },
+        {
+          "PARTY_ID": 113,
+          "VOTES": 2
         },
         {
           "PARTY_ID": 11,
@@ -138237,7 +138237,7 @@
     },
     {
       "DEN_ID": 3703,
-      "Updated": "2023-06-25 21:57:39.207",
+      "Updated": "2023-06-25 22:01:45.030",
       "NumTm": 27,
       "Gramenoi": 11973,
       "Egkyra": 6972,
@@ -138467,7 +138467,7 @@
     },
     {
       "DEN_ID": 3720,
-      "Updated": "2023-06-25 20:38:20.627",
+      "Updated": "2023-06-25 22:04:54.900",
       "NumTm": 7,
       "Gramenoi": 2710,
       "Egkyra": 1550,
@@ -139042,56 +139042,56 @@
     },
     {
       "DEN_ID": 3709,
-      "Updated": "2023-06-25 21:59:26.560",
-      "NumTm": 111,
-      "Gramenoi": 58907,
-      "Egkyra": 31882,
-      "Akyra": 230,
-      "Leyka": 192,
+      "Updated": "2023-06-25 22:04:52.460",
+      "NumTm": 113,
+      "Gramenoi": 59979,
+      "Egkyra": 32531,
+      "Akyra": 235,
+      "Leyka": 196,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 12727
+          "VOTES": 12995
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 5973
+          "VOTES": 6082
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 2688
+          "VOTES": 2730
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 2499
+          "VOTES": 2555
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 1540
+          "VOTES": 1577
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 1411
+          "VOTES": 1440
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 1345
+          "VOTES": 1376
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 1313
+          "VOTES": 1339
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 1109
+          "VOTES": 1137
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 192
+          "VOTES": 196
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 184
+          "VOTES": 188
         },
         {
           "PARTY_ID": 28,
@@ -139099,31 +139099,31 @@
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 123
+          "VOTES": 125
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 122
+          "VOTES": 125
         },
         {
           "PARTY_ID": 15,
           "VOTES": 96
         },
         {
+          "PARTY_ID": 140,
+          "VOTES": 93
+        },
+        {
           "PARTY_ID": 150,
           "VOTES": 90
         },
         {
-          "PARTY_ID": 140,
-          "VOTES": 88
-        },
-        {
           "PARTY_ID": 155,
-          "VOTES": 88
+          "VOTES": 89
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 50
+          "VOTES": 53
         },
         {
           "PARTY_ID": 10,
@@ -139135,7 +139135,7 @@
         },
         {
           "PARTY_ID": 78,
-          "VOTES": 19
+          "VOTES": 20
         },
         {
           "PARTY_ID": 66,
@@ -139502,64 +139502,64 @@
     },
     {
       "DEN_ID": 3718,
-      "Updated": "2023-06-25 21:56:56.390",
-      "NumTm": 48,
-      "Gramenoi": 24739,
-      "Egkyra": 12778,
-      "Akyra": 82,
-      "Leyka": 55,
+      "Updated": "2023-06-25 22:04:12.390",
+      "NumTm": 49,
+      "Gramenoi": 25263,
+      "Egkyra": 13035,
+      "Akyra": 83,
+      "Leyka": 56,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 4366
+          "VOTES": 4444
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 2886
+          "VOTES": 2948
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 1273
+          "VOTES": 1307
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 974
+          "VOTES": 993
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 795
+          "VOTES": 806
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 574
+          "VOTES": 586
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 540
+          "VOTES": 551
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 498
+          "VOTES": 515
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 320
+          "VOTES": 323
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 77
+          "VOTES": 78
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 71
+          "VOTES": 74
+        },
+        {
+          "PARTY_ID": 28,
+          "VOTES": 70
         },
         {
           "PARTY_ID": 158,
           "VOTES": 70
-        },
-        {
-          "PARTY_ID": 28,
-          "VOTES": 67
         },
         {
           "PARTY_ID": 150,
@@ -139587,11 +139587,11 @@
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 23
+          "VOTES": 25
         },
         {
           "PARTY_ID": 113,
-          "VOTES": 21
+          "VOTES": 22
         },
         {
           "PARTY_ID": 66,
@@ -139732,7 +139732,7 @@
     },
     {
       "DEN_ID": 3710,
-      "Updated": "2023-06-25 21:42:54.463",
+      "Updated": "2023-06-25 22:00:30.593",
       "NumTm": 8,
       "Gramenoi": 3932,
       "Egkyra": 1956,
@@ -140307,7 +140307,7 @@
     },
     {
       "DEN_ID": 3721,
-      "Updated": "2023-06-25 21:08:13.790",
+      "Updated": "2023-06-25 22:04:24.667",
       "NumTm": 5,
       "Gramenoi": 2262,
       "Egkyra": 1126,
@@ -141338,44 +141338,44 @@
     },
     {
       "DEN_ID": 3819,
-      "Updated": "2023-06-25 21:56:32.097",
-      "NumTm": 18,
-      "Gramenoi": 5598,
-      "Egkyra": 2247,
-      "Akyra": 19,
-      "Leyka": 14,
+      "Updated": "2023-06-25 22:02:59.267",
+      "NumTm": 19,
+      "Gramenoi": 6154,
+      "Egkyra": 2497,
+      "Akyra": 22,
+      "Leyka": 15,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 991
+          "VOTES": 1126
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 363
+          "VOTES": 396
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 314
+          "VOTES": 326
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 179
+          "VOTES": 198
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 116
+          "VOTES": 132
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 67
-        },
-        {
-          "PARTY_ID": 122,
-          "VOTES": 64
+          "VOTES": 76
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 58
+          "VOTES": 72
+        },
+        {
+          "PARTY_ID": 122,
+          "VOTES": 68
         },
         {
           "PARTY_ID": 131,
@@ -141383,26 +141383,30 @@
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 11
+          "VOTES": 12
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 10
+          "VOTES": 11
+        },
+        {
+          "PARTY_ID": 155,
+          "VOTES": 11
         },
         {
           "PARTY_ID": 140,
           "VOTES": 10
         },
         {
-          "PARTY_ID": 155,
-          "VOTES": 9
-        },
-        {
           "PARTY_ID": 28,
-          "VOTES": 5
+          "VOTES": 6
         },
         {
           "PARTY_ID": 158,
+          "VOTES": 6
+        },
+        {
+          "PARTY_ID": 150,
           "VOTES": 5
         },
         {
@@ -141410,11 +141414,11 @@
           "VOTES": 4
         },
         {
-          "PARTY_ID": 150,
-          "VOTES": 4
+          "PARTY_ID": 15,
+          "VOTES": 3
         },
         {
-          "PARTY_ID": 15,
+          "PARTY_ID": 125,
           "VOTES": 3
         },
         {
@@ -141423,10 +141427,6 @@
         },
         {
           "PARTY_ID": 66,
-          "VOTES": 2
-        },
-        {
-          "PARTY_ID": 125,
           "VOTES": 2
         },
         {
@@ -141782,48 +141782,48 @@
     },
     {
       "DEN_ID": 3816,
-      "Updated": "2023-06-25 21:59:10.640",
-      "NumTm": 107,
-      "Gramenoi": 54472,
-      "Egkyra": 27746,
-      "Akyra": 170,
-      "Leyka": 142,
+      "Updated": "2023-06-25 22:03:52.270",
+      "NumTm": 108,
+      "Gramenoi": 55014,
+      "Egkyra": 28044,
+      "Akyra": 172,
+      "Leyka": 145,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 11614
+          "VOTES": 11744
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 5250
+          "VOTES": 5304
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 2371
+          "VOTES": 2399
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 2283
+          "VOTES": 2306
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 1814
+          "VOTES": 1832
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 1018
+          "VOTES": 1030
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 841
+          "VOTES": 850
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 743
+          "VOTES": 750
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 735
+          "VOTES": 741
         },
         {
           "PARTY_ID": 153,
@@ -141831,35 +141831,35 @@
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 135
+          "VOTES": 136
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 133
+          "VOTES": 134
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 132
+          "VOTES": 133
         },
         {
           "PARTY_ID": 155,
-          "VOTES": 126
+          "VOTES": 127
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 98
+          "VOTES": 99
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 84
+          "VOTES": 85
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 83
+          "VOTES": 84
         },
         {
           "PARTY_ID": 113,
-          "VOTES": 48
+          "VOTES": 49
         },
         {
           "PARTY_ID": 78,
@@ -141867,11 +141867,11 @@
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 23
+          "VOTES": 25
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 14
+          "VOTES": 15
         },
         {
           "PARTY_ID": 11,
@@ -142448,7 +142448,7 @@
     },
     {
       "DEN_ID": 3822,
-      "Updated": "2023-06-25 21:56:29.567",
+      "Updated": "2023-06-25 22:00:53.350",
       "NumTm": 29,
       "Gramenoi": 12584,
       "Egkyra": 5820,
@@ -142781,7 +142781,7 @@
     },
     {
       "DEN_ID": 3804,
-      "Updated": "2023-06-25 21:57:52.110",
+      "Updated": "2023-06-25 22:02:59.863",
       "NumTm": 15,
       "Gramenoi": 4309,
       "Egkyra": 1673,
@@ -143114,7 +143114,7 @@
     },
     {
       "DEN_ID": 3821,
-      "Updated": "2023-06-25 21:58:42.127",
+      "Updated": "2023-06-25 22:01:19.817",
       "NumTm": 15,
       "Gramenoi": 5202,
       "Egkyra": 2242,
@@ -143447,7 +143447,7 @@
     },
     {
       "DEN_ID": 3820,
-      "Updated": "2023-06-25 21:58:29.613",
+      "Updated": "2023-06-25 22:01:54.833",
       "NumTm": 9,
       "Gramenoi": 3819,
       "Egkyra": 1376,
@@ -144002,7 +144002,7 @@
     },
     {
       "DEN_ID": 3802,
-      "Updated": "2023-06-25 21:49:56.287",
+      "Updated": "2023-06-25 22:02:28.383",
       "NumTm": 14,
       "Gramenoi": 3439,
       "Egkyra": 1225,
@@ -144113,7 +144113,7 @@
     },
     {
       "DEN_ID": 3809,
-      "Updated": "2023-06-25 21:41:56.633",
+      "Updated": "2023-06-25 22:02:29.847",
       "NumTm": 10,
       "Gramenoi": 2697,
       "Egkyra": 1152,
@@ -146059,7 +146059,7 @@
     },
     {
       "DEN_ID": 4104,
-      "Updated": "2023-06-25 21:56:57.047",
+      "Updated": "2023-06-25 22:04:06.303",
       "NumTm": 47,
       "Gramenoi": 23290,
       "Egkyra": 12948,
@@ -146166,7 +146166,7 @@
     },
     {
       "DEN_ID": 4103,
-      "Updated": "2023-06-25 21:56:57.243",
+      "Updated": "2023-06-25 22:04:59.350",
       "NumTm": 63,
       "Gramenoi": 30382,
       "Egkyra": 15690,
@@ -146380,7 +146380,7 @@
     },
     {
       "DEN_ID": 4107,
-      "Updated": "2023-06-25 21:59:06.830",
+      "Updated": "2023-06-25 22:01:59.333",
       "NumTm": 17,
       "Gramenoi": 8746,
       "Egkyra": 4751,
@@ -146487,7 +146487,7 @@
     },
     {
       "DEN_ID": 4108,
-      "Updated": "2023-06-25 21:56:35.380",
+      "Updated": "2023-06-25 22:04:31.257",
       "NumTm": 16,
       "Gramenoi": 7334,
       "Egkyra": 4428,
@@ -146808,7 +146808,7 @@
     },
     {
       "DEN_ID": 4111,
-      "Updated": "2023-06-25 21:54:44.680",
+      "Updated": "2023-06-25 22:02:42.100",
       "NumTm": 33,
       "Gramenoi": 15248,
       "Egkyra": 8405,
@@ -148893,7 +148893,7 @@
     },
     {
       "DEN_ID": 4308,
-      "Updated": "2023-06-25 21:48:18.193",
+      "Updated": "2023-06-25 22:04:56.440",
       "NumTm": 33,
       "Gramenoi": 12356,
       "Egkyra": 5071,
@@ -148930,11 +148930,11 @@
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 81
+          "VOTES": 85
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 53
+          "VOTES": 49
         },
         {
           "PARTY_ID": 44,
@@ -149000,7 +149000,7 @@
     },
     {
       "DEN_ID": 4302,
-      "Updated": "2023-06-25 21:51:11.017",
+      "Updated": "2023-06-25 22:03:31.113",
       "NumTm": 17,
       "Gramenoi": 6807,
       "Egkyra": 3473,
@@ -149107,7 +149107,7 @@
     },
     {
       "DEN_ID": 4305,
-      "Updated": "2023-06-25 21:58:18.660",
+      "Updated": "2023-06-25 22:01:42.070",
       "NumTm": 19,
       "Gramenoi": 6715,
       "Egkyra": 3238,
@@ -149214,7 +149214,7 @@
     },
     {
       "DEN_ID": 4307,
-      "Updated": "2023-06-25 21:57:12.920",
+      "Updated": "2023-06-25 22:00:13.050",
       "NumTm": 33,
       "Gramenoi": 16692,
       "Egkyra": 9062,
@@ -149856,52 +149856,52 @@
     },
     {
       "DEN_ID": 4403,
-      "Updated": "2023-06-25 21:26:29.140",
-      "NumTm": 21,
-      "Gramenoi": 6944,
-      "Egkyra": 4308,
-      "Akyra": 18,
+      "Updated": "2023-06-25 22:04:02.310",
+      "NumTm": 22,
+      "Gramenoi": 7309,
+      "Egkyra": 4550,
+      "Akyra": 20,
       "Leyka": 15,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 1616
+          "VOTES": 1709
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1612
+          "VOTES": 1684
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 576
+          "VOTES": 613
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 83
-        },
-        {
-          "PARTY_ID": 108,
-          "VOTES": 81
+          "VOTES": 93
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 81
+          "VOTES": 87
+        },
+        {
+          "PARTY_ID": 108,
+          "VOTES": 86
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 75
+          "VOTES": 83
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 74
+          "VOTES": 80
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 32
+          "VOTES": 33
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 17
+          "VOTES": 19
         },
         {
           "PARTY_ID": 28,
@@ -149909,7 +149909,7 @@
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 13
+          "VOTES": 14
         },
         {
           "PARTY_ID": 155,
@@ -149924,15 +149924,15 @@
           "VOTES": 5
         },
         {
+          "PARTY_ID": 125,
+          "VOTES": 4
+        },
+        {
           "PARTY_ID": 150,
           "VOTES": 4
         },
         {
           "PARTY_ID": 113,
-          "VOTES": 3
-        },
-        {
-          "PARTY_ID": 125,
           "VOTES": 3
         },
         {
@@ -149963,7 +149963,7 @@
     },
     {
       "DEN_ID": 4404,
-      "Updated": "2023-06-25 21:55:25.633",
+      "Updated": "2023-06-25 22:01:35.580",
       "NumTm": 22,
       "Gramenoi": 5551,
       "Egkyra": 3181,
@@ -151354,7 +151354,7 @@
     },
     {
       "DEN_ID": 4501,
-      "Updated": "2023-06-25 21:34:11.157",
+      "Updated": "2023-06-25 22:02:00.390",
       "NumTm": 14,
       "Gramenoi": 5531,
       "Egkyra": 2491,
@@ -151461,7 +151461,7 @@
     },
     {
       "DEN_ID": 4506,
-      "Updated": "2023-06-25 21:59:15.560",
+      "Updated": "2023-06-25 22:04:26.743",
       "NumTm": 93,
       "Gramenoi": 44284,
       "Egkyra": 21331,
@@ -152666,7 +152666,7 @@
     },
     {
       "DEN_ID": 4606,
-      "Updated": "2023-06-25 21:33:48.507",
+      "Updated": "2023-06-25 22:04:51.320",
       "NumTm": 20,
       "Gramenoi": 8523,
       "Egkyra": 3582,
@@ -156349,7 +156349,7 @@
     },
     {
       "DEN_ID": 4811,
-      "Updated": "2023-06-25 21:48:31.987",
+      "Updated": "2023-06-25 22:03:29.650",
       "NumTm": 7,
       "Gramenoi": 2858,
       "Egkyra": 991,
@@ -156464,7 +156464,7 @@
     },
     {
       "DEN_ID": 4823,
-      "Updated": "2023-06-25 21:54:46.417",
+      "Updated": "2023-06-25 22:04:29.680",
       "NumTm": 9,
       "Gramenoi": 3091,
       "Egkyra": 1201,
@@ -156809,7 +156809,7 @@
     },
     {
       "DEN_ID": 4804,
-      "Updated": "2023-06-25 21:57:27.260",
+      "Updated": "2023-06-25 22:00:11.203",
       "NumTm": 12,
       "Gramenoi": 5630,
       "Egkyra": 3111,
@@ -157269,7 +157269,7 @@
     },
     {
       "DEN_ID": 4820,
-      "Updated": "2023-06-25 21:35:56.000",
+      "Updated": "2023-06-25 22:03:21.240",
       "NumTm": 12,
       "Gramenoi": 4868,
       "Egkyra": 2553,
@@ -157384,7 +157384,7 @@
     },
     {
       "DEN_ID": 4821,
-      "Updated": "2023-06-25 21:42:50.807",
+      "Updated": "2023-06-25 22:03:55.080",
       "NumTm": 11,
       "Gramenoi": 3029,
       "Egkyra": 1288,
@@ -157499,7 +157499,7 @@
     },
     {
       "DEN_ID": 4805,
-      "Updated": "2023-06-25 21:51:54.233",
+      "Updated": "2023-06-25 22:03:41.150",
       "NumTm": 7,
       "Gramenoi": 3259,
       "Egkyra": 1844,
@@ -157614,7 +157614,7 @@
     },
     {
       "DEN_ID": 4807,
-      "Updated": "2023-06-25 21:23:53.383",
+      "Updated": "2023-06-25 22:04:58.130",
       "NumTm": 7,
       "Gramenoi": 2673,
       "Egkyra": 1509,
@@ -158534,7 +158534,7 @@
     },
     {
       "DEN_ID": 4818,
-      "Updated": "2023-06-25 21:57:13.647",
+      "Updated": "2023-06-25 22:04:36.157",
       "NumTm": 6,
       "Gramenoi": 3253,
       "Egkyra": 1756,
@@ -158649,7 +158649,7 @@
     },
     {
       "DEN_ID": 4825,
-      "Updated": "2023-06-25 21:47:08.597",
+      "Updated": "2023-06-25 22:04:38.673",
       "NumTm": 17,
       "Gramenoi": 7116,
       "Egkyra": 3401,
@@ -158875,7 +158875,7 @@
     },
     {
       "DEN_ID": 4908,
-      "Updated": "2023-06-25 21:44:04.983",
+      "Updated": "2023-06-25 22:01:26.240",
       "NumTm": 9,
       "Gramenoi": 3641,
       "Egkyra": 1974,
@@ -159097,7 +159097,7 @@
     },
     {
       "DEN_ID": 4907,
-      "Updated": "2023-06-25 21:56:41.300",
+      "Updated": "2023-06-25 22:04:26.360",
       "NumTm": 18,
       "Gramenoi": 5733,
       "Egkyra": 3213,
@@ -159430,7 +159430,7 @@
     },
     {
       "DEN_ID": 4905,
-      "Updated": "2023-06-25 21:57:35.640",
+      "Updated": "2023-06-25 22:02:20.003",
       "NumTm": 12,
       "Gramenoi": 4018,
       "Egkyra": 2509,
@@ -159541,7 +159541,7 @@
     },
     {
       "DEN_ID": 4912,
-      "Updated": "2023-06-25 21:59:40.160",
+      "Updated": "2023-06-25 22:03:00.020",
       "NumTm": 96,
       "Gramenoi": 48719,
       "Egkyra": 27749,
@@ -160096,7 +160096,7 @@
     },
     {
       "DEN_ID": 4906,
-      "Updated": "2023-06-25 21:35:38.443",
+      "Updated": "2023-06-25 22:00:14.953",
       "NumTm": 8,
       "Gramenoi": 3436,
       "Egkyra": 2166,
@@ -160651,7 +160651,7 @@
     },
     {
       "DEN_ID": 4921,
-      "Updated": "2023-06-25 21:49:59.133",
+      "Updated": "2023-06-25 22:04:46.020",
       "NumTm": 25,
       "Gramenoi": 7270,
       "Egkyra": 3731,
@@ -161095,7 +161095,7 @@
     },
     {
       "DEN_ID": 4916,
-      "Updated": "2023-06-25 21:43:21.763",
+      "Updated": "2023-06-25 22:02:15.583",
       "NumTm": 13,
       "Gramenoi": 4550,
       "Egkyra": 2530,
@@ -161317,7 +161317,7 @@
     },
     {
       "DEN_ID": 4920,
-      "Updated": "2023-06-25 21:23:16.813",
+      "Updated": "2023-06-25 22:00:45.120",
       "NumTm": 7,
       "Gramenoi": 2720,
       "Egkyra": 1622,
@@ -162427,7 +162427,7 @@
     },
     {
       "DEN_ID": 5004,
-      "Updated": "2023-06-25 21:59:40.300",
+      "Updated": "2023-06-25 22:04:14.800",
       "NumTm": 27,
       "Gramenoi": 11866,
       "Egkyra": 2386,
@@ -164440,7 +164440,7 @@
     },
     {
       "DEN_ID": 5205,
-      "Updated": "2023-06-25 21:57:40.543",
+      "Updated": "2023-06-25 22:02:29.270",
       "NumTm": 22,
       "Gramenoi": 9771,
       "Egkyra": 4912,
@@ -165328,7 +165328,7 @@
     },
     {
       "DEN_ID": 5210,
-      "Updated": "2023-06-25 21:50:07.930",
+      "Updated": "2023-06-25 22:01:34.150",
       "NumTm": 21,
       "Gramenoi": 10453,
       "Egkyra": 6319,
@@ -165439,7 +165439,7 @@
     },
     {
       "DEN_ID": 5211,
-      "Updated": "2023-06-25 21:57:11.317",
+      "Updated": "2023-06-25 22:01:56.257",
       "NumTm": 18,
       "Gramenoi": 8854,
       "Egkyra": 4816,
@@ -165550,7 +165550,7 @@
     },
     {
       "DEN_ID": 5213,
-      "Updated": "2023-06-25 21:36:14.937",
+      "Updated": "2023-06-25 22:02:46.240",
       "NumTm": 9,
       "Gramenoi": 3947,
       "Egkyra": 1909,
@@ -166993,44 +166993,44 @@
     },
     {
       "DEN_ID": 5318,
-      "Updated": "2023-06-25 21:47:16.250",
-      "NumTm": 12,
-      "Gramenoi": 3139,
-      "Egkyra": 1726,
-      "Akyra": 11,
-      "Leyka": 13,
+      "Updated": "2023-06-25 22:03:12.093",
+      "NumTm": 13,
+      "Gramenoi": 3602,
+      "Egkyra": 1975,
+      "Akyra": 13,
+      "Leyka": 14,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 761
+          "VOTES": 862
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 286
+          "VOTES": 311
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 260
+          "VOTES": 303
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 129
+          "VOTES": 158
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 75
+          "VOTES": 93
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 60
+          "VOTES": 76
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 43
+          "VOTES": 50
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 28
+          "VOTES": 29
         },
         {
           "PARTY_ID": 122,
@@ -167038,15 +167038,19 @@
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 18
+          "VOTES": 19
+        },
+        {
+          "PARTY_ID": 153,
+          "VOTES": 8
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 5
+          "VOTES": 6
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 5
+          "VOTES": 6
         },
         {
           "PARTY_ID": 150,
@@ -167057,20 +167061,20 @@
           "VOTES": 4
         },
         {
-          "PARTY_ID": 153,
+          "PARTY_ID": 155,
           "VOTES": 4
         },
         {
-          "PARTY_ID": 155,
-          "VOTES": 4
+          "PARTY_ID": 15,
+          "VOTES": 3
         },
         {
           "PARTY_ID": 44,
           "VOTES": 3
         },
         {
-          "PARTY_ID": 15,
-          "VOTES": 2
+          "PARTY_ID": 140,
+          "VOTES": 3
         },
         {
           "PARTY_ID": 78,
@@ -167078,10 +167082,6 @@
         },
         {
           "PARTY_ID": 113,
-          "VOTES": 2
-        },
-        {
-          "PARTY_ID": 140,
           "VOTES": 2
         },
         {
@@ -167104,48 +167104,48 @@
     },
     {
       "DEN_ID": 5306,
-      "Updated": "2023-06-25 21:57:11.810",
-      "NumTm": 9,
-      "Gramenoi": 3031,
-      "Egkyra": 1558,
-      "Akyra": 16,
-      "Leyka": 12,
+      "Updated": "2023-06-25 22:04:17.440",
+      "NumTm": 11,
+      "Gramenoi": 3823,
+      "Egkyra": 1966,
+      "Akyra": 18,
+      "Leyka": 14,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 578
+          "VOTES": 676
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 264
-        },
-        {
-          "PARTY_ID": 106,
-          "VOTES": 207
+          "VOTES": 343
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 173
+          "VOTES": 306
+        },
+        {
+          "PARTY_ID": 106,
+          "VOTES": 241
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 85
-        },
-        {
-          "PARTY_ID": 123,
-          "VOTES": 52
+          "VOTES": 99
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 49
+          "VOTES": 62
         },
         {
-          "PARTY_ID": 122,
-          "VOTES": 43
+          "PARTY_ID": 123,
+          "VOTES": 60
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 41
+          "VOTES": 56
+        },
+        {
+          "PARTY_ID": 122,
+          "VOTES": 49
         },
         {
           "PARTY_ID": 28,
@@ -167153,6 +167153,10 @@
         },
         {
           "PARTY_ID": 44,
+          "VOTES": 11
+        },
+        {
+          "PARTY_ID": 153,
           "VOTES": 9
         },
         {
@@ -167164,8 +167168,8 @@
           "VOTES": 7
         },
         {
-          "PARTY_ID": 153,
-          "VOTES": 7
+          "PARTY_ID": 113,
+          "VOTES": 5
         },
         {
           "PARTY_ID": 125,
@@ -167173,18 +167177,14 @@
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 4
+          "VOTES": 5
         },
         {
-          "PARTY_ID": 113,
+          "PARTY_ID": 15,
           "VOTES": 3
         },
         {
           "PARTY_ID": 10,
-          "VOTES": 2
-        },
-        {
-          "PARTY_ID": 15,
           "VOTES": 2
         },
         {
@@ -167215,7 +167215,7 @@
     },
     {
       "DEN_ID": 5315,
-      "Updated": "2023-06-25 21:57:56.510",
+      "Updated": "2023-06-25 22:00:08.693",
       "NumTm": 17,
       "Gramenoi": 5573,
       "Egkyra": 3074,
@@ -167437,7 +167437,7 @@
     },
     {
       "DEN_ID": 5321,
-      "Updated": "2023-06-25 21:58:05.427",
+      "Updated": "2023-06-25 22:00:26.593",
       "NumTm": 15,
       "Gramenoi": 5731,
       "Egkyra": 3234,
@@ -167659,64 +167659,64 @@
     },
     {
       "DEN_ID": 5301,
-      "Updated": "2023-06-25 21:52:59.380",
-      "NumTm": 14,
-      "Gramenoi": 7372,
-      "Egkyra": 4703,
-      "Akyra": 16,
-      "Leyka": 24,
+      "Updated": "2023-06-25 22:00:31.503",
+      "NumTm": 15,
+      "Gramenoi": 7808,
+      "Egkyra": 5012,
+      "Akyra": 19,
+      "Leyka": 26,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 1870
+          "VOTES": 1975
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 850
+          "VOTES": 905
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 431
+          "VOTES": 468
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 337
+          "VOTES": 359
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 275
+          "VOTES": 288
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 234
+          "VOTES": 255
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 173
+          "VOTES": 189
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 149
+          "VOTES": 164
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 144
+          "VOTES": 155
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 48
+          "VOTES": 49
         },
         {
           "PARTY_ID": 125,
-          "VOTES": 28
-        },
-        {
-          "PARTY_ID": 28,
-          "VOTES": 24
+          "VOTES": 30
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 24
+          "VOTES": 26
+        },
+        {
+          "PARTY_ID": 28,
+          "VOTES": 25
         },
         {
           "PARTY_ID": 155,
@@ -167724,27 +167724,27 @@
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 19
+          "VOTES": 20
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 16
+          "VOTES": 18
+        },
+        {
+          "PARTY_ID": 150,
+          "VOTES": 17
+        },
+        {
+          "PARTY_ID": 15,
+          "VOTES": 14
+        },
+        {
+          "PARTY_ID": 44,
+          "VOTES": 14
         },
         {
           "PARTY_ID": 113,
           "VOTES": 14
-        },
-        {
-          "PARTY_ID": 150,
-          "VOTES": 14
-        },
-        {
-          "PARTY_ID": 15,
-          "VOTES": 13
-        },
-        {
-          "PARTY_ID": 44,
-          "VOTES": 13
         },
         {
           "PARTY_ID": 66,
@@ -168325,52 +168325,52 @@
     },
     {
       "DEN_ID": 5325,
-      "Updated": "2023-06-25 21:59:25.457",
-      "NumTm": 79,
-      "Gramenoi": 42244,
-      "Egkyra": 20797,
-      "Akyra": 114,
-      "Leyka": 112,
+      "Updated": "2023-06-25 22:04:50.097",
+      "NumTm": 80,
+      "Gramenoi": 42799,
+      "Egkyra": 21115,
+      "Akyra": 117,
+      "Leyka": 113,
       "party": [
         {
           "PARTY_ID": 2,
-          "VOTES": 8457
+          "VOTES": 8587
         },
         {
           "PARTY_ID": 4,
-          "VOTES": 4081
+          "VOTES": 4130
         },
         {
           "PARTY_ID": 106,
-          "VOTES": 1846
+          "VOTES": 1874
         },
         {
           "PARTY_ID": 3,
-          "VOTES": 1812
+          "VOTES": 1837
         },
         {
           "PARTY_ID": 122,
-          "VOTES": 876
+          "VOTES": 889
         },
         {
           "PARTY_ID": 157,
-          "VOTES": 819
+          "VOTES": 838
         },
         {
           "PARTY_ID": 123,
-          "VOTES": 756
+          "VOTES": 766
         },
         {
           "PARTY_ID": 131,
-          "VOTES": 642
+          "VOTES": 650
         },
         {
           "PARTY_ID": 108,
-          "VOTES": 588
+          "VOTES": 598
         },
         {
           "PARTY_ID": 153,
-          "VOTES": 124
+          "VOTES": 126
         },
         {
           "PARTY_ID": 155,
@@ -168382,31 +168382,31 @@
         },
         {
           "PARTY_ID": 28,
-          "VOTES": 93
+          "VOTES": 94
         },
         {
           "PARTY_ID": 44,
-          "VOTES": 89
+          "VOTES": 91
         },
         {
           "PARTY_ID": 130,
-          "VOTES": 81
+          "VOTES": 84
         },
         {
           "PARTY_ID": 158,
-          "VOTES": 80
+          "VOTES": 84
         },
         {
           "PARTY_ID": 150,
-          "VOTES": 74
+          "VOTES": 75
         },
         {
           "PARTY_ID": 15,
-          "VOTES": 54
+          "VOTES": 64
         },
         {
           "PARTY_ID": 140,
-          "VOTES": 48
+          "VOTES": 51
         },
         {
           "PARTY_ID": 113,
