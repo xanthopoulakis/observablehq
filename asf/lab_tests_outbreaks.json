@@ -2,21 +2,21 @@
   {
     "2021": 1874,
     "2022": 537,
-    "type": "domestic_pigs_outbreaks"
+    "type": "Outbreaks in domestic pigs "
   },
   {
     "2021": 1972793,
     "2022": 638280,
-    "type": "total_survaillance"
+    "type": "Total Survaillance"
   },
   {
     "2021": 1791846,
     "2022": 373283,
-    "type": "active_survaillance"
+    "type": "Active Survaillance"
   },
   {
     "2021": 122882,
     "2022": 248489,
-    "type": "passive_survaillance"
+    "type": "Passive Survaillance"
   }
 ]
