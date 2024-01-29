@@ -33,3 +33,6 @@ yarn-error.log*
 /ekloges/history
 
 asf/.prettierrc
+asf/ASF_DATA_SETS_PER_COUNTRY
+asf/PIG_POPULATION_PER_COUNTRY
+asf/samples.json
