@@ -88,7 +88,7 @@ namespace :asf do
           resultType: result_types[x['resQualValue']]
         }
         results << datum
-        positives << datum unless x['resQualValue'] == 'NEG'
+        positives << datum if x['resQualValue'] == 'POS'
       end
     end
 
