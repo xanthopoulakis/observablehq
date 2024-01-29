@@ -1,16 +1,22 @@
 [
   {
-    "Date": "2021-01-01",
-    "dp_outbreaks": 1874,
-    "active_survaillance": 1791846,
-    "passive_survaillance": 122882,
-    "total_survaillance": 1972793
+    "2021": 1874,
+    "2022": 537,
+    "type": "domestic_pigs_outbreaks"
   },
   {
-    "Date": "2022-01-01",
-    "dp_outbreaks": 537,
-    "active_survaillance": 373283,
-    "passive_survaillance": 248489,
-    "total_survaillance": 638280
+    "2021": 1972793,
+    "2022": 638280,
+    "type": "total_survaillance"
+  },
+  {
+    "2021": 1791846,
+    "2022": 373283,
+    "type": "active_survaillance"
+  },
+  {
+    "2021": 122882,
+    "2022": 248489,
+    "type": "passive_survaillance"
   }
 ]
