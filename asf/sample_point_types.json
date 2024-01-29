@@ -1,0 +1,118 @@
+[
+    {
+      "category": "Border Control Posts",
+      "description": "Samples collected in the context of a border inspection activity (e.g., samples taken on transported animals crossing a country border).",
+      "code": "E010A"
+    },
+    {
+      "category": "Zoo",
+      "description": "Artificial parks open to the public dedicated to different animal species, including exotic species.",
+      "code": "E012A"
+    },
+    {
+      "category": "Veterinary clinics",
+      "description": "Veterinary clinic. Mainly for clinical visits of pet animals.",
+      "code": "E013A"
+    },
+    {
+      "category": "Unspecified",
+      "description": "The sampling point is not specified.",
+      "code": "E098A"
+    },
+    {
+      "category": "Game handling establishment",
+      "description": "Authorised establishment for the handling of game.",
+      "code": "E170A"
+    },
+    {
+      "category": "Wildlife research station",
+      "description": "Stations dedicated to wildlife protection and management.",
+      "code": "E190A"
+    },
+    {
+      "category": "Processing plant",
+      "description": "Establishment where the edible portions of animal origin are further processed before going on the market for human consumption.",
+      "code": "E301A"
+    },
+    {
+      "category": "Slaughterhouse",
+      "description": "Establishment used for slaughtering terrestrial animals.",
+      "code": "E311A"
+    },
+    {
+      "category": "Water source",
+      "description": "Location at or nearby a natural or artificial source of water.",
+      "code": "E420A"
+    },
+    {
+      "category": "Conservation facilities",
+      "description": "Premises designed for the conservation of carcasses (as a whole or portioned), processed products of animal origin (e.g., slices of meat, minced meat) under certain conditions of temperature and humidity with the goal of slowing down the natural decomposition process.",
+      "code": "E720A"
+    },
+    {
+      "category": "Health and Research Centre",
+      "description": "Permanent, geographically limited and approved establishment (e.g., research laboratories, veterinary hospitals) where one or more animal species are habitually: (i) kept for fundamental or applied scientific research; (ii) bred for the research purposes; (iii) kept undergoing veterinary medicine practices.",
+      "code": "E961A"
+    },
+    {
+      "category": "Pen",
+      "description": "The place where the animals are kept in an outdoor farm (i.e., not in the shelter, not in the milking room, etc.).",
+      "code": "E973A"
+    },
+    {
+      "category": "Forest",
+      "description": "Natural habitat, covered mainly by trees and undergrowth.",
+      "code": "E976A"
+    },
+    {
+      "category": "Grassland",
+      "description": "Natural habitat, normally a large open area of country covered by grass, especially one used for grazing.",
+      "code": "E977A"
+    },
+    {
+      "category": "Rendering plant",
+      "description": "Premises dedicated to the incineration of animal carcasses or part of them for sanitary purposes. Typically used for the destruction of dead diseased animals.",
+      "code": "E978A"
+    },
+    {
+      "category": "Urban area",
+      "description": "Urban context, characterised by high human population density, infrastructure and built environment.",
+      "code": "E979A"
+    },
+    {
+      "category": "Nursery",
+      "description": "The space in a farm dedicated to the new-borns.",
+      "code": "E981A"
+    },
+    {
+      "category": "Quarantine premises",
+      "description": "Establishments where the animals are kept in isolation with no direct or indirect contact with animals outside this epidemiological unit, for the purpose of ensuring that there is no spread of one or more specified diseases while the animals in isolation are undergoing observation for a specified length of time and, if appropriate, testing and treatment. [based on Regulation (EU) 2016/429 (AHL), art. 4(38)]",
+      "code": "E988A"
+    },
+    {
+      "category": "Genetic centre",
+      "description": "Establishment where the animals (bovines, equines, swine, sheep, goats) are kept by humans, for the collection of germinal products.",
+      "code": "E994A"
+    },
+    {
+      "category": "Circus",
+      "description": "Itinerant premises where different animal species are kept for ludic purposes.",
+      "code": "E996A"
+    },
+    {
+      "category": "Pet shop",
+      "description": "Private shop for the selling of pets/small animals to private citizens.",
+      "code": "E997A"
+    },
+    {
+      "category": "Petting centre",
+      "description": "Premises where different animal species (pets or farming animals) are kept, and visitors can get close to them. Similar or synonymous of farmhouse.",
+      "code": "E998A"
+    },
+    {
+      "category": "Stall",
+      "description": "The place where the animals are kept in an indoor farm (i.e., not in the paddock, not in the milking room, etc.).",
+      "code": "E999A"
+    }
+  ]
+  

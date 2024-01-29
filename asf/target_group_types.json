@@ -1,0 +1,43 @@
+[
+    {
+      "target_group": "Alive",
+      "description": "The animal was alive at the moment of the sample collection.",
+      "code": "TG024A"
+    },
+    {
+      "target_group": "Alive Symptomatic",
+      "description": "The animal was showing clinical signs at the moment of the sample collection or pathognomonic lesions.",
+      "code": "TG016A"
+    },
+    {
+      "target_group": "Alive Non-symptomatic",
+      "description": "The animal had no clinical identifiable at the moment of the sample collection.",
+      "code": "TG017A"
+    },
+    {
+      "target_group": "Found dead",
+      "description": "The animal was dead at the moment of the sample collection.",
+      "code": "TG020A"
+    },
+    {
+      "target_group": "Dead Symptomatic",
+      "description": "The carcass presents pathognomonic lesions at the moment of the sample collection or pathognomonic lesions.",
+      "code": "TG025A"
+    },
+    {
+      "target_group": "Dead Non-symptomatic",
+      "description": "The carcass didn't present any pathognomonic lesion identifiable at the moment of the sample collection.",
+      "code": "TG026A"
+    },
+    {
+      "target_group": "Hunted",
+      "description": "The animal was shot and killed in the context of a hunting session.",
+      "code": "TG027A"
+    },
+    {
+      "target_group": "Hunted Symptomatic",
+      "description": "Hunted with clinical signs (including injured).",
+      "code": "TG018A"
+    }
+  ]
+  

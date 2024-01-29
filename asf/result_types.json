@@ -1,0 +1,6 @@
+[
+    { "result_value": "Positive/Present", "code": "POS" },
+    { "result_value": "Negative/Absent", "code": "NEG" },
+    { "result_value": "Inconclusive", "code": "INC" }
+  ]
+  

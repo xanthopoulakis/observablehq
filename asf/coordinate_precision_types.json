@@ -1,0 +1,7 @@
+[
+    { "precision": "Centroid Admin", "code": "XY01A" },
+    { "precision": "Exact", "code": "XY03A" },
+    { "precision": "Estimated", "code": "XY05A" },
+    { "precision": "Unknown", "code": "XY04A" }
+  ]
+  

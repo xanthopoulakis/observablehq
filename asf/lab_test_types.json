@@ -1,0 +1,11 @@
+[
+    { "method_description": "PCR", "code": "F086A" },
+    { "method_description": "Quantitative polymerase chain reaction (QPCR)", "code": "F087A" },
+    { "method_description": "Enzyme-linked immunosorbent assay (ELISA)", "code": "F080A" },
+    { "method_description": "Immunoblotting (IB)", "code": "F151A" },
+    { "method_description": "Immunoperoxidase test (IPT)", "code": "F590A" },
+    { "method_description": "Molecular characterisation/Genotyping method", "code": "F089A" },
+    { "method_description": "Tissue culture infection test", "code": "F563A" },
+    { "method_description": "Direct fluorescent antibody test (FAT)", "code": "F694A" }
+  ]
+  

@@ -1,0 +1,6 @@
+[
+    { "decomposition_state": "Fresh stage", "code": "sampCarcassStatus=A18GF" },
+    { "decomposition_state": "Decayed stage", "code": "sampCarcassStatus=A18GG" },
+    { "decomposition_state": "Dry/skeletonised stage", "code": "sampCarcassStatus=A18GH" }
+  ]
+  

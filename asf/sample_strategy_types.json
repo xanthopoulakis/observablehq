@@ -1,0 +1,38 @@
+[
+    {
+      "strategy": "Objective sampling - Simple Random Sampling",
+      "description": "A simple random sample is a subset of a statistical population in which each member of the subset has an equal probability of being chosen. A simple random sample is meant to be an unbiased representation of a (target) group",
+      "code": "ST44A"
+    },
+    {
+      "strategy": "Objective sampling - Clustered Sampling",
+      "description": "A 'cluster' is a collection of study subjects with one or more characteristics in common. In a cluster sample, the sampling unit is larger than the unit of concern - e.g., selection of some farms (clusters) in which all animals (units of concern) are sampled. Application: estimation of the prevalence at animal level (not the prevalence of infected farms)",
+      "code": "ST45A"
+    },
+    {
+      "strategy": "Selective sampling - Risk Based",
+      "description": "Risk Based Sampling makes use of relevant risk factors (having an impact on the presence / absence of the agent that has to be detected) and related relative risk values. If no relative risk has been estimated or calculated, the sampling is NOT risk based, but ‘Biologically driven’.",
+      "code": "ST21A"
+    },
+    {
+      "strategy": "Selective sampling - Biologically driven",
+      "description": "The sampling is driven by biological considerations (e.g., location, season, type of pig establishment), but not supported by scientific evidence (relative risk is missing)",
+      "code": "ST22A"
+    },
+    {
+      "strategy": "Convenient sampling - Testing the game bag at game handling establishment",
+      "description": "Samples originating from animals hunted during the hunting season.",
+      "code": "ST41A"
+    },
+    {
+      "strategy": "Convenient sampling - Accidental sampling",
+      "description": "The samples are obtained without a pre-defined sampling calculation, they are accidentally found or brought to the laboratory (e.g., road kills).",
+      "code": "ST43A"
+    },
+    {
+      "strategy": "Census",
+      "description": "This option is relevant when all animals in all establishments are sampled",
+      "code": "ST50A"
+    }
+  ]
+  
