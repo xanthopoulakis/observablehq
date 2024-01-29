@@ -1,0 +1,16 @@
+[
+  {
+    "Date": "2021-01-01",
+    "dp_outbreaks": 1874,
+    "active_survaillance": 1791846,
+    "passive_survaillance": 122882,
+    "total_survaillance": 1972793
+  },
+  {
+    "Date": "2022-01-01",
+    "dp_outbreaks": 537,
+    "active_survaillance": 373283,
+    "passive_survaillance": 248489,
+    "total_survaillance": 638280
+  }
+]
