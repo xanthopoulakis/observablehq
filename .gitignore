@@ -21,6 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.prettierrc
 
 /thessaloniki_real_estate/Rakefile
 /thessaloniki_real_estate/tasks

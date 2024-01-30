@@ -1,0 +1,482 @@
+[
+  {
+    "country": "Estonia",
+    "isEU": true,
+    "firstOutbreak": "2015-07-21",
+    "restrictedArea": [
+      { "year": 2021, "area": 0 },
+      { "year": 2022, "area": 0 }
+    ],
+    "establishments": [
+      { "year": 2021, "population": null },
+      { "year": 2021, "population": 97 }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 1 },
+      { "year": 2021, "population": 0 }
+    ],
+    "outbreaksTotal": 28,
+    "farmIncidence": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": 0 }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": 269359 }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 1769 },
+      { "year": 2022, "population": 0 }
+    ],
+    "totalPigsLost": 32708,
+    "lossesPigs2022": 0
+  },
+  {
+    "country": "Latvia",
+    "isEU": true,
+    "firstOutbreak": "2014-06-26",
+    "restrictedArea": [
+      { "year": 2021, "area": 1 },
+      { "year": 2022, "area": 2 }
+    ],
+    "establishments": [
+      { "year": 2021, "population": 3752 },
+      { "year": 2021, "population": 2965 }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 2 },
+      { "year": 2021, "population": 6 }
+    ],
+    "outbreaksTotal": 75,
+    "farmIncidence": [
+      { "year": 2021, "population": 0.1 },
+      { "year": 2022, "population": 0.2 }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": 306413 },
+      { "year": 2022, "population": 330369 }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 2114 },
+      { "year": 2022, "population": 1512 }
+    ],
+    "totalPigsLost": 33068,
+    "lossesPigs2022": 0.5
+  },
+  {
+    "country": "Lithuania",
+    "isEU": true,
+    "firstOutbreak": "2014-07-24",
+    "restrictedArea": [
+      { "year": 2021, "area": 2 },
+      { "year": 2022, "area": 4 }
+    ],
+    "establishments": [
+      { "year": 2021, "population": 6432 },
+      { "year": 2021, "population": 5584 }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 0 },
+      { "year": 2021, "population": 16 }
+    ],
+    "outbreaksTotal": 157,
+    "farmIncidence": [
+      { "year": 2021, "population": 0 },
+      { "year": 2022, "population": 0.3 }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": 538097 },
+      { "year": 2022, "population": 501375 }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 0 },
+      { "year": 2022, "population": 2257 }
+    ],
+    "totalPigsLost": 58178,
+    "lossesPigs2022": 0.5
+  },
+  {
+    "country": "Poland",
+    "isEU": true,
+    "firstOutbreak": "2014-07-23",
+    "restrictedArea": [
+      { "year": 2021, "area": 9 },
+      { "year": 2022, "area": 6 }
+    ],
+    "establishments": [
+      { "year": 2021, "population": 79996 },
+      { "year": 2021, "population": 55384 }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 124 },
+      { "year": 2021, "population": 14 }
+    ],
+    "outbreaksTotal": 502,
+    "farmIncidence": [
+      { "year": 2021, "population": 0.2 },
+      { "year": 2022, "population": 0.1 }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": 10032723 },
+      { "year": 2022, "population": 8911683 }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 42253 },
+      { "year": 2022, "population": 2989 }
+    ],
+    "totalPigsLost": 147159,
+    "lossesPigs2022": 0.1
+  },
+  {
+    "country": "Germany",
+    "isEU": true,
+    "firstOutbreak": "2021-07-15",
+    "restrictedArea": [
+      { "year": 2021, "area": 1 },
+      { "year": 2022, "area": 0 }
+    ],
+    "establishments": [
+      { "year": 2021, "population": null },
+      { "year": 2021, "population": null }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 4 },
+      { "year": 2021, "population": 3 }
+    ],
+    "outbreaksTotal": 7,
+    "farmIncidence": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": null }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": null }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 4225 },
+      { "year": 2022, "population": 2903 }
+    ],
+    "totalPigsLost": 7128,
+    "lossesPigs2022": null
+  },
+  {
+    "country": "Czechia",
+    "isEU": true,
+    "firstOutbreak": null,
+    "restrictedArea": [
+      { "year": 2021, "area": 0 },
+      { "year": 2022, "area": 0 }
+    ],
+    "establishments": [
+      { "year": 2021, "population": null },
+      { "year": 2021, "population": 5449 }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 0 },
+      { "year": 2021, "population": 0 }
+    ],
+    "outbreaksTotal": 0,
+    "farmIncidence": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": null }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": 1339460 }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 0 },
+      { "year": 2022, "population": 0 }
+    ],
+    "totalPigsLost": 0,
+    "lossesPigs2022": null
+  },
+  {
+    "country": "Slovakia",
+    "isEU": true,
+    "firstOutbreak": "2019-07-24",
+    "restrictedArea": [
+      { "year": 2021, "area": 6 },
+      { "year": 2022, "area": 7 }
+    ],
+    "establishments": [
+      { "year": 2021, "population": 2684 },
+      { "year": 2021, "population": 3018 }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 11 },
+      { "year": 2021, "population": 5 }
+    ],
+    "outbreaksTotal": 44,
+    "farmIncidence": [
+      { "year": 2021, "population": 0.4 },
+      { "year": 2022, "population": 0.2 }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": 543427 },
+      { "year": 2022, "population": 496827 }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 32496 },
+      { "year": 2022, "population": 525 }
+    ],
+    "totalPigsLost": 33614,
+    "lossesPigs2022": 0.1
+  },
+  {
+    "country": "Hungary",
+    "isEU": true,
+    "firstOutbreak": null,
+    "restrictedArea": [
+      { "year": 2021, "area": 0 },
+      { "year": 2022, "area": 0 }
+    ],
+    "establishments": [
+      { "year": 2021, "population": null },
+      { "year": 2021, "population": null }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 0 },
+      { "year": 2021, "population": 0 }
+    ],
+    "outbreaksTotal": 0,
+    "farmIncidence": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": null }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": null }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 0 },
+      { "year": 2022, "population": 0 }
+    ],
+    "totalPigsLost": 0,
+    "lossesPigs2022": null
+  },
+  {
+    "country": "Romania",
+    "isEU": true,
+    "firstOutbreak": "2017-07-31",
+    "restrictedArea": [
+      { "year": 2021, "area": 100 },
+      { "year": 2022, "area": 100 }
+    ],
+    "establishments": [
+      { "year": 2021, "population": 446639 },
+      { "year": 2021, "population": 288446 }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 1660 },
+      { "year": 2021, "population": 327 }
+    ],
+    "outbreaksTotal": 5944,
+    "farmIncidence": [
+      { "year": 2021, "population": 0.4 },
+      { "year": 2022, "population": 0.1 }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": 3486016 },
+      { "year": 2022, "population": 2823948 }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 666338 },
+      { "year": 2022, "population": 144170 }
+    ],
+    "totalPigsLost": 1480862,
+    "lossesPigs2022": 5.1
+  },
+  {
+    "country": "Bulgaria",
+    "isEU": true,
+    "firstOutbreak": "2018-08-31",
+    "restrictedArea": [
+      { "year": 2021, "area": 46 },
+      { "year": 2022, "area": 11 }
+    ],
+    "establishments": [
+      { "year": 2021, "population": 1568 },
+      { "year": 2021, "population": 1348 }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 6 },
+      { "year": 2021, "population": 2 }
+    ],
+    "outbreaksTotal": 72,
+    "farmIncidence": [
+      { "year": 2021, "population": 0.4 },
+      { "year": 2022, "population": 0.1 }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": 634413 },
+      { "year": 2022, "population": 616049 }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 239 },
+      { "year": 2022, "population": 2 }
+    ],
+    "totalPigsLost": 205819,
+    "lossesPigs2022": 0.1
+  },
+  {
+    "country": "Italia",
+    "isEU": true,
+    "firstOutbreak": "2022-06-09",
+    "restrictedArea": [
+      { "year": 2021, "area": 0 },
+      { "year": 2022, "area": 0.1 }
+    ],
+    "establishments": [
+      { "year": 2021, "population": null },
+      { "year": 2021, "population": 83141 }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 0 },
+      { "year": 2021, "population": 1 }
+    ],
+    "outbreaksTotal": 1,
+    "farmIncidence": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": 0.1 }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": 8577010 }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 0 },
+      { "year": 2022, "population": 9 }
+    ],
+    "totalPigsLost": 9,
+    "lossesPigs2022": 0.1
+  },
+  {
+    "country": "Moldova",
+    "isEU": false,
+    "firstOutbreak": "2020-03-20",
+    "restrictedArea": [
+      { "year": 2021, "area": null },
+      { "year": 2022, "area": null }
+    ],
+    "establishments": [
+      { "year": 2021, "population": null },
+      { "year": 2021, "population": null }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 2 },
+      { "year": 2021, "population": 15 }
+    ],
+    "outbreaksTotal": 19,
+    "farmIncidence": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": null }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": null }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 82 },
+      { "year": 2022, "population": 31926 }
+    ],
+    "totalPigsLost": 32017,
+    "lossesPigs2022": null
+  },
+  {
+    "country": "North Macedonia",
+    "isEU": false,
+    "firstOutbreak": "2022-01-06",
+    "restrictedArea": [
+      { "year": 2021, "area": null },
+      { "year": 2022, "area": null }
+    ],
+    "establishments": [
+      { "year": 2021, "population": null },
+      { "year": 2021, "population": 4456 }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 0 },
+      { "year": 2021, "population": 30 }
+    ],
+    "outbreaksTotal": 30,
+    "farmIncidence": [
+      { "year": 2021, "population": 0 },
+      { "year": 2022, "population": 0.7 }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": 140767 }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 0 },
+      { "year": 2022, "population": 1124 }
+    ],
+    "totalPigsLost": 1124,
+    "lossesPigs2022": 0.8
+  },
+  {
+    "country": "Serbia",
+    "isEU": false,
+    "firstOutbreak": "2019-07-31",
+    "restrictedArea": [
+      { "year": 2021, "area": null },
+      { "year": 2022, "area": null }
+    ],
+    "establishments": [
+      { "year": 2021, "population": null },
+      { "year": 2021, "population": null }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 32 },
+      { "year": 2021, "population": 107 }
+    ],
+    "outbreaksTotal": 173,
+    "farmIncidence": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": null }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": null }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 42 },
+      { "year": 2022, "population": 334 }
+    ],
+    "totalPigsLost": 858,
+    "lossesPigs2022": null
+  },
+  {
+    "country": "Ukraine",
+    "isEU": false,
+    "firstOutbreak": "2017-01-07",
+    "restrictedArea": [
+      { "year": 2021, "area": null },
+      { "year": 2022, "area": null }
+    ],
+    "establishments": [
+      { "year": 2021, "population": null },
+      { "year": 2021, "population": null }
+    ],
+    "outbreaks": [
+      { "year": 2021, "population": 13 },
+      { "year": 2021, "population": 7 }
+    ],
+    "outbreaksTotal": 317,
+    "farmIncidence": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": null }
+    ],
+    "pigsCount": [
+      { "year": 2021, "population": null },
+      { "year": 2022, "population": null }
+    ],
+    "pigsLost": [
+      { "year": 2021, "population": 25286 },
+      { "year": 2022, "population": 248 }
+    ],
+    "totalPigsLost": 172998,
+    "lossesPigs2022": null
+  }
+]
