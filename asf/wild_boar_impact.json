@@ -1,0 +1,107 @@
+[
+  {
+    "country": "Estonia",
+    "isEU": true,
+    "firstOutbreak": "2014-09-08",
+    "boarLost": 77,
+    "boarLostDiff": -0.13
+  },
+  {
+    "country": "Latvia",
+    "isEU": true,
+    "firstOutbreak": "2014-06-26",
+    "boarLost": 1274,
+    "boarLostDiff": 1.84
+  },
+  {
+    "country": "Lithuania",
+    "isEU": true,
+    "firstOutbreak": "2014-01-24",
+    "boarLost": 670,
+    "boarLostDiff": 0.75
+  },
+  {
+    "country": "Poland",
+    "isEU": true,
+    "firstOutbreak": "2014-02-17",
+    "boarLost": 2572,
+    "boarLostDiff": -0.45
+  },
+  {
+    "country": "Germany",
+    "isEU": true,
+    "firstOutbreak": "2020-09-10",
+    "boarLost": 1600,
+    "boarLostDiff": -0.41
+  },
+  {
+    "country": "Czechia",
+    "isEU": true,
+    "firstOutbreak": "2017-06-26",
+    "boarLost": 1,
+    "boarLostDiff": null
+  },
+  {
+    "country": "Slovakia",
+    "isEU": true,
+    "firstOutbreak": "2019-08-08",
+    "boarLost": 778,
+    "boarLostDiff": -0.74
+  },
+  {
+    "country": "Hungary",
+    "isEU": true,
+    "firstOutbreak": "2018-04-21",
+    "boarLost": 698,
+    "boarLostDiff": -0.8
+  },
+  {
+    "country": "Romania",
+    "isEU": true,
+    "firstOutbreak": "2018-05-29",
+    "boarLost": 737,
+    "boarLostDiff": -0.61
+  },
+  {
+    "country": "Bulgaria",
+    "isEU": true,
+    "firstOutbreak": "2018-10-23",
+    "boarLost": 436,
+    "boarLostDiff": -0.34
+  },
+  {
+    "country": "Italia",
+    "isEU": true,
+    "firstOutbreak": "2022-01-07",
+    "boarLost": 269,
+    "boarLostDiff": null
+  },
+  {
+    "country": "Moldova",
+    "isEU": false,
+    "firstOutbreak": "2020-02-24",
+    "boarLost": 4,
+    "boarLostDiff": null
+  },
+  {
+    "country": "North Macedonia",
+    "isEU": false,
+    "firstOutbreak": "2022-03-21",
+    "boarLost": 20,
+    "boarLostDiff": null
+  },
+  {
+    "country": "Serbia",
+    "isEU": false,
+    "firstOutbreak": "2020-01-03",
+    "boarLost": 108,
+    "boarLostDiff": 2.18
+  },
+  {
+    "country": "Ukraine",
+    "isEU": false,
+    "firstOutbreak": "2020-01-03",
+    "boarLost": 3,
+    "boarLostDiff": 0
+  }
+]
