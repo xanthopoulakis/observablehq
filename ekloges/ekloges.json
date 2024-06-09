@@ -1,9 +1,18 @@
 [
   {
+    "id": "e2024",
+    "type": "europarliament",
+    "date": "2024-06-09",
+    "url": "https://ekloges.ypes.gr/current",
+    "suffix": "/dyn/e",
+    "suffix2": "/dyn1/e",
+    "layout": "eklogikes_perifereies"
+  },
+  {
     "id": "v2023b",
     "type": "parliament",
     "date": "2023-06-25",
-    "url": "https://ekloges.ypes.gr/current",
+    "url": "https://ekloges-prev.singularlogic.eu/2023/june",
     "suffix": "/dyn/v",
     "suffix2": "/dyn1/v",
     "layout": "eklogikes_perifereies"
