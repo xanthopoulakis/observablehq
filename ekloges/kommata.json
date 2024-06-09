@@ -95,7 +95,7 @@
     "short_name": "ΛΑ.Ο.Σ.",
     "short_name_el": "ΛΑ.Ο.Σ.",
     "short_name_en": "LA.O.S.",
-    "color": "#7B1940",
+    "color": "#943AFF",
     "logo": "y16.png"
   },
   {
@@ -315,7 +315,7 @@
     "short_name": "ΚΙΕΦ",
     "short_name_el": "ΚΙΕΦ",
     "short_name_en": "KIEF",
-    "color": "#969696",
+    "color": "#DDAE82",
     "logo": "y73.png"
   },
   {
@@ -344,7 +344,7 @@
     "title_el": "ΕΝΙΑΙΟ ΠΑΛΑΙΚΟ ΜΕΤΩΠΟ (Ε.ΠΑ.Μ)",
     "title_en": "ENIAIO PALAIKO METOPO (E.PA.M)",
     "id": 76,
-    "color": "#EE55FF",
+    "color": "#17479C",
     "title": "ΕΝΙΑΙΟ ΠΑΛΑΙΚΟ ΜΕΤΩΠΟ (Ε.ΠΑ.Μ)",
     "short_name": "Ε.ΠΑ.Μ",
     "short_name_el": "Ε.ΠΑ.Μ",
@@ -366,7 +366,7 @@
     "title_el": "ΕΘΝΙΚΟ ΜΕΤΩΠΟ",
     "title_en": "ETHNIKO METOPO",
     "id": 78,
-    "color": "#82F5EE",
+    "color": "#0860A8",
     "title": "ΕΘΝΙΚΟ ΜΕΤΩΠΟ",
     "short_name": "ΕΘΝΙΚΟ ΜΕΤΩΠΟ",
     "short_name_el": "ΕΘΝΙΚΟ ΜΕΤΩΠΟ",
@@ -1054,5 +1054,126 @@
     "short_name_en": "SPARTIATES",
     "color": "#E9B460",
     "logo": "y157.png"
+  },
+  {
+    "id": 158,
+    "title_el": "ΦΩΝΗ ΛΟΓΙΚΗΣ ΑΦΡΟΔΙΤΗ ΛΑΤΙΝΟΠΟΥΛΟΥ",
+    "title": "ΦΩΝΗ ΛΟΓΙΚΗΣ ΑΦΡΟΔΙΤΗ ΛΑΤΙΝΟΠΟΥΛΟΥ",
+    "title_en": "FONI LOGIKIS AFRODITI LATINOPOULOU",
+    "short_name": "ΦΩΝΗ ΛΟΓΙΚΗΣ ΑΦΡΟΔΙΤΗ ΛΑΤΙΝΟΠΟΥΛΟΥ",
+    "short_name_el": "ΦΩΝΗ ΛΟΓΙΚΗΣ ΑΦΡΟΔΙΤΗ ΛΑΤΙΝΟΠΟΥΛΟΥ",
+    "short_name_en": "FONI LOGIKIS AFRODITI LATINOPOULOU",
+    "color": "#0093FE",
+    "logo": "y158.png"
+  },
+  {
+    "id": 160,
+    "title_el": "ΣΥΜΜΕΤΕΧΩ ΓΙΑ ΤΗΝ ΕΘΝΙΚΗ ΚΥΡΙΑΡΧΙΑ ΚΑΙ ΤΗΝ ΚΥΠΡΟ",
+    "title": "ΣΥΜΜΕΤΕΧΩ ΓΙΑ ΤΗΝ ΕΘΝΙΚΗ ΚΥΡΙΑΡΧΙΑ ΚΑΙ ΤΗΝ ΚΥΠΡΟ",
+    "title_en": "SYMMETECHO GIA TIN ETHNIKI KYRIARCHIA KAI TIN KYPRO",
+    "short_name": "ΣΥΜΜΕΤΕΧΩ ΓΙΑ ΤΗΝ ΕΘΝΙΚΗ ΚΥΡΙΑΡΧΙΑ ΚΑΙ ΤΗΝ ΚΥΠΡΟ",
+    "short_name_el": "ΣΥΜΜΕΤΕΧΩ ΓΙΑ ΤΗΝ ΕΘΝΙΚΗ ΚΥΡΙΑΡΧΙΑ ΚΑΙ ΤΗΝ ΚΥΠΡΟ",
+    "short_name_en": "SYMMETECHO GIA TIN ETHNIKI KYRIARCHIA KAI TIN KYPRO",
+    "color": "#F8931F",
+    "logo": "y160.png"
+  },
+  {
+    "id": 161,
+    "title_el": "ΔΗΜΙΟΥΡΓΙΑ",
+    "title": "ΔΗΜΙΟΥΡΓΙΑ",
+    "title_en": "DIMIOURGIA",
+    "short_name": "ΔΗΜΙΟΥΡΓΙΑ",
+    "short_name_el": "ΔΗΜΙΟΥΡΓΙΑ",
+    "short_name_en": "DIMIOURGIA",
+    "color": "#F08A26",
+    "logo": "y161.png"
+  },
+  {
+    "id": 162,
+    "title_el": "ΚΕΚΑ-ΑΚΚΕΛ ΜΑΖΙ ΓΙΑ ΜΙΑ ΕΛΕΥΘΕΡΗ ΕΛΛΑΔΑ",
+    "title": "ΚΕΚΑ-ΑΚΚΕΛ ΜΑΖΙ ΓΙΑ ΜΙΑ ΕΛΕΥΘΕΡΗ ΕΛΛΑΔΑ",
+    "title_en": "KEKA-AKKEL MAZI GIA MIA ELEYTHERI ELLADA",
+    "short_name": "ΚΕΚΑ-ΑΚΚΕΛ ΜΑΖΙ ΓΙΑ ΜΙΑ ΕΛΕΥΘΕΡΗ ΕΛΛΑΔΑ",
+    "short_name_el": "ΚΕΚΑ-ΑΚΚΕΛ ΜΑΖΙ ΓΙΑ ΜΙΑ ΕΛΕΥΘΕΡΗ ΕΛΛΑΔΑ",
+    "short_name_en": "KEKA-AKKEL MAZI GIA MIA ELEYTHERI ELLADA",
+    "color": "#163D64",
+    "logo": "y162.png"
+  },
+  {
+    "id": 163,
+    "title_el": "ΠΑΤΡΙΩΤΕΣ-ΠΡΟΔΡΟΜΟΣ ΕΜΦΙΕΤΖΟΓΛΟΥ",
+    "title": "ΠΑΤΡΙΩΤΕΣ-ΠΡΟΔΡΟΜΟΣ ΕΜΦΙΕΤΖΟΓΛΟΥ",
+    "title_en": "PATRIOTES-PRODROMOS EMFIETZOGLOU",
+    "short_name": "ΠΑΤΡΙΩΤΕΣ-ΠΡΟΔΡΟΜΟΣ ΕΜΦΙΕΤΖΟΓΛΟΥ",
+    "short_name_el": "ΠΑΤΡΙΩΤΕΣ-ΠΡΟΔΡΟΜΟΣ ΕΜΦΙΕΤΖΟΓΛΟΥ",
+    "short_name_en": "PATRIOTES-PRODROMOS EMFIETZOGLOU",
+    "color": "#0B496E",
+    "logo": "y163.png"
+  },
+  {
+    "id": 164,
+    "title_el": "ΔΗΜΟΚΡΑΤΕΣ ΑΝΔΡΕΑΣ ΛΟΒΕΡΔΟΣ",
+    "title": "ΔΗΜΟΚΡΑΤΕΣ ΑΝΔΡΕΑΣ ΛΟΒΕΡΔΟΣ",
+    "title_en": "DIMOKRATES ANDREAS LOVERDOS",
+    "short_name": "ΔΗΜΟΚΡΑΤΕΣ ΑΝΔΡΕΑΣ ΛΟΒΕΡΔΟΣ",
+    "short_name_el": "ΔΗΜΟΚΡΑΤΕΣ ΑΝΔΡΕΑΣ ΛΟΒΕΡΔΟΣ",
+    "short_name_en": "DIMOKRATES ANDREAS LOVERDOS",
+    "color": "#152A85",
+    "logo": "y164.png"
+  },
+  {
+    "id": 165,
+    "title_el": "ΟΜΟΓΕΝΕΙΑΚΟ ΔΙΚΤΥΟ ΕΛΛΗΝΩΝ ΕΥΡΩΠΗΣ (Ο.Δ.Ε.Ε.)",
+    "title": "ΟΜΟΓΕΝΕΙΑΚΟ ΔΙΚΤΥΟ ΕΛΛΗΝΩΝ ΕΥΡΩΠΗΣ (Ο.Δ.Ε.Ε.)",
+    "title_en": "OMOGENEIAKO DIKTYO ELLINON EYROPIS (O.D.E.E.)",
+    "short_name": "Ο.Δ.Ε.Ε.",
+    "short_name_el": "Ο.Δ.Ε.Ε.",
+    "short_name_en": "O.D.E.E.",
+    "color": "#007EE2",
+    "logo": "y165.png"
+  },
+  {
+    "id": 166,
+    "title_el": "ΝΕΑ ΑΡΙΣΤΕΡΑ",
+    "title": "ΝΕΑ ΑΡΙΣΤΕΡΑ",
+    "title_en": "NEA ARISTERA",
+    "short_name": "ΝΕΑ ΑΡΙΣΤΕΡΑ",
+    "short_name_el": "ΝΕΑ ΑΡΙΣΤΕΡΑ",
+    "short_name_en": "NEA ARISTERA",
+    "color": "#CA2726",
+    "logo": "y166.png"
+  },
+  {
+    "id": 167,
+    "title_el": "ΣΥΝΤΗΡΗΤΙΚΟΙ",
+    "title": "ΣΥΝΤΗΡΗΤΙΚΟΙ",
+    "title_en": "SYNTIRITIKOI",
+    "short_name": "ΣΥΝΤΗΡΗΤΙΚΟΙ",
+    "short_name_el": "ΣΥΝΤΗΡΗΤΙΚΟΙ",
+    "short_name_en": "SYNTIRITIKOI",
+    "color": "#2E5C9A",
+    "logo": "y167.png"
+  },
+  {
+    "id": 168,
+    "title_el": "ΚΙΝΗΜΑ ΕΘΝΙΚΗΣ ΑΝΕΞΑΡΤΗΣΙΑΣ",
+    "title": "ΚΙΝΗΜΑ ΕΘΝΙΚΗΣ ΑΝΕΞΑΡΤΗΣΙΑΣ",
+    "title_en": "KINIMA ETHNIKIS ANEXARTISIAS",
+    "short_name": "ΚΙΝΗΜΑ ΕΘΝΙΚΗΣ ΑΝΕΞΑΡΤΗΣΙΑΣ",
+    "short_name_el": "ΚΙΝΗΜΑ ΕΘΝΙΚΗΣ ΑΝΕΞΑΡΤΗΣΙΑΣ",
+    "short_name_en": "KINIMA ETHNIKIS ANEXARTISIAS",
+    "color": "#4A97A7",
+    "logo": "y168.png"
+  },
+  {
+    "id": 169,
+    "title_el": "ΚΟΣΜΟΣ",
+    "title": "ΚΟΣΜΟΣ",
+    "title_en": "KOSMOS",
+    "short_name": "ΚΟΣΜΟΣ",
+    "short_name_el": "ΚΟΣΜΟΣ",
+    "short_name_en": "KOSMOS",
+    "color": "#13A05C",
+    "logo": "y169.png"
   }
 ]
