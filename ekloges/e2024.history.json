@@ -1,3 +1,385 @@
 [
-
+  {
+    "id": 1717949683,
+    "updated": "2024-06-09 19:09:37",
+    "tmimata": 24,
+    "total_egkyra": 712,
+    "ingestion": 0.001097443870318716,
+    "percentages": {
+      "4": 0.3103932584269663,
+      "2": 0.27247191011235955,
+      "108": 0.0800561797752809,
+      "106": 0.12640449438202248,
+      "123": 0.03089887640449438,
+      "131": 0.023876404494382022,
+      "3": 0.05758426966292135,
+      "122": 0.0056179775280898875
+    },
+    "votes": {
+      "4": 221,
+      "2": 194,
+      "108": 57,
+      "106": 90,
+      "123": 22,
+      "131": 17,
+      "3": 41,
+      "122": 4
+    },
+    "perifereies": [
+      {
+        "id": 38,
+        "tmimata": 0,
+        "total": 871,
+        "ingestion": 0.0
+      },
+      {
+        "id": 60,
+        "tmimata": 0,
+        "total": 982,
+        "ingestion": 0.0
+      },
+      {
+        "id": 61,
+        "tmimata": 0,
+        "total": 714,
+        "ingestion": 0.0
+      },
+      {
+        "id": 62,
+        "tmimata": 0,
+        "total": 1167,
+        "ingestion": 0.0
+      },
+      {
+        "id": 40,
+        "tmimata": 0,
+        "total": 376,
+        "ingestion": 0.0
+      },
+      {
+        "id": 41,
+        "tmimata": 1,
+        "total": 511,
+        "ingestion": 0.0019569471624266144
+      },
+      {
+        "id": 63,
+        "tmimata": 0,
+        "total": 720,
+        "ingestion": 0.0
+      },
+      {
+        "id": 64,
+        "tmimata": 0,
+        "total": 261,
+        "ingestion": 0.0
+      },
+      {
+        "id": 30,
+        "tmimata": 4,
+        "total": 584,
+        "ingestion": 0.00684931506849315
+      },
+      {
+        "id": 44,
+        "tmimata": 0,
+        "total": 223,
+        "ingestion": 0.0
+      },
+      {
+        "id": 45,
+        "tmimata": 1,
+        "total": 358,
+        "ingestion": 0.002793296089385475
+      },
+      {
+        "id": 19,
+        "tmimata": 0,
+        "total": 215,
+        "ingestion": 0.0
+      },
+      {
+        "id": 31,
+        "tmimata": 1,
+        "total": 646,
+        "ingestion": 0.0015479876160990713
+      },
+      {
+        "id": 36,
+        "tmimata": 1,
+        "total": 234,
+        "ingestion": 0.004273504273504274
+      },
+      {
+        "id": 17,
+        "tmimata": 0,
+        "total": 126,
+        "ingestion": 0.0
+      },
+      {
+        "id": 4,
+        "tmimata": 0,
+        "total": 248,
+        "ingestion": 0.0
+      },
+      {
+        "id": 52,
+        "tmimata": 0,
+        "total": 404,
+        "ingestion": 0.0
+      },
+      {
+        "id": 1,
+        "tmimata": 0,
+        "total": 372,
+        "ingestion": 0.0
+      },
+      {
+        "id": 37,
+        "tmimata": 0,
+        "total": 459,
+        "ingestion": 0.0
+      },
+      {
+        "id": 34,
+        "tmimata": 2,
+        "total": 124,
+        "ingestion": 0.016129032258064516
+      },
+      {
+        "id": 29,
+        "tmimata": 0,
+        "total": 102,
+        "ingestion": 0.0
+      },
+      {
+        "id": 32,
+        "tmimata": 3,
+        "total": 424,
+        "ingestion": 0.007075471698113208
+      },
+      {
+        "id": 12,
+        "tmimata": 0,
+        "total": 289,
+        "ingestion": 0.0
+      },
+      {
+        "id": 55,
+        "tmimata": 0,
+        "total": 588,
+        "ingestion": 0.0
+      },
+      {
+        "id": 20,
+        "tmimata": 0,
+        "total": 173,
+        "ingestion": 0.0
+      },
+      {
+        "id": 6,
+        "tmimata": 0,
+        "total": 1024,
+        "ingestion": 0.0
+      },
+      {
+        "id": 7,
+        "tmimata": 0,
+        "total": 599,
+        "ingestion": 0.0
+      },
+      {
+        "id": 18,
+        "tmimata": 3,
+        "total": 514,
+        "ingestion": 0.005836575875486381
+      },
+      {
+        "id": 5,
+        "tmimata": 0,
+        "total": 302,
+        "ingestion": 0.0
+      },
+      {
+        "id": 25,
+        "tmimata": 0,
+        "total": 303,
+        "ingestion": 0.0
+      },
+      {
+        "id": 16,
+        "tmimata": 0,
+        "total": 141,
+        "ingestion": 0.0
+      },
+      {
+        "id": 26,
+        "tmimata": 0,
+        "total": 258,
+        "ingestion": 0.0
+      },
+      {
+        "id": 28,
+        "tmimata": 0,
+        "total": 136,
+        "ingestion": 0.0
+      },
+      {
+        "id": 10,
+        "tmimata": 0,
+        "total": 225,
+        "ingestion": 0.0
+      },
+      {
+        "id": 15,
+        "tmimata": 2,
+        "total": 381,
+        "ingestion": 0.005249343832020997
+      },
+      {
+        "id": 43,
+        "tmimata": 0,
+        "total": 319,
+        "ingestion": 0.0
+      },
+      {
+        "id": 51,
+        "tmimata": 0,
+        "total": 295,
+        "ingestion": 0.0
+      },
+      {
+        "id": 47,
+        "tmimata": 0,
+        "total": 290,
+        "ingestion": 0.0
+      },
+      {
+        "id": 22,
+        "tmimata": 0,
+        "total": 540,
+        "ingestion": 0.0
+      },
+      {
+        "id": 56,
+        "tmimata": 0,
+        "total": 176,
+        "ingestion": 0.0
+      },
+      {
+        "id": 48,
+        "tmimata": 0,
+        "total": 270,
+        "ingestion": 0.0
+      },
+      {
+        "id": 27,
+        "tmimata": 0,
+        "total": 79,
+        "ingestion": 0.0
+      },
+      {
+        "id": 23,
+        "tmimata": 1,
+        "total": 364,
+        "ingestion": 0.0027472527472527475
+      },
+      {
+        "id": 46,
+        "tmimata": 0,
+        "total": 500,
+        "ingestion": 0.0
+      },
+      {
+        "id": 3,
+        "tmimata": 0,
+        "total": 257,
+        "ingestion": 0.0
+      },
+      {
+        "id": 11,
+        "tmimata": 0,
+        "total": 312,
+        "ingestion": 0.0
+      },
+      {
+        "id": 13,
+        "tmimata": 0,
+        "total": 276,
+        "ingestion": 0.0
+      },
+      {
+        "id": 21,
+        "tmimata": 0,
+        "total": 167,
+        "ingestion": 0.0
+      },
+      {
+        "id": 54,
+        "tmimata": 0,
+        "total": 218,
+        "ingestion": 0.0
+      },
+      {
+        "id": 2,
+        "tmimata": 0,
+        "total": 283,
+        "ingestion": 0.0
+      },
+      {
+        "id": 50,
+        "tmimata": 0,
+        "total": 114,
+        "ingestion": 0.0
+      },
+      {
+        "id": 8,
+        "tmimata": 0,
+        "total": 485,
+        "ingestion": 0.0
+      },
+      {
+        "id": 24,
+        "tmimata": 0,
+        "total": 345,
+        "ingestion": 0.0
+      },
+      {
+        "id": 33,
+        "tmimata": 2,
+        "total": 370,
+        "ingestion": 0.005405405405405406
+      },
+      {
+        "id": 14,
+        "tmimata": 0,
+        "total": 199,
+        "ingestion": 0.0
+      },
+      {
+        "id": 35,
+        "tmimata": 3,
+        "total": 140,
+        "ingestion": 0.02142857142857143
+      },
+      {
+        "id": 9,
+        "tmimata": 0,
+        "total": 219,
+        "ingestion": 0.0
+      },
+      {
+        "id": 53,
+        "tmimata": 0,
+        "total": 346,
+        "ingestion": 0.0
+      },
+      {
+        "id": 49,
+        "tmimata": 0,
+        "total": 149,
+        "ingestion": 0.0
+      }
+    ]
+  }
 ]
