@@ -91,8 +91,8 @@
         "body": "No rabbit was pulled out of a hat here. This notebook combines direct analysis of the uploaded KINO draw history with Monte Carlo summaries computed offline from the official OPAP payout table. The historical file covers {draw_count} draws. The goal is not to build a gambling tool, but to examine a very common public intuition against the arithmetic that sits underneath it. The genetic-algorithm experiment was judged by walk-forward validation, not by in-sample fit, and by comparison against shuffled or null histories."
       },
       "opening_evidence": {
-        "title": "What the first two charts are really showing",
-        "body": "The first chart asks the most basic question possible: if the game had an obvious preference built into it, would we not already see it in the overall rhythm of odd, even, and draw results? The white dots are the simple mathematical expectation. The bars sit almost on top of them. That does not prove perfection, but it is a strong reason to distrust dramatic claims about a game that supposedly keeps tilting one way or another.\n\nThe second chart asks the same question about the ten columns. If one column had a hidden bias, this would be the place where it should begin to separate itself. It does not. All ten stay roughly around **10%**. Before we start talking about systems, in other words, the biggest imbalances simply do not appear in the raw picture."
+        "title": "What the first charts are really showing",
+        "body": "The first chart asks the most basic question possible: if the game had an obvious preference built into it, would we not already see it in the overall rhythm of odd, even, and draw results? The white dots are the simple mathematical expectation. The bars sit almost on top of them. That does not prove perfection, but it is a strong reason to distrust dramatic claims about a game that supposedly keeps tilting one way or another.\n\nThe second chart asks the same question about the ten columns. If one column had a hidden bias, this would be the place where it should begin to separate itself. It does not. All ten stay roughly around **10%**.\n\nThe third chart lowers the lens all the way down to the individual numbers from **1** to **80**. In a fair draw, each number should appear in roughly **25%** of the rounds, because **20** numbers are drawn out of **80** each time. And that is exactly what the picture suggests: small fluctuations, yes, but no secret caste of “favored” numbers. Before we start talking about systems, in other words, the biggest imbalances simply do not appear in the raw picture."
       },
       "simple_model": {
         "title": "And what about the third chart?",
@@ -103,8 +103,10 @@
       "fairness": {
         "share_of_draws": "Share of draws",
         "column": "Column",
+        "number": "Number",
         "parity_caption": "The white dots mark where odd, even, and draw should sit in a fair draw. The bars land almost on top of them.",
-        "column_caption": "If one column had a hidden advantage, it should stand out here. Instead, all ten stay close to 10%."
+        "column_caption": "If one column had a hidden advantage, it should stand out here. Instead, all ten stay close to 10%.",
+        "number_caption": "The individual numbers also hover around the same expected frequency: about 25% each."
       },
       "surrogate": {
         "title": "The simple fair-draw model still stays closest to reality",
@@ -332,8 +334,8 @@
         "body": "Δεν βγήκε κανένα κουνέλι από το καπέλο εδώ. Το notebook αυτό συνδυάζει άμεση ανάλυση του ανεβασμένου ιστορικού κληρώσεων του ΚΙΝΟ με Monte Carlo περιλήψεις που υπολογίστηκαν offline με βάση τον επίσημο πίνακα αποδόσεων του ΟΠΑΠ. Το ιστορικό αρχείο καλύπτει {draw_count} κληρώσεις. Ο στόχος δεν είναι να χτιστεί ένα εργαλείο τζόγου, αλλά να εξεταστεί μια πολύ οικεία δημόσια διαίσθηση απέναντι στην αριθμητική που κρύβεται ακριβώς από κάτω. Το πείραμα με τον γενετικό αλγόριθμο κρίθηκε με walk-forward validation, όχι με ταίριασμα πάνω στο ίδιο το δείγμα, και σε σύγκριση με shuffled ή null histories."
       },
       "opening_evidence": {
-        "title": "Τι μας λένε στην πράξη τα δύο πρώτα γραφήματα",
-        "body": "Το πρώτο γράφημα κάνει την πιο απλή δοκιμή από όλες: αν το παιχνίδι είχε κάποια εμφανή προτίμηση, δεν θα τη βλέπαμε ήδη στον βασικό του ρυθμό; Οι λευκές τελείες δείχνουν πού θα περιμέναμε να βρίσκονται τα μονά, τα ζυγά και η ισοπαλία σε μια δίκαιη κλήρωση. Το γεγονός ότι οι μπάρες κάθονται σχεδόν πάνω τους δεν αποδεικνύει τελειότητα, αλλά είναι ένας πολύ σοβαρός λόγος να κρατάμε μικρό καλάθι απέναντι στις μεγάλες βεβαιότητες.\n\nΤο δεύτερο γράφημα κάνει την ίδια ερώτηση για τις δέκα στήλες. Αν κάποια στήλη είχε κρυφή «ροπή», εδώ θα έπρεπε να αρχίσει να ξεχωρίζει. Δεν ξεχωρίζει. Και οι δέκα κινούνται περίπου γύρω από το **10%**, δηλαδή εκεί όπου θα περιμέναμε να βρίσκονται σε ένα παιχνίδι χωρίς μνήμη. Με άλλα λόγια, πριν καν αρχίσουμε να μιλάμε για συστήματα, οι πιο χοντρές ανισορροπίες απλώς δεν εμφανίζονται στην πρώτη εικόνα."
+        "title": "Τι μας λένε στην πράξη τα πρώτα γραφήματα",
+        "body": "Το πρώτο γράφημα κάνει την πιο απλή δοκιμή από όλες: αν το παιχνίδι είχε κάποια εμφανή προτίμηση, δεν θα τη βλέπαμε ήδη στον βασικό του ρυθμό; Οι λευκές τελείες δείχνουν πού θα περιμέναμε να βρίσκονται τα μονά, τα ζυγά και η ισοπαλία σε μια δίκαιη κλήρωση. Το γεγονός ότι οι μπάρες κάθονται σχεδόν πάνω τους δεν αποδεικνύει τελειότητα, αλλά είναι ένας πολύ σοβαρός λόγος να κρατάμε μικρό καλάθι απέναντι στις μεγάλες βεβαιότητες.\n\nΤο δεύτερο γράφημα κάνει την ίδια ερώτηση για τις δέκα στήλες. Αν κάποια στήλη είχε κρυφή «ροπή», εδώ θα έπρεπε να αρχίσει να ξεχωρίζει. Δεν ξεχωρίζει. Και οι δέκα κινούνται περίπου γύρω από το **10%**.\n\nΤο τρίτο γράφημα κατεβάζει τον φακό μέχρι τους ίδιους τους αριθμούς, από το **1** έως το **80**. Σε μια δίκαιη κλήρωση, κάθε αριθμός θα έπρεπε να εμφανίζεται περίπου στο **25%** των γύρων, αφού κάθε φορά κληρώνονται **20** αριθμοί από τους **80**. Και αυτό ακριβώς δείχνει η εικόνα: μικρές διακυμάνσεις, ναι, αλλά καμία μυστική τάξη «ευνοημένων» αριθμών. Με άλλα λόγια, πριν καν αρχίσουμε να μιλάμε για συστήματα, οι πιο χοντρές ανισορροπίες απλώς δεν εμφανίζονται στην πρώτη εικόνα."
       },
       "simple_model": {
         "title": "Και τι ακριβώς μας λέει το τρίτο γράφημα;",
@@ -344,8 +346,10 @@
       "fairness": {
         "share_of_draws": "Ποσοστό κληρώσεων",
         "column": "Στήλη",
+        "number": "Αριθμός",
         "parity_caption": "Οι λευκές τελείες δείχνουν πού θα περιμέναμε να βρίσκονται τα μονά, τα ζυγά και η ισοπαλία σε μια δίκαιη κλήρωση. Οι μπάρες πέφτουν σχεδόν πάνω τους.",
-        "column_caption": "Αν μια στήλη είχε κρυφή προτίμηση, εδώ θα ξεχώριζε. Αντί γι’ αυτό, και οι δέκα μένουν κοντά στο 10%."
+        "column_caption": "Αν μια στήλη είχε κρυφή προτίμηση, εδώ θα ξεχώριζε. Αντί γι’ αυτό, και οι δέκα μένουν κοντά στο 10%.",
+        "number_caption": "Και οι μεμονωμένοι αριθμοί κινούνται κοντά στην ίδια αναμενόμενη συχνότητα: περίπου 25% ο καθένας."
       },
       "surrogate": {
         "title": "Το απλό μοντέλο της δίκαιης κλήρωσης μένει το πιο κοντινό στην πραγματικότητα",

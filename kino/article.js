@@ -361,6 +361,12 @@ export async function createKinoArticle({Inputs, html, md}) {
       actual: d3.mean(draws, (row) => (row.column === column ? 1 : 0))
     }));
 
+    const number_actual = d3.range(1, 81).map((number) => ({
+      number,
+      actual: d3.mean(draws, (row) => (row.num_set.has(number) ? 1 : 0)),
+      expected: 0.25
+    }));
+
     const pick_tradeoff = d3.range(1, 13).map((pick) => ({
       pick,
       win_prob: plain_win_prob(pick),
@@ -555,6 +561,29 @@ export async function createKinoArticle({Inputs, html, md}) {
       })
     );
     body.append(block(fairness_row, "plot-block"));
+
+    body.append(
+      block(
+        plot.plot({
+          width: full_width,
+          height: 360,
+          y: {percent: true, grid: true, label: text("charts.fairness.share_of_draws")},
+          x: {label: text("charts.fairness.number"), tickRotate: -90, tickFormat: (d) => String(d)},
+          marks: [
+            plot.barY(number_actual, {
+              x: "number",
+              y: "actual",
+              fill: "#9aa1ac",
+              tip: true,
+              title: (row) => `${lang === "el" ? "Αριθμός" : "Number"} ${row.number}\n${text("charts.fairness.share_of_draws")}: ${fmt_pct(row.actual)}\n${lang === "el" ? "Αναμενόμενο" : "Expected"}: ${fmt_pct(row.expected)}`
+            }),
+            plot.ruleY([0.25], {stroke: "firebrick", strokeDasharray: "6,4"})
+          ],
+          caption: text("charts.fairness.number_caption")
+        }),
+        "plot-block"
+      )
+    );
 
     body.append(heading_block("article.opening_evidence.title", 3));
     body.append(markdown_block("article.opening_evidence.body"));
