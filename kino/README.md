@@ -36,6 +36,10 @@ Localized editorial metadata for those embeds is available too:
 catalog = await kinoEmbeds.get_embed_catalog("el")
 ```
 
+A ready-made notebook source for this modular workflow is included as:
+
+- `embeds-notebook.ojs`
+
 The module automatically loads its sibling files from the same folder:
 
 - `i18n.json`
@@ -50,6 +54,7 @@ So once the repo is updated, the notebook stays in sync without re-uploading att
 - `embeds.js`: embeddable plot and section builders for iframes, social cards, and standalone notebook cells
 - `shared.js`: common data loading, formatting, and statistical helpers
 - `EMBEDS_NOTEBOOK.md`: ready-made cell layout for a dedicated embeds notebook
+- `embeds-notebook.ojs`: ready-to-paste Observable notebook source for the embeds notebook
 - `article-single-cell.ojs`: legacy single-cell Observable source
 - `i18n.json`: bilingual copy for the article
 - `styles.css`: presentation layer
