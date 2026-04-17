@@ -1,0 +1,12 @@
+{
+  "editor.rulers": [100],
+  "prettier.printWidth": 100,
+  "[json]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 100
+  },
+  "[jsonc]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 100
+  }
+}

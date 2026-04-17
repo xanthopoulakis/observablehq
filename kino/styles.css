@@ -112,10 +112,11 @@
 }
 
 .mini-card .label {
-  font-family: system-ui, sans-serif;
+  font-family: var(--font-text);
   font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+  font-weight: 600;
   color: var(--muted);
 }
 
@@ -173,6 +174,14 @@
 .kino-article .observablehq--plot .tick text,
 .kino-article .observablehq--plot .label text {
   font-family: var(--font-text);
+}
+
+.kino-article abbr.term {
+  text-decoration: underline dotted var(--accent);
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  cursor: help;
+  border-bottom: 0;
 }
 
 @media (max-width: 900px) {
