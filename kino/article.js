@@ -540,6 +540,9 @@ export async function createKinoArticle({Inputs, html, md}) {
     );
     body.append(block(fairness_row, "plot-block"));
 
+    body.append(heading_block("article.opening_evidence.title", 3));
+    body.append(markdown_block("article.opening_evidence.body"));
+
     body.append(
       block(
         plot.plot({
@@ -560,6 +563,9 @@ export async function createKinoArticle({Inputs, html, md}) {
         "plot-block"
       )
     );
+
+    body.append(heading_block("article.simple_model.title", 3));
+    body.append(markdown_block("article.simple_model.body"));
 
     body.append(
       html`<div class="callout">
