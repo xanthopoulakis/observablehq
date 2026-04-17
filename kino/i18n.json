@@ -1,7 +1,7 @@
 {
   "en": {
     "ui": {
-      "language_label": "Language / Γλώσσα",
+      "language_label": "View / Προβολή",
       "language_option_en": "English",
       "language_option_el": "Ελληνικά",
       "share_link": "Open this language as a shareable link",
@@ -16,12 +16,12 @@
     },
     "article": {
       "hero": {
-        "kicker": "Lucky games, probability, and self-deception",
-        "title": "If you want to win, stop playing lucky games",
+        "kicker": "LUCKY GAMES, PROBABILITY, AND SELF-DECEPTION",
+        "title": "Are keen on winning? then quit playing games of luck",
         "deck": "Every KINO counter has its own theory: the overdue number, the hot streak, the “safe” parity bet, the clever system that supposedly lowers the risk. I tested those theories on 101,952 draws. The result is less magical and more useful: KINO can offer suspense, but not the sort of pattern that quietly pays you back.",
         "meta": "By C. Xanthopoulakis · data-driven essay · {draw_count} draws"
       },
-      "lede": "Anyone who has spent time around a KINO slip has heard the same confidence before the draw: this one is late, that one is running, odd has room, draw has been missing for too long.\n\nIt is an understandable instinct. Randomness is easier to tolerate when it begins to look like behavior. And most betting systems do not really promise to beat chance. They promise something subtler: to make chance feel readable.\n\nSo the question is not whether these stories are comforting. It is whether they survive contact with the data.",
+      "lede": "In Greece, lucky games are rarely bought as entertainment alone. At the neighborhood agency, at the coffee shop, in the small rituals of a month that often does not quite add up, KINO has become a familiar purchase of hope: a few euros for the chance that the next five minutes may prove kinder than the real economy.\n\nThat is what makes the subject larger than a betting slip. Many people do not play only out of excitement or carelessness. They play out of habit, out of pressure, out of the quiet fantasy that randomness might repair, for a moment, what wages, bills, and the supermarket no longer do. Around that hope, an entire folk theory grows: the overdue number, the hot column, the safe parity window, the clever system, even the more modern dream that an algorithm might crack the machine.\n\nSo before asking whether any of these strategies work, it is worth asking a more uncomfortable question: when a household keeps feeding small amounts into a game like this, are we watching harmless entertainment or a **slow leak of income dressed up as control**?",
       "cards": {
         "dataset": "Dataset",
         "best_side_market_rtp": "Best side-market RTP",
@@ -30,8 +30,8 @@
         "uniform_draw": "Uniform draw"
       },
       "intro": {
-        "title": "Start with the boring hypothesis",
-        "body": "Before searching for a hidden mechanism, it is worth asking the plain question first: what if KINO already behaves very much like a fair draw? If the simple explanation already fits, the clever one has to work much harder."
+        "title": "From the slip to the arithmetic",
+        "body": "That is why this essay starts **one step before the statistics**. The issue is not whether some players win occasionally. Of course they do. The issue is whether observation, discipline, or technical sophistication can overturn a game designed to keep the edge with the operator.\n\nI tested the most common stories against **101,952 draws**: overdue numbers, hot and cold streaks, parity windows, coverage systems, combined tickets, and even evolutionary models that try to “learn” the machine. The standard was not whether a theory could sound plausible for a few rounds, but whether it could survive the arithmetic, future data, and comparisons against **shuffled histories**.\n\nWhat follows is therefore not a sermon against players. It is a close look at a very Greek habit of trying to make chance look readable. And once the numbers are laid out, the magic begins to shrink."
       },
       "myth1": {
         "title": "Myth 1: “Overdue numbers are more likely to hit”",
@@ -146,8 +146,7 @@
       "columns": "Columns",
       "cost_per_draw": "Cost per draw (€)",
       "fair_chance_pool_contains_9_plus": "Fair chance the pool contains 9+ winners",
-      "historical_trigger_rate": "Historical trigger rate"
-      ,
+      "historical_trigger_rate": "Historical trigger rate",
       "top_net_win": "Top net win (€0.50 ticket)",
       "median_rounds_1000": "Median rounds survived (€1,000 bankroll)",
       "profitable_ever": "Share of bankroll paths ever ahead",
@@ -235,7 +234,7 @@
   },
   "el": {
     "ui": {
-      "language_label": "Γλώσσα / Language",
+      "language_label": "Προβολή / View",
       "language_option_en": "English",
       "language_option_el": "Ελληνικά",
       "share_link": "Άνοιξε αυτή τη γλώσσα ως κοινοποιήσιμο σύνδεσμο",
@@ -250,12 +249,12 @@
     },
     "article": {
       "hero": {
-        "kicker": "Τυχερά παιχνίδια, πιθανότητες και αυταπάτες",
-        "title": "Αν θέλεις να κερδίσεις, σταμάτα να παίζεις τυχερά παιχνίδια",
+        "kicker": "ΤΥΧΕΡΑ ΠΑΙΓΝΙΑ, ΠΙΘΑΝΟΤΗΤΕΣ ΚΑΙ ΑΥΤΑΠΑΤΕΣ",
+        "title": "Θέλεις να κερδίζεις; Τότε, κόψε τα τυχερά παίγνια",
         "deck": "Σε κάθε γκισέ του ΚΙΝΟ κυκλοφορεί και μια θεωρία: ο καθυστερημένος αριθμός, το hot streak, το «ασφαλές» μονά-ζυγά, το έξυπνο σύστημα που τάχα περιορίζει το ρίσκο. Δοκίμασα αυτές τις θεωρίες πάνω σε 101.952 κληρώσεις. Το συμπέρασμα είναι λιγότερο μαγικό, αλλά ίσως περισσότερο χρήσιμο: το ΚΙΝΟ προσφέρει αγωνία, όχι όμως το είδος του μοτίβου που σε πληρώνει αθόρυβα.",
         "meta": "Του C. Xanthopoulakis · δημοσιογραφικό σημείωμα με δεδομένα · {draw_count} κληρώσεις"
       },
-      "lede": "Όποιος έχει σταθεί έστω μία φορά πάνω από ένα δελτίο ΚΙΝΟ θα έχει ακούσει την ίδια βεβαιότητα λίγο πριν από την κλήρωση: αυτός αργεί, εκείνος «τρέχει», τα μονά έχουν χώρο, η ισοπαλία λείπει υπερβολικά πολύ.\n\nΕίναι ένα απολύτως ανθρώπινο ένστικτο. Η τυχαιότητα γίνεται πιο υποφερτή όταν αρχίζει να μοιάζει με συμπεριφορά. Και τα περισσότερα «συστήματα» στοιχηματισμού δεν υπόσχονται, στην πραγματικότητα, ότι θα νικήσουν την τύχη. Υπόσχονται κάτι πιο λεπτό: ότι θα την κάνουν να φαίνεται αναγνώσιμη.\n\nΤο ερώτημα λοιπόν δεν είναι αν αυτές οι ιστορίες παρηγορούν. Το ερώτημα είναι αν στέκονται όταν τις ακουμπήσεις πάνω στα δεδομένα.",
+      "lede": "Στην Ελλάδα της ακρίβειας, τα τυχερά παιχνίδια σπανίως αγοράζονται μόνο ως ψυχαγωγία. Στο πρακτορείο της γειτονιάς, στο καφενείο, στα μικρά τελετουργικά ενός μήνα που συχνά δεν βγαίνει, το ΚΙΝΟ έχει γίνει μια οικεία αγορά ελπίδας: λίγα ευρώ για την πιθανότητα ότι το επόμενο πεντάλεπτο θα φανεί πιο γενναιόδωρο από την πραγματική οικονομία.\n\nΚαι αυτό είναι που κάνει το θέμα μεγαλύτερο από ένα απλό δελτίο. Πολλοί δεν παίζουν μόνο από ευφορία ή επιπολαιότητα. Παίζουν από συνήθεια, από πίεση, από την κρυφή ιδέα ότι η τύχη μπορεί να διορθώσει για λίγο όσα δεν διορθώνουν ο μισθός, ο λογαριασμός και το σούπερ μάρκετ. Γύρω από αυτή την ελπίδα ανθίζει και μια ολόκληρη λαϊκή θεωρία: ο καθυστερημένος αριθμός, η στήλη που «ζεστάθηκε», το ασφαλές μονά-ζυγά, το έξυπνο σύστημα, ακόμη και η πιο σύγχρονη εκδοχή του ίδιου ονείρου, ότι ένας αλγόριθμος μπορεί να σπάσει τον κώδικα της μηχανής.\n\nΠριν, λοιπόν, ρωτήσουμε αν αυτές οι στρατηγικές δουλεύουν, αξίζει να ρωτήσουμε κάτι πιο άβολο: όταν ένα νοικοκυριό ρίχνει ξανά και ξανά μικρά ποσά σε ένα τέτοιο παιχνίδι, μιλάμε πράγματι για αθώα διασκέδαση ή για μια **αργή διαρροή εισοδήματος ντυμένη με την ψευδαίσθηση του ελέγχου**;",
       "cards": {
         "dataset": "Δείγμα",
         "best_side_market_rtp": "Καλύτερο RTP στις αγορές πλευράς",
@@ -264,8 +263,8 @@
         "uniform_draw": "Ομοιόμορφη κλήρωση"
       },
       "intro": {
-        "title": "Ξεκίνα από τη βαρετή υπόθεση",
-        "body": "Πριν αρχίσει κανείς να ψάχνει τον κρυφό μηχανισμό, αξίζει να κάνει πρώτα την απλή ερώτηση: μήπως το ΚΙΝΟ συμπεριφέρεται ήδη πολύ κοντά σε μια δίκαιη κλήρωση; Αν η απλή εξήγηση ταιριάζει ήδη αρκετά καλά, τότε η πιο ευφάνταστη ιστορία οφείλει να δουλέψει πολύ περισσότερο για να σταθεί."
+        "title": "Από το δελτίο στην αριθμητική",
+        "body": "Γι’ αυτό και η ανάλυση αυτή ξεκινά **ένα βήμα πριν από τα στατιστικά**. Το ζήτημα δεν είναι αν κάποιοι παίκτες κερδίζουν περιστασιακά. Προφανώς και κερδίζουν. Το ζήτημα είναι αν η παρατήρηση, η πειθαρχία ή η τεχνική εξυπνάδα μπορούν να ανατρέψουν ένα παιχνίδι σχεδιασμένο να αφήνει το πλεονέκτημα στον διοργανωτή.\n\nΔοκίμασα τις πιο γνωστές θεωρίες πάνω σε **101.952 κληρώσεις**: καθυστερημένους αριθμούς, hot και cold streaks, παράθυρα ισοπαλίας, συστήματα κάλυψης, συνδυαστικά δελτία, ακόμη και εξελικτικά μοντέλα που επιχειρούν να «μάθουν» τη μηχανή. Το κριτήριο δεν ήταν αν κάτι ακούγεται πειστικό για λίγους γύρους, αλλά αν αντέχει στην αριθμητική, στα μελλοντικά δεδομένα και στις συγκρίσεις με **ανακατεμένα ιστορικά δεδομένα**.\n\nΑυτό που ακολουθεί δεν είναι κήρυγμα κατά των παικτών. Είναι μια ψύχραιμη ματιά σε μια πολύ ελληνική επιθυμία: να κάνουμε την τύχη να μοιάζει αναγνώσιμη. Μόνο που, όταν τα δεδομένα μπουν στο τραπέζι, ο μύθος αρχίζει να μικραίνει."
       },
       "myth1": {
         "title": "Μύθος 1: «Οι καθυστερημένοι αριθμοί είναι πιο έτοιμοι να βγουν»",
@@ -383,8 +382,7 @@
       "columns": "Στήλες",
       "cost_per_draw": "Κόστος ανά κλήρωση (€)",
       "fair_chance_pool_contains_9_plus": "Δίκαιη πιθανότητα η δεξαμενή να έχει 9+ νικητές",
-      "historical_trigger_rate": "Ιστορικό ποσοστό ενεργοποίησης"
-      ,
+      "historical_trigger_rate": "Ιστορικό ποσοστό ενεργοποίησης",
       "window": "Παράθυρο",
       "real_history": "Πραγματική ιστορία",
       "null_history": "Null ιστορία",
