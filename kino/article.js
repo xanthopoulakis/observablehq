@@ -980,6 +980,10 @@ export async function createKinoArticle({Inputs, html, md}) {
 
     body.append(heading_block("article.methodology.title", 3));
     body.append(markdown_block("article.methodology.body", {draw_count: fmt_num(draws.length)}));
+    body.append(heading_block("article.sources.title", 3));
+    body.append(markdown_block("article.sources.body"));
+    body.append(heading_block("article.appendix.title", 3));
+    body.append(markdown_block("article.appendix.body"));
 
     root.replaceChildren(body);
   }
