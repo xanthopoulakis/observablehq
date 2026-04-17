@@ -1,0 +1,105 @@
+kinoEmbeds = await import("https://cdn.jsdelivr.net/gh/xanthopoulakis/observablehq@main/kino/embeds.js")
+
+viewof lang = Inputs.radio(
+  new Map([
+    ["Ελληνικά", "el"],
+    ["English", "en"]
+  ]),
+  {label: "Γλώσσα / Language", value: "el"}
+)
+
+catalog = await kinoEmbeds.get_embed_catalog(lang)
+
+embed = (id) => catalog.find((d) => d.id === id)
+
+md`# KINO embeds
+
+This notebook is the modular companion to the long-form KINO essay.
+
+Each section below is designed to stand on its own:
+- as an iframe inside a media article
+- as a standalone Observable share URL
+- as the visual backbone of a post on X, LinkedIn, or elsewhere
+
+The copy is localized through the shared repository bundle, so the same notebook can switch between Greek and English without rewriting headings by hand.`
+
+md`## ${embed("fairness").title}
+
+${embed("fairness").hook}`
+
+fairness = await kinoEmbeds.create_fairness_section({Inputs, html, md, lang})
+
+md`## ${embed("surrogate_fit").title}
+
+${embed("surrogate_fit").hook}`
+
+surrogateFit = await kinoEmbeds.create_surrogate_fit_plot({Inputs, html, md, lang, width: 960})
+
+md`## ${embed("overdue_numbers").title}
+
+${embed("overdue_numbers").hook}`
+
+overdueNumbers = await kinoEmbeds.create_overdue_numbers_plot({Inputs, html, md, lang, width: 960})
+
+md`## ${embed("hot_cold").title}
+
+${embed("hot_cold").hook}`
+
+hotCold = await kinoEmbeds.create_hot_cold_plot({Inputs, html, md, lang, width: 960})
+
+md`## ${embed("parity_window").title}
+
+${embed("parity_window").hook}`
+
+parityWindow = await kinoEmbeds.create_parity_window_plot({
+  Inputs,
+  html,
+  md,
+  lang,
+  width: 960,
+  parity_target: "draw",
+  parity_window: 100
+})
+
+md`## ${embed("pick_tradeoff").title}
+
+${embed("pick_tradeoff").hook}`
+
+pickTradeoff = await kinoEmbeds.create_pick_tradeoff_plot({Inputs, html, md, lang, width: 960})
+
+md`## ${embed("pick_variance").title}
+
+${embed("pick_variance").hook}`
+
+pickVariance = await kinoEmbeds.create_pick_variance_section({Inputs, html, md, lang, width: 960})
+
+md`## ${embed("portfolio_scatter").title}
+
+${embed("portfolio_scatter").hook}`
+
+portfolioScatter = await kinoEmbeds.create_portfolio_scatter_plot({Inputs, html, md, lang, width: 960})
+
+md`## ${embed("portfolio_bankroll").title}
+
+${embed("portfolio_bankroll").hook}`
+
+portfolioBankroll = await kinoEmbeds.create_portfolio_bankroll_plot({
+  Inputs,
+  html,
+  md,
+  lang,
+  width: 960,
+  horizon: 5000
+})
+
+md`## ${embed("coverage_systems").title}
+
+${embed("coverage_systems").hook}`
+
+coverageSystems = await kinoEmbeds.create_coverage_systems_plot({Inputs, html, md, lang, width: 960})
+
+md`## ${embed("ga").title}
+
+${embed("ga").hook}`
+
+gaSection = await kinoEmbeds.create_ga_section({Inputs, html, md, lang, width: 960})
