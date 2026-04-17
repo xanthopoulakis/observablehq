@@ -1,0 +1,3 @@
+scan,segments,avg_train_sig_count,avg_test_z,positive_test_z_segments,positive_test_z_pct,avg_test_rtp,profitable_test_segments,profitable_test_pct,total_test_profit
+number,17,0.0,-0.1664,7,0.4118,0.621576,0,0.0,-15451.0
+pair,17,0.0,-0.2454,5,0.2941,0.671824,0,0.0,-13420.5

@@ -1,0 +1,378 @@
+{
+  "en": {
+    "ui": {
+      "language_label": "Language / Γλώσσα",
+      "language_option_en": "English",
+      "language_option_el": "Ελληνικά",
+      "share_link": "Open this language as a shareable link",
+      "target_outcome": "Target outcome",
+      "rolling_window": "Rolling window",
+      "draw_horizon": "Draw horizon"
+    },
+    "options": {
+      "odd": "Odd",
+      "even": "Even",
+      "draw": "Draw"
+    },
+    "article": {
+      "hero": {
+        "kicker": "Lucky games, probability, and self-deception",
+        "title": "If you want to win, stop playing lucky games",
+        "deck": "Every KINO counter has its own theory: the overdue number, the hot streak, the “safe” parity bet, the clever system that supposedly lowers the risk. I tested those theories on 101,952 draws. The result is less magical and more useful: KINO can offer suspense, but not the sort of pattern that quietly pays you back.",
+        "meta": "By C. Xanthopoulakis · data-driven essay · {draw_count} draws"
+      },
+      "lede": "Anyone who has spent time around a KINO slip has heard the same confidence before the draw: this one is late, that one is running, odd has room, draw has been missing for too long.\n\nIt is an understandable instinct. Randomness is easier to tolerate when it begins to look like behavior. And most betting systems do not really promise to beat chance. They promise something subtler: to make chance feel readable.\n\nSo the question is not whether these stories are comforting. It is whether they survive contact with the data.",
+      "cards": {
+        "dataset": "Dataset",
+        "best_side_market_rtp": "Best side-market RTP",
+        "best_plain_pick_rtp": "Best plain pick RTP",
+        "best_surrogate_model": "Best surrogate model",
+        "uniform_draw": "Uniform draw"
+      },
+      "intro": {
+        "title": "Start with the boring hypothesis",
+        "body": "Before searching for a hidden mechanism, it is worth asking the plain question first: what if KINO already behaves very much like a fair draw? If the simple explanation already fits, the clever one has to work much harder."
+      },
+      "myth1": {
+        "title": "Myth 1: “Overdue numbers are more likely to hit”",
+        "body": "This is the old gambler’s promise in its purest form: a number that has been missing for too long must somehow be getting ready. If that were true, very old numbers should hit more often than fresh ones do on the next draw."
+      },
+      "myth2": {
+        "title": "Myth 2: “Hot and cold streaks reveal momentum”",
+        "body": "A more sophisticated player will say the issue is not absence but temperature. Forget the overdue number; look at the hot one, the cold one, the recent rhythm. Statistically, however, what feels like momentum is often just ordinary fluctuation wearing a dramatic face."
+      },
+      "myth3": {
+        "title": "Myth 3: “Parity windows create opportunities”",
+        "body": "This is the point where casual betting borrows the vocabulary of statistics. If draw has been scarce lately, maybe draw is now attractive. The logic sounds cleaner. The obstacle is the same. Even when the conditional probability improves a little, it does not improve enough to outrun the payout table."
+      },
+      "myth4": {
+        "title": "Myth 4: “There is a golden pick size”",
+        "body": "This one survives because it contains a grain of truth. Different pick sizes do change the rhythm of the game. Some pay more often, some hit harder, some let a bankroll breathe for longer. But the useful question is not which pick feels best. It is which pick climbs above 100% RTP. None of them does.",
+        "variance_title": "What “efficient” really means",
+        "variance_body": "Here the word efficient needs care. If by efficiency we mean expected value, the high-variance picks do not escape the same negative arithmetic. If by efficiency we mean how long a fixed bankroll survives, the picture changes again. In a simple fair-draw simulation with a €1,000 bankroll and €0.50 tickets, lower- and middle-variance picks tend to bleed more slowly, while Picks 7 to 9 mainly buy the right to dream about a dramatic spike."
+      },
+      "myth5": {
+        "title": "Myth 5: “If I combine strategies, I can smooth my way into profit”",
+        "body": "The word portfolio lends respectability to almost anything. Add a draw bet. Add a column. Add BONUS. Add PARA1. Perhaps the weak parts become strong together. In real investing, diversification can reduce risk. In a negative-expectation game, diversification often just spreads the damage across more moving pieces."
+      },
+      "myth6": {
+        "title": "Myth 6: “Coverage systems guarantee profit”",
+        "body": "This is where advertising does most of the talking. A combinatorial guarantee can be perfectly true and still financially useless. Yes, a system may guarantee a 9-hit column in game 10 if your selected pool contains enough winners. That part is accurate. The expensive part is the one written in smaller letters: how often does that condition actually arrive?"
+      },
+      "myth7": {
+        "title": "Myth 7: “A genetic algorithm can reverse-engineer the machine”",
+        "body": "This is the modern version of the old betting fantasy. Forget hot numbers and overdue numbers; train an algorithm on the historical draws and let it evolve a hidden rule. Maybe it will not recover the real generator, but perhaps it can learn something close enough to exploit.\n\nThat is a serious hypothesis, not a superstition. It also comes with a serious burden of proof: if the model is real, it should survive future data and beat shuffled history too.",
+        "hypothesis_title": "What we tested",
+        "hypothesis_body": "We let evolutionary models search for number-weighting and pick5-plus-parity policies using only past draws. The question was not whether they could imitate parts of history. The question was whether they could produce a betting edge out of sample.",
+        "results_title": "What happened",
+        "results_body": "The genetic algorithm could occasionally produce flashy short-window profits. But the effect was unstable: some windows were positive, others sharply negative, and similarly “promising” behavior also appeared on shuffled or null histories. That is the fingerprint of overfitting, not of a cracked machine.",
+        "chart_caption": "Short-window gains appeared in both real and null histories. That weakens the claim that the algorithm learned a real hidden mechanism.",
+        "callout_title": "The key distinction",
+        "callout_body": "A model that resembles the past is not yet a model that predicts the future. Even when we upgraded the superstition into a machine-learning hypothesis, the evidence still bent back toward randomness.",
+        "cards": {
+          "can_fit_history": "Can fit history a little",
+          "can_fit_history_value": "But not enough",
+          "cannot_validate_edge": "Cannot validate predictive edge",
+          "cannot_validate_edge_value": "Not out of sample",
+          "null_runs_look_good": "Null runs also look good sometimes",
+          "null_runs_look_good_value": "Which is the warning"
+        }
+      },
+      "live_rule": {
+        "title": "The most uncomfortable result",
+        "body": "Even the least bad live-tested rule I found, a flat odd/even strategy activated only after long droughts, finished at €{final_bankroll} from an initial €{initial_bankroll}. This does not mean every such rule is absurd. It means that even the polite ones still pay rent to the house."
+      },
+      "closing": {
+        "title": "The conclusion no betting ad wants to print",
+        "body": "This, of course, does not mean that every KINO ticket is foolish, nor that anyone who plays now and then needs a sermon. It does mean something more modest and more useful: **our interpretations of KINO are often louder than the game itself**.\n\nOverdue numbers are a story.\n\nHot and cold streaks are a story.\n\nParity windows are a story.\n\nCoverage systems are a story.\n\nEven “smart” combinations are usually just a more theatrical way to buy the same house edge.\n\nIf you want entertainment, say that honestly and pay for entertainment.\n\nIf you want profit, stop asking a lucky game to behave like a skill game."
+      },
+      "methodology": {
+        "title": "Methodology",
+        "body": "No rabbit was pulled out of a hat here. This notebook combines direct analysis of the uploaded KINO draw history with Monte Carlo summaries computed offline from the official OPAP payout table. The historical file covers {draw_count} draws. The goal is not to build a gambling tool, but to examine a very common public intuition against the arithmetic that sits underneath it. The genetic-algorithm experiment was judged by walk-forward validation, not by in-sample fit, and by comparison against shuffled or null histories."
+      }
+    },
+    "charts": {
+      "fairness": {
+        "share_of_draws": "Share of draws",
+        "column": "Column",
+        "parity_caption": "Parity results against fair expectation.",
+        "column_caption": "Winning columns also stay close to 10%."
+      },
+      "surrogate": {
+        "title": "A fair draw still fits best",
+        "x_label": "Number frequency RMSE",
+        "callout_title": "What this means",
+        "callout_body": "When even a genetic algorithm tries to improve on the draw and still crawls back toward the fair baseline, that is not a failure of imagination. It is evidence that the boring explanation is doing most of the work."
+      },
+      "myth1": {
+        "y_label": "Next-draw hit rate",
+        "x_label": "Number age before the draw",
+        "caption": "The fair baseline is 25%. The bars barely move."
+      },
+      "myth2": {
+        "x_label": "Hits in the previous 50 draws",
+        "y_label": "Next-draw hit rate"
+      },
+      "myth3": {
+        "y_label": "Next-draw hit rate",
+        "x_label": "Z-score bucket of previous-window count",
+        "caption": "Black is the fair baseline. Red is the break-even threshold. The bars do not get there."
+      },
+      "myth4": {
+        "x_label": "Probability of any payout",
+        "y_label": "Theoretical RTP",
+        "caption": "Pick 5 is best on expectation. Pick 7 is the smoothest compromise. Neither crosses 100%.",
+        "variance_y_label": "Median rounds survived with a €1,000 bankroll",
+        "variance_caption": "Bigger circles mean a larger maximum net win on a €0.50 ticket. The high-variance picks buy spike potential, not a better edge."
+      },
+      "myth5": {
+        "scatter_x_label": "Rounds with any payout",
+        "scatter_y_label": "RTP",
+        "bankroll_y_label": "Expected bankroll (€)",
+        "bankroll_caption": "The black line is the starting bankroll. The red line is ruin."
+      },
+      "myth6": {
+        "y_label": "Expected loss per draw (€)",
+        "x_label": "System"
+      }
+    },
+    "tables": {
+      "pick": "Pick",
+      "hit_frequency": "Hit frequency",
+      "rtp": "RTP",
+      "mean_final_profit": "Mean final profit after 10,000 bets at €0.50",
+      "system": "System",
+      "pool_size": "Pool size",
+      "columns": "Columns",
+      "cost_per_draw": "Cost per draw (€)",
+      "fair_chance_pool_contains_9_plus": "Fair chance the pool contains 9+ winners",
+      "historical_trigger_rate": "Historical trigger rate"
+      ,
+      "top_net_win": "Top net win (€0.50 ticket)",
+      "median_rounds_1000": "Median rounds survived (€1,000 bankroll)",
+      "profitable_ever": "Share of bankroll paths ever ahead",
+      "window": "Window",
+      "real_history": "Real history",
+      "null_history": "Null history",
+      "ga_pick5": "GA pick 5",
+      "ga_combined": "GA combined"
+    },
+    "models": {
+      "uniform_shuffle": "Uniform shuffle",
+      "global_frequency": "Global frequency",
+      "recent_frequency": "Recent frequency",
+      "prev_parity_conditional": "Previous parity conditional",
+      "prev_sum_quartile_conditional": "Previous sum quartile conditional",
+      "prev_gap_quartile_conditional": "Previous gap quartile conditional",
+      "best_evolved_surrogate": "Best evolved surrogate"
+    },
+    "strategies": {
+      "pick_2_draw_column": "Pick 2 + Draw + Column",
+      "pick_5_draw_column": "Pick 5 + Draw + Column",
+      "pick_7_draw_column": "Pick 7 + Draw + Column",
+      "pick_7_bonus_draw_column": "Pick 7 BONUS + Draw + Column"
+    },
+    "systems": {
+      "codes": {
+        "c_1": "C-1",
+        "c_2": "C-2",
+        "c_3": "C-3",
+        "c_4": "C-4",
+        "c_5": "C-5",
+        "c_6": "C-6",
+        "c_7": "C-7",
+        "c_8": "C-8",
+        "c_9": "C-9",
+        "c_10": "C-10"
+      }
+    }
+  },
+  "el": {
+    "ui": {
+      "language_label": "Γλώσσα / Language",
+      "language_option_en": "English",
+      "language_option_el": "Ελληνικά",
+      "share_link": "Άνοιξε αυτή τη γλώσσα ως κοινοποιήσιμο σύνδεσμο",
+      "target_outcome": "Στόχος",
+      "rolling_window": "Κυλιόμενο παράθυρο",
+      "draw_horizon": "Ορίζοντας κληρώσεων"
+    },
+    "options": {
+      "odd": "Μονά",
+      "even": "Ζυγά",
+      "draw": "Ισοπαλία"
+    },
+    "article": {
+      "hero": {
+        "kicker": "Τυχερά παιχνίδια, πιθανότητες και αυταπάτες",
+        "title": "Αν θέλεις να κερδίσεις, σταμάτα να παίζεις τυχερά παιχνίδια",
+        "deck": "Σε κάθε γκισέ του ΚΙΝΟ κυκλοφορεί και μια θεωρία: ο καθυστερημένος αριθμός, το hot streak, το «ασφαλές» μονά-ζυγά, το έξυπνο σύστημα που τάχα περιορίζει το ρίσκο. Δοκίμασα αυτές τις θεωρίες πάνω σε 101.952 κληρώσεις. Το συμπέρασμα είναι λιγότερο μαγικό, αλλά ίσως περισσότερο χρήσιμο: το ΚΙΝΟ προσφέρει αγωνία, όχι όμως το είδος του μοτίβου που σε πληρώνει αθόρυβα.",
+        "meta": "Του C. Xanthopoulakis · δημοσιογραφικό σημείωμα με δεδομένα · {draw_count} κληρώσεις"
+      },
+      "lede": "Όποιος έχει σταθεί έστω μία φορά πάνω από ένα δελτίο ΚΙΝΟ θα έχει ακούσει την ίδια βεβαιότητα λίγο πριν από την κλήρωση: αυτός αργεί, εκείνος «τρέχει», τα μονά έχουν χώρο, η ισοπαλία λείπει υπερβολικά πολύ.\n\nΕίναι ένα απολύτως ανθρώπινο ένστικτο. Η τυχαιότητα γίνεται πιο υποφερτή όταν αρχίζει να μοιάζει με συμπεριφορά. Και τα περισσότερα «συστήματα» στοιχηματισμού δεν υπόσχονται, στην πραγματικότητα, ότι θα νικήσουν την τύχη. Υπόσχονται κάτι πιο λεπτό: ότι θα την κάνουν να φαίνεται αναγνώσιμη.\n\nΤο ερώτημα λοιπόν δεν είναι αν αυτές οι ιστορίες παρηγορούν. Το ερώτημα είναι αν στέκονται όταν τις ακουμπήσεις πάνω στα δεδομένα.",
+      "cards": {
+        "dataset": "Δείγμα",
+        "best_side_market_rtp": "Καλύτερο RTP στις αγορές πλευράς",
+        "best_plain_pick_rtp": "Καλύτερο RTP στο απλό παιχνίδι",
+        "best_surrogate_model": "Καλύτερο surrogate μοντέλο",
+        "uniform_draw": "Ομοιόμορφη κλήρωση"
+      },
+      "intro": {
+        "title": "Ξεκίνα από τη βαρετή υπόθεση",
+        "body": "Πριν αρχίσει κανείς να ψάχνει τον κρυφό μηχανισμό, αξίζει να κάνει πρώτα την απλή ερώτηση: μήπως το ΚΙΝΟ συμπεριφέρεται ήδη πολύ κοντά σε μια δίκαιη κλήρωση; Αν η απλή εξήγηση ταιριάζει ήδη αρκετά καλά, τότε η πιο ευφάνταστη ιστορία οφείλει να δουλέψει πολύ περισσότερο για να σταθεί."
+      },
+      "myth1": {
+        "title": "Μύθος 1: «Οι καθυστερημένοι αριθμοί είναι πιο έτοιμοι να βγουν»",
+        "body": "Εδώ εμφανίζεται στην πιο καθαρή μορφή της η παλιά υπόσχεση του τζόγου: ένας αριθμός που λείπει υπερβολικά πολύ κάπως θα «ετοιμάζεται». Αν αυτό ήταν πράγματι αλήθεια, οι πολύ γερασμένοι αριθμοί θα έπρεπε να εμφανίζονται αισθητά συχνότερα από τους φρέσκους στην αμέσως επόμενη κλήρωση. Ωραία ως διαίσθηση. Όχι όμως και ως στατιστική."
+      },
+      "myth2": {
+        "title": "Μύθος 2: «Τα hot και cold streaks αποκαλύπτουν momentum»",
+        "body": "Ο πιο «διαβασμένος» παίκτης θα πει ότι το ζήτημα δεν είναι η απουσία αλλά η θερμοκρασία. Ξέχασε τον καθυστερημένο αριθμό, κοίτα τον hot, τον cold, τον πρόσφατο ρυθμό. Μόνο που στατιστικά αυτό που μοιάζει με momentum είναι συχνά απλώς η συνηθισμένη διακύμανση με πιο θεατρικό πρόσωπο. Με άλλα λόγια: δεν βλέπουμε απαραίτητα τάση. Συχνά βλέπουμε μια ιστορία που γράφεται εκ των υστέρων."
+      },
+      "myth3": {
+        "title": "Μύθος 3: «Τα parity windows δημιουργούν ευκαιρίες»",
+        "body": "Εδώ είναι που ο καθημερινός τζόγος δανείζεται το λεξιλόγιο της στατιστικής. Αν η ισοπαλία είναι σπάνια τον τελευταίο καιρό, ίσως τώρα γίνεται πιο ελκυστική. Η λογική ακούγεται σοβαρότερη. Το εμπόδιο, όμως, είναι το ίδιο. Ακόμη και όταν η υπό συνθήκη πιθανότητα βελτιώνεται λίγο, δεν βελτιώνεται αρκετά ώστε να ξεπεράσει τον πίνακα αποδόσεων. Και εκεί ακριβώς τελειώνει η γοητεία της θεωρίας."
+      },
+      "myth4": {
+        "title": "Μύθος 4: «Υπάρχει ένα χρυσό μέγεθος παιχνιδιού»",
+        "body": "Αυτός ο μύθος επιβιώνει επειδή περιέχει έναν κόκκο αλήθειας. Τα διαφορετικά μεγέθη παιχνιδιού όντως αλλάζουν τον ρυθμό του παιχνιδιού. Κάποια πληρώνουν συχνότερα, κάποια χτυπούν δυνατότερα, κάποια αφήνουν το κεφάλαιο να ανασάνει λίγο περισσότερο. Η χρήσιμη ερώτηση όμως δεν είναι ποιο παιχνίδι «νιώθεται» καλύτερο. Είναι ποιο περνά πάνω από το 100% RTP. Και η απάντηση, όσο άχαρη κι αν ακούγεται, είναι απλή: κανένα.",
+        "variance_title": "Τι σημαίνει στ’ αλήθεια «αποδοτικό»",
+        "variance_body": "Εδώ η λέξη αποδοτικό θέλει προσοχή. Αν αποδοτικό σημαίνει καλύτερη μαθηματική προσδοκία, τα παιχνίδια υψηλής διακύμανσης δεν ξεφεύγουν από την ίδια αρνητική αριθμητική. Αν σημαίνει πόσο αντέχει ένα σταθερό κεφάλαιο, τότε η εικόνα αλλάζει. Σε μια απλή προσομοίωση δίκαιης κλήρωσης με κεφάλαιο 1.000€ και δελτίο 0,50€, τα χαμηλότερα και μεσαία picks τείνουν να αιμορραγούν πιο αργά, ενώ τα 7 έως 9 αγοράζουν κυρίως το δικαίωμα να ονειρεύεσαι μια θεαματική εκτίναξη."
+      },
+      "myth5": {
+        "title": "Μύθος 5: «Αν συνδυάσω στρατηγικές, μπορώ να λειάνω τον δρόμο προς το κέρδος»",
+        "body": "Η λέξη χαρτοφυλάκιο προσδίδει κύρος σχεδόν στα πάντα. Πρόσθεσε ισοπαλία. Πρόσθεσε στήλη. Πρόσθεσε BONUS. Πρόσθεσε PARA1. Ίσως τα αδύναμα κομμάτια να γίνουν μαζί ισχυρά. Στις πραγματικές επενδύσεις η διαφοροποίηση μπορεί πράγματι να μειώσει τον κίνδυνο. Σε ένα παιχνίδι αρνητικής προσδοκίας, όμως, συνήθως απλώς μοιράζει τη ζημιά σε περισσότερα κινούμενα μέρη. Το δελτίο γίνεται πιο πολυσύνθετο. Η αριθμητική του όχι."
+      },
+      "myth6": {
+        "title": "Μύθος 6: «Τα συστήματα κάλυψης εγγυώνται κέρδος»",
+        "body": "Εδώ είναι που μιλά κυρίως η διαφήμιση. Μια συνδυαστική εγγύηση μπορεί να είναι απολύτως αληθινή και ταυτόχρονα οικονομικά άχρηστη. Ναι, ένα σύστημα μπορεί να εγγυάται ένα 9άρι στο παιχνίδι 10 αν η δεξαμενή που διάλεξες περιέχει αρκετούς νικητές. Αυτό είναι ακριβές. Η ακριβή ερώτηση, όμως, είναι εκείνη που γράφεται με μικρότερα γράμματα: πόσο συχνά φτάνει στ’ αλήθεια αυτή η προϋπόθεση; Εκεί κρύβεται όλη η διαφορά ανάμεσα σε μια υπόσχεση κάλυψης και σε ένα πραγματικό οικονομικό αποτέλεσμα."
+      },
+      "myth7": {
+        "title": "Μύθος 7: «Ένας γενετικός αλγόριθμος μπορεί να κάνει reverse engineer τη μηχανή»",
+        "body": "Αυτή είναι η σύγχρονη εκδοχή της παλιάς στοιχηματικής φαντασίωσης. Ξέχασε τους hot αριθμούς και τους καθυστερημένους αριθμούς· εκπαίδευσε έναν αλγόριθμο πάνω στο ιστορικό των κληρώσεων και άφησέ τον να εξελίξει έναν κρυφό κανόνα. Μπορεί να μη βρει τον πραγματικό generator, ίσως όμως μάθει κάτι αρκετά κοντινό ώστε να εκμεταλλεύεται το παιχνίδι.\n\nΠρόκειται για μια σοβαρή υπόθεση, όχι για δεισιδαιμονία. Κι ακριβώς γι’ αυτό έρχεται με ένα επίσης σοβαρό βάρος απόδειξης: αν το μοντέλο είναι αληθινό, πρέπει να αντέχει σε μελλοντικά δεδομένα. Και αν είναι πράγματι κάτι παραπάνω από εύσχημο ταίριασμα του παρελθόντος, οφείλει να ξεπερνά ακόμη και το shuffled history.",
+        "hypothesis_title": "Τι δοκιμάσαμε",
+        "hypothesis_body": "Αφήσαμε εξελικτικά μοντέλα να ψάξουν πολιτικές στάθμισης αριθμών και pick5-plus-parity χρησιμοποιώντας μόνο παρελθούσες κληρώσεις. Το ερώτημα δεν ήταν αν μπορούν να μιμηθούν πλευρές της ιστορίας. Το ερώτημα ήταν αν μπορούν να παράγουν στοιχηματικό πλεονέκτημα εκεί όπου έχει σημασία: στο επόμενο κομμάτι της ιστορίας, όχι στο προηγούμενο.",
+        "results_title": "Τι συνέβη",
+        "results_body": "Ο γενετικός αλγόριθμος μπορούσε κάποιες φορές να παράγει εντυπωσιακά κέρδη σε μικρά παράθυρα. Το φαινόμενο όμως ήταν ασταθές: κάποια παράθυρα ήταν θετικά, άλλα καθαρά αρνητικά, και παρόμοια «ελπιδοφόρα» συμπεριφορά εμφανιζόταν και σε shuffled ή null histories. Αυτή είναι η γνώριμη σφραγίδα του overfitting, όχι το ίχνος μιας σπασμένης μηχανής.",
+        "chart_caption": "Τα εντυπωσιακά μικρά κέρδη εμφανίστηκαν τόσο στην πραγματική όσο και στη null ιστορία. Αυτό αποδυναμώνει την ιδέα ότι ο αλγόριθμος έμαθε έναν πραγματικό κρυφό μηχανισμό.",
+        "callout_title": "Η κρίσιμη διάκριση",
+        "callout_body": "Ένα μοντέλο που μοιάζει με το παρελθόν δεν είναι αυτομάτως και μοντέλο που προβλέπει το μέλλον. Ακόμη και όταν αναβαθμίσαμε τη δεισιδαιμονία σε υπόθεση μηχανικής μάθησης, η ένδειξη λύγισε ξανά προς την τυχαιότητα.",
+        "cards": {
+          "can_fit_history": "Μπορεί να μιμηθεί λίγο την ιστορία",
+          "can_fit_history_value": "Αλλά όχι αρκετά",
+          "cannot_validate_edge": "Δεν επικυρώνει προβλεπτικό πλεονέκτημα",
+          "cannot_validate_edge_value": "Οχι εκτός δείγματος",
+          "null_runs_look_good": "Και οι null δοκιμές δείχνουν μερικές φορές καλές",
+          "null_runs_look_good_value": "Και αυτό είναι η προειδοποίηση"
+        }
+      },
+      "live_rule": {
+        "title": "Το πιο άβολο αποτέλεσμα",
+        "body": "Ακόμη και ο λιγότερο κακός κανόνας που δοκιμάστηκε «ζωντανά» — μια απλή στρατηγική στα μονά-ζυγά, ενεργή μόνο ύστερα από μεγάλες απουσίες — έκλεισε στα €{final_bankroll} από αρχικό κεφάλαιο €{initial_bankroll}. Αυτό δεν σημαίνει ότι κάθε τέτοιος κανόνας είναι γελοίος. Σημαίνει όμως ότι ακόμη και τα πιο ευπρεπή συστήματα συνεχίζουν να πληρώνουν ενοίκιο στη γκανιότα."
+      },
+      "closing": {
+        "title": "Το συμπέρασμα που καμία διαφήμιση στοιχηματισμού δεν θέλει να τυπώσει",
+        "body": "Αυτό, φυσικά, δεν σημαίνει ότι κάθε δελτίο ΚΙΝΟ είναι ανοησία, ούτε ότι όποιος παίζει πού και πού χρειάζεται κήρυγμα. Σημαίνει κάτι πιο σεμνό και πιο χρήσιμο: **οι ερμηνείες μας για το ΚΙΝΟ είναι συχνά πιο θορυβώδεις από το ίδιο το παιχνίδι**.\n\nΟι καθυστερημένοι αριθμοί είναι μια ιστορία.\n\nΤα hot και cold streaks είναι μια ιστορία.\n\nΤα parity windows είναι μια ιστορία.\n\nΤα συστήματα κάλυψης είναι μια ιστορία.\n\nΑκόμη και οι «έξυπνοι» συνδυασμοί είναι συνήθως απλώς ένας πιο θεατρικός τρόπος να αγοράζεις την ίδια γκανιότα.\n\nΑν θέλεις διασκέδαση, πες το καθαρά και πλήρωσε για διασκέδαση.\n\nΑν θέλεις κέρδος, σταμάτα να ζητάς από ένα τυχερό παιχνίδι να φερθεί σαν παιχνίδι δεξιότητας."
+      },
+      "methodology": {
+        "title": "Μεθοδολογία",
+        "body": "Δεν βγήκε κανένα κουνέλι από το καπέλο εδώ. Το notebook αυτό συνδυάζει άμεση ανάλυση του ανεβασμένου ιστορικού κληρώσεων του ΚΙΝΟ με Monte Carlo περιλήψεις που υπολογίστηκαν offline με βάση τον επίσημο πίνακα αποδόσεων του ΟΠΑΠ. Το ιστορικό αρχείο καλύπτει {draw_count} κληρώσεις. Ο στόχος δεν είναι να χτιστεί ένα εργαλείο τζόγου, αλλά να εξεταστεί μια πολύ οικεία δημόσια διαίσθηση απέναντι στην αριθμητική που κρύβεται ακριβώς από κάτω. Το πείραμα με τον γενετικό αλγόριθμο κρίθηκε με walk-forward validation, όχι με ταίριασμα πάνω στο ίδιο το δείγμα, και σε σύγκριση με shuffled ή null histories."
+      }
+    },
+    "charts": {
+      "fairness": {
+        "share_of_draws": "Ποσοστό κληρώσεων",
+        "column": "Στήλη",
+        "parity_caption": "Τα αποτελέσματα μονών-ζυγών απέναντι στη δίκαιη προσδοκία.",
+        "column_caption": "Και οι νικήτριες στήλες μένουν κοντά στο 10%."
+      },
+      "surrogate": {
+        "title": "Η δίκαιη κλήρωση εξακολουθεί να ταιριάζει καλύτερα",
+        "x_label": "RMSE συχνοτήτων αριθμών",
+        "callout_title": "Τι σημαίνει αυτό",
+        "callout_body": "Όταν ακόμη και ένας γενετικός αλγόριθμος προσπαθεί να βελτιώσει την κλήρωση και τελικά επιστρέφει σχεδόν στη δίκαιη αφετηρία, αυτό δεν είναι αποτυχία φαντασίας. Είναι ένδειξη ότι το βαρετό σενάριο εξηγεί ήδη το μεγαλύτερο μέρος της εικόνας."
+      },
+      "myth1": {
+        "y_label": "Πιθανότητα εμφάνισης στην επόμενη κλήρωση",
+        "x_label": "Ηλικία αριθμού πριν από την κλήρωση",
+        "caption": "Η δίκαιη αφετηρία είναι 25%. Οι μπάρες σχεδόν δεν μετακινούνται."
+      },
+      "myth2": {
+        "x_label": "Εμφανίσεις στα προηγούμενα 50 draws",
+        "y_label": "Πιθανότητα στην επόμενη κλήρωση"
+      },
+      "myth3": {
+        "y_label": "Ποσοστό επιτυχίας στην επόμενη κλήρωση",
+        "x_label": "Κάδος z-score του προηγούμενου παραθύρου",
+        "caption": "Το μαύρο είναι η δίκαιη αφετηρία. Το κόκκινο είναι το όριο ισοσκελισμού. Οι μπάρες δεν φτάνουν εκεί."
+      },
+      "myth4": {
+        "x_label": "Πιθανότητα οποιασδήποτε πληρωμής",
+        "y_label": "Θεωρητικό RTP",
+        "caption": "Το παιχνίδι 5 είναι καλύτερο σε προσδοκία. Το παιχνίδι 7 είναι ο πιο ομαλός συμβιβασμός. Κανένα δεν περνά το 100%.",
+        "variance_y_label": "Διάμεσοι γύροι επιβίωσης με κεφάλαιο 1.000€",
+        "variance_caption": "Οι μεγαλύτεροι κύκλοι σημαίνουν μεγαλύτερο μέγιστο καθαρό κέρδος σε δελτίο των 0,50€. Τα παιχνίδια υψηλής διακύμανσης αγοράζουν πιθανότητα εκτίναξης, όχι καλύτερο πλεονέκτημα."
+      },
+      "myth5": {
+        "scatter_x_label": "Γύροι με κάποια πληρωμή",
+        "scatter_y_label": "RTP",
+        "bankroll_y_label": "Αναμενόμενο κεφάλαιο (€)",
+        "bankroll_caption": "Η μαύρη γραμμή είναι το αρχικό κεφάλαιο. Η κόκκινη είναι η χρεοκοπία."
+      },
+      "myth6": {
+        "y_label": "Αναμενόμενη ζημιά ανά κλήρωση (€)",
+        "x_label": "Σύστημα"
+      }
+    },
+    "tables": {
+      "pick": "Παιχνίδι",
+      "hit_frequency": "Συχνότητα πληρωμής",
+      "rtp": "RTP",
+      "mean_final_profit": "Μέσο τελικό κέρδος μετά από 10.000 δελτία των 0,50€",
+      "top_net_win": "Μέγιστο καθαρό κέρδος (δελτίο 0,50€)",
+      "median_rounds_1000": "Διάμεσοι γύροι επιβίωσης (κεφάλαιο 1.000€)",
+      "profitable_ever": "Ποσοστό διαδρομών που βρέθηκαν έστω κάποτε μπροστά",
+      "system": "Σύστημα",
+      "pool_size": "Πλήθος αριθμών",
+      "columns": "Στήλες",
+      "cost_per_draw": "Κόστος ανά κλήρωση (€)",
+      "fair_chance_pool_contains_9_plus": "Δίκαιη πιθανότητα η δεξαμενή να έχει 9+ νικητές",
+      "historical_trigger_rate": "Ιστορικό ποσοστό ενεργοποίησης"
+      ,
+      "window": "Παράθυρο",
+      "real_history": "Πραγματική ιστορία",
+      "null_history": "Null ιστορία",
+      "ga_pick5": "GA pick 5",
+      "ga_combined": "GA combined"
+    },
+    "models": {
+      "uniform_shuffle": "Ομοιόμορφη κλήρωση",
+      "global_frequency": "Συνολική συχνότητα",
+      "recent_frequency": "Πρόσφατη συχνότητα",
+      "prev_parity_conditional": "Υπό συνθήκη στο προηγούμενο parity",
+      "prev_sum_quartile_conditional": "Υπό συνθήκη στο προηγούμενο τεταρτημόριο αθροίσματος",
+      "prev_gap_quartile_conditional": "Υπό συνθήκη στο προηγούμενο τεταρτημόριο κενού",
+      "best_evolved_surrogate": "Καλύτερο εξελιγμένο surrogate"
+    },
+    "strategies": {
+      "pick_2_draw_column": "Παιχνίδι 2 + Ισοπαλία + Στήλη",
+      "pick_5_draw_column": "Παιχνίδι 5 + Ισοπαλία + Στήλη",
+      "pick_7_draw_column": "Παιχνίδι 7 + Ισοπαλία + Στήλη",
+      "pick_7_bonus_draw_column": "Παιχνίδι 7 BONUS + Ισοπαλία + Στήλη"
+    },
+    "systems": {
+      "codes": {
+        "c_1": "C-1",
+        "c_2": "C-2",
+        "c_3": "C-3",
+        "c_4": "C-4",
+        "c_5": "C-5",
+        "c_6": "C-6",
+        "c_7": "C-7",
+        "c_8": "C-8",
+        "c_9": "C-9",
+        "c_10": "C-10"
+      }
+    }
+  }
+}

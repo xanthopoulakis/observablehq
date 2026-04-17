@@ -1,0 +1,7 @@
+model,sim_draws,sum_mean_diff,range_mean_diff,odd_count_mean_diff,gap_max_mean_diff,parity_tv_distance,column_tv_distance,number_freq_rmse
+uniform_shuffle,20000,0.073858,0.045179,0.01011,-0.020158,0.00168,0.008865,0.004041
+global_frequency,20000,-0.424592,0.026679,0.03096,0.017992,0.007914,0.006067,0.004241
+recent_frequency,20000,0.008058,-0.079971,0.01631,0.015192,0.00928,0.013559,0.005133
+prev_parity_conditional,20000,0.489358,-0.047121,0.00441,0.012792,0.00177,0.0089,0.004415
+prev_sum_quartile_conditional,20000,-0.885442,-0.021071,0.01371,-0.018458,0.00188,0.00595,0.004361
+prev_gapmax_quartile_conditional,20000,-0.189292,0.020679,0.01946,0.009642,0.003064,0.007047,0.004061
