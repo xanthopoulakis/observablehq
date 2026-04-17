@@ -4,16 +4,36 @@ Observable notebook source bundle and research appendix for the KINO article.
 
 ## Use from Observable
 
-In a JavaScript cell in Observable, import the article module from the GitHub-backed CDN:
+In a normal Observable JavaScript cell, use dynamic `import()` rather than a top-level `import` statement.
+
+### Full article
 
 ```js
-import {createKinoArticle} from "https://cdn.jsdelivr.net/gh/xanthopoulakis/observablehq@main/kino/article.js"
+kinoArticleModule = await import("https://cdn.jsdelivr.net/gh/xanthopoulakis/observablehq@main/kino/article.js")
 ```
 
-Then render it in another JavaScript cell:
+```js
+article = await kinoArticleModule.createKinoArticle({Inputs, html, md})
+```
+
+### Individual embeddable plots and sections
 
 ```js
-article = await createKinoArticle({Inputs, html, md})
+kinoEmbeds = await import("https://cdn.jsdelivr.net/gh/xanthopoulakis/observablehq@main/kino/embeds.js")
+```
+
+```js
+pickVariance = await kinoEmbeds.create_pick_variance_section({Inputs, html, md, lang: "el"})
+```
+
+```js
+gaPlot = await kinoEmbeds.create_ga_plot({Inputs, html, md, lang: "en", width: 900})
+```
+
+Localized editorial metadata for those embeds is available too:
+
+```js
+catalog = await kinoEmbeds.get_embed_catalog("el")
 ```
 
 The module automatically loads its sibling files from the same folder:
@@ -27,6 +47,9 @@ So once the repo is updated, the notebook stays in sync without re-uploading att
 ## Folder layout
 
 - `article.js`: GitHub-importable Observable article module
+- `embeds.js`: embeddable plot and section builders for iframes, social cards, and standalone notebook cells
+- `shared.js`: common data loading, formatting, and statistical helpers
+- `EMBEDS_NOTEBOOK.md`: ready-made cell layout for a dedicated embeds notebook
 - `article-single-cell.ojs`: legacy single-cell Observable source
 - `i18n.json`: bilingual copy for the article
 - `styles.css`: presentation layer
@@ -36,5 +59,6 @@ So once the repo is updated, the notebook stays in sync without re-uploading att
 
 ## Notes
 
-- The live notebook should import `article.js`; the `.ojs` file is kept as a fallback snapshot.
+- The live notebook can import `article.js` for the full essay and `embeds.js` for standalone sections.
+- The `.ojs` file is kept as a fallback snapshot.
 - The research outputs are intentionally included to support reproducibility and the article's methodology claims.

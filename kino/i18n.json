@@ -185,6 +185,52 @@
         "c_9": "C-9",
         "c_10": "C-10"
       }
+    },
+    "embeds": {
+      "fairness": {
+        "title": "The boring scenario that explains most of the game",
+        "hook": "Before searching for secret patterns, it helps to ask a simpler question: what if KINO already behaves almost exactly like a fair draw?"
+      },
+      "surrogate_fit": {
+        "title": "Even the clever surrogate bends back toward a fair draw",
+        "hook": "If a more sophisticated model still crawls back toward the uniform baseline, that is not a failure of imagination. It is evidence that the plain explanation is already doing most of the work."
+      },
+      "overdue_numbers": {
+        "title": "Overdue numbers are not in a hurry",
+        "hook": "The most durable gambling myth is also the easiest to test. If a number is truly “due”, its next-draw hit rate should rise with age. It does not."
+      },
+      "hot_cold": {
+        "title": "Hot streaks are often just noise with better marketing",
+        "hook": "Momentum sounds more sophisticated than superstition. But in a random game, temperature is often just fluctuation with a more dramatic face."
+      },
+      "parity_window": {
+        "title": "Parity windows still do not beat the payout table",
+        "hook": "Even when short-term imbalances exist, they need to improve enough to cross the break-even threshold. In the data, they do not."
+      },
+      "pick_tradeoff": {
+        "title": "There is no golden pick size",
+        "hook": "Different pick sizes change the rhythm of the game, not the basic economics. None climbs above 100% RTP."
+      },
+      "pick_variance": {
+        "title": "Big spikes are not a better strategy",
+        "hook": "High-variance picks buy the possibility of a dramatic jump. They do not buy a better edge."
+      },
+      "portfolio_scatter": {
+        "title": "More bets mean more action, not more edge",
+        "hook": "Combining bets can make a ticket feel busier and produce more payout events. It still does not turn a negative game into a positive one."
+      },
+      "portfolio_bankroll": {
+        "title": "A portfolio can smooth the ride while deepening the loss",
+        "hook": "When multiple negative-expectation bets travel together, the journey may feel livelier, but the destination remains the same."
+      },
+      "coverage_systems": {
+        "title": "Coverage is not profit",
+        "hook": "A combinatorial guarantee can be perfectly true and still economically useless. The missing question is always: how often does the trigger condition actually arrive?"
+      },
+      "ga": {
+        "title": "Even machine learning bent back toward randomness",
+        "hook": "We upgraded the superstition into a machine-learning hypothesis. The evidence still refused to become a stable edge."
+      }
     }
   },
   "el": {
@@ -372,6 +418,52 @@
         "c_8": "C-8",
         "c_9": "C-9",
         "c_10": "C-10"
+      }
+    },
+    "embeds": {
+      "fairness": {
+        "title": "Το βαρετό σενάριο που εξηγεί τα περισσότερα",
+        "hook": "Πριν αρχίσουμε να ψάχνουμε μυστικούς μηχανισμούς, αξίζει να κάνουμε την απλούστερη ερώτηση: μήπως το ΚΙΝΟ συμπεριφέρεται ήδη σχεδόν σαν μια δίκαιη κλήρωση;"
+      },
+      "surrogate_fit": {
+        "title": "Ακόμη και το πιο έξυπνο surrogate επιστρέφει στη δίκαιη κλήρωση",
+        "hook": "Αν ένα πιο σύνθετο μοντέλο καταλήγει πάλι πολύ κοντά στην ομοιόμορφη αφετηρία, αυτό δεν είναι αποτυχία φαντασίας. Είναι ένδειξη ότι η απλή εξήγηση κάνει ήδη το μεγαλύτερο μέρος της δουλειάς."
+      },
+      "overdue_numbers": {
+        "title": "Οι καθυστερημένοι αριθμοί δεν βιάζονται",
+        "hook": "Ο πιο ανθεκτικός μύθος του τζόγου είναι ταυτόχρονα και ο ευκολότερος να ελεγχθεί. Αν ένας αριθμός είναι όντως «ώριμος», η πιθανότητα στην επόμενη κλήρωση θα έπρεπε να ανεβαίνει όσο μεγαλώνει. Δεν ανεβαίνει."
+      },
+      "hot_cold": {
+        "title": "Τα hot streaks είναι συχνά θόρυβος με καλύτερο μάρκετινγκ",
+        "hook": "Το momentum ακούγεται σοβαρότερο από τη δεισιδαιμονία. Σε ένα τυχαίο παιχνίδι, όμως, η «θερμοκρασία» είναι συχνά απλώς διακύμανση με πιο δραματικό πρόσωπο."
+      },
+      "parity_window": {
+        "title": "Ούτε τα parity windows σπάνε τον πίνακα αποδόσεων",
+        "hook": "Ακόμη και όταν υπάρχουν βραχυχρόνιες ανισορροπίες, θα έπρεπε να βελτιώνουν την πιθανότητα αρκετά ώστε να ξεπερνούν το όριο ισοσκέλισης. Στα δεδομένα, αυτό δεν συμβαίνει."
+      },
+      "pick_tradeoff": {
+        "title": "Το χρυσό pick δεν υπάρχει",
+        "hook": "Τα διαφορετικά μεγέθη παιχνιδιού αλλάζουν τον ρυθμό του παιχνιδιού, όχι τη βασική οικονομία του. Κανένα δεν περνά πάνω από το 100% RTP."
+      },
+      "pick_variance": {
+        "title": "Οι μεγάλες εκτινάξεις δεν είναι καλύτερη στρατηγική",
+        "hook": "Τα υψηλής διακύμανσης picks αγοράζουν την πιθανότητα μιας θεαματικής ανόδου. Δεν αγοράζουν καλύτερο πλεονέκτημα."
+      },
+      "portfolio_scatter": {
+        "title": "Περισσότερα bets σημαίνουν περισσότερη δράση, όχι περισσότερο edge",
+        "hook": "Ο συνδυασμός πολλών στοιχημάτων μπορεί να κάνει ένα δελτίο να φαίνεται πιο δραστήριο και να παράγει περισσότερα μικρά γεγονότα πληρωμής. Δεν μετατρέπει όμως ένα αρνητικό παιχνίδι σε θετικό."
+      },
+      "portfolio_bankroll": {
+        "title": "Ένα portfolio μπορεί να λειάνει τη διαδρομή και να βαθαίνει τη ζημιά",
+        "hook": "Όταν πολλά αρνητικά στοιχήματα ταξιδεύουν μαζί, η διαδρομή ίσως φαίνεται πιο ζωντανή. Ο προορισμός όμως μένει ο ίδιος."
+      },
+      "coverage_systems": {
+        "title": "Η κάλυψη δεν είναι κέρδος",
+        "hook": "Μια συνδυαστική εγγύηση μπορεί να είναι απολύτως αληθινή και ταυτόχρονα οικονομικά άχρηστη. Η ερώτηση που λείπει είναι πάντα η ίδια: πόσο συχνά φτάνει στ’ αλήθεια η προϋπόθεση;"
+      },
+      "ga": {
+        "title": "Ακόμη και η μηχανική μάθηση λύγισε προς την τυχαιότητα",
+        "hook": "Αναβαθμίσαμε τη δεισιδαιμονία σε υπόθεση μηχανικής μάθησης. Τα δεδομένα και πάλι αρνήθηκαν να μετατραπούν σε σταθερό πλεονέκτημα."
       }
     }
   }
