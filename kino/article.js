@@ -211,6 +211,10 @@ export async function createKinoArticle({Inputs, html, md}) {
   const fmt_num = d3.format(",");
   const fmt_money = d3.format(",.2f");
 
+  function money_label(value) {
+    return `€${fmt_money(value)}`;
+  }
+
   function text(key, vars = {}) {
     const template = lookup(copy[lang], key) ?? key;
     return String(template).replace(/\{(\w+)\}/g, (_, name) => vars[name] ?? `{${name}}`);
@@ -519,7 +523,13 @@ export async function createKinoArticle({Inputs, html, md}) {
         y: {percent: true, grid: true, label: text("charts.fairness.share_of_draws")},
         x: {label: null},
         marks: [
-          plot.barY(parity_actual, {x: "label", y: "actual", fill: "#4C78A8"}),
+          plot.barY(parity_actual, {
+            x: "label",
+            y: "actual",
+            fill: "#4C78A8",
+            tip: true,
+            title: (row) => `${row.label}\n${text("charts.fairness.share_of_draws")}: ${fmt_pct(row.actual)}\n${lang === "el" ? "Αναμενόμενο" : "Expected"}: ${fmt_pct(row.expected)}`
+          }),
           plot.dot(parity_actual, {x: "label", y: "expected", r: 7, stroke: "black", fill: "white", strokeWidth: 2})
         ],
         caption: text("charts.fairness.parity_caption")
@@ -532,7 +542,13 @@ export async function createKinoArticle({Inputs, html, md}) {
         y: {percent: true, grid: true, label: text("charts.fairness.share_of_draws")},
         x: {label: text("charts.fairness.column")},
         marks: [
-          plot.barY(column_actual, {x: "column", y: "actual", fill: "#72B7B2"}),
+          plot.barY(column_actual, {
+            x: "column",
+            y: "actual",
+            fill: "#72B7B2",
+            tip: true,
+            title: (row) => `${text("charts.fairness.column")} ${row.column}\n${text("charts.fairness.share_of_draws")}: ${fmt_pct(row.actual)}`
+          }),
           plot.ruleY([0.10], {stroke: "firebrick", strokeDasharray: "6,4"})
         ],
         caption: text("charts.fairness.column_caption")
@@ -546,9 +562,9 @@ export async function createKinoArticle({Inputs, html, md}) {
     body.append(
       block(
         plot.plot({
-          title: text("charts.surrogate.title"),
           width: full_width,
           height: 380,
+          marginLeft: 240,
           x: {label: text("charts.surrogate.x_label"), grid: true},
           y: {label: null},
           marks: [
@@ -556,7 +572,9 @@ export async function createKinoArticle({Inputs, html, md}) {
               x: "rmse",
               y: (row) => model_name(row.id),
               sort: {y: "x", reverse: true},
-              fill: (row) => row.id === "uniform_shuffle" ? "#1f8f55" : row.id === "best_evolved_surrogate" ? "#b81d24" : "#9aa1ac"
+              fill: (row) => row.id === "uniform_shuffle" ? "#1f8f55" : row.id === "best_evolved_surrogate" ? "#b81d24" : "#9aa1ac",
+              tip: true,
+              title: (row) => `${model_name(row.id)}\n${text("charts.surrogate.x_label")}: ${row.rmse.toFixed(6)}`
             })
           ]
         }),
@@ -584,7 +602,13 @@ export async function createKinoArticle({Inputs, html, md}) {
           y: {percent: true, grid: true, label: text("charts.myth1.y_label")},
           x: {label: text("charts.myth1.x_label")},
           marks: [
-            plot.barY(number_age_stats, {x: "bucket", y: "hit_rate", fill: "#72B7B2"}),
+            plot.barY(number_age_stats, {
+              x: "bucket",
+              y: "hit_rate",
+              fill: "#72B7B2",
+              tip: true,
+              title: (row) => `${text("charts.myth1.x_label")}: ${row.bucket}\n${text("charts.myth1.y_label")}: ${fmt_pct(row.hit_rate)}`
+            }),
             plot.ruleY([0.25], {stroke: "firebrick", strokeDasharray: "6,4"})
           ],
           caption: text("charts.myth1.caption")
@@ -604,7 +628,13 @@ export async function createKinoArticle({Inputs, html, md}) {
           y: {percent: true, grid: true, label: text("charts.myth2.y_label")},
           marks: [
             plot.lineY(recent_frequency_stats, {x: "recent_hits", y: "hit_rate", stroke: "#1f8f55"}),
-            plot.dot(recent_frequency_stats, {x: "recent_hits", y: "hit_rate", fill: "#1f8f55"}),
+            plot.dot(recent_frequency_stats, {
+              x: "recent_hits",
+              y: "hit_rate",
+              fill: "#1f8f55",
+              tip: true,
+              title: (row) => `${text("charts.myth2.x_label")}: ${row.recent_hits}\n${text("charts.myth2.y_label")}: ${fmt_pct(row.hit_rate)}`
+            }),
             plot.ruleY([0.25], {stroke: "firebrick", strokeDasharray: "6,4"})
           ]
         }),
@@ -626,7 +656,13 @@ export async function createKinoArticle({Inputs, html, md}) {
           y: {percent: true, grid: true, label: text("charts.myth3.y_label")},
           x: {label: text("charts.myth3.x_label")},
           marks: [
-            plot.barY(parity_window_stats, {x: "bucket", y: "hit_rate", fill: "#E45756"}),
+            plot.barY(parity_window_stats, {
+              x: "bucket",
+              y: "hit_rate",
+              fill: "#E45756",
+              tip: true,
+              title: (row) => `${text("charts.myth3.x_label")}: ${row.bucket}\n${text("charts.myth3.y_label")}: ${fmt_pct(row.hit_rate)}`
+            }),
             plot.ruleY([p_parity[parity_target]], {stroke: "black", strokeDasharray: "6,4"}),
             plot.ruleY([parity_break_even(parity_target)], {stroke: "firebrick", strokeDasharray: "2,6"})
           ],
@@ -647,7 +683,14 @@ export async function createKinoArticle({Inputs, html, md}) {
           y: {percent: true, grid: true, label: text("charts.myth4.y_label")},
           marks: [
             plot.ruleY([1], {stroke: "firebrick", strokeDasharray: "6,4"}),
-            plot.dot(pick_tradeoff, {x: "win_prob", y: "rtp", r: 8, fill: "#4C78A8"}),
+            plot.dot(pick_tradeoff, {
+              x: "win_prob",
+              y: "rtp",
+              r: 8,
+              fill: "#4C78A8",
+              tip: true,
+              title: (row) => `${text("tables.pick")} ${row.pick}\n${text("charts.myth4.x_label")}: ${fmt_pct(row.win_prob)}\n${text("charts.myth4.y_label")}: ${fmt_pct(row.rtp)}`
+            }),
             plot.text(pick_tradeoff, {x: "win_prob", y: "rtp", text: (row) => String(row.pick), dy: -10, fill: "#1d2433"})
           ],
           caption: text("charts.myth4.caption")
@@ -688,7 +731,9 @@ export async function createKinoArticle({Inputs, html, md}) {
               r: "jackpot_scale",
               fill: "#E45756",
               fillOpacity: 0.75,
-              stroke: "#1d2433"
+              stroke: "#1d2433",
+              tip: true,
+              title: (row) => `${text("tables.pick")} ${row.pick}\n${text("tables.median_rounds_1000")}: ${fmt_num(row.median_rounds)}\n${text("tables.top_net_win")}: ${money_label(row.top_net_win)}\n${text("tables.profitable_ever")}: ${fmt_pct(row.profitable_ever)}`
             }),
             plot.text(pick_variance_rows, {
               x: "pick",
@@ -731,7 +776,14 @@ export async function createKinoArticle({Inputs, html, md}) {
           y: {percent: true, grid: true, label: text("charts.myth5.scatter_y_label")},
           marks: [
             plot.ruleY([1], {stroke: "firebrick", strokeDasharray: "6,4"}),
-            plot.dot(portfolio_monte_carlo, {x: "payout_hit", y: "rtp", r: 10, fill: "#B279A2"}),
+            plot.dot(portfolio_monte_carlo, {
+              x: "payout_hit",
+              y: "rtp",
+              r: 10,
+              fill: "#B279A2",
+              tip: true,
+              title: (row) => `${strategy_name(row.id)}\n${text("charts.myth5.scatter_x_label")}: ${fmt_pct(row.payout_hit)}\n${text("charts.myth5.scatter_y_label")}: ${fmt_pct(row.rtp)}\n${lang === "el" ? "Μέσο τελικό αποτέλεσμα" : "Average final result"}: ${money_label(row.final_profit)}`
+            }),
             plot.text(portfolio_monte_carlo, {x: "payout_hit", y: "rtp", text: (row) => strategy_name(row.id), dy: -12})
           ]
         }),
@@ -749,7 +801,13 @@ export async function createKinoArticle({Inputs, html, md}) {
           x: {label: null},
           marks: [
             plot.ruleY([0], {stroke: "firebrick", strokeDasharray: "6,4"}),
-            plot.barY(portfolio_path, {x: "label", y: "bankroll", fill: "#F58518"}),
+            plot.barY(portfolio_path, {
+              x: "label",
+              y: "bankroll",
+              fill: "#F58518",
+              tip: true,
+              title: (row) => `${row.label}\n${text("charts.myth5.bankroll_y_label")}: ${money_label(row.bankroll)}`
+            }),
             plot.ruleY([500], {stroke: "black", strokeDasharray: "6,4"})
           ],
           caption: text("charts.myth5.bankroll_caption")
@@ -768,7 +826,13 @@ export async function createKinoArticle({Inputs, html, md}) {
           y: {grid: true, label: text("charts.myth6.y_label")},
           x: {label: text("charts.myth6.x_label")},
           marks: [
-            plot.barY(system_rows, {x: "label", y: "expected_loss_per_draw", fill: "#E45756"}),
+            plot.barY(system_rows, {
+              x: "label",
+              y: "expected_loss_per_draw",
+              fill: "#E45756",
+              tip: true,
+              title: (row) => `${row.label}\n${text("tables.cost_per_draw")}: ${money_label(row.cost)}\n${text("charts.myth6.y_label")}: ${money_label(row.expected_loss_per_draw)}\n${text("tables.fair_chance_pool_contains_9_plus")}: ${fmt_pct1(row.fair_trigger_prob)}`
+            }),
             plot.text(system_rows, {
               x: "label",
               y: "expected_loss_per_draw",
