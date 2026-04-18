@@ -79,6 +79,13 @@ export async function createKinoArticle({Inputs, html, md}) {
     {pick: 9, hit_freq: 0.153051, rtp: 0.697778, top_net_win: 19999.5, median_rounds: 4378, profitable_ever: 0.543}
   ];
 
+  const pick_trajectory_colors = {
+    2: "#4C78A8",
+    5: "#7A5195",
+    7: "#E45756",
+    9: "#1F9D8A"
+  };
+
   const portfolio_monte_carlo = [
     {id: "pick_2_draw_column", payout_hit: 0.598073, positive_rounds: 0.283142, rtp: 0.78156, ruin: 1.0, final_profit: -5460.9933},
     {id: "pick_5_draw_column", payout_hit: 0.352314, positive_rounds: 0.292235, rtp: 0.785031, ruin: 1.0, final_profit: -5374.23},
@@ -175,6 +182,10 @@ export async function createKinoArticle({Inputs, html, md}) {
   }
 
   const raw = await d3.csv(new URL("data/kino.csv", import.meta.url).toString(), d3.autoType);
+  const pick_trajectory_focus = await d3.csv(
+    new URL("research/outputs/pick_trajectory_focus_101952.csv", import.meta.url).toString(),
+    d3.autoType
+  );
   const draws = raw.map((row, index) => {
     const numbers = d3.range(20).map((j) => +row[`d${j}`]).sort((a, b) => a - b);
     const num_set = new Set(numbers);
@@ -373,9 +384,20 @@ export async function createKinoArticle({Inputs, html, md}) {
       rtp: plain_rtp(pick)
     }));
 
-    const pick_variance_rows = pick_variance_summary.map((row) => ({
+  const pick_variance_rows = pick_variance_summary.map((row) => ({
+    ...row,
+    jackpot_scale: Math.log10(row.top_net_win + 1)
+  }));
+  const pick_trajectory_rows = pick_trajectory_focus.map((row) => ({
+    ...row,
+    label: `${text("tables.pick")} ${row.pick}`,
+    color: pick_trajectory_colors[row.pick]
+  }));
+  const pick_trajectory_last_rows = d3
+    .rollups(pick_trajectory_rows, (values) => values[values.length - 1], (row) => row.pick)
+    .map(([pick, row]) => ({
       ...row,
-      jackpot_scale: Math.log10(row.top_net_win + 1)
+      label: `${text("tables.pick")} ${pick}`
     }));
 
     const parity_window_stats = compute_parity_window_stats();
@@ -773,6 +795,65 @@ export async function createKinoArticle({Inputs, html, md}) {
             })
           ],
           caption: text("charts.myth4.variance_caption")
+        }),
+        "plot-block"
+      )
+    );
+
+    body.append(heading_block("article.myth4.trajectory_title", 3));
+    body.append(markdown_block("article.myth4.trajectory_body"));
+    body.append(
+      block(
+        plot.plot({
+          width: full_width,
+          height: 390,
+          marginRight: 120,
+          x: {label: text("charts.myth4.trajectory_x_label"), grid: true},
+          y: {
+            grid: true,
+            label: text("charts.myth4.trajectory_y_label"),
+            tickFormat: (value) => fmt_num(value)
+          },
+          color: {
+            domain: pick_trajectory_last_rows.map((row) => row.label),
+            range: pick_trajectory_last_rows.map((row) => row.color),
+            legend: false
+          },
+          marks: [
+            plot.ruleY([0], {stroke: "#2c2c2c", strokeDasharray: "6,4"}),
+            plot.lineY(pick_trajectory_rows, {
+              x: "draw",
+              y: "cumulative_profit",
+              stroke: "label",
+              strokeWidth: 3
+            }),
+            plot.dot(pick_trajectory_rows, {
+              x: "draw",
+              y: "cumulative_profit",
+              fill: "label",
+              r: 2.6,
+              opacity: 0.22,
+              tip: true,
+              title: (row) =>
+                `${row.label}\n${text("charts.myth4.trajectory_x_label")}: ${fmt_num(row.draw)}\n${text("charts.myth4.trajectory_y_label")}: ${money_label(row.cumulative_profit)}`
+            }),
+            plot.dot(pick_trajectory_last_rows, {
+              x: "draw",
+              y: "cumulative_profit",
+              fill: "label",
+              r: 4
+            }),
+            plot.text(pick_trajectory_last_rows, {
+              x: "draw",
+              y: "cumulative_profit",
+              text: "label",
+              fill: "label",
+              dx: 10,
+              textAnchor: "start",
+              fontWeight: 700
+            })
+          ],
+          caption: text("charts.myth4.trajectory_caption")
         }),
         "plot-block"
       )

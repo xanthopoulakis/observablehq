@@ -203,6 +203,75 @@ export async function create_pick_variance_plot({html, md, Inputs, lang = null, 
   });
 }
 
+export async function create_pick_trajectory_plot({html, md, Inputs, lang = null, width = null, height = 390} = {}) {
+  const env = await create_kino_env({Inputs, html, md, lang});
+  const {plot, d3, pick_trajectory_focus, pick_trajectory_colors, text, fmt_num, money_label} = env;
+  const chart_width = width ?? env.full_width;
+  const rows = pick_trajectory_focus.map((row) => ({
+    ...row,
+    label: `${text("tables.pick")} ${row.pick}`,
+    color: pick_trajectory_colors[row.pick]
+  }));
+  const last_rows = d3
+    .rollups(rows, (values) => values[values.length - 1], (row) => row.pick)
+    .map(([pick, row]) => ({
+      ...row,
+      label: `${text("tables.pick")} ${pick}`
+    }));
+
+  return plot.plot({
+    width: chart_width,
+    height,
+    marginRight: 120,
+    x: {label: text("charts.myth4.trajectory_x_label"), grid: true},
+    y: {
+      grid: true,
+      label: text("charts.myth4.trajectory_y_label"),
+      tickFormat: (value) => fmt_num(value)
+    },
+    color: {
+      domain: last_rows.map((row) => row.label),
+      range: last_rows.map((row) => row.color),
+      legend: false
+    },
+    marks: [
+      plot.ruleY([0], {stroke: "#2c2c2c", strokeDasharray: "6,4"}),
+      plot.lineY(rows, {
+        x: "draw",
+        y: "cumulative_profit",
+        stroke: "label",
+        strokeWidth: 3
+      }),
+      plot.dot(rows, {
+        x: "draw",
+        y: "cumulative_profit",
+        fill: "label",
+        r: 2.6,
+        opacity: 0.22,
+        tip: true,
+        title: (row) =>
+          `${row.label}\n${text("charts.myth4.trajectory_x_label")}: ${fmt_num(row.draw)}\n${text("charts.myth4.trajectory_y_label")}: ${money_label(row.cumulative_profit)}`
+      }),
+      plot.dot(last_rows, {
+        x: "draw",
+        y: "cumulative_profit",
+        fill: "label",
+        r: 4
+      }),
+      plot.text(last_rows, {
+        x: "draw",
+        y: "cumulative_profit",
+        text: "label",
+        fill: "label",
+        dx: 10,
+        textAnchor: "start",
+        fontWeight: 700
+      })
+    ],
+    caption: text("charts.myth4.trajectory_caption")
+  });
+}
+
 export async function create_portfolio_scatter_plot({html, md, Inputs, lang = null, width = null, height = 360} = {}) {
   const env = await create_kino_env({Inputs, html, md, lang});
   const {plot, portfolio_monte_carlo, text} = env;
@@ -319,6 +388,9 @@ export async function create_pick_variance_section({html, md, Inputs, lang = nul
     body: env.text("article.myth4.variance_body")
   });
   shell.append(await create_pick_variance_plot({html, md, Inputs, lang: env.lang, width}));
+  shell.append(html`<h3>${env.text("article.myth4.trajectory_title")}</h3>`);
+  shell.append(html`<p>${env.text("article.myth4.trajectory_body")}</p>`);
+  shell.append(await create_pick_trajectory_plot({html, md, Inputs, lang: env.lang, width}));
   return shell;
 }
 
@@ -359,6 +431,7 @@ export const embed_catalog = [
   {id: "parity_window", factory: "create_parity_window_plot", title_key: "embeds.parity_window.title", hook_key: "embeds.parity_window.hook"},
   {id: "pick_tradeoff", factory: "create_pick_tradeoff_plot", title_key: "embeds.pick_tradeoff.title", hook_key: "embeds.pick_tradeoff.hook"},
   {id: "pick_variance", factory: "create_pick_variance_section", title_key: "embeds.pick_variance.title", hook_key: "embeds.pick_variance.hook"},
+  {id: "pick_trajectory", factory: "create_pick_trajectory_plot", title_key: "embeds.pick_trajectory.title", hook_key: "embeds.pick_trajectory.hook"},
   {id: "portfolio_scatter", factory: "create_portfolio_scatter_plot", title_key: "embeds.portfolio_scatter.title", hook_key: "embeds.portfolio_scatter.hook"},
   {id: "portfolio_bankroll", factory: "create_portfolio_bankroll_plot", title_key: "embeds.portfolio_bankroll.title", hook_key: "embeds.portfolio_bankroll.hook"},
   {id: "coverage_systems", factory: "create_coverage_systems_plot", title_key: "embeds.coverage_systems.title", hook_key: "embeds.coverage_systems.hook"},

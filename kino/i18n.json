@@ -49,7 +49,9 @@
         "title": "Myth 4: “There is a golden pick size”",
         "body": "This one survives because it contains a grain of truth. Different pick sizes do change the rhythm of the game. Some pay more often, some hit harder, some let a bankroll breathe for longer. But the useful question is not which pick feels best. It is which one rises above 100% of the <abbr class=\"term\" title=\"Return to Player: out of every €100 staked, how much comes back on average over the long run.\">theoretical payback (RTP)</abbr>. None of them does.",
         "variance_title": "What “efficient” really means",
-        "variance_body": "The word efficient needs care here. If it means better long-run value, the more dramatic games do not escape the same losing arithmetic. If it means how long a fixed bankroll can stay alive, the picture changes. In a simple fair-draw simulation with a €1,000 bankroll and €0.50 tickets, the lower and middle picks tend to bleed more slowly, while Picks 7 to 9 mostly buy the right to wait for one rare, spectacular jump."
+        "variance_body": "The word efficient needs care here. If it means better long-run value, the more dramatic games do not escape the same losing arithmetic. If it means how long a fixed bankroll can stay alive, the picture changes. In a simple fair-draw simulation with a €1,000 bankroll and €0.50 tickets, the lower and middle picks tend to bleed more slowly, while Picks 7 to 9 mostly buy the right to wait for one rare, spectacular jump.",
+        "trajectory_title": "How the bankroll gets eaten in practice",
+        "trajectory_body": "This is the same story, shown not as a summary number but as a path through time. To keep the picture readable, I show four representative picks together: **2, 5, 7, and 9**. Each line follows one fixed simulation across the full **101,952** draws, with **one €0.50 ticket** each round. The small jumps would move if we reran the exercise. The basic picture would not: every path slopes downward. What changes is mostly the speed of the drain and the size of the occasional leap."
       },
       "myth5": {
         "title": "Myth 5: “If I combine strategies, I can smooth my way into profit”",
@@ -141,7 +143,10 @@
         "y_label": "Theoretical return",
         "caption": "Pick 5 is best on expectation. Pick 7 is the smoothest compromise. Neither crosses 100%.",
         "variance_y_label": "Median rounds survived with a €1,000 bankroll",
-        "variance_caption": "Bigger circles mean a larger maximum net win on a €0.50 ticket. The high-variance picks buy spike potential, not a better edge."
+        "variance_caption": "Bigger circles mean a larger maximum net win on a €0.50 ticket. The high-variance picks buy spike potential, not a better edge.",
+        "trajectory_x_label": "Draws",
+        "trajectory_y_label": "Cumulative net result (€)",
+        "trajectory_caption": "If we rerun the simulation, the jumps move. The overall picture does not. Different picks fall at different speeds, but they still drift downward."
       },
       "myth5": {
         "scatter_x_label": "Rounds with any payout",
@@ -232,6 +237,10 @@
         "title": "Big spikes are not a better strategy",
         "hook": "High-variance picks buy the possibility of a dramatic jump. They do not buy a better edge."
       },
+      "pick_trajectory": {
+        "title": "Different paths, same erosion",
+        "hook": "The line may jump or sag in different places, but the larger pattern stays stubbornly familiar: the bankroll wears down."
+      },
       "portfolio_scatter": {
         "title": "More bets mean more action, not more edge",
         "hook": "Combining bets can make a ticket feel busier and produce more payout events. It still does not turn a negative game into a positive one."
@@ -300,7 +309,9 @@
         "title": "Μύθος 4: «Υπάρχει ένα χρυσό μέγεθος παιχνιδιού»",
         "body": "Αυτός ο μύθος επιβιώνει επειδή περιέχει έναν κόκκο αλήθειας. Τα διαφορετικά μεγέθη παιχνιδιού όντως αλλάζουν τον ρυθμό του παιχνιδιού. Κάποια πληρώνουν συχνότερα, κάποια χτυπούν δυνατότερα, κάποια αφήνουν το κεφάλαιο να ανασάνει λίγο περισσότερο. Η χρήσιμη ερώτηση όμως δεν είναι ποιο παιχνίδι «νιώθεται» καλύτερο. Είναι ποιο περνά πάνω από το 100% της <abbr class=\"term\" title=\"Θεωρητική επιστροφή στον παίκτη: από 100 ευρώ που παίζονται, πόσα γυρίζουν πίσω κατά μέσο όρο σε βάθος χρόνου.\">θεωρητικής επιστροφής (RTP)</abbr>. Και η απάντηση, όσο άχαρη κι αν ακούγεται, είναι απλή: κανένα.",
         "variance_title": "Τι σημαίνει στ’ αλήθεια «αποδοτικό»",
-        "variance_body": "Εδώ η λέξη «αποδοτικό» θέλει προσοχή. Αν εννοούμε καλύτερη μαθηματική προσδοκία, τα πιο θεαματικά παιχνίδια δεν ξεφεύγουν από την ίδια αρνητική λογική. Αν εννοούμε πόσο αντέχει ένα σταθερό κεφάλαιο, τότε η εικόνα αλλάζει. Σε μια απλή προσομοίωση δίκαιης κλήρωσης με κεφάλαιο 1.000€ και δελτίο 0,50€, τα χαμηλότερα και μεσαία παιχνίδια τείνουν να αιμορραγούν πιο αργά, ενώ τα παιχνίδια των 7 έως 9 αριθμών αγοράζουν κυρίως το δικαίωμα να περιμένεις μια μεγάλη, σπάνια εκτίναξη."
+        "variance_body": "Εδώ η λέξη «αποδοτικό» θέλει προσοχή. Αν εννοούμε καλύτερη μαθηματική προσδοκία, τα πιο θεαματικά παιχνίδια δεν ξεφεύγουν από την ίδια αρνητική λογική. Αν εννοούμε πόσο αντέχει ένα σταθερό κεφάλαιο, τότε η εικόνα αλλάζει. Σε μια απλή προσομοίωση δίκαιης κλήρωσης με κεφάλαιο 1.000€ και δελτίο 0,50€, τα χαμηλότερα και μεσαία παιχνίδια τείνουν να αιμορραγούν πιο αργά, ενώ τα παιχνίδια των 7 έως 9 αριθμών αγοράζουν κυρίως το δικαίωμα να περιμένεις μια μεγάλη, σπάνια εκτίναξη.",
+        "trajectory_title": "Πώς τρώγεται στην πράξη το κεφάλαιο",
+        "trajectory_body": "Εδώ βλέπουμε το ίδιο επιχείρημα όχι σαν ποσοστό, αλλά σαν διαδρομή. Για να διαβάζεται καθαρά η εικόνα, βάζω μαζί τέσσερα αντιπροσωπευτικά παιχνίδια: **2, 5, 7 και 9**. Κάθε γραμμή ακολουθεί μια σταθερή προσομοίωση πάνω και στις **101.952** κληρώσεις, με **ένα δελτίο των 0,50€** κάθε φορά. Οι μικρές αναπηδήσεις θα άλλαζαν αν ξανατρέχαμε την άσκηση. Το βασικό όμως όχι: όλες οι διαδρομές γέρνουν προς τα κάτω. Αυτό που αλλάζει είναι κυρίως η ταχύτητα της φθοράς και το πόσο θεαματικά είναι τα λίγα διαλείμματα."
       },
       "myth5": {
         "title": "Μύθος 5: «Αν συνδυάσω στρατηγικές, μπορώ να λειάνω τον δρόμο προς το κέρδος»",
@@ -392,7 +403,10 @@
         "y_label": "Θεωρητική επιστροφή",
         "caption": "Το παιχνίδι 5 είναι καλύτερο σε προσδοκία. Το παιχνίδι 7 είναι ο πιο ομαλός συμβιβασμός. Κανένα δεν περνά το 100%.",
         "variance_y_label": "Διάμεσοι γύροι επιβίωσης με κεφάλαιο 1.000€",
-        "variance_caption": "Οι μεγαλύτεροι κύκλοι σημαίνουν μεγαλύτερο μέγιστο καθαρό κέρδος σε δελτίο των 0,50€. Τα παιχνίδια υψηλής διακύμανσης αγοράζουν πιθανότητα εκτίναξης, όχι καλύτερο πλεονέκτημα."
+        "variance_caption": "Οι μεγαλύτεροι κύκλοι σημαίνουν μεγαλύτερο μέγιστο καθαρό κέρδος σε δελτίο των 0,50€. Τα παιχνίδια υψηλής διακύμανσης αγοράζουν πιθανότητα εκτίναξης, όχι καλύτερο πλεονέκτημα.",
+        "trajectory_x_label": "Κληρώσεις",
+        "trajectory_y_label": "Σωρευτικό καθαρό αποτέλεσμα (€)",
+        "trajectory_caption": "Αν ξανατρέξει η προσομοίωση, οι αναπηδήσεις θα αλλάξουν θέση. Η βασική εικόνα όχι. Άλλα παιχνίδια πέφτουν πιο αργά, άλλα πιο βίαια, αλλά όλες οι διαδρομές γέρνουν προς τα κάτω."
       },
       "myth5": {
         "scatter_x_label": "Γύροι με κάποια πληρωμή",
@@ -482,6 +496,10 @@
       "pick_variance": {
         "title": "Οι μεγάλες εκτινάξεις δεν είναι καλύτερη στρατηγική",
         "hook": "Τα παιχνίδια με σπανιότερες αλλά μεγαλύτερες πληρωμές αγοράζουν την πιθανότητα μιας θεαματικής ανόδου. Δεν αγοράζουν καλύτερο πλεονέκτημα."
+      },
+      "pick_trajectory": {
+        "title": "Διαφορετικές διαδρομές, ίδια φθορά",
+        "hook": "Η γραμμή πηδά αλλού, βυθίζεται αλλού, αλλά το μεγαλύτερο μοτίβο μένει πεισματικά ίδιο: το κεφάλαιο φθείρεται."
       },
       "portfolio_scatter": {
         "title": "Περισσότερα στοιχήματα σημαίνουν περισσότερη δράση, όχι πλεονέκτημα",
