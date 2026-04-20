@@ -446,9 +446,34 @@ export async function createKinoArticle({ Inputs, html, md }) {
     };
   });
 
+  function normalize_lang(candidate) {
+    return candidate === "el" || candidate === "en" ? candidate : null;
+  }
+
+  function detect_browser_lang() {
+    const candidates = [
+      ...(Array.isArray(globalThis.navigator?.languages)
+        ? globalThis.navigator.languages
+        : []),
+      globalThis.navigator?.language,
+    ]
+      .filter(Boolean)
+      .map((value) => String(value).toLowerCase());
+
+    if (candidates.some((value) => value === "el" || value.startsWith("el-"))) {
+      return "el";
+    }
+    if (candidates.some((value) => value === "en" || value.startsWith("en-"))) {
+      return "en";
+    }
+    return "el";
+  }
+
   let lang = (() => {
-    const candidate = new URLSearchParams(location.search).get("lang");
-    return candidate === "el" || candidate === "en" ? candidate : "el";
+    const candidate = normalize_lang(
+      new URLSearchParams(location.search).get("lang"),
+    );
+    return candidate ?? detect_browser_lang();
   })();
   let parity_target = "draw";
   let parity_window = 100;
