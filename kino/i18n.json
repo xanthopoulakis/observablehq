@@ -17,11 +17,11 @@
     "article": {
       "hero": {
         "kicker": "LUCKY GAMES, PROBABILITY, AND SELF-DECEPTION",
-        "title": "Are you keen on winning? then quit playing games of luck",
-        "deck": "Every KINO counter has its own theory: the number that feels overdue, the run that seems to have momentum, the “safe” parity bet, the clever system that supposedly lowers the risk. I tested those ideas on 101,952 draws. The result is less magical and more useful: KINO can offer suspense, but not the sort of pattern that quietly pays you back.",
-        "meta": "By C. Xanthopoulakis · data-driven essay · {draw_count} draws"
+        "title": "Lucky by chance, or losing from the start?",
+        "deck": "At every plastic table strewn with old slips, there is always a \"sure thing\" making the rounds: the number that took too long to show up, the run that seems to have momentum, the safe odd-even bet, the clever system that supposedly trims the risk. I tested those stories on **101,952** consecutive KINO draws across fourteen months. The conclusion is less dazzling, but probably more useful: KINO offers suspense, not the kind of pattern that pays you without exacting a price.",
+        "meta": "By C. Xanthopoulakis · reported essay with data · {draw_count} consecutive draws"
       },
-      "lede": "In **2025**, Greece’s legal gambling market recorded about **€16.7 billion** in [stakes](https://moneybuzz.gr/greece-gambling-market-2025/) and more than **€3 billion** in gross gaming revenue. In an economy a little above **€230 billion** of GDP, that is not a footnote. It is a social fact. And inside that wider market, OPAP’s lottery segment alone, the home of games such as [KINO](https://corporate.opap.gr/el/web/opap.gr/pws-paizetai-to-kino), generated **€803.7 million** in gross gaming revenue, according to the [OPAP 2025 annual report PDF](https://investors.opap.gr/~/media/Files/O/Opap-IR/Opap%20Group%20FS%20ENG%202025_final_v1.pdf).\n\nThat is why this essay begins here. Not because KINO is exotic, but because it is ordinary. It sits in the neighborhood agency, in the coffee shop, in the small rituals by which many people try to turn chance into method. Around it grows an entire folk theory: the overdue number, the sequence that seems to gather pace, the “safe” parity choice, the clever system, even the more modern dream that an algorithm might crack the machine.\n\nSo before asking whether any of these strategies work, it is worth asking a more uncomfortable question: when a household keeps feeding small amounts into a game like this, are we watching harmless entertainment or a **slow leak of income dressed up as control**?",
+      "lede": "In **2025** Greece’s legal gambling market recorded about **€16.7 billion** in wagers and more than **€3 billion** in [gross gaming revenue](https://www.tourismtoday.gr/%CE%B5%CE%B5%CE%B5%CF%80-%CF%83%CF%84%CE%B1-167-%CE%B4%CE%B9%CF%83-%CE%B5%CF%85%CF%81%CF%8E-%CF%84%CE%B1-%CF%80%CE%BF%CE%BD%CF%84%CE%B1%CF%81%CE%AF%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%84/) for providers, an amount larger than the state support for every public hospital in the country that same year. In an economy a little above **€240 billion** of GDP, gambling away half the country’s total pension bill is not a footnote. It is a social fact. And inside those giant sums, OPAP’s lottery segment alone, home to games such as [KINO](https://corporate.opap.gr/el/web/opap.gr/pws-paizetai-to-kino), generated **€803.7 million** in gross gaming revenue, according to the [OPAP 2025 annual report PDF](https://investors.opap.gr/~/media/Files/O/Opap-IR/Opap%20Group%20FS%20ENG%202025_final_v1.pdf), roughly the cost of the entire school-meals program for almost **seven** full years.\n\nThat is why this essay begins here. Not because KINO is exotic, but because it is ordinary. It sits in the neighborhood agency, in the coffee shop, in the little rituals by which many people try to turn chance into method. Around it grows an entire folk doctrine: the overdue number, the run that seems to have momentum, the safe odd-even bet, the clever coverage system, even the newer dream that artificial intelligence might now predict the next numbers safely.\n\nSo before asking whether any of these strategies work, it is worth asking a more uncomfortable question: when a household keeps feeding small amounts into a game like this, are we watching harmless entertainment, or **a slow leak of income dressed up as control**?",
       "cards": {
         "dataset": "Dataset",
         "best_side_market_rtp": "Best theoretical return",
@@ -31,46 +31,46 @@
       },
       "intro": {
         "title": "From the slip to the arithmetic",
-        "body": "That is why this essay starts **one step before the statistics**. The issue is not whether some players win occasionally. Of course they do. The issue is whether observation, discipline, or technical sophistication can overturn a game designed to keep the edge with the operator.\n\nI tested the most common stories against **101,952 draws**: overdue numbers, runs that seem to gather momentum or go cold, parity windows, coverage systems, combined tickets, and even evolutionary models that try to “learn” the machine. The standard was not whether a theory could sound plausible for a few rounds, but whether it could survive the arithmetic, future data, and comparisons against **shuffled histories**.\n\nWhat follows is therefore not a sermon against players. It is a close look at a very Greek habit of trying to make chance look readable. And once the numbers are laid out, the magic begins to shrink."
+        "body": "That is why this essay starts **one step before the statistics**. The issue is not whether some players win from time to time. Obviously they do; heaven help the game if nobody ever did. The issue is whether observation, discipline, or technical cleverness can overturn a game built to leave the edge with the operator.\n\nI tested the most familiar stories against **101,952 consecutive draws** across fourteen months: overdue numbers, runs that seem to have caught fire or gone cold, parity windows, coverage systems, combined tickets, and even evolutionary AI models that try to imitate the electronic draw machine. The standard was not whether a theory could sound convincing for a few rounds, but whether it could survive the arithmetic, future data, and comparisons against **shuffled histories**.\n\nWhat follows is not a finger-wag at players. It is a cool, mathematical look at a very Greek desire: to make chance look like pattern. But once the numbers hit the table, the myth starts taking on water."
       },
       "myth1": {
-        "title": "Myth 1: “Overdue numbers are more likely to hit”",
-        "body": "This is the old gambler’s promise in its purest form: a number that has been missing for too long must somehow be getting ready. If that were true, very old numbers should hit more often than fresh ones do on the next draw."
+        "title": "Myth 1: Overdue numbers are more likely to come up",
+        "body": "This is the old gambler’s promise in its purest form: a number that has been absent for too long must somehow be getting ready. If that were true, very old numbers should appear noticeably more often than fresh ones do in the very next draw. It sounds satisfying as intuition. Not as statistics.\n\nThe overdue-number theory runs straight into the logic of **independent events**. The draw machine does not remember what it produced before. The probability that 14 appears is still exactly 25% in each draw, whether it last appeared yesterday or seems to have been missing for years."
       },
       "myth2": {
-        "title": "Myth 2: “A number that looks hot or cold must be on a run”",
-        "body": "The more seasoned player will say the real clue is not absence but temperature. Forget the overdue number; look at the one that seems to be running hot, or the one that seems to have gone cold. But in the data, that apparent momentum is usually just the normal wobble of a random game. What looks like a trend is often just a neat story we tell after the draw."
+        "title": "Myth 2: Numbers that look hot are hiding a real trend",
+        "body": "The more self-styled sophisticated player will tell you it is not just about absence, but about temperature. Forget the number that is \"due\"; watch the one that looks hot, or the one that seems to have frozen over. But in the data, that supposed momentum is very often just the ordinary wobble of a random game. In plain English: we are not necessarily seeing a trend. We are often writing a neat story after the draw so the numbers can pretend to belong to a pattern.\n\nNumbers have no memory, no personality, and certainly no fatigue from appearing too often. Every draw starts from zero, untouched by what happened five minutes ago or five years ago."
       },
       "myth3": {
-        "title": "Myth 3: “Parity windows create opportunities”",
-        "body": "This is the point where casual betting borrows the vocabulary of statistics. If draw has been scarce lately, maybe draw is now attractive. The logic sounds cleaner. The obstacle is the same. Even when the conditional probability improves a little, it does not improve enough to outrun the payout table."
+        "title": "Myth 3: Shifts in odd-even-draw ratios hide opportunities",
+        "body": "This is where everyday gambling borrows the vocabulary of statistics. If draw has been scarce lately, maybe draw is suddenly attractive. If even results have been bloated over the last 100 draws, maybe odd is now the clever side. The logic sounds weightier than superstition. The obstacle is the same. Even when the conditional probability improves a little, it does not improve enough to guarantee better payoffs. That is exactly where the charm of the theory runs out."
       },
       "myth4": {
-        "title": "Myth 4: “There is a golden pick size”",
-        "body": "This one survives because it contains a grain of truth. Different pick sizes do change the rhythm of the game. Some pay more often, some hit harder, some let a bankroll breathe for longer. But the useful question is not which pick feels best. It is which one rises above 100% of the <abbr class=\"term\" title=\"Return to Player: out of every €100 staked, how much comes back on average over the long run.\">theoretical payback (RTP)</abbr>. None of them does.",
-        "variance_title": "What “efficient” really means",
-        "variance_body": "The word efficient needs care here. If it means better long-run value, the more dramatic games do not escape the same losing arithmetic. If it means how long a fixed bankroll can stay alive, the picture changes. In a simple fair-draw simulation with a €1,000 bankroll and €0.50 tickets, the lower and middle picks tend to bleed more slowly, while Picks 7 to 9 mostly buy the right to wait for one rare, spectacular jump.",
-        "trajectory_title": "How the bankroll gets eaten in practice",
-        "trajectory_body": "This is the same story, shown not as a summary number but as a path through time. To keep the picture readable, I show four representative picks together: **2, 5, 7, and 9**. Each line follows one fixed simulation across the full **101,952** draws, with **one €0.50 ticket** each round. The small jumps would move if we reran the exercise. The basic picture would not: every path slopes downward. What changes is mostly the speed of the drain and the size of the occasional leap."
+        "title": "Myth 4: There is an ideal way to choose how many numbers to play",
+        "body": "This myth survives because it contains one small grain of truth. Different pick sizes really do change the rhythm of the game. Some pay more often, some throw up larger prizes, some let your bankroll breathe for a little longer. But the real question is not which package of picks feels nicest. It is which one rises above 100% of the <abbr class=\"term\" title=\"Theoretical return to player: out of every €100 staked, how much comes back on average over the long run.\">theoretical return (RTP)</abbr>, which in plain terms means this: if you kept staking €100 over time, which system would at least hand you back your capital? The answer, however graceless it sounds, is simple: **none of them**.",
+        "variance_title": "What do \"better returns\" actually mean?",
+        "variance_body": "The word returns needs care here. If we mean better long-run receipts for the player, even the systems with the big headline prizes, say matching 9 numbers, do not escape the same destination: the loss of your bankroll. If we mean how long a starting bankroll can hold up, the picture changes. In a simple fair-draw simulation with a €1,000 bankroll and €0.50 tickets, the lower and middle picks tend to bleed more slowly, while Picks 7 through 9 mostly buy you the right to wait for one rare, spectacular haul.",
+        "trajectory_title": "How your starting bankroll gets eaten in practice",
+        "trajectory_body": "Here we see the same argument not as a percentage, but as a path. To make the picture readable, I put four representative pick sizes together: **2, 5, 7, and 9**. Each line follows one fixed simulation across all **101,952** draws, with **one €0.50 ticket** each time. The little jumps would move if we reran the exercise. The basic picture would not: every path leans downward. What changes is mainly the speed of the wear and how theatrical the brief interruptions look. The longer you keep playing in order to refill, or even enlarge, the bankroll you started with, the more likely it is that sooner or later the money runs out despite the occasional win."
       },
       "myth5": {
-        "title": "Myth 5: “If I combine strategies, I can smooth my way into profit”",
-        "body": "The word portfolio lends respectability to almost anything. Add a draw bet. Add a column. Add BONUS. Add PARA1. Perhaps the weak parts become strong together. In real investing, diversification can reduce risk. In a negative-expectation game, diversification often just spreads the damage across more moving pieces."
+        "title": "Myth 5: If I combine strategies, I can turn it into profit",
+        "body": "The word portfolio lends prestige to almost anything. Add draw. Add a column. Add BONUS. Add PARA1. Maybe the weak parts become strong once you bundle them together. In real investing, diversification can indeed reduce risk. In a negative-expectation game, where the longer you play the more your bankroll drains away, all you do is spread the damage across more moving parts. The ticket becomes more elaborate. Its arithmetic does not. The outcome stays the same: the more bets you stack, the faster you lose money."
       },
       "myth6": {
-        "title": "Myth 6: “Coverage systems guarantee profit”",
-        "body": "This is where advertising does most of the talking. A combinatorial guarantee can be perfectly true and still financially useless. Yes, a system may guarantee a 9-hit column in game 10 if your selected pool contains enough winners. That part is accurate. The expensive part is the one written in smaller letters: how often does that condition actually arrive?"
+        "title": "Myth 6: Coverage systems guarantee steady profit",
+        "body": "This is where advertising does most of the talking. It is the agency’s favorite pitch: play a coverage system and rest easy.\n\nIn the chart below you see a list of systems (C-1 to C-10). The player chooses a pool of numbers, say 20, and the system prints dozens or hundreds of columns so that **if** those numbers contain enough winners, a success is **guaranteed**. The guarantee is real. The missing part is the expensive one. The giant red bar for C-10 makes the point on its own: the ticket costs €3,040 per draw. Once you multiply a house edge across thousands of columns, you are not protecting yourself. You are industrializing your losses.\n\nIf the house edge is 30%, then one column loses about €0.30 in expectation. Play 1,000 columns through a system, and the expected loss becomes about €300. The system does not shield you. It helps you lose 1,000 times faster.\n\nThe table below the chart shows how often the trigger condition actually arrives. That is the question the sales pitch keeps in small print. The system does not increase your chances of beating OPAP. It increases the speed at which OPAP beats you.\n\nPlaying coverage in KINO is like trying to put out a fire by throwing €50 notes at it. For a second the flames disappear behind the paper. All you have really done is burn your money faster."
       },
       "myth7": {
-        "title": "Myth 7: “A genetic algorithm can crack the machine”",
-        "body": "This is the modern version of the old betting fantasy. Leave aside the overdue number and the number that looks hot. Feed the full history into a <abbr class=\"term\" title=\"A rule-searching method that keeps trying many candidate solutions and keeps the ones that fit the past best.\">genetic algorithm</abbr> and ask it to discover a hidden rule. Maybe it will not find the real machine, but perhaps it will learn something close enough to exploit.\n\nThat is a serious hypothesis, not a superstition. Which is exactly why it needs a serious test. It is not enough for a model to look clever about yesterday. It has to stand up on tomorrow’s draws too, and it should still look special when compared with deliberately shuffled data.",
+        "title": "Myth 7: Artificial intelligence can predict the next draw",
+        "body": "This is the modern version of the old betting fantasy. Forget the overdue number and the streak that looks hot. Feed the entire past into a <abbr class=\"term\" title=\"An algorithm that tries many possible rules and keeps the ones that fit the past best.\">genetic algorithm</abbr> and ask it to uncover a hidden rule. Maybe it will not discover the real machine, but perhaps it will find something close enough to create an edge.\n\nThat sounds serious, and it is. Which is exactly why it needs a serious test. It is not enough for a model to look clever on draws that have already happened. It has to stand up on future ones too. And if it really has learned something real, it should still stand out when we compare it with data deliberately shuffled so that no hidden pattern survives.",
         "hypothesis_title": "What we tested",
-        "hypothesis_body": "We let these models search for their own rules using only older draws, both on the numbers themselves and on a simple mixed ticket made of five numbers plus parity. The question was not whether they could tell a convincing story about the past. The question was whether they could produce even a small edge on the next slice of data.",
+        "hypothesis_body": "We asked these models to search for their own rules using only older draws, both on the numbers themselves and on a simple mixed ticket made of five numbers plus odd-even. The question was not whether they could tell a convincing story about the past. The question was whether they could produce even a small edge on the next slice of data.",
         "results_title": "What happened",
-        "results_body": "At times the genetic algorithm did produce flashy profits over short windows. But they never settled into something dependable. One window was positive, the next was negative, and similarly “promising” bursts also appeared on shuffled histories. That is usually the sign not of a cracked machine, but of noise dressed up as insight.",
+        "results_body": "At times the genetic algorithm did produce flashy profits over short windows. But they never settled into anything stable. One window was positive, the next negative, and similarly hopeful bursts also appeared when we fed the model shuffled histories, data stripped of hidden meaning. That is usually the sign not of a cracked machine, but of a clever way for randomness to wear a mask.",
         "chart_caption": "Short bursts of profit appeared in both the real history and the shuffled data. That weakens the claim that the algorithm found a real hidden rule.",
         "callout_title": "The key distinction",
-        "callout_body": "A model that resembles the past is not yet a model that predicts the future. Even when we upgraded the superstition into a machine-learning hypothesis, the evidence still bent back toward randomness.",
+        "callout_body": "A model that seems to understand yesterday is not yet a model that predicts tomorrow. Even when we dressed superstition up as machine learning, the evidence still bent back toward chance.",
         "cards": {
           "can_fit_history": "It can imitate the past a little",
           "can_fit_history_value": "But not enough",
@@ -82,11 +82,11 @@
       },
       "live_rule": {
         "title": "The most uncomfortable result",
-        "body": "Even the least bad live-tested rule I found, a flat odd/even strategy activated only after long droughts, finished at €{final_bankroll} from an initial €{initial_bankroll}. This does not mean every such rule is absurd. It means that even the polite ones still pay rent to the house."
+        "body": "Even the least bad rule I tested live, a flat odd-even strategy activated only after long droughts, finished at €{final_bankroll} from a starting bankroll of €{initial_bankroll}. This does not mean every such rule is absurd. It means that even the polite ones still pay rent to the house."
       },
       "closing": {
-        "title": "The conclusion no betting ad wants to print",
-        "body": "This, of course, does not mean that every KINO ticket is foolish, nor that anyone who plays now and then needs a sermon. It does mean something more modest and more useful: **our interpretations of KINO are often louder than the game itself**.\n\nThe number that “owes” is a story.\n\nThe run that seems to have picked up speed is a story.\n\nThe odd-even window is a story.\n\nThe coverage system is a story.\n\nEven “smart” combinations are usually just a more theatrical way to buy the same house edge.\n\nIf you want entertainment, say that honestly and pay for entertainment.\n\nIf you want profit, stop asking a lucky game to behave like a skill game."
+        "title": "The conclusion no betting ad wants to tell you to your face",
+        "body": "This does not mean every KINO ticket is foolish, nor that anyone who plays now and then needs ten minutes of preaching. It means something simpler and more useful: **our interpretations of KINO are often more theatrical than the game itself**.\n\nIf you want profit, stop asking a game of chance to behave like a game of skill. Gambling sold as investment is a voluntary tax that falls hardest on the people who can least spare it. It is a transfer of wealth from households to the state and the operators, dressed up in the language of entertainment.\n\nIf you want entertainment, say so plainly and pay for entertainment. But do not flatter yourself into believing that luck owes you anything more than the brief suspense of the draw."
       },
       "methodology": {
         "title": "Methodology",
@@ -101,12 +101,12 @@
         "body": "- **<abbr class=\"term\" title=\"Return to Player\">RTP</abbr> / theoretical payback**: in plain English, this is how much money tends to come back to players over a very long stretch of play. If a game says **80%**, it does **not** mean each player gets **80%** back. It means that, on average, about **€80** comes back for every **€100** staked, while about **€20** stays with the house.\n- **House edge**: the other side of the same coin. If the theoretical payback is **80%**, the house edge is **20%**.\n- **A “hot” run**: the feeling that a number or pattern that appeared often lately has somehow picked up speed.\n- **A “cold” run or overdue number**: the feeling that something missing for a while is now “due”.\n- **Odd-even result**: whether a draw contains more **odd** numbers, more **even** numbers, or an exact tie.\n- **Pick 1 to Pick 9**: the basic KINO choice of how many numbers you decide to mark on one ticket. A `Pick 1` ticket asks you to match one number. A `Pick 9` ticket asks you to match nine.\n- **Coverage system**: a way of spreading the same pool of numbers across many tickets or combinations at once.\n- **Simple stand-in model**: an easier model used to imitate the visible behavior of the game. It is a way to test whether a complicated story really says more than a plain fair draw.\n- **Genetic algorithm**: a method that keeps trying many candidate rules, changing them a little each round, and keeping the ones that seem to fit the past better. That can be useful in research, but it can also be an efficient way to make noise look meaningful.\n- **Testing on newer unseen data**: a stricter check in which a model learns from older draws and is judged only on draws it has never seen before.\n- **Shuffled history**: a comparison dataset deliberately stripped of pattern. If a model also looks “successful” there, that is a warning that it is mostly dramatizing randomness."
       },
       "opening_evidence": {
-        "title": "What the first charts are really showing",
-        "body": "The first chart asks the most basic question possible: if the game had an obvious preference built into it, would we not already see it in the overall rhythm of odd, even, and draw results? The white dots are the simple mathematical expectation. The bars sit almost on top of them. That does not prove perfection, but it is a strong reason to distrust dramatic claims about a game that supposedly keeps tilting one way or another.\n\nThe second chart asks the same question about the ten columns. If one column had a hidden bias, this would be the place where it should begin to separate itself. It does not. All ten stay roughly around **10%**.\n\nThe third chart lowers the lens all the way down to the individual numbers from **1** to **80**. In a fair draw, each number should appear in roughly **25%** of the rounds, because **20** numbers are drawn out of **80** each time. And that is exactly what the picture suggests: small fluctuations, yes, but no secret caste of “favored” numbers. Before we start talking about systems, in other words, the biggest imbalances simply do not appear in the raw picture."
+        "title": "What the first charts tell us in practice",
+        "body": "The first chart runs the simplest test of all: if the game had some visible preference, would we not already see it in its basic rhythm? The white dots show where odd, even, and draw should sit in a fair draw. The fact that the bars land almost on top of them does not prove perfection, but it is a very good reason to keep a healthy skepticism when grand certainties start circulating.\n\nThe second chart asks the same question of the ten columns. If one column had a hidden bias, this is where it should start pulling away. It does not. All ten hover around **10%**.\n\nThe third chart drops the lens all the way down to the numbers themselves, from **1** to **80**. In a fair draw, each number should appear in about **25%** of rounds, because **20** numbers are drawn out of **80** each time. And that is exactly what the picture suggests: small fluctuations, yes, but no secret caste of favored numbers. In other words, before we even start talking about systems, the crudest imbalances simply do not show up in the first picture."
       },
       "simple_model": {
-        "title": "And what about the third chart?",
-        "body": "Here I compare several different ways of trying to imitate KINO. Some pay more attention to the recent past, some to overall frequencies, some to what happened just before. The green bar is the simplest story of all: that each draw behaves more or less like a fair random selection of numbers. The smaller the distance from the real data, the better the fit.\n\nThe important point is that this plain version remains the closest. That does not mean reality is magically perfect. It means something more practical for the reader: if there really were a hidden mechanism waiting to be exploited, a more complicated story should first describe the data **clearly better** than the simple one. Here, it does not."
+        "title": "So what exactly is the third chart telling us?",
+        "body": "Here the comparison is between different ways of trying to imitate KINO. Some models lean more heavily on the recent past, some on overall frequencies, some on what happened immediately before. The green bar is the simplest scenario of all: that each draw behaves more or less like a fair random selection of numbers. The smaller the distance from the real data, the better the model describes the game.\n\nThe crucial finding is that this plain version remains the closest. That does not mathematically prove that everything is perfectly random. It does tell the reader something practical: if there really were a hidden mechanism worth chasing, a more complicated story should first describe the data **clearly better** than the simple one. Here, it simply does not."
       }
     },
     "charts": {
@@ -135,7 +135,7 @@
       },
       "myth3": {
         "y_label": "Next-draw hit rate",
-        "x_label": "Z-score bucket of previous-window count",
+        "x_label": "How far the previous window drifted from normal",
         "caption": "Black is the fair baseline. Red is the break-even threshold. The bars do not get there."
       },
       "myth4": {
@@ -211,22 +211,22 @@
     "embeds": {
       "fairness": {
         "title": "The boring scenario that explains most of the game",
-        "hook": "Before searching for secret patterns, it helps to ask a simpler question: what if KINO already behaves almost exactly like a fair draw?"
+        "hook": "Before hunting for secret mechanisms, it is worth asking the simplest question first: what if KINO already behaves almost like a fair draw?"
       },
       "surrogate_fit": {
-        "title": "Even the cleverest model bends back toward a fair draw",
-        "hook": "If a more sophisticated model still crawls back toward the uniform baseline, that is not a failure of imagination. It is evidence that the plain explanation is already doing most of the work."
+        "title": "Even the cleverest model comes crawling back to a fair draw",
+        "hook": "If a fancier model still ends up near the uniform baseline, that is not a failure of imagination. It is evidence that the simple explanation is already doing most of the work."
       },
       "overdue_numbers": {
         "title": "Overdue numbers are not in a hurry",
         "hook": "The most durable gambling myth is also the easiest to test. If a number is truly “due”, its next-draw hit rate should rise with age. It does not."
       },
       "hot_cold": {
-        "title": "Runs that look hot are often just noise with a better story",
-        "hook": "Momentum sounds more sophisticated than superstition. But in a random game, “temperature” is often just fluctuation with a more dramatic face."
+        "title": "Runs that look hot are often just noise in better clothes",
+        "hook": "Momentum sounds more sophisticated than superstition. But in a random game, “temperature” is often just fluctuation wearing a more dramatic face."
       },
       "parity_window": {
-        "title": "Parity windows still do not beat the payout table",
+        "title": "Even parity windows do not beat the payout table",
         "hook": "Even when short-term imbalances exist, they need to improve enough to cross the break-even threshold. In the data, they do not."
       },
       "pick_tradeoff": {
@@ -239,7 +239,7 @@
       },
       "pick_trajectory": {
         "title": "Different paths, same erosion",
-        "hook": "The line may jump or sag in different places, but the larger pattern stays stubbornly familiar: the bankroll wears down."
+        "hook": "The line may jump here and sag there, but the larger pattern stays stubbornly familiar: the bankroll wears down."
       },
       "portfolio_scatter": {
         "title": "More bets mean more action, not more edge",
@@ -254,8 +254,8 @@
         "hook": "A combinatorial guarantee can be perfectly true and still economically useless. The missing question is always: how often does the trigger condition actually arrive?"
       },
       "ga": {
-        "title": "Even machine learning bent back toward randomness",
-        "hook": "We upgraded the superstition into a machine-learning hypothesis. The evidence still refused to become a stable edge."
+        "title": "Even machine learning bent back toward chance",
+        "hook": "We dressed superstition up as a machine-learning hypothesis. The evidence still refused to become a stable edge."
       }
     }
   },
