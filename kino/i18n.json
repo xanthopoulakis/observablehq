@@ -23,11 +23,11 @@
       },
       "lede": "In **2025** Greece’s legal gambling market recorded about **€16.7 billion** in wagers and more than **€3 billion** in [gross gaming revenue](https://www.tourismtoday.gr/%CE%B5%CE%B5%CE%B5%CF%80-%CF%83%CF%84%CE%B1-167-%CE%B4%CE%B9%CF%83-%CE%B5%CF%85%CF%81%CF%8E-%CF%84%CE%B1-%CF%80%CE%BF%CE%BD%CF%84%CE%B1%CF%81%CE%AF%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%84/) for providers, an amount larger than the state support for every public hospital in the country that same year. In an economy a little above **€240 billion** of GDP, gambling away half the country’s total pension bill is not a footnote. It is a social fact. And inside those giant sums, OPAP’s lottery segment alone, home to games such as [KINO](https://corporate.opap.gr/el/web/opap.gr/pws-paizetai-to-kino), generated **€803.7 million** in gross gaming revenue, according to the [OPAP 2025 annual report PDF](https://investors.opap.gr/~/media/Files/O/Opap-IR/Opap%20Group%20FS%20ENG%202025_final_v1.pdf), roughly the cost of the entire school-meals program for almost **seven** full years.\n\nThat is why this essay begins here. Not because KINO is exotic, but because it is ordinary. It sits in the neighborhood agency, in the coffee shop, in the little rituals by which many people try to turn chance into method. Around it grows an entire folk doctrine: the overdue number, the run that seems to have momentum, the safe odd-even bet, the clever coverage system, even the newer dream that artificial intelligence might now predict the next numbers safely.\n\nSo before asking whether any of these strategies work, it is worth asking a more uncomfortable question: when a household keeps feeding small amounts into a game like this, are we watching harmless entertainment, or **a slow leak of income dressed up as control**?",
       "cards": {
-        "dataset": "Dataset",
-        "best_side_market_rtp": "Best theoretical return",
-        "best_plain_pick_rtp": "Best theoretical return on plain picks",
-        "best_surrogate_model": "Model that fits best",
-        "uniform_draw": "A simple fair draw"
+        "dataset": "DATASET",
+        "best_side_market_rtp": "BEST THEORETICAL RETURN",
+        "best_plain_pick_rtp": "BEST THEORETICAL RETURN ON PLAIN PICKS",
+        "best_surrogate_model": "MODEL THAT FITS BEST",
+        "uniform_draw": "A SIMPLE FAIR DRAW"
       },
       "intro": {
         "title": "From the slip to the arithmetic",
@@ -72,12 +72,12 @@
         "callout_title": "The key distinction",
         "callout_body": "A model that seems to understand yesterday is not yet a model that predicts tomorrow. Even when we dressed superstition up as machine learning, the evidence still bent back toward chance.",
         "cards": {
-          "can_fit_history": "It can imitate the past a little",
-          "can_fit_history_value": "But not enough",
-          "cannot_validate_edge": "It does not prove a real edge",
-          "cannot_validate_edge_value": "Not on future data",
-          "null_runs_look_good": "It can also look clever on noise",
-          "null_runs_look_good_value": "That is the warning sign"
+          "can_fit_history": "IT CAN IMITATE THE PAST A LITTLE",
+          "can_fit_history_value": "BUT NOT ENOUGH",
+          "cannot_validate_edge": "IT DOES NOT PROVE A REAL EDGE",
+          "cannot_validate_edge_value": "NOT ON FUTURE DATA",
+          "null_runs_look_good": "IT CAN ALSO LOOK CLEVER ON NOISE",
+          "null_runs_look_good_value": "THAT IS THE WARNING SIGN"
         }
       },
       "live_rule": {
@@ -283,11 +283,11 @@
       },
       "lede": "Το **2025** η νόμιμη αγορά τυχερών παιγνίων στην Ελλάδα κατέγραψε περίπου **16,7 δισ. ευρώ** σε πονταρίσματα και πάνω από **3 δισ. ευρώ** σε [μικτά έσοδα](https://www.tourismtoday.gr/%CE%B5%CE%B5%CE%B5%CF%80-%CF%83%CF%84%CE%B1-167-%CE%B4%CE%B9%CF%83-%CE%B5%CF%85%CF%81%CF%8E-%CF%84%CE%B1-%CF%80%CE%BF%CE%BD%CF%84%CE%B1%CF%81%CE%AF%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%84/) για τους παρόχους, ένα ποσό μεγαλύτερο και από τις κρατικές επιχορηγήσεις για όλα τα νοσοκομεία της χώρας το ίδιο έτος. Σε μια οικονομία λίγο πάνω από τα **240 δισ. ευρώ** ΑΕΠ, το να τζογάρεται το μισό της συνολικής συνταξιοδοτικής δαπάνης της χώρας δεν είναι ψιλά γράμματα. Είναι ένα κοινωνικό φαινόμενο. Και μέσα σε αυτά τα θηριώδη ποσά, μόνο το λοταριακό σκέλος του ΟΠΑΠ, όπου ανήκει και το [ΚΙΝΟ](https://corporate.opap.gr/el/web/opap.gr/pws-paizetai-to-kino), παρήγαγε **803,7 εκατ. ευρώ** μικτά έσοδα, σύμφωνα με την [οικονομική έκθεση](https://investors.opap.gr/~/media/Files/O/Opap-IR/Opap%20Group%20FS%20ENG%202025_final_v1.pdf) του οργανισμού, όσο δηλαδή το σύνολο του προγράμματος των σχολικών γευμάτων για σχεδόν **7** ολόκληρα χρόνια.\n\nΓι’ αυτό και η ανάλυση αυτή ξεκινά από εδώ. Όχι επειδή τα παιχνίδια κληρώσεων - και ειδικά το ΚΙΝΟ - είναι κάτι εξωτικό, αλλά ακριβώς επειδή είναι κάτι τόσο οικείο. Βρίσκεται στο πρακτορείο της γειτονιάς, στο καφενείο, στα μικρά τελετουργικά με τα οποία πολλοί προσπαθούν να μετατρέψουν την τύχη σε σύστημα. Γύρω του ανθίζει και μια ολόκληρη λαϊκή δοξασία: ο αριθμός που άργησε να εμφανιστεί, η σειρά που μοιάζει να έχει το μομέντουμ, το ασφαλές μονά-ζυγά, το έξυπνο σύστημα κάλυψης στηλών, ακόμη και η πιο σύγχρονη εκδοχή του ίδιου ονείρου, ότι η Τεχνητή Νοημοσύνη μπορεί πλέον να προβλέψει τα επόμενα νούμερα με ασφάλεια.\n\nΠριν, λοιπόν, ρωτήσουμε αν αυτές οι στρατηγικές δουλεύουν, αξίζει να ρωτήσουμε κάτι πιο άβολο: όταν ένα νοικοκυριό ρίχνει ξανά και ξανά μικρά ποσά σε ένα τέτοιο παιχνίδι, μιλάμε πράγματι για αθώα διασκέδαση ή για μια **αργή διαρροή εισοδήματος ντυμένη με την ψευδαίσθηση του ελέγχου**;",
       "cards": {
-        "dataset": "Δείγμα",
-        "best_side_market_rtp": "Υψηλότερη θεωρητική επιστροφή",
-        "best_plain_pick_rtp": "Υψηλότερη θεωρητική επιστροφή στα απλά δελτία",
-        "best_surrogate_model": "Μοντέλο που ταιριάζει καλύτερα",
-        "uniform_draw": "Η απλή αμερόληπτη κλήρωση"
+        "dataset": "ΔΕΙΓΜΑ",
+        "best_side_market_rtp": "ΥΨΗΛΟΤΕΡΗ ΘΕΩΡΗΤΙΚΗ ΕΠΙΣΤΡΟΦΗ",
+        "best_plain_pick_rtp": "ΥΨΗΛΟΤΕΡΗ ΘΕΩΡΗΤΙΚΗ ΕΠΙΣΤΡΟΦΗ ΣΤΑ ΑΠΛΑ ΔΕΛΤΙΑ",
+        "best_surrogate_model": "ΜΟΝΤΕΛΟ ΠΟΥ ΤΑΙΡΙΑΖΕΙ ΚΑΛΥΤΕΡΑ",
+        "uniform_draw": "Η ΑΠΛΗ ΑΜΕΡΟΛΗΠΤΗ ΚΛΗΡΩΣΗ"
       },
       "intro": {
         "title": "Από το δελτίο στην αριθμητική",
@@ -332,12 +332,12 @@
         "callout_title": "Το κρίσιμο ξεχώρισμα",
         "callout_body": "Ένα μοντέλο που μοιάζει να καταλαβαίνει το χθες δεν σημαίνει ότι ξέρει να προβλέπει το αύριο. Ακόμη κι όταν δώσαμε στη δεισιδαιμονία τη μορφή σύγχρονης μηχανικής μάθησης, η ένδειξη γύρισε πάλι προς την τύχη.",
         "cards": {
-          "can_fit_history": "Μοιάζει να ταιριάζει στο παρελθόν",
-          "can_fit_history_value": "Αλλά όχι αρκετά",
-          "cannot_validate_edge": "Δεν αποδεικνύει πραγματικό πλεονέκτημα",
-          "cannot_validate_edge_value": "Όχι στα επόμενα δεδομένα",
-          "null_runs_look_good": "Μοιάζει πειστικό και στον θόρυβο",
-          "null_runs_look_good_value": "Εκεί χτυπά το καμπανάκι"
+          "can_fit_history": "ΜΟΙΑΖΕΙ ΝΑ ΤΑΙΡΙΑΖΕΙ ΣΤΟ ΠΑΡΕΛΘΟΝ",
+          "can_fit_history_value": "ΑΛΛΑ ΟΧΙ ΑΡΚΕΤΑ",
+          "cannot_validate_edge": "ΔΕΝ ΑΠΟΔΕΙΚΝΥΕΙ ΠΡΑΓΜΑΤΙΚΟ ΠΛΕΟΝΕΚΤΗΜΑ",
+          "cannot_validate_edge_value": "ΟΧΙ ΣΤΑ ΕΠΟΜΕΝΑ ΔΕΔΟΜΕΝΑ",
+          "null_runs_look_good": "ΜΟΙΑΖΕΙ ΠΕΙΣΤΙΚΟ ΚΑΙ ΣΤΟΝ ΘΟΡΥΒΟ",
+          "null_runs_look_good_value": "ΕΚΕΙ ΧΤΥΠΑ ΤΟ ΚΑΜΠΑΝΑΚΙ"
         }
       },
       "live_rule": {
