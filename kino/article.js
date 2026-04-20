@@ -2,15 +2,13 @@ const module_root_url = new URL(".", import.meta.url);
 
 async function fetch_json(url) {
   const response = await fetch(url);
-  if (!response.ok)
-    throw new Error(`Failed to fetch ${url}: ${response.status}`);
+  if (!response.ok) throw new Error(`Failed to fetch ${url}: ${response.status}`);
   return response.json();
 }
 
 async function fetch_text(url) {
   const response = await fetch(url);
-  if (!response.ok)
-    throw new Error(`Failed to fetch ${url}: ${response.status}`);
+  if (!response.ok) throw new Error(`Failed to fetch ${url}: ${response.status}`);
   return response.text();
 }
 
@@ -25,8 +23,7 @@ function ensure_stylesheet(html, stylesheet) {
 }
 
 export async function createKinoArticle({ Inputs, html, md }) {
-  const plot =
-    await import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm");
+  const plot = await import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm");
   const d3 = await import("https://cdn.jsdelivr.net/npm/d3@7/+esm");
   const copy = await fetch_json(new URL("i18n.json", import.meta.url));
   const stylesheet = await fetch_text(new URL("styles.css", import.meta.url));
@@ -48,7 +45,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       7: 80.0,
       6: 20.0,
       5: 2.0,
-      0: 2.0,
+      0: 2.0
     },
     11: {
       11: 500000.0,
@@ -58,7 +55,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       7: 50.0,
       6: 10.0,
       5: 1.0,
-      0: 2.0,
+      0: 2.0
     },
     12: {
       12: 1000000.0,
@@ -68,8 +65,8 @@ export async function createKinoArticle({ Inputs, html, md }) {
       8: 150.0,
       7: 25.0,
       6: 5.0,
-      0: 4.0,
-    },
+      0: 4.0
+    }
   };
 
   const surrogate_fit = [
@@ -78,50 +75,50 @@ export async function createKinoArticle({ Inputs, html, md }) {
       rmse: 0.004041,
       parity_tv: 0.00168,
       column_tv: 0.008865,
-      loss: 1.142604,
+      loss: 1.142604
     },
     {
       id: "global_frequency",
       rmse: 0.004241,
       parity_tv: 0.007914,
       column_tv: 0.006067,
-      loss: null,
+      loss: null
     },
     {
       id: "recent_frequency",
       rmse: 0.005133,
       parity_tv: 0.00928,
       column_tv: 0.013559,
-      loss: null,
+      loss: null
     },
     {
       id: "prev_parity_conditional",
       rmse: 0.004415,
       parity_tv: 0.00177,
       column_tv: 0.0089,
-      loss: null,
+      loss: null
     },
     {
       id: "prev_sum_quartile_conditional",
       rmse: 0.004361,
       parity_tv: 0.00188,
       column_tv: 0.00595,
-      loss: null,
+      loss: null
     },
     {
       id: "prev_gap_quartile_conditional",
       rmse: 0.004061,
       parity_tv: 0.003064,
       column_tv: 0.007047,
-      loss: null,
+      loss: null
     },
     {
       id: "best_evolved_surrogate",
       rmse: 0.003895,
       parity_tv: 0.005586,
       column_tv: 0.01097,
-      loss: 1.28032,
-    },
+      loss: 1.28032
+    }
   ];
 
   const pick_monte_carlo = [
@@ -132,19 +129,19 @@ export async function createKinoArticle({ Inputs, html, md }) {
       pick: 4,
       hit_freq: 0.258617,
       rtp: 0.689952,
-      mean_final_profit: -1550.241,
+      mean_final_profit: -1550.241
     },
     {
       pick: 5,
       hit_freq: 0.096528,
       rtp: 0.698908,
-      mean_final_profit: -1505.462,
+      mean_final_profit: -1505.462
     },
     {
       pick: 6,
       hit_freq: 0.161284,
       rtp: 0.691471,
-      mean_final_profit: -1542.644,
+      mean_final_profit: -1542.644
     },
     { pick: 7, hit_freq: 0.236119, rtp: 0.70226, mean_final_profit: -1488.698 },
     { pick: 8, hit_freq: 0.102111, rtp: 0.70058, mean_final_profit: -1497.102 },
@@ -152,21 +149,21 @@ export async function createKinoArticle({ Inputs, html, md }) {
       pick: 9,
       hit_freq: 0.152754,
       rtp: 0.716634,
-      mean_final_profit: -1416.829,
+      mean_final_profit: -1416.829
     },
     {
       pick: 10,
       hit_freq: 0.110414,
       rtp: 0.692405,
-      mean_final_profit: -1537.976,
+      mean_final_profit: -1537.976
     },
     {
       pick: 11,
       hit_freq: 0.13087,
       rtp: 0.683554,
-      mean_final_profit: -1582.232,
+      mean_final_profit: -1582.232
     },
-    { pick: 12, hit_freq: 0.063409, rtp: 0.70734, mean_final_profit: -1463.3 },
+    { pick: 12, hit_freq: 0.063409, rtp: 0.70734, mean_final_profit: -1463.3 }
   ];
 
   const pick_variance_summary = [
@@ -176,7 +173,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       rtp: 0.625,
       top_net_win: 0.75,
       median_rounds: 5330,
-      profitable_ever: 0.552,
+      profitable_ever: 0.552
     },
     {
       pick: 2,
@@ -184,7 +181,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       rtp: 0.68038,
       top_net_win: 2.0,
       median_rounds: 6256,
-      profitable_ever: 0.455,
+      profitable_ever: 0.455
     },
     {
       pick: 3,
@@ -192,7 +189,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       rtp: 0.693768,
       top_net_win: 12.0,
       median_rounds: 6495,
-      profitable_ever: 0.644,
+      profitable_ever: 0.644
     },
     {
       pick: 4,
@@ -200,7 +197,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       rtp: 0.691966,
       top_net_win: 49.5,
       median_rounds: 6280,
-      profitable_ever: 0.596,
+      profitable_ever: 0.596
     },
     {
       pick: 5,
@@ -208,7 +205,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       rtp: 0.699933,
       top_net_win: 224.5,
       median_rounds: 5773,
-      profitable_ever: 0.67,
+      profitable_ever: 0.67
     },
     {
       pick: 6,
@@ -216,7 +213,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       rtp: 0.690743,
       top_net_win: 799.5,
       median_rounds: 4234,
-      profitable_ever: 0.617,
+      profitable_ever: 0.617
     },
     {
       pick: 7,
@@ -224,7 +221,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       rtp: 0.699557,
       top_net_win: 2499.5,
       median_rounds: 4758,
-      profitable_ever: 0.52,
+      profitable_ever: 0.52
     },
     {
       pick: 8,
@@ -232,7 +229,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       rtp: 0.690009,
       top_net_win: 7499.5,
       median_rounds: 4178,
-      profitable_ever: 0.589,
+      profitable_ever: 0.589
     },
     {
       pick: 9,
@@ -240,15 +237,15 @@ export async function createKinoArticle({ Inputs, html, md }) {
       rtp: 0.697778,
       top_net_win: 19999.5,
       median_rounds: 4378,
-      profitable_ever: 0.543,
-    },
+      profitable_ever: 0.543
+    }
   ];
 
   const pick_trajectory_colors = {
     2: "#4C78A8",
     5: "#7A5195",
     7: "#E45756",
-    9: "#1F9D8A",
+    9: "#1F9D8A"
   };
 
   const portfolio_monte_carlo = [
@@ -258,7 +255,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       positive_rounds: 0.283142,
       rtp: 0.78156,
       ruin: 1.0,
-      final_profit: -5460.9933,
+      final_profit: -5460.9933
     },
     {
       id: "pick_5_draw_column",
@@ -266,7 +263,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       positive_rounds: 0.292235,
       rtp: 0.785031,
       ruin: 1.0,
-      final_profit: -5374.23,
+      final_profit: -5374.23
     },
     {
       id: "pick_7_draw_column",
@@ -274,7 +271,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       positive_rounds: 0.289881,
       rtp: 0.785501,
       ruin: 1.0,
-      final_profit: -5362.485,
+      final_profit: -5362.485
     },
     {
       id: "pick_7_bonus_draw_column",
@@ -282,20 +279,20 @@ export async function createKinoArticle({ Inputs, html, md }) {
       positive_rounds: 0.316058,
       rtp: 0.771027,
       ruin: 0.9967,
-      final_profit: -6869.1883,
-    },
+      final_profit: -6869.1883
+    }
   ];
 
   const walk_forward_summary = {
     final_bankroll: 464,
-    initial_bankroll: 500,
+    initial_bankroll: 500
   };
 
   const ga_validation_summary = [
     { label: "real_history", metric: "ga_pick5", value: -64.8 },
     { label: "real_history", metric: "ga_combined", value: 75.3 },
     { label: "null_history", metric: "ga_pick5", value: -58.1 },
-    { label: "null_history", metric: "ga_combined", value: 68.9 },
+    { label: "null_history", metric: "ga_combined", value: 68.9 }
   ];
 
   const ga_window_examples = [
@@ -303,42 +300,42 @@ export async function createKinoArticle({ Inputs, html, md }) {
       window: "W1",
       model: "ga_combined",
       profit: 127.73,
-      regime: "real_history",
+      regime: "real_history"
     },
     {
       window: "W2",
       model: "ga_combined",
       profit: 330.55,
-      regime: "real_history",
+      regime: "real_history"
     },
     {
       window: "W3",
       model: "ga_combined",
       profit: -56.0,
-      regime: "real_history",
+      regime: "real_history"
     },
     {
       window: "W4",
       model: "ga_combined",
       profit: -101.0,
-      regime: "real_history",
+      regime: "real_history"
     },
     {
       window: "N1",
       model: "ga_combined",
       profit: 95.0,
-      regime: "null_history",
+      regime: "null_history"
     },
     {
       window: "N2",
       model: "ga_combined",
       profit: -72.0,
-      regime: "null_history",
+      regime: "null_history"
     },
     { window: "W1", model: "ga_pick5", profit: -77.0, regime: "real_history" },
     { window: "W2", model: "ga_pick5", profit: -62.0, regime: "real_history" },
     { window: "W3", model: "ga_pick5", profit: -54.0, regime: "real_history" },
-    { window: "W4", model: "ga_pick5", profit: -66.0, regime: "real_history" },
+    { window: "W4", model: "ga_pick5", profit: -66.0, regime: "real_history" }
   ];
 
   const parity_states = ["odd", "even", "draw"];
@@ -358,8 +355,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
   function plain_rtp(pick_size) {
     let mean = 0;
     for (let hits = 0; hits <= pick_size; hits++) {
-      mean +=
-        hit_prob(pick_size, hits) * (number_payouts[pick_size][hits] ?? 0);
+      mean += hit_prob(pick_size, hits) * (number_payouts[pick_size][hits] ?? 0);
     }
     return mean;
   }
@@ -367,8 +363,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
   function plain_win_prob(pick_size) {
     let total = 0;
     for (let hits = 0; hits <= pick_size; hits++) {
-      if ((number_payouts[pick_size][hits] ?? 0) > 0)
-        total += hit_prob(pick_size, hits);
+      if ((number_payouts[pick_size][hits] ?? 0) > 0) total += hit_prob(pick_size, hits);
     }
     return total;
   }
@@ -377,7 +372,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
   const p_parity = {
     odd: (1 - p_draw) / 2,
     even: (1 - p_draw) / 2,
-    draw: p_draw,
+    draw: p_draw
   };
 
   function parity_break_even(state) {
@@ -406,16 +401,10 @@ export async function createKinoArticle({ Inputs, html, md }) {
     return path.split(".").reduce((value, part) => value?.[part], object);
   }
 
-  const raw = await d3.csv(
-    new URL("data/kino.csv", import.meta.url).toString(),
-    d3.autoType,
-  );
+  const raw = await d3.csv(new URL("data/kino.csv", import.meta.url).toString(), d3.autoType);
   const pick_trajectory_focus = await d3.csv(
-    new URL(
-      "research/outputs/pick_trajectory_focus_101952.csv",
-      import.meta.url,
-    ).toString(),
-    d3.autoType,
+    new URL("research/outputs/pick_trajectory_focus_101952.csv", import.meta.url).toString(),
+    d3.autoType
   );
   const draws = raw.map((row, index) => {
     const numbers = d3
@@ -424,8 +413,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       .sort((a, b) => a - b);
     const num_set = new Set(numbers);
     const odd_count = numbers.reduce((sum, n) => sum + (n % 2), 0);
-    const parity =
-      row.parity ?? (odd_count > 10 ? "odd" : odd_count < 10 ? "even" : "draw");
+    const parity = row.parity ?? (odd_count > 10 ? "odd" : odd_count < 10 ? "even" : "draw");
 
     return {
       index,
@@ -438,11 +426,9 @@ export async function createKinoArticle({ Inputs, html, md }) {
       parity,
       column: +row.col,
       sum: d3.sum(numbers),
-      digit_sum: d3.sum(numbers, (n) =>
-        [...String(n)].reduce((a, c) => a + +c, 0),
-      ),
+      digit_sum: d3.sum(numbers, (n) => [...String(n)].reduce((a, c) => a + +c, 0)),
       range: numbers[numbers.length - 1] - numbers[0],
-      gap_max: d3.max(numbers.slice(1), (n, idx) => n - numbers[idx]),
+      gap_max: d3.max(numbers.slice(1), (n, idx) => n - numbers[idx])
     };
   });
 
@@ -452,10 +438,8 @@ export async function createKinoArticle({ Inputs, html, md }) {
 
   function detect_browser_lang() {
     const candidates = [
-      ...(Array.isArray(globalThis.navigator?.languages)
-        ? globalThis.navigator.languages
-        : []),
-      globalThis.navigator?.language,
+      ...(Array.isArray(globalThis.navigator?.languages) ? globalThis.navigator.languages : []),
+      globalThis.navigator?.language
     ]
       .filter(Boolean)
       .map((value) => String(value).toLowerCase());
@@ -470,9 +454,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
   }
 
   let lang = (() => {
-    const candidate = normalize_lang(
-      new URLSearchParams(location.search).get("lang"),
-    );
+    const candidate = normalize_lang(new URLSearchParams(location.search).get("lang"));
     return candidate ?? detect_browser_lang();
   })();
   let parity_target = "draw";
@@ -490,10 +472,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
 
   function text(key, vars = {}) {
     const template = lookup(copy[lang], key) ?? key;
-    return String(template).replace(
-      /\{(\w+)\}/g,
-      (_, name) => vars[name] ?? `{${name}}`,
-    );
+    return String(template).replace(/\{(\w+)\}/g, (_, name) => vars[name] ?? `{${name}}`);
   }
 
   function notebook_url_for(next_lang) {
@@ -535,9 +514,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
 
   function compute_number_age_stats() {
     const labels = ["0", "1-2", "3-5", "6-10", "11-20", "21+"];
-    const stats = new Map(
-      labels.map((label) => [label, { bucket: label, total: 0, hits: 0 }]),
-    );
+    const stats = new Map(labels.map((label) => [label, { bucket: label, total: 0, hits: 0 }]));
     const ages = new Array(81).fill(0);
 
     for (const draw of draws) {
@@ -565,7 +542,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
     const stats = Array.from({ length: window_size + 1 }, (_, count) => ({
       recent_hits: count,
       total: 0,
-      hits: 0,
+      hits: 0
     }));
 
     for (let i = 0; i < draws.length; i++) {
@@ -586,7 +563,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       .filter((row) => row.total > 0)
       .map((row) => ({
         recent_hits: row.recent_hits,
-        hit_rate: row.hits / row.total,
+        hit_rate: row.hits / row.total
       }));
   }
 
@@ -595,16 +572,12 @@ export async function createKinoArticle({ Inputs, html, md }) {
     const counts = { odd: 0, even: 0, draw: 0 };
     const queue = [];
     const labels = ["<= -2", "-2 to -1", "-1 to 0", "0 to 1", "1 to 2", ">= 2"];
-    const bins = new Map(
-      labels.map((label) => [label, { bucket: label, total: 0, hits: 0 }]),
-    );
+    const bins = new Map(labels.map((label) => [label, { bucket: label, total: 0, hits: 0 }]));
 
     for (let i = 0; i < draws.length; i++) {
       if (queue.length === parity_window) {
         const expected = parity_window * expected_probability;
-        const sigma = Math.sqrt(
-          parity_window * expected_probability * (1 - expected_probability),
-        );
+        const sigma = Math.sqrt(parity_window * expected_probability * (1 - expected_probability));
         const z = sigma === 0 ? 0 : (counts[parity_target] - expected) / sigma;
         const bucket = z_bucket(z);
         const row = bins.get(bucket);
@@ -623,7 +596,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
         const row = bins.get(label);
         return {
           bucket: label,
-          hit_rate: row.total ? row.hits / row.total : null,
+          hit_rate: row.total ? row.hits / row.total : null
         };
       })
       .filter((row) => row.hit_rate != null);
@@ -641,65 +614,65 @@ export async function createKinoArticle({ Inputs, html, md }) {
     const parity_actual = parity_states.map((state) => ({
       label: text(`options.${state}`),
       actual: d3.mean(draws, (row) => (row.parity === state ? 1 : 0)),
-      expected: state === "draw" ? p_parity.draw : p_parity.odd,
+      expected: state === "draw" ? p_parity.draw : p_parity.odd
     }));
 
     const column_actual = d3.range(1, 11).map((column) => ({
       column: String(column),
-      actual: d3.mean(draws, (row) => (row.column === column ? 1 : 0)),
+      actual: d3.mean(draws, (row) => (row.column === column ? 1 : 0))
     }));
 
     const number_actual = d3.range(1, 81).map((number) => ({
       number,
       actual: d3.mean(draws, (row) => (row.num_set.has(number) ? 1 : 0)),
-      expected: 0.25,
+      expected: 0.25
     }));
 
     const pick_tradeoff = d3.range(1, 13).map((pick) => ({
       pick,
       win_prob: plain_win_prob(pick),
-      rtp: plain_rtp(pick),
+      rtp: plain_rtp(pick)
     }));
 
     const pick_variance_rows = pick_variance_summary.map((row) => ({
       ...row,
-      jackpot_scale: Math.log10(row.top_net_win + 1),
+      jackpot_scale: Math.log10(row.top_net_win + 1)
     }));
     const pick_trajectory_rows = pick_trajectory_focus.map((row) => ({
       ...row,
       label: `${text("tables.pick")} ${row.pick}`,
-      color: pick_trajectory_colors[row.pick],
+      color: pick_trajectory_colors[row.pick]
     }));
     const pick_trajectory_last_rows = d3
       .rollups(
         pick_trajectory_rows,
         (values) => values[values.length - 1],
-        (row) => row.pick,
+        (row) => row.pick
       )
       .map(([pick, row]) => ({
         ...row,
-        label: `${text("tables.pick")} ${pick}`,
+        label: `${text("tables.pick")} ${pick}`
       }));
 
     const parity_window_stats = compute_parity_window_stats();
 
     const portfolio_path = portfolio_monte_carlo.map((row) => ({
       label: strategy_name(row.id),
-      bankroll: 500 + row.final_profit * (portfolio_horizon / 10000),
+      bankroll: 500 + row.final_profit * (portfolio_horizon / 10000)
     }));
 
     const ga_chart_rows = ga_window_examples.map((row) => ({
       window: row.window,
       model_label: text(`tables.${row.model}`),
       regime_label: text(`tables.${row.regime}`),
-      profit: row.profit,
+      profit: row.profit
     }));
 
     const ga_summary_rows = ["real_history", "null_history"].map((regime) => {
       const row = { window_label: text(`tables.${regime}`) };
       for (const metric of ["ga_pick5", "ga_combined"]) {
         const match = ga_validation_summary.find(
-          (item) => item.label === regime && item.metric === metric,
+          (item) => item.label === regime && item.metric === metric
         );
         row[metric] = match?.value ?? null;
       }
@@ -716,7 +689,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       { id: "c_7", pool: 18, columns: 917 },
       { id: "c_8", pool: 19, columns: 1840 },
       { id: "c_9", pool: 20, columns: 3125 },
-      { id: "c_10", pool: 21, columns: 6080 },
+      { id: "c_10", pool: 21, columns: 6080 }
     ];
 
     const system_rows = system_specs.map((spec) => {
@@ -732,11 +705,9 @@ export async function createKinoArticle({ Inputs, html, md }) {
         pool: spec.pool,
         columns: spec.columns,
         cost,
-        fair_trigger_prob: d3.sum(d3.range(9, spec.pool + 1), (hits) =>
-          hit_prob(spec.pool, hits),
-        ),
+        fair_trigger_prob: d3.sum(d3.range(9, spec.pool + 1), (hits) => hit_prob(spec.pool, hits)),
         hist_trigger_prob: ge9 / draws.length,
-        expected_loss_per_draw: cost * (1 - plain_rtp(10)),
+        expected_loss_per_draw: cost * (1 - plain_rtp(10))
       };
     });
 
@@ -748,12 +719,12 @@ export async function createKinoArticle({ Inputs, html, md }) {
     const language_input = Inputs.radio(
       new Map([
         [text("ui.language_option_en"), "en"],
-        [text("ui.language_option_el"), "el"],
+        [text("ui.language_option_el"), "el"]
       ]),
       {
         label: text("ui.language_label"),
-        value: lang,
-      },
+        value: lang
+      }
     );
     language_input.addEventListener("input", () => {
       lang = language_input.value;
@@ -764,12 +735,12 @@ export async function createKinoArticle({ Inputs, html, md }) {
       new Map([
         [text("options.odd"), "odd"],
         [text("options.even"), "even"],
-        [text("options.draw"), "draw"],
+        [text("options.draw"), "draw"]
       ]),
       {
         label: text("ui.target_outcome"),
-        value: parity_target,
-      },
+        value: parity_target
+      }
     );
     parity_target_input.addEventListener("input", () => {
       parity_target = parity_target_input.value;
@@ -779,7 +750,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
     const parity_window_input = Inputs.range([20, 200], {
       label: text("ui.rolling_window"),
       step: 10,
-      value: parity_window,
+      value: parity_window
     });
     parity_window_input.addEventListener("input", () => {
       parity_window = +parity_window_input.value;
@@ -789,7 +760,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
     const portfolio_horizon_input = Inputs.range([100, 10000], {
       label: text("ui.draw_horizon"),
       step: 100,
-      value: portfolio_horizon,
+      value: portfolio_horizon
     });
     portfolio_horizon_input.addEventListener("input", () => {
       portfolio_horizon = +portfolio_horizon_input.value;
@@ -802,16 +773,14 @@ export async function createKinoArticle({ Inputs, html, md }) {
       html`<section class="hero">
         <div class="kicker">${text("article.hero.kicker")}</div>
         <h1>${text("article.hero.title")}</h1>
-        <div class="deck">${text("article.hero.deck")}</div>
-        <div class="meta">
-          ${text("article.hero.meta", { draw_count: fmt_num(draws.length) })}
-        </div>
+        <div class="deck">${md`${text("article.hero.deck")}`}</div>
+        <div class="meta">${text("article.hero.meta", { draw_count: fmt_num(draws.length) })}</div>
         <div class="sharebox">
           <a href="${share_url}" target="_blank" rel="noopener noreferrer"
             >${text("ui.share_link")}</a
           >
         </div>
-      </section>`,
+      </section>`
     );
 
     body.append(markdown_block("article.lede"));
@@ -834,7 +803,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
           <div class="label">${text("article.cards.best_surrogate_model")}</div>
           <div class="value">${text("article.cards.uniform_draw")}</div>
         </div>
-      </div>`,
+      </div>`
     );
 
     body.append(heading_block("article.intro.title"));
@@ -848,7 +817,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
         y: {
           percent: true,
           grid: true,
-          label: text("charts.fairness.share_of_draws"),
+          label: text("charts.fairness.share_of_draws")
         },
         x: { label: null },
         marks: [
@@ -858,7 +827,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
             fill: "#4C78A8",
             tip: true,
             title: (row) =>
-              `${row.label}\n${text("charts.fairness.share_of_draws")}: ${fmt_pct(row.actual)}\n${lang === "el" ? "Αναμενόμενο" : "Expected"}: ${fmt_pct(row.expected)}`,
+              `${row.label}\n${text("charts.fairness.share_of_draws")}: ${fmt_pct(row.actual)}\n${lang === "el" ? "Αναμενόμενο" : "Expected"}: ${fmt_pct(row.expected)}`
           }),
           plot.dot(parity_actual, {
             x: "label",
@@ -866,11 +835,11 @@ export async function createKinoArticle({ Inputs, html, md }) {
             r: 7,
             stroke: "black",
             fill: "white",
-            strokeWidth: 2,
-          }),
+            strokeWidth: 2
+          })
         ],
-        caption: text("charts.fairness.parity_caption"),
-      }),
+        caption: text("charts.fairness.parity_caption")
+      })
     );
     fairness_row.append(
       plot.plot({
@@ -879,7 +848,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
         y: {
           percent: true,
           grid: true,
-          label: text("charts.fairness.share_of_draws"),
+          label: text("charts.fairness.share_of_draws")
         },
         x: { label: text("charts.fairness.column") },
         marks: [
@@ -889,12 +858,12 @@ export async function createKinoArticle({ Inputs, html, md }) {
             fill: "#72B7B2",
             tip: true,
             title: (row) =>
-              `${text("charts.fairness.column")} ${row.column}\n${text("charts.fairness.share_of_draws")}: ${fmt_pct(row.actual)}`,
+              `${text("charts.fairness.column")} ${row.column}\n${text("charts.fairness.share_of_draws")}: ${fmt_pct(row.actual)}`
           }),
-          plot.ruleY([0.1], { stroke: "firebrick", strokeDasharray: "6,4" }),
+          plot.ruleY([0.1], { stroke: "firebrick", strokeDasharray: "6,4" })
         ],
-        caption: text("charts.fairness.column_caption"),
-      }),
+        caption: text("charts.fairness.column_caption")
+      })
     );
     body.append(block(fairness_row, "plot-block"));
 
@@ -906,12 +875,12 @@ export async function createKinoArticle({ Inputs, html, md }) {
           y: {
             percent: true,
             grid: true,
-            label: text("charts.fairness.share_of_draws"),
+            label: text("charts.fairness.share_of_draws")
           },
           x: {
             label: text("charts.fairness.number"),
             tickRotate: -90,
-            tickFormat: (d) => String(d),
+            tickFormat: (d) => String(d)
           },
           marks: [
             plot.barY(number_actual, {
@@ -920,14 +889,14 @@ export async function createKinoArticle({ Inputs, html, md }) {
               fill: "#9aa1ac",
               tip: true,
               title: (row) =>
-                `${lang === "el" ? "Αριθμός" : "Number"} ${row.number}\n${text("charts.fairness.share_of_draws")}: ${fmt_pct(row.actual)}\n${lang === "el" ? "Αναμενόμενο" : "Expected"}: ${fmt_pct(row.expected)}`,
+                `${lang === "el" ? "Αριθμός" : "Number"} ${row.number}\n${text("charts.fairness.share_of_draws")}: ${fmt_pct(row.actual)}\n${lang === "el" ? "Αναμενόμενο" : "Expected"}: ${fmt_pct(row.expected)}`
             }),
-            plot.ruleY([0.25], { stroke: "firebrick", strokeDasharray: "6,4" }),
+            plot.ruleY([0.25], { stroke: "firebrick", strokeDasharray: "6,4" })
           ],
-          caption: text("charts.fairness.number_caption"),
+          caption: text("charts.fairness.number_caption")
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(heading_block("article.opening_evidence.title", 3));
@@ -954,12 +923,12 @@ export async function createKinoArticle({ Inputs, html, md }) {
                     : "#9aa1ac",
               tip: true,
               title: (row) =>
-                `${model_name(row.id)}\n${text("charts.surrogate.x_label")}: ${row.rmse.toFixed(6)}`,
-            }),
-          ],
+                `${model_name(row.id)}\n${text("charts.surrogate.x_label")}: ${row.rmse.toFixed(6)}`
+            })
+          ]
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(heading_block("article.simple_model.title", 3));
@@ -969,7 +938,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
       html`<div class="callout">
         <strong>${text("charts.surrogate.callout_title")}</strong>
         ${text("charts.surrogate.callout_body")}
-      </div>`,
+      </div>`
     );
 
     body.append(heading_block("article.myth1.title"));
@@ -988,14 +957,14 @@ export async function createKinoArticle({ Inputs, html, md }) {
               fill: "#72B7B2",
               tip: true,
               title: (row) =>
-                `${text("charts.myth1.x_label")}: ${row.bucket}\n${text("charts.myth1.y_label")}: ${fmt_pct(row.hit_rate)}`,
+                `${text("charts.myth1.x_label")}: ${row.bucket}\n${text("charts.myth1.y_label")}: ${fmt_pct(row.hit_rate)}`
             }),
-            plot.ruleY([0.25], { stroke: "firebrick", strokeDasharray: "6,4" }),
+            plot.ruleY([0.25], { stroke: "firebrick", strokeDasharray: "6,4" })
           ],
-          caption: text("charts.myth1.caption"),
+          caption: text("charts.myth1.caption")
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(heading_block("article.myth2.title"));
@@ -1011,7 +980,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
             plot.lineY(recent_frequency_stats, {
               x: "recent_hits",
               y: "hit_rate",
-              stroke: "#1f8f55",
+              stroke: "#1f8f55"
             }),
             plot.dot(recent_frequency_stats, {
               x: "recent_hits",
@@ -1019,13 +988,13 @@ export async function createKinoArticle({ Inputs, html, md }) {
               fill: "#1f8f55",
               tip: true,
               title: (row) =>
-                `${text("charts.myth2.x_label")}: ${row.recent_hits}\n${text("charts.myth2.y_label")}: ${fmt_pct(row.hit_rate)}`,
+                `${text("charts.myth2.x_label")}: ${row.recent_hits}\n${text("charts.myth2.y_label")}: ${fmt_pct(row.hit_rate)}`
             }),
-            plot.ruleY([0.25], { stroke: "firebrick", strokeDasharray: "6,4" }),
-          ],
+            plot.ruleY([0.25], { stroke: "firebrick", strokeDasharray: "6,4" })
+          ]
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(heading_block("article.myth3.title"));
@@ -1048,21 +1017,21 @@ export async function createKinoArticle({ Inputs, html, md }) {
               fill: "#E45756",
               tip: true,
               title: (row) =>
-                `${text("charts.myth3.x_label")}: ${row.bucket}\n${text("charts.myth3.y_label")}: ${fmt_pct(row.hit_rate)}`,
+                `${text("charts.myth3.x_label")}: ${row.bucket}\n${text("charts.myth3.y_label")}: ${fmt_pct(row.hit_rate)}`
             }),
             plot.ruleY([p_parity[parity_target]], {
               stroke: "black",
-              strokeDasharray: "6,4",
+              strokeDasharray: "6,4"
             }),
             plot.ruleY([parity_break_even(parity_target)], {
               stroke: "firebrick",
-              strokeDasharray: "2,6",
-            }),
+              strokeDasharray: "2,6"
+            })
           ],
-          caption: text("charts.myth3.caption"),
+          caption: text("charts.myth3.caption")
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(heading_block("article.myth4.title"));
@@ -1083,20 +1052,20 @@ export async function createKinoArticle({ Inputs, html, md }) {
               fill: "#4C78A8",
               tip: true,
               title: (row) =>
-                `${text("tables.pick")} ${row.pick}\n${text("charts.myth4.x_label")}: ${fmt_pct(row.win_prob)}\n${text("charts.myth4.y_label")}: ${fmt_pct(row.rtp)}`,
+                `${text("tables.pick")} ${row.pick}\n${text("charts.myth4.x_label")}: ${fmt_pct(row.win_prob)}\n${text("charts.myth4.y_label")}: ${fmt_pct(row.rtp)}`
             }),
             plot.text(pick_tradeoff, {
               x: "win_prob",
               y: "rtp",
               text: (row) => String(row.pick),
               dy: -10,
-              fill: "#1d2433",
-            }),
+              fill: "#1d2433"
+            })
           ],
-          caption: text("charts.myth4.caption"),
+          caption: text("charts.myth4.caption")
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(
@@ -1106,13 +1075,11 @@ export async function createKinoArticle({ Inputs, html, md }) {
             [text("tables.pick")]: row.pick,
             [text("tables.hit_frequency")]: fmt_pct(row.hit_freq),
             [text("tables.rtp")]: fmt_pct(row.rtp),
-            [text("tables.mean_final_profit")]: fmt_money(
-              row.mean_final_profit,
-            ),
-          })),
+            [text("tables.mean_final_profit")]: fmt_money(row.mean_final_profit)
+          }))
         ),
-        "table-block",
-      ),
+        "table-block"
+      )
     );
 
     body.append(heading_block("article.myth4.variance_title", 3));
@@ -1125,7 +1092,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
           x: {
             label: null,
             tickFormat: (d) => String(d),
-            domain: d3.range(1, 10),
+            domain: d3.range(1, 10)
           },
           y: { grid: true, label: text("charts.myth4.variance_y_label") },
           r: { range: [5, 24] },
@@ -1134,7 +1101,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
               x: "pick",
               y: "median_rounds",
               stroke: "#4C78A8",
-              strokeWidth: 2,
+              strokeWidth: 2
             }),
             plot.dot(pick_variance_rows, {
               x: "pick",
@@ -1145,20 +1112,20 @@ export async function createKinoArticle({ Inputs, html, md }) {
               stroke: "#1d2433",
               tip: true,
               title: (row) =>
-                `${text("tables.pick")} ${row.pick}\n${text("tables.median_rounds_1000")}: ${fmt_num(row.median_rounds)}\n${text("tables.top_net_win")}: ${money_label(row.top_net_win)}\n${text("tables.profitable_ever")}: ${fmt_pct(row.profitable_ever)}`,
+                `${text("tables.pick")} ${row.pick}\n${text("tables.median_rounds_1000")}: ${fmt_num(row.median_rounds)}\n${text("tables.top_net_win")}: ${money_label(row.top_net_win)}\n${text("tables.profitable_ever")}: ${fmt_pct(row.profitable_ever)}`
             }),
             plot.text(pick_variance_rows, {
               x: "pick",
               y: "median_rounds",
               text: (row) => String(row.pick),
               dy: -16,
-              fill: "#1d2433",
-            }),
+              fill: "#1d2433"
+            })
           ],
-          caption: text("charts.myth4.variance_caption"),
+          caption: text("charts.myth4.variance_caption")
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(heading_block("article.myth4.trajectory_title", 3));
@@ -1173,12 +1140,12 @@ export async function createKinoArticle({ Inputs, html, md }) {
           y: {
             grid: true,
             label: text("charts.myth4.trajectory_y_label"),
-            tickFormat: (value) => fmt_num(value),
+            tickFormat: (value) => fmt_num(value)
           },
           color: {
             domain: pick_trajectory_last_rows.map((row) => row.label),
             range: pick_trajectory_last_rows.map((row) => row.color),
-            legend: false,
+            legend: false
           },
           marks: [
             plot.ruleY([0], { stroke: "#2c2c2c", strokeDasharray: "6,4" }),
@@ -1186,7 +1153,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
               x: "draw",
               y: "cumulative_profit",
               stroke: "label",
-              strokeWidth: 3,
+              strokeWidth: 3
             }),
             plot.dot(pick_trajectory_rows, {
               x: "draw",
@@ -1196,13 +1163,13 @@ export async function createKinoArticle({ Inputs, html, md }) {
               opacity: 0.22,
               tip: true,
               title: (row) =>
-                `${row.label}\n${text("charts.myth4.trajectory_x_label")}: ${fmt_num(row.draw)}\n${text("charts.myth4.trajectory_y_label")}: ${money_label(row.cumulative_profit)}`,
+                `${row.label}\n${text("charts.myth4.trajectory_x_label")}: ${fmt_num(row.draw)}\n${text("charts.myth4.trajectory_y_label")}: ${money_label(row.cumulative_profit)}`
             }),
             plot.dot(pick_trajectory_last_rows, {
               x: "draw",
               y: "cumulative_profit",
               fill: "label",
-              r: 4,
+              r: 4
             }),
             plot.text(pick_trajectory_last_rows, {
               x: "draw",
@@ -1211,13 +1178,13 @@ export async function createKinoArticle({ Inputs, html, md }) {
               fill: "label",
               dx: 10,
               textAnchor: "start",
-              fontWeight: 700,
-            }),
+              fontWeight: 700
+            })
           ],
-          caption: text("charts.myth4.trajectory_caption"),
+          caption: text("charts.myth4.trajectory_caption")
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(
@@ -1229,11 +1196,11 @@ export async function createKinoArticle({ Inputs, html, md }) {
             [text("tables.rtp")]: fmt_pct(row.rtp),
             [text("tables.top_net_win")]: fmt_money(row.top_net_win),
             [text("tables.median_rounds_1000")]: fmt_num(row.median_rounds),
-            [text("tables.profitable_ever")]: fmt_pct(row.profitable_ever),
-          })),
+            [text("tables.profitable_ever")]: fmt_pct(row.profitable_ever)
+          }))
         ),
-        "table-block",
-      ),
+        "table-block"
+      )
     );
 
     body.append(heading_block("article.myth5.title"));
@@ -1246,12 +1213,12 @@ export async function createKinoArticle({ Inputs, html, md }) {
           x: {
             percent: true,
             grid: true,
-            label: text("charts.myth5.scatter_x_label"),
+            label: text("charts.myth5.scatter_x_label")
           },
           y: {
             percent: true,
             grid: true,
-            label: text("charts.myth5.scatter_y_label"),
+            label: text("charts.myth5.scatter_y_label")
           },
           marks: [
             plot.ruleY([1], { stroke: "firebrick", strokeDasharray: "6,4" }),
@@ -1262,18 +1229,18 @@ export async function createKinoArticle({ Inputs, html, md }) {
               fill: "#B279A2",
               tip: true,
               title: (row) =>
-                `${strategy_name(row.id)}\n${text("charts.myth5.scatter_x_label")}: ${fmt_pct(row.payout_hit)}\n${text("charts.myth5.scatter_y_label")}: ${fmt_pct(row.rtp)}\n${lang === "el" ? "Μέσο τελικό αποτέλεσμα" : "Average final result"}: ${money_label(row.final_profit)}`,
+                `${strategy_name(row.id)}\n${text("charts.myth5.scatter_x_label")}: ${fmt_pct(row.payout_hit)}\n${text("charts.myth5.scatter_y_label")}: ${fmt_pct(row.rtp)}\n${lang === "el" ? "Μέσο τελικό αποτέλεσμα" : "Average final result"}: ${money_label(row.final_profit)}`
             }),
             plot.text(portfolio_monte_carlo, {
               x: "payout_hit",
               y: "rtp",
               text: (row) => strategy_name(row.id),
-              dy: -12,
-            }),
-          ],
+              dy: -12
+            })
+          ]
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(block(portfolio_horizon_input, "control-block"));
@@ -1292,14 +1259,14 @@ export async function createKinoArticle({ Inputs, html, md }) {
               fill: "#F58518",
               tip: true,
               title: (row) =>
-                `${row.label}\n${text("charts.myth5.bankroll_y_label")}: ${money_label(row.bankroll)}`,
+                `${row.label}\n${text("charts.myth5.bankroll_y_label")}: ${money_label(row.bankroll)}`
             }),
-            plot.ruleY([500], { stroke: "black", strokeDasharray: "6,4" }),
+            plot.ruleY([500], { stroke: "black", strokeDasharray: "6,4" })
           ],
-          caption: text("charts.myth5.bankroll_caption"),
+          caption: text("charts.myth5.bankroll_caption")
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(heading_block("article.myth6.title"));
@@ -1318,19 +1285,18 @@ export async function createKinoArticle({ Inputs, html, md }) {
               fill: "#E45756",
               tip: true,
               title: (row) =>
-                `${row.label}\n${text("tables.cost_per_draw")}: ${money_label(row.cost)}\n${text("charts.myth6.y_label")}: ${money_label(row.expected_loss_per_draw)}\n${text("tables.fair_chance_pool_contains_9_plus")}: ${fmt_pct1(row.fair_trigger_prob)}`,
+                `${row.label}\n${text("tables.cost_per_draw")}: ${money_label(row.cost)}\n${text("charts.myth6.y_label")}: ${money_label(row.expected_loss_per_draw)}\n${text("tables.fair_chance_pool_contains_9_plus")}: ${fmt_pct1(row.fair_trigger_prob)}`
             }),
             plot.text(system_rows, {
               x: "label",
               y: "expected_loss_per_draw",
-              text: (row) =>
-                `€${d3.format(",.0f")(row.expected_loss_per_draw)}`,
-              dy: -8,
-            }),
-          ],
+              text: (row) => `€${d3.format(",.0f")(row.expected_loss_per_draw)}`,
+              dy: -8
+            })
+          ]
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(
@@ -1341,16 +1307,12 @@ export async function createKinoArticle({ Inputs, html, md }) {
             [text("tables.pool_size")]: row.pool,
             [text("tables.columns")]: fmt_num(row.columns),
             [text("tables.cost_per_draw")]: fmt_money(row.cost),
-            [text("tables.fair_chance_pool_contains_9_plus")]: fmt_pct1(
-              row.fair_trigger_prob,
-            ),
-            [text("tables.historical_trigger_rate")]: fmt_pct1(
-              row.hist_trigger_prob,
-            ),
-          })),
+            [text("tables.fair_chance_pool_contains_9_plus")]: fmt_pct1(row.fair_trigger_prob),
+            [text("tables.historical_trigger_rate")]: fmt_pct1(row.hist_trigger_prob)
+          }))
         ),
-        "table-block",
-      ),
+        "table-block"
+      )
     );
 
     body.append(heading_block("article.myth7.title"));
@@ -1359,30 +1321,18 @@ export async function createKinoArticle({ Inputs, html, md }) {
     body.append(
       html`<div class="mini-grid">
         <div class="mini-card">
-          <div class="label">
-            ${text("article.myth7.cards.can_fit_history")}
-          </div>
-          <div class="value">
-            ${text("article.myth7.cards.can_fit_history_value")}
-          </div>
+          <div class="label">${text("article.myth7.cards.can_fit_history")}</div>
+          <div class="value">${text("article.myth7.cards.can_fit_history_value")}</div>
         </div>
         <div class="mini-card">
-          <div class="label">
-            ${text("article.myth7.cards.cannot_validate_edge")}
-          </div>
-          <div class="value">
-            ${text("article.myth7.cards.cannot_validate_edge_value")}
-          </div>
+          <div class="label">${text("article.myth7.cards.cannot_validate_edge")}</div>
+          <div class="value">${text("article.myth7.cards.cannot_validate_edge_value")}</div>
         </div>
         <div class="mini-card">
-          <div class="label">
-            ${text("article.myth7.cards.null_runs_look_good")}
-          </div>
-          <div class="value">
-            ${text("article.myth7.cards.null_runs_look_good_value")}
-          </div>
+          <div class="label">${text("article.myth7.cards.null_runs_look_good")}</div>
+          <div class="value">${text("article.myth7.cards.null_runs_look_good_value")}</div>
         </div>
-      </div>`,
+      </div>`
     );
 
     body.append(heading_block("article.myth7.hypothesis_title", 3));
@@ -1402,7 +1352,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
             legend: true,
             label: null,
             domain: [text("tables.real_history"), text("tables.null_history")],
-            range: ["#b81d24", "#9aa1ac"],
+            range: ["#b81d24", "#9aa1ac"]
           },
           marks: [
             plot.ruleY([0], { stroke: "black", strokeDasharray: "6,4" }),
@@ -1413,13 +1363,13 @@ export async function createKinoArticle({ Inputs, html, md }) {
               fill: "regime_label",
               stroke: "regime_label",
               r: 7,
-              tip: true,
-            }),
+              tip: true
+            })
           ],
-          caption: text("article.myth7.chart_caption"),
+          caption: text("article.myth7.chart_caption")
         }),
-        "plot-block",
-      ),
+        "plot-block"
+      )
     );
 
     body.append(
@@ -1428,18 +1378,18 @@ export async function createKinoArticle({ Inputs, html, md }) {
           ga_summary_rows.map((row) => ({
             [text("tables.window")]: row.window_label,
             [text("tables.ga_pick5")]: fmt_money(row.ga_pick5),
-            [text("tables.ga_combined")]: fmt_money(row.ga_combined),
-          })),
+            [text("tables.ga_combined")]: fmt_money(row.ga_combined)
+          }))
         ),
-        "table-block",
-      ),
+        "table-block"
+      )
     );
 
     body.append(
       html`<div class="callout">
         <strong>${text("article.myth7.callout_title")}</strong>
         ${text("article.myth7.callout_body")}
-      </div>`,
+      </div>`
     );
 
     body.append(
@@ -1447,9 +1397,9 @@ export async function createKinoArticle({ Inputs, html, md }) {
         <strong>${text("article.live_rule.title")}</strong>
         ${text("article.live_rule.body", {
           final_bankroll: walk_forward_summary.final_bankroll,
-          initial_bankroll: walk_forward_summary.initial_bankroll,
+          initial_bankroll: walk_forward_summary.initial_bankroll
         })}
-      </div>`,
+      </div>`
     );
 
     body.append(heading_block("article.closing.title"));
@@ -1458,8 +1408,8 @@ export async function createKinoArticle({ Inputs, html, md }) {
     body.append(heading_block("article.methodology.title", 3));
     body.append(
       markdown_block("article.methodology.body", {
-        draw_count: fmt_num(draws.length),
-      }),
+        draw_count: fmt_num(draws.length)
+      })
     );
     body.append(heading_block("article.sources.title", 3));
     body.append(markdown_block("article.sources.body"));

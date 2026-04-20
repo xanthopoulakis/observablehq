@@ -75,6 +75,10 @@
   color: var(--muted);
 }
 
+.hero .deck p {
+  margin: 0;
+}
+
 .hero .meta,
 .sharebox {
   margin-top: 1rem;
