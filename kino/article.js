@@ -500,6 +500,13 @@ export async function createKinoArticle({ Inputs, html, md }) {
     return block(md`${prefix} ${text(key, vars)}`, "prose-block");
   }
 
+  function plain_callout_block(body_key, vars = {}) {
+    const wrapper = html`<div class="callout"></div>`;
+    wrapper.append(html`<strong>${text("ui.plain_words")}</strong>`);
+    wrapper.append(md`${text(body_key, vars)}`);
+    return wrapper;
+  }
+
   function model_name(id) {
     return text(`models.${id}`);
   }
@@ -808,6 +815,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
 
     body.append(heading_block("article.intro.title"));
     body.append(markdown_block("article.intro.body"));
+    body.append(plain_callout_block("article.intro.plain_body"));
 
     const fairness_row = html`<div class="plot-row"></div>`;
     fairness_row.append(
@@ -966,6 +974,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
         "plot-block"
       )
     );
+    body.append(plain_callout_block("article.myth1.plain_body"));
 
     body.append(heading_block("article.myth2.title"));
     body.append(markdown_block("article.myth2.body"));
@@ -996,6 +1005,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
         "plot-block"
       )
     );
+    body.append(plain_callout_block("article.myth2.plain_body"));
 
     body.append(heading_block("article.myth3.title"));
     body.append(markdown_block("article.myth3.body"));
@@ -1033,6 +1043,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
         "plot-block"
       )
     );
+    body.append(plain_callout_block("article.myth3.plain_body"));
 
     body.append(heading_block("article.myth4.title"));
     body.append(markdown_block("article.myth4.body"));
@@ -1202,6 +1213,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
         "table-block"
       )
     );
+    body.append(plain_callout_block("article.myth4.plain_body"));
 
     body.append(heading_block("article.myth5.title"));
     body.append(markdown_block("article.myth5.body"));
@@ -1268,6 +1280,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
         "plot-block"
       )
     );
+    body.append(plain_callout_block("article.myth5.plain_body"));
 
     body.append(heading_block("article.myth6.title"));
     body.append(markdown_block("article.myth6.body"));
@@ -1314,6 +1327,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
         "table-block"
       )
     );
+    body.append(plain_callout_block("article.myth6.plain_body"));
 
     body.append(heading_block("article.myth7.title"));
     body.append(markdown_block("article.myth7.body"));
@@ -1386,10 +1400,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
     );
 
     body.append(
-      html`<div class="callout">
-        <strong>${text("article.myth7.callout_title")}</strong>
-        ${text("article.myth7.callout_body")}
-      </div>`
+      plain_callout_block("article.myth7.plain_body")
     );
 
     body.append(

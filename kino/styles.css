@@ -136,7 +136,7 @@
   padding: 1.1rem 1.2rem;
   border-left: 4px solid var(--accent);
   background: var(--bg-soft);
-  font-family: system-ui, sans-serif;
+  font-family: var(--font-text);
   line-height: 1.7;
 }
 
@@ -144,6 +144,16 @@
   display: block;
   margin-bottom: 0.25rem;
   color: var(--accent);
+}
+
+.callout p {
+  max-width: none;
+  margin: 0;
+  font-size: 1.02rem;
+}
+
+.callout p + p {
+  margin-top: 0.7rem;
 }
 
 .plot-block,
