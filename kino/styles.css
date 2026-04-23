@@ -140,7 +140,7 @@
   line-height: 1.7;
 }
 
-.callout strong {
+.callout-title {
   display: block;
   margin-bottom: 0.25rem;
   color: var(--accent);

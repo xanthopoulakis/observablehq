@@ -502,7 +502,7 @@ export async function createKinoArticle({ Inputs, html, md }) {
 
   function plain_callout_block(body_key, vars = {}) {
     const wrapper = html`<div class="callout"></div>`;
-    wrapper.append(html`<strong>${text("ui.plain_words")}</strong>`);
+    wrapper.append(html`<strong class="callout-title">${text("ui.plain_words")}</strong>`);
     wrapper.append(md`${text(body_key, vars)}`);
     return wrapper;
   }
