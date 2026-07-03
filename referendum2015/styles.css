@@ -80,7 +80,10 @@
 
 .kicker {
   max-width: 52rem;
-  text-transform: uppercase;
+  /* Text is authored already-uppercase (see article.js) rather than relying
+     on text-transform: uppercase — CSS-transformed Greek keeps accents on
+     the capital letters (e.g. "ΔΗΜΟΨΉΦΙΣΜΑ"), which isn't how Greek capitals
+     are actually written. */
   letter-spacing: 0.12em;
   font-size: 0.76rem;
   color: var(--oxi);

@@ -5,34 +5,20 @@ import {
   partyShareVsNationalUnits,
   scalarStatisticVsNationalUnits,
   nationalStatisticValue,
+  partyMarginUnits,
   divergingLegendScale,
   absoluteLegendScale,
 } from "./lib/choroplethKpis.js";
 import { choroplethCard } from "./lib/choroplethCard.js";
 import { partyRankCard } from "./lib/partyRankCard.js";
 
-const LEVEL_LABELS = {
-  kallikratis: "Δήμοι (Καλλικράτης)",
-  kapodistrias: "Κοινότητες (Καποδίστριας)",
-  eklogiki_perifereia0: "Εκλογικές Περιφέρειες",
-};
-
-const KPI_LABELS = {
-  oxi: "Ποσοστό ΟΧΙ",
-  nai: "Ποσοστό ΝΑΙ",
-  invalidBlank: "Λευκά + Άκυρα",
-  turnout: "Συμμετοχή",
-};
-
-const MODE_LABELS = {
-  relative: "Σε σχέση με Εθνική Τιμή",
-  absolute: "Απόλυτη Τιμή",
-};
+const OXI_ID = 101;
+const NAI_ID = 102;
 
 /**
- * Builds the full "under the surface" article on the 2015 Greek referendum
- * — mirrors kino's `createKinoArticle({Inputs, html, md})` shape so it can
- * be dropped into an Observable notebook cell the same way:
+ * Builds the full "Ανατομία ενός Δημοψηφίσματος" article on the 2015 Greek
+ * referendum — mirrors kino's `createKinoArticle({Inputs, html, md})` shape
+ * so it can be dropped into an Observable notebook cell the same way:
  *
  *   article = {
  *     const {createReferendum2015Article} = await import("https://cdn.jsdelivr.net/gh/xanthopoulakis/observablehq@main/referendum2015/article.js");
@@ -50,16 +36,10 @@ export async function createReferendum2015Article({ Inputs, html, md }) {
   const formatVotes = d3.format(",d");
 
   const nationalShareByParty = new Map(national.parties.map((p) => [p.party_id, p.party_percentage]));
-  const nationalOxiShare = nationalShareByParty.get(101);
-  const nationalNaiShare = nationalShareByParty.get(102);
+  const nationalOxiShare = nationalShareByParty.get(OXI_ID);
+  const nationalNaiShare = nationalShareByParty.get(NAI_ID);
   const turnout = (national.stats.valid_votes + national.stats.invalid_votes + national.stats.blank_votes) / national.stats.registered;
   const invalidBlank = (national.stats.invalid_votes + national.stats.blank_votes) / (national.stats.valid_votes + national.stats.invalid_votes + national.stats.blank_votes);
-
-  // How lopsided the *unit-count* looks nationwide (the "everyone has seen
-  // this map" framing) — computed once from the kallikratis level, since
-  // that's the map this framing paragraph refers to.
-  const kallikratisWinners = rankedPartyUnits(unitsByLevel.kallikratis, 1, "el", formatPercent);
-  const oxiUnitWins = kallikratisWinners.filter((d) => d.fill === parties.oxi.color).length;
 
   const full_width = Math.min(1100, Math.max(720, window.innerWidth - 180));
 
@@ -69,8 +49,8 @@ export async function createReferendum2015Article({ Inputs, html, md }) {
   // ── Hero ──────────────────────────────────────────────────────────────
   body.append(
     html`<section class="hero">
-      <div class="kicker">Δημοψήφισμα 5 Ιουλίου 2015</div>
-      <h1>Η Ελλάδα κάτω από το πορτοκαλί</h1>
+      <div class="kicker">ΔΗΜΟΨΗΦΙΣΜΑ 5 ΙΟΥΛΙΟΥ 2015</div>
+      <h1>Ανατομία ενός Δημοψηφίσματος</h1>
       <div class="deck">
         ${md`Το ΟΧΙ κέρδισε με ${formatPercent1(nationalOxiShare)} έναντι ${formatPercent1(nationalNaiShare)} — μια νίκη τόσο μεγάλη
         που ο εκλογικός χάρτης της χώρας βάφτηκε σχεδόν ολόκληρος πορτοκαλί. Αυτή είναι η εικόνα που έμεινε.
@@ -83,9 +63,9 @@ export async function createReferendum2015Article({ Inputs, html, md }) {
   body.append(
     markdown_block(
       `Όλοι έχουν δει τον χάρτη του δημοψηφίσματος του 2015: σχεδόν ολόκληρη η Ελλάδα βαμμένη στο πορτοκαλί του ΟΧΙ,
-      με ελάχιστες γαλάζιες νησίδες ΝΑΙ να ξεχωρίζουν. Αυτή η εικόνα δεν είναι λάθος — αλλά είναι ημιτελής.
-      Οι πραγματικές ιστορίες αυτού του δημοψηφίσματος κρύβονται κάτω από την επιφάνεια: ποιος ψήφισε αλλιώς,
-      πού, και πόσο έντονα.`,
+      με ελάχιστες γαλάζιες νησίδες ΝΑΙ να ξεχωρίζουν. Αυτή η εικόνα δεν είναι λάθος — θα το δούμε κι εμείς παρακάτω,
+      σε τρία διαφορετικά επίπεδο λεπτομέρειας. Αλλά είναι ημιτελής. Οι πραγματικές ιστορίες αυτού του δημοψηφίσματος
+      κρύβονται κάτω από την επιφάνεια: ποιος ψήφισε αλλιώς, πού, και πόσο έντονα.`,
     ),
   );
 
@@ -114,160 +94,214 @@ export async function createReferendum2015Article({ Inputs, html, md }) {
   rankChart.update(national.parties);
   body.append(block(rankChart, "plot-block"));
 
-  // ── "The map everyone remembers" ───────────────────────────────────────
+  // ── "The map everyone remembers" — three levels of zoom ────────────────
   body.append(heading_block("Ο χάρτης που όλοι θυμούνται"));
   body.append(
     markdown_block(
-      `Δήμος-δήμος, ποιος νίκησε; Σε ${oxiUnitWins} από τους ${kallikratisWinners.length} δήμους της χώρας (${formatPercent1(oxiUnitWins / kallikratisWinners.length)})
-      επικράτησε το ΟΧΙ. Μόνο ${kallikratisWinners.length - oxiUnitWins} δήμοι ψήφισαν ΝΑΙ — αρκετά λίγοι ώστε ο χάρτης να μοιάζει σχεδόν ομοιόμορφος.`,
+      `Ο ίδιος χάρτης αλλάζει πρόσωπο ανάλογα με το πόσο κοντά κοιτάς. Ξεκινάμε από το πιο αδρό επίπεδο — τις
+      εκλογικές περιφέρειες — και ζουμάρουμε σταδιακά μέχρι τις κοινότητες.`,
     ),
   );
 
-  const winnerMap = choroplethCard({ title: "Νικητής ανά δήμο", width: full_width });
-  const winnerScale = winningPartyLegendScale(kallikratisWinners);
-  winnerMap.update(kallikratisWinners, winnerScale, { legendStyle: "swatches" });
-  body.append(block(winnerMap, "plot-block"));
+  body.append(heading_block("Εκλογικές Περιφέρειες", 3));
+  const epWinners = rankedPartyUnits(unitsByLevel.eklogiki_perifereia0, 1, "el", formatPercent);
+  const epNaiWins = epWinners.filter((d) => d.fill === parties.nai.color).length;
+  body.append(
+    markdown_block(
+      `Σε επίπεδο εκλογικής περιφέρειας, ο χάρτης είναι απόλυτα ομοιόμορφος: το ΝΑΙ δεν κέρδισε **καμία** από τις
+      ${epWinners.length} περιφέρειες της χώρας. Εδώ ακριβώς είναι και το πρόβλημα αυτού του χάρτη: η πιο ισόπαλη
+      περιφέρεια, η **Λακωνία** (51,2% ΟΧΙ — ουσιαστικά ισοπαλία), βάφεται με το ίδιο ακριβώς πορτοκαλί με την πιο
+      μονόπλευρη περιφέρεια της χώρας. Ένας χάρτης 56 μεγάλων περιοχών δεν μπορεί να δείξει τη διαφορά ανάμεσα σε
+      μια δύσκολη νίκη και σε μια συντριβή — πόσο μάλλον οτιδήποτε συμβαίνει *μέσα* σε κάθε περιφέρεια.`,
+    ),
+  );
+  const epMap = choroplethCard({ title: "Νικητής ανά εκλογική περιφέρεια", width: full_width });
+  const epScale = winningPartyLegendScale(epWinners);
+  epMap.update(epWinners, epScale, { legendStyle: "swatches", unitLevel: "eklogiki_perifereia0" });
+  body.append(block(epMap, "plot-block"));
 
+  body.append(heading_block("Δήμοι (Καλλικράτης)", 3));
+  const kallikratisWinners = rankedPartyUnits(unitsByLevel.kallikratis, 1, "el", formatPercent);
+  const oxiUnitWins = kallikratisWinners.filter((d) => d.fill === parties.oxi.color).length;
+  body.append(
+    markdown_block(
+      `Ζουμάροντας στους ${kallikratisWinners.length} δήμους της χώρας, οι πρώτες ρωγμές εμφανίζονται: το ΝΑΙ
+      κερδίζει πλέον σε ${kallikratisWinners.length - oxiUnitWins} δήμους (το ΟΧΙ στους υπόλοιπους
+      ${oxiUnitWins}, δηλαδή ${formatPercent1(oxiUnitWins / kallikratisWinners.length)}). Ακόμα λίγοι ώστε ο χάρτης
+      να μοιάζει σχεδόν ομοιόμορφος — αλλά αρκετοί για να αρχίσει να φαίνεται μια γεωγραφία.`,
+    ),
+  );
+  const kallikratisMap = choroplethCard({ title: "Νικητής ανά δήμο", width: full_width });
+  const kallikratisScale = winningPartyLegendScale(kallikratisWinners);
+  kallikratisMap.update(kallikratisWinners, kallikratisScale, { legendStyle: "swatches", unitLevel: "kallikratis" });
+  body.append(block(kallikratisMap, "plot-block"));
   body.append(
     html`<div class="callout">
       <strong class="callout-title">Με απλά λόγια</strong>
-      ${md`Ένας χάρτης «ποιος κέρδισε» κρύβει το μέγεθος — ο Δήμος Φιλοθέης-Ψυχικού και ο Δήμος Ικαρίας μετράνε από
-      μία μπλε/πορτοκαλί περιοχή ο καθένας, παρότι η πραγματική διαφορά ανάμεσά τους ξεπερνά τις 50 ποσοστιαίες μονάδες.`}
+      ${md`Ο Δήμος Φιλοθέης-Ψυχικού και ο Δήμος Ικαρίας μετράνε από μία περιοχή ο καθένας σε αυτόν τον χάρτη, παρότι
+      η πραγματική διαφορά ανάμεσά τους ξεπερνά τις 51 ποσοστιαίες μονάδες (79,5% έναντι 28,2% ΟΧΙ).`}
     </div>`,
   );
 
-  // ── "Under the surface" ────────────────────────────────────────────────
-  body.append(heading_block("Κάτω από την επιφάνεια"));
+  body.append(heading_block("Κοινότητες (Καποδίστριας)", 3));
+  const kapodistriasWinners = rankedPartyUnits(unitsByLevel.kapodistrias, 1, "el", formatPercent);
   body.append(
     markdown_block(
-      `Η πραγματική γεωγραφία του δημοψηφίσματος δεν είναι «ΟΧΙ εναντίον ΝΑΙ» αλλά **πόσο πάνω ή κάτω από τον εθνικό
-      μέσο όρο** ψήφισε κάθε περιοχή. Επιλέξτε επίπεδο, δείκτη, και τρόπο απεικόνισης παρακάτω για να δείτε πού
-      πραγματικά διαφέρει η Ελλάδα από το εθνικό 61,31%–38,69%.`,
+      `Ένα ακόμα βήμα πιο κοντά, στις ${kapodistriasWinners.length} κοινότητες της προ-Καλλικράτειας διαίρεσης,
+      αποκαλύπτεται κάτι που ο δημοτικός χάρτης δεν μπορούσε να δείξει: **82 κοινότητες ψήφισαν αντίθετα από τον
+      δικό τους δήμο**. Στον εργατικό Δήμο Αχαρνών (75,2% ΟΧΙ), η κοινότητα των **Θρακομακεδόνων** —μια από τις πιο
+      εύπορες γειτονιές της Αττικής— ψήφισε 56,9% ΝΑΙ. Στον οριακά ΟΧΙ Δήμο Λυκόβρυσας-Πεύκης (52,1% ΟΧΙ), η
+      κοινότητα της **Πεύκης** γύρισε προς το ΝΑΙ (50,6%). Το ίδιο μοτίβο, μια τάξη μεγέθους πιο ψιλή.`,
+    ),
+  );
+  const kapodistriasMap = choroplethCard({ title: "Νικητής ανά κοινότητα", width: full_width });
+  const kapodistriasScale = winningPartyLegendScale(kapodistriasWinners);
+  kapodistriasMap.update(kapodistriasWinners, kapodistriasScale, { legendStyle: "swatches", unitLevel: "kapodistrias" });
+  body.append(block(kapodistriasMap, "plot-block"));
+
+  // ── OXI share: absolute, then relative to the national result ──────────
+  body.append(heading_block("Ποσοστό ΟΧΙ: σε απόλυτες και σχετικές τιμές"));
+  body.append(
+    markdown_block(
+      `Το ποσοστό ΟΧΙ σε κάθε δήμο (και το συμπληρωματικό του, το ποσοστό ΝΑΙ, αφού οι δύο μαζί κάνουν πάντα 100%)
+      μπορεί να διαβαστεί με δύο τρόπους: **απόλυτα** — πόσο ψήλο ήταν το ΟΧΙ εκεί — ή **σχετικά** — πόσο πάνω ή
+      κάτω από το εθνικό 61,31% βρέθηκε. Οι δύο χάρτες δείχνουν το ίδιο ακριβώς νούμερο, αλλά λένε διαφορετικές
+      ιστορίες.`,
     ),
   );
 
-  const levelInput = Inputs.radio(Object.keys(LEVEL_LABELS), {
-    value: "kallikratis",
-    format: (d) => LEVEL_LABELS[d],
-    label: "Επίπεδο",
-  });
-  const kpiInput = Inputs.radio(Object.keys(KPI_LABELS), {
-    value: "oxi",
-    format: (d) => KPI_LABELS[d],
-    label: "Δείκτης",
-  });
-  const modeInput = Inputs.radio(Object.keys(MODE_LABELS), {
-    value: "relative",
-    format: (d) => MODE_LABELS[d],
-    label: "Προβολή Τιμής",
-  });
+  const oxiShareRows = partyShareVsNationalUnits(unitsByLevel.kallikratis, OXI_ID, nationalOxiShare, "el", formatPercent, "Απόκλιση");
 
-  body.append(
-    html`<div class="map-toolbar">${levelInput}${kpiInput}${modeInput}</div>`,
+  const oxiAbsoluteMap = choroplethCard({ title: "Ποσοστό ΟΧΙ — απόλυτη τιμή", width: full_width });
+  const oxiAbsoluteScale = absoluteLegendScale(oxiShareRows, d3.schemeOranges[6]);
+  oxiAbsoluteMap.update(
+    oxiShareRows.map((d) => ({ ...d, fill: oxiAbsoluteScale(d.value) })),
+    oxiAbsoluteScale,
+    { legendTitle: `Απόλυτη Τιμή (${formatPercent(nationalOxiShare)})`, legendTickFormat: ".1%", unitLevel: "kallikratis" },
   );
-
-  const underMap = choroplethCard({ title: "Κατανομή ανά περιοχή", width: full_width });
-  body.append(block(underMap, "plot-block"));
-
-  function renderUnderMap() {
-    const level = levelInput.value;
-    const kpi = kpiInput.value;
-    const mode = modeInput.value;
-    const rows = unitsByLevel[level];
-    const useAbsolute = mode === "absolute";
-
-    let raw, refValue;
-    if (kpi === "oxi") {
-      raw = partyShareVsNationalUnits(rows, 101, nationalOxiShare, "el", formatPercent, "Απόκλιση");
-      refValue = nationalOxiShare;
-    } else if (kpi === "nai") {
-      raw = partyShareVsNationalUnits(rows, 102, nationalNaiShare, "el", formatPercent, "Απόκλιση");
-      refValue = nationalNaiShare;
-    } else if (kpi === "invalidBlank") {
-      raw = scalarStatisticVsNationalUnits(rows, "invalidBlank", national.stats, "el", formatPercent, KPI_LABELS.invalidBlank, "Απόκλιση");
-      refValue = nationalStatisticValue("invalidBlank", national.stats);
-    } else {
-      raw = scalarStatisticVsNationalUnits(rows, "turnout", national.stats, "el", formatPercent, KPI_LABELS.turnout, "Απόκλιση");
-      refValue = nationalStatisticValue("turnout", national.stats);
-    }
-
-    const modeTitle = useAbsolute ? "Απόλυτη Τιμή" : "Σε σχέση με Εθνική Τιμή";
-    const legendTitle = `${modeTitle} (${formatPercent(refValue)})`;
-
-    const sharedScale = useAbsolute
-      ? absoluteLegendScale(raw, d3.schemeBlues[6])
-      : divergingLegendScale(raw, [...d3.schemeRdYlBu[6]].reverse());
-    const scaleValue = useAbsolute ? (d) => d.value : (d) => d.vs_national_pct;
-    const unitsData = raw.map((d) => ({ ...d, fill: sharedScale(scaleValue(d)) }));
-
-    underMap.update(unitsData, sharedScale, {
-      subtitle: `${LEVEL_LABELS[level]} — ${KPI_LABELS[kpi]}`,
-      unitLevel: level,
-      legendTitle,
-      legendTickFormat: useAbsolute ? ".1%" : "+.1%",
-    });
-  }
-
-  levelInput.addEventListener("input", renderUnderMap);
-  kpiInput.addEventListener("input", renderUnderMap);
-  modeInput.addEventListener("input", renderUnderMap);
-  renderUnderMap();
-
-  // ── The real stories ────────────────────────────────────────────────────
-  body.append(heading_block("Η γεωγραφία της ψήφου", 3));
+  body.append(block(oxiAbsoluteMap, "plot-block"));
   body.append(
     markdown_block(
-      `Στην κορυφή του ΟΧΙ βρίσκεται η **Ικαρία** (79,5%), ιστορικά μια από τις πιο αριστερές περιοχές της χώρας.
-      Ακολουθούν δήμοι της εργατικής/βιομηχανικής δυτικής Αττικής — **Ασπρόπυργος** (79,2%), **Φυλή** (77,2%),
-      **Πέραμα** (76,6%) και **Αχαρνές** (75,2%) — όλοι πάνω από τον εθνικό μέσο όρο κατά 15+ μονάδες.
-
-      Στον αντίποδα, η χαμηλότερη ψήφος ΟΧΙ καταγράφεται στη **Φιλοθέη-Ψυχικό** (28,2% — δηλαδή 71,8% ΝΑΙ),
-      με τα **Κηφισιά** (36,1%), **Βάρη-Βούλα-Βουλιαγμένη** (39,3%), **Παπάγου-Χολαργός** (42,7%) και
-      **Βριλήσσια** (43,8%) να ακολουθούν. Η απόσταση ανάμεσα σε Ικαρία και Φιλοθέη-Ψυχικό ξεπερνά τις 51
-      ποσοστιαίες μονάδες — μια διαφορά αόρατη σε έναν χάρτη δύο χρωμάτων.`,
+      `Σε απόλυτες τιμές, ο χάρτης δείχνει πού το ΟΧΙ ήταν πραγματικά ισχυρό — η δυτική Αττική, η Ικαρία, μεγάλο
+      μέρος της περιφέρειας — έναντι μιας χούφτας περιοχών όπου έμεινε κάτω από το 50%.`,
     ),
   );
 
+  const oxiRelativeMap = choroplethCard({ title: "Ποσοστό ΟΧΙ — σε σχέση με την εθνική τιμή", width: full_width });
+  const oxiRelativeScale = divergingLegendScale(oxiShareRows, [...d3.schemeRdYlBu[6]].reverse());
+  oxiRelativeMap.update(
+    oxiShareRows.map((d) => ({ ...d, fill: oxiRelativeScale(d.vs_national_pct) })),
+    oxiRelativeScale,
+    { legendTitle: `Σε σχέση με Εθνική Τιμή (${formatPercent(nationalOxiShare)})`, legendTickFormat: "+.1%", unitLevel: "kallikratis" },
+  );
+  body.append(block(oxiRelativeMap, "plot-block"));
   body.append(
     markdown_block(
-      `Μόλις 28 από τους 325 δήμους ψήφισαν ΝΑΙ, και χωρίζονται σε τρεις αναγνωρίσιμες ομάδες. Οι 12 είναι εύποροι
-      δήμοι του λεκανοπεδίου (Αγία Παρασκευή, Αμαρούσι, Βριλήσσια, Κηφισιά, Παπάγου-Χολαργός, Πεντέλη,
-      Φιλοθέη-Ψυχικό, Χαλάνδρι, Γλυφάδα, Παλαιό Φάληρο, Βάρη-Βούλα-Βουλιαγμένη, Διόνυσος). Άλλοι 7 είναι μικρά
-      νησιά και παράκτιοι δήμοι (Σπέτσες και Οινούσσες, με ιστορική παράδοση σε εφοπλιστικές οικογένειες, μαζί με
-      Κάσο, Αγαθονήσι, Φούρνους Κορσεών, Ανατολική Μάνη και Νότια Κυνουρία). Οι υπόλοιποι 9 είναι αγροτικοί/παραμεθόριοι
-      δήμοι στη Μακεδονία-Θράκη-Θεσσαλία (Διδυμότειχο, Ορεστιάδα, Αμφίπολη, Νέα Ζίχνη, Νεστόριο, Βόιο, Πρέσπες,
-      Αργιθέα, Δωρίδα) — μια γεωγραφία που δεν χωράει σε μια απλή αφήγηση «πλούσιοι εναντίον φτωχών».`,
+      `Σε σχετικές τιμές, όμως, αναδύεται η πραγματική γεωγραφία της ψήφου: ένα καθαρό μπλε σύμπλεγμα γύρω από τα
+      βόρεια προάστια της Αθήνας — όπου το ΟΧΙ υπολειτούργησε δεκάδες μονάδες κάτω από το εθνικό ποσοστό — απέναντι
+      σε ένα κόκκινο σύμπλεγμα στη δυτική Αττική και σε αγροτικές/νησιωτικές περιοχές, όπου το ΟΧΙ ξεπέρασε κατά
+      πολύ τον εθνικό μέσο όρο.`,
     ),
   );
 
-  body.append(heading_block("Ποιος ψήφισε — και ποιος όχι", 3));
+  // ── The OXI-NAI margin ──────────────────────────────────────────────────
+  body.append(heading_block("Η διαφορά ΟΧΙ - ΝΑΙ"));
   body.append(
     markdown_block(
-      `Η συμμετοχή είχε τη δική της γεωγραφία, και συχνά ταυτίζεται με τη γεωγραφία του ΝΑΙ: ο **Διόνυσος**
-      είχε την υψηλότερη συμμετοχή της χώρας (81,0%), με **Παλλήνη** (78,4%) και **Βριλήσσια** (78,0%) αμέσως
-      πίσω — τα ίδια προάστια που έκλιναν προς το ΝΑΙ φαίνεται πως και ψήφισαν περισσότερο. Στον αντίποδα, οι
-      **Πρέσπες** (21,3%) και ο **Άγιος Ευστράτιος** (22,9%) κατέγραψαν τη χαμηλότερη συμμετοχή — μικρές,
-      απομακρυσμένες κοινότητες όπου η απόσταση από την κάλπη μετράει διπλά.`,
+      `Πέρα από το "ποιος κέρδισε" ή το "πόσο πάνω από το εθνικό μέσο όρο", υπάρχει μια τρίτη ερώτηση: πόσο κοντά
+      ήταν η μάχη σε κάθε δήμο; Ο παρακάτω χάρτης δείχνει τη διαφορά ΟΧΙ-ΝΑΙ απευθείας — πορτοκαλί όπου το ΟΧΙ
+      προηγήθηκε, γαλάζιο όπου προηγήθηκε το ΝΑΙ, λευκό όπου η μάχη ήταν σχεδόν ισόπαλη.`,
+    ),
+  );
+  const marginRows = partyMarginUnits(unitsByLevel.kallikratis, OXI_ID, NAI_ID, "el", formatPercent, "Διαφορά");
+  const marginColors = d3.quantize(d3.piecewise(d3.interpolateRgb, [parties.nai.color, "white", parties.oxi.color]), 6);
+  const marginScale = divergingLegendScale(marginRows, marginColors, (d) => d.margin);
+  const marginMap = choroplethCard({ title: "ΝΑΙ ← → ΟΧΙ", width: full_width });
+  marginMap.update(
+    marginRows.map((d) => ({ ...d, fill: marginScale(d.margin) })),
+    marginScale,
+    { legendTitle: "ΝΑΙ ← → ΟΧΙ", legendTickFormat: "+.0%", unitLevel: "kallikratis" },
+  );
+  body.append(block(marginMap, "plot-block"));
+  body.append(
+    markdown_block(
+      `Οι πιο κοντινές μάχες της χώρας ήταν στο **Διδυμότειχο** (50,0%), τη **Δωρίδα** και τις **Σπέτσες**
+      (49,9% η καθεμία), και τις **Πρέσπες** (49,7%) — όλα μέσα σε μία ποσοστιαία μονάδα από την ισοπαλία. Στην
+      Αττική, το **Αμαρούσι** (49,5%), το **Χαλάνδρι** (49,5%) και η **Γλυφάδα** (49,4%) ήταν τόσο κοντά που λίγες
+      εκατοντάδες ψήφοι θα αρκούσαν να αλλάξουν αποτέλεσμα.`,
     ),
   );
 
+  // ── Λευκά + Άκυρα ────────────────────────────────────────────────────────
+  body.append(heading_block("Λευκά + Άκυρα: ένα ιστορικό ρεκόρ"));
+  body.append(
+    markdown_block(
+      `Το ${formatPercent1(invalidBlank)} λευκών και άκυρων ψηφοδελτίων του 2015 δεν είναι απλά υψηλό — είναι το
+      **υψηλότερο ποσοστό σε οποιαδήποτε πανελλαδική εκλογική αναμέτρηση από το 1996 έως το 2024** στα δεδομένα
+      του election-atlas, σχεδόν διπλάσιο από τη δεύτερη υψηλότερη τιμή (4,46% στις ευρωεκλογές του 2019) και έως
+      και έξι φορές μεγαλύτερο από τυπικές βουλευτικές εκλογές (~2-3%). Κάτι ασυνήθιστο συνέβη στο δημοψήφισμα.`,
+    ),
+  );
+  const invalidBlankRows = scalarStatisticVsNationalUnits(unitsByLevel.kallikratis, "invalidBlank", national.stats, "el", formatPercent, "Λευκά + Άκυρα", "Απόκλιση");
+  const invalidBlankScale = absoluteLegendScale(invalidBlankRows, d3.schemePurples[6]);
+  const invalidBlankMap = choroplethCard({ title: "Λευκά + Άκυρα ανά δήμο", width: full_width });
+  invalidBlankMap.update(
+    invalidBlankRows.map((d) => ({ ...d, fill: invalidBlankScale(d.value) })),
+    invalidBlankScale,
+    { legendTitle: `Απόλυτη Τιμή (${formatPercent(invalidBlank)})`, legendTickFormat: ".1%", unitLevel: "kallikratis" },
+  );
+  body.append(block(invalidBlankMap, "plot-block"));
+  body.append(
+    markdown_block(
+      `Στην κορυφή βρίσκεται η **Ικαρία** (11,95%) — που είναι επίσης ο δήμος με το υψηλότερο ΟΧΙ της χώρας, και
+      ιστορικά ένα από τα πιο σταθερά προπύργια του ΚΚΕ. Δεν είναι σύμπτωση: το ΚΚΕ κάλεσε επίσημα σε ψήφο λευκού
+      ως διαμαρτυρία, χαρακτηρίζοντας το δημοψήφισμα ψευδές δίλημμα ανάμεσα σε δύο εκδοχές της ίδιας πολιτικής.
+      Ακολουθούν δήμοι με μεγάλους πληθυσμούς μειονοτήτων στη Θράκη (**Ίασμος** 10,4%, **Μύκη** 9,0%), νησιωτικοί
+      δήμοι (Λήμνος, Λέρος, Πάρος, Μήλος, Σκόπελος), αλλά και μεγάλες αστικές περιοχές όπως η **Μυτιλήνη** (8,8%,
+      101.512 εγγεγραμμένοι) και η **Καλλιθέα** (8,3%, 79.472 εγγεγραμμένοι) — αρκετά μεγάλες ώστε το φαινόμενο να
+      μην εξηγείται απλά από μικρούς πληθυσμούς.`,
+    ),
+  );
+
+  // ── Αποχή ────────────────────────────────────────────────────────────────
+  body.append(heading_block("Αποχή: η γεωγραφία της απουσίας"));
+  body.append(
+    markdown_block(
+      `Η εθνική συμμετοχή ήταν ${formatPercent1(turnout)}. Οι χαμηλότερες τιμές συγκεντρώνονται σχεδόν αποκλειστικά
+      σε παραμεθόριες, ορεινές και νησιωτικές περιοχές — **Πρέσπες** (21,3%), **Άγιος Ευστράτιος** (22,9%),
+      **Αργιθέα** (29,8%), **Οινούσσες** (31,0%), **Μεγίστη**/Καστελλόριζο (32,6%), **Νίσυρος** (32,6%) — όπου η
+      απόσταση μέχρι την κάλπη μετράει διπλά. Στον αντίποδα, η υψηλότερη συμμετοχή καταγράφηκε σε εύπορα, εύκολα
+      προσβάσιμα προάστια της Αθήνας: **Διόνυσος** (81,0%), **Παλλήνη** (78,4%), **Βριλήσσια** (78,0%).`,
+    ),
+  );
+  const turnoutRows = scalarStatisticVsNationalUnits(unitsByLevel.kallikratis, "turnout", national.stats, "el", formatPercent, "Συμμετοχή", "Απόκλιση");
+  const turnoutScale = absoluteLegendScale(turnoutRows, d3.schemePuRd[6]);
+  const turnoutMap = choroplethCard({ title: "Συμμετοχή ανά δήμο", width: full_width });
+  turnoutMap.update(
+    turnoutRows.map((d) => ({ ...d, fill: turnoutScale(d.value) })),
+    turnoutScale,
+    { legendTitle: `Απόλυτη Τιμή (${formatPercent(turnout)})`, legendTickFormat: ".1%", unitLevel: "kallikratis" },
+  );
+  body.append(block(turnoutMap, "plot-block"));
   body.append(
     html`<div class="callout">
       <strong class="callout-title">Με απλά λόγια</strong>
-      ${md`Τα ποσοστά λευκών/άκυρων εκτοξεύονται σε πολύ μικρούς δήμους (π.χ. Μεγίστη 25,3%) όχι επειδή εκεί
-      υπήρξε ασυνήθιστη διαμαρτυρία, αλλά επειδή λίγες εκατοντάδες ψηφοφόροι αρκούν για να μετακινήσουν ένα
-      ποσοστό κατά πολλές μονάδες. Σε τόσο μικρούς πληθυσμούς, τα ακραία ποσοστά χρειάζονται προσοχή πριν
-      διαβαστούν ως "μήνυμα".`}
+      ${md`Η Αθήνα και ο Πειραιάς οι ίδιοι είχαν συμμετοχή **κάτω** από τον εθνικό μέσο όρο (58,3% και 59,8%
+      αντίστοιχα) — όχι επειδή οι κάτοικοί τους ψήφισαν λιγότερο, αλλά επειδή πολλοί παραμένουν εγγεγραμμένοι στον
+      τόπο καταγωγής τους αντί στη διεύθυνση όπου πραγματικά ζουν, ένα γνωστό χαρακτηριστικό των ελληνικών
+      εκλογικών καταλόγων. Η γεωγραφία της αποχής εδώ είναι κυρίως γεωγραφία της πρόσβασης, όχι των μεγάλων πόλεων
+      αυτών καθαυτών.`}
     </div>`,
   );
 
-  body.append(heading_block("Επίλογος", 3));
+  // ── Closing ──────────────────────────────────────────────────────────────
+  body.append(heading_block("Επίλογος", 2));
   body.append(
     markdown_block(
       `Ο πορτοκαλί χάρτης του 2015 λέει αλήθεια — το ΟΧΙ κέρδισε καθαρά, σχεδόν παντού. Αλλά "παντού" δεν
       σημαίνει "εξίσου παντού". Κάτω από την ομοιομορφία της νίκης κρύβεται μια χώρα διαιρεμένη κατά τάξη,
-      γεωγραφία και ηλικία του εκλογικού σώματος — μια διαίρεση που ένας χάρτης δύο χρωμάτων απλά δεν μπορεί
-      να δείξει.`,
+      γεωγραφία, πρόσβαση στην κάλπη, και πολιτική ταυτότητα — μια διαίρεση που ένας χάρτης δύο χρωμάτων απλά δεν
+      μπορεί να δείξει.`,
     ),
   );
 
@@ -276,10 +310,12 @@ export async function createReferendum2015Article({ Inputs, html, md }) {
     markdown_block(
       `Τα δεδομένα προέρχονται από το επίσημο αρχείο αποτελεσμάτων του Υπουργείου Εσωτερικών
       (ekloges-prev.singularlogic.eu/r2015), όπως έχουν συγκεντρωθεί και κανονικοποιηθεί στο
-      [election-atlas](https://github.com/xanthopoulakis/election-atlas) (\`common/raw/ypes/r2015\`). Τα χρώματα
-      και τα λογότυπα του ΟΧΙ/ΝΑΙ προέρχονται από το επίσημο \`legend.js\` και τις εικόνες κομμάτων του ίδιου
-      site. Οι χάρτες και το γράφημα αποτελεσμάτων είναι προσαρμογή των αντίστοιχων components του
-      election-atlas (\`apps/framework/src/components\`), προσαρμοσμένα ώστε να τρέχουν αυτόνομα εδώ.`,
+      [election-atlas](https://github.com/xanthopoulakis/election-atlas) (\`common/raw/ypes/r2015\`). Η σύγκριση
+      του ποσοστού λευκών/άκυρων με άλλες εκλογικές αναμετρήσεις υπολογίστηκε από τα ίδια δεδομένα, σε 19
+      πανελλαδικές αναμετρήσεις 1996-2024. Τα χρώματα και τα λογότυπα του ΟΧΙ/ΝΑΙ προέρχονται από το επίσημο
+      \`legend.js\` και τις εικόνες κομμάτων του ίδιου site. Οι χάρτες και το γράφημα αποτελεσμάτων είναι
+      προσαρμογή των αντίστοιχων components του election-atlas (\`apps/framework/src/components\`), προσαρμοσμένα
+      ώστε να τρέχουν αυτόνομα εδώ.`,
     ),
   );
 
