@@ -24,9 +24,37 @@ re-uploading attachments:
 - `data/units_kallikratis.json`, `data/units_kapodistrias.json`, `data/units_eklogiki_perifereia0.json`
 - `data/geo/kapodistrias.topojson.json`
 
+### Individual embeddable charts and maps
+
+```js
+r2015Embeds = await import("https://cdn.jsdelivr.net/gh/xanthopoulakis/observablehq@main/referendum2015/embeds.js")
+```
+
+```js
+winnerKallikratis = await r2015Embeds.create_winner_map_embed({Inputs, html, md, level: "kallikratis"})
+```
+
+Each embed is a single, self-contained title+chart node — meant to be
+published on its own (a tweet's image, an iframe in a media article, a
+standalone Observable share URL) rather than as part of the full essay. The
+full catalog (id, factory function, args, title, one-line hook) is available
+as:
+
+```js
+catalog = await r2015Embeds.get_embed_catalog()
+```
+
+A ready-made notebook source for this modular workflow is included as
+`embeds-notebook.ojs` — see `EMBEDS_NOTEBOOK.md` for the cell-by-cell layout
+and publishing tips (downloading a cell as a PNG for Twitter/X, embedding an
+iframe, etc).
+
 ## Folder layout
 
 - `article.js`: GitHub-importable Observable article module (the entry point above)
+- `embeds.js`: embeddable chart/map builders for standalone publishing (iframes, social cards, individual notebook cells)
+- `EMBEDS_NOTEBOOK.md`: ready-made cell layout for a dedicated embeds notebook
+- `embeds-notebook.ojs`: ready-to-paste Observable notebook source for the embeds notebook
 - `shared.js`: data/library loader (`load_bundle()`) and small DOM/block helpers
 - `lib/`: election-atlas's map/chart components, forked to run standalone (no
   Observable Framework, no DuckDB) — see "Provenance" below

@@ -1,0 +1,71 @@
+r2015Embeds = await import("https://cdn.jsdelivr.net/gh/xanthopoulakis/observablehq@main/referendum2015/embeds.js")
+
+catalog = await r2015Embeds.get_embed_catalog()
+
+embed = (id) => catalog.find((d) => d.id === id)
+
+md`# Ανατομία ενός Δημοψηφίσματος — embeds
+
+Modular companion to the referendum2015 essay. Each section below stands on
+its own:
+- as an iframe inside a media article
+- as a standalone Observable share URL
+- as the visual backbone of a post on X/Twitter, LinkedIn, or elsewhere
+
+For a tweet: keep just the heading markdown cell and the one chart cell you
+want, then use the cell's "..." menu → Download PNG/SVG, or Share → Embed
+for a live iframe.`
+
+md`## ${embed("party_rank").title}
+
+${embed("party_rank").hook}`
+
+partyRank = await r2015Embeds.create_party_rank_embed({Inputs, html, md, width: 640})
+
+md`## ${embed("winner_perifereies").title}
+
+${embed("winner_perifereies").hook}`
+
+winnerPerifereies = await r2015Embeds.create_winner_map_embed({Inputs, html, md, level: "eklogiki_perifereia0", width: 640})
+
+md`## ${embed("winner_kallikratis").title}
+
+${embed("winner_kallikratis").hook}`
+
+winnerKallikratis = await r2015Embeds.create_winner_map_embed({Inputs, html, md, level: "kallikratis", width: 640})
+
+md`## ${embed("winner_kapodistrias").title}
+
+${embed("winner_kapodistrias").hook}`
+
+winnerKapodistrias = await r2015Embeds.create_winner_map_embed({Inputs, html, md, level: "kapodistrias", width: 640})
+
+md`## ${embed("oxi_absolute").title}
+
+${embed("oxi_absolute").hook}`
+
+oxiAbsolute = await r2015Embeds.create_oxi_share_embed({Inputs, html, md, mode: "absolute", width: 640})
+
+md`## ${embed("oxi_relative").title}
+
+${embed("oxi_relative").hook}`
+
+oxiRelative = await r2015Embeds.create_oxi_share_embed({Inputs, html, md, mode: "relative", width: 640})
+
+md`## ${embed("margin").title}
+
+${embed("margin").hook}`
+
+margin = await r2015Embeds.create_margin_embed({Inputs, html, md, width: 640})
+
+md`## ${embed("invalid_blank").title}
+
+${embed("invalid_blank").hook}`
+
+invalidBlank = await r2015Embeds.create_invalid_blank_embed({Inputs, html, md, width: 640})
+
+md`## ${embed("abstention").title}
+
+${embed("abstention").hook}`
+
+abstention = await r2015Embeds.create_abstention_embed({Inputs, html, md, width: 640})

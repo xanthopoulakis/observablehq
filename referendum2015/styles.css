@@ -195,3 +195,26 @@
     max-width: none;
   }
 }
+
+/* A single embeddable chart/map (embeds.js) — tighter than the full
+   article shell, since it's meant to be the entire visible content of a
+   notebook cell shared as its own image/iframe (e.g. on Twitter). */
+.r2015-embed {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.r2015-embed h2 {
+  margin: 0 0 0.35rem;
+  max-width: none;
+  font-size: 1.35rem;
+}
+
+.r2015-embed p {
+  margin: 0 0 1rem;
+  max-width: none;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
