@@ -274,15 +274,16 @@ export async function createReferendum2015Article({ Inputs, html, md }) {
       προσβάσιμα προάστια της Αθήνας: **Διόνυσος** (81,0%), **Παλλήνη** (78,4%), **Βριλήσσια** (78,0%).`,
     ),
   );
-  const turnoutRows = scalarStatisticVsNationalUnits(unitsByLevel.kallikratis, "turnout", national.stats, "el", formatPercent, "Συμμετοχή", "Απόκλιση");
-  const turnoutScale = absoluteLegendScale(turnoutRows, d3.schemePuRd[6]);
-  const turnoutMap = choroplethCard({ title: "Συμμετοχή ανά δήμο", width: full_width });
-  turnoutMap.update(
-    turnoutRows.map((d) => ({ ...d, fill: turnoutScale(d.value) })),
-    turnoutScale,
-    { legendTitle: `Απόλυτη Τιμή (${formatPercent(turnout)})`, legendTickFormat: ".1%", unitLevel: "kallikratis" },
+  const nationalAbstention = nationalStatisticValue("abstention", national.stats);
+  const abstentionRows = scalarStatisticVsNationalUnits(unitsByLevel.kapodistrias, "abstention", national.stats, "el", formatPercent, "Αποχή", "Απόκλιση");
+  const abstentionScale = absoluteLegendScale(abstentionRows, d3.schemeGreys[6]);
+  const abstentionMap = choroplethCard({ title: "Αποχή ανά κοινότητα", width: full_width });
+  abstentionMap.update(
+    abstentionRows.map((d) => ({ ...d, fill: abstentionScale(d.value) })),
+    abstentionScale,
+    { legendTitle: `Απόλυτη Τιμή (${formatPercent(nationalAbstention)})`, legendTickFormat: ".1%", unitLevel: "kapodistrias" },
   );
-  body.append(block(turnoutMap, "plot-block"));
+  body.append(block(abstentionMap, "plot-block"));
   body.append(
     html`<div class="callout">
       <strong class="callout-title">Με απλά λόγια</strong>
@@ -308,14 +309,7 @@ export async function createReferendum2015Article({ Inputs, html, md }) {
   body.append(heading_block("Πηγές & μεθοδολογία", 4));
   body.append(
     markdown_block(
-      `Τα δεδομένα προέρχονται από το επίσημο αρχείο αποτελεσμάτων του Υπουργείου Εσωτερικών
-      (ekloges-prev.singularlogic.eu/r2015), όπως έχουν συγκεντρωθεί και κανονικοποιηθεί στο
-      [election-atlas](https://github.com/xanthopoulakis/election-atlas) (\`common/raw/ypes/r2015\`). Η σύγκριση
-      του ποσοστού λευκών/άκυρων με άλλες εκλογικές αναμετρήσεις υπολογίστηκε από τα ίδια δεδομένα, σε 19
-      πανελλαδικές αναμετρήσεις 1996-2024. Τα χρώματα και τα λογότυπα του ΟΧΙ/ΝΑΙ προέρχονται από το επίσημο
-      \`legend.js\` και τις εικόνες κομμάτων του ίδιου site. Οι χάρτες και το γράφημα αποτελεσμάτων είναι
-      προσαρμογή των αντίστοιχων components του election-atlas (\`apps/framework/src/components\`), προσαρμοσμένα
-      ώστε να τρέχουν αυτόνομα εδώ.`,
+      `Όλα τα δεδομένα προέρχονται από το επίσημο site του Υπουργείου Εσωτερικών (ekloges-prev.singularlogic.eu/r2015).`,
     ),
   );
 
