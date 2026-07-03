@@ -1,0 +1,194 @@
+:root {
+  --oxi: #ec682e;
+  --nai: #3e9a97;
+  --ink: #1d2433;
+  --muted: #5d6678;
+  --bg-soft: #f6f5f2;
+  --line: #d9d9d9;
+  --font-text: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --sans-serif: var(--font-text);
+}
+
+.r2015-article {
+  max-width: min(1480px, calc(100vw - 72px));
+  margin: 0 auto;
+  padding: 0 0 6rem;
+  color: var(--ink);
+  font-family: var(--font-text);
+}
+
+.r2015-article a {
+  color: var(--oxi);
+}
+
+.r2015-article p {
+  max-width: 52rem;
+  font-size: 1.12rem;
+  line-height: 1.85;
+}
+
+.r2015-article h2 {
+  margin: 4.25rem 0 1rem;
+  max-width: 52rem;
+  font-size: clamp(1.9rem, 3vw, 2.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+}
+
+.r2015-article h3 {
+  margin: 3rem 0 0.75rem;
+  max-width: 52rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.hero {
+  margin: 2rem 0 3rem;
+  padding: 1.35rem 0 1.75rem;
+  border-top: 6px solid var(--oxi);
+  border-bottom: 1px solid var(--line);
+}
+
+.hero h1 {
+  margin: 0 0 0.5rem;
+  max-width: 52rem;
+  font-size: clamp(2.15rem, 4.3vw, 3.7rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+}
+
+.hero .deck {
+  max-width: 52rem;
+  margin: 0.95rem 0;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.hero .deck p {
+  margin: 0;
+}
+
+.hero .meta {
+  margin-top: 1rem;
+  max-width: 52rem;
+  font-size: 0.94rem;
+  color: var(--muted);
+}
+
+.kicker {
+  max-width: 52rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.76rem;
+  color: var(--oxi);
+  font-weight: 700;
+}
+
+.prose-block {
+  margin: 0 0 2.5rem;
+}
+
+.mini-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.mini-card {
+  border: 1px solid var(--line);
+  padding: 1rem 1.1rem;
+  background: white;
+}
+
+.mini-card .label {
+  font-size: 0.75rem;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.mini-card .value {
+  margin-top: 0.4rem;
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.08;
+}
+
+.callout {
+  margin: 2rem 0 3rem;
+  padding: 1.1rem 1.2rem;
+  border-left: 4px solid var(--oxi);
+  background: var(--bg-soft);
+  line-height: 1.7;
+}
+
+.callout-title {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--oxi);
+}
+
+.callout p {
+  max-width: none;
+  margin: 0;
+  font-size: 1.02rem;
+}
+
+.callout p + p {
+  margin-top: 0.7rem;
+}
+
+/* Cards wrapping the ported election-atlas components (choroplethCard,
+   partyRankCard) — these components only emit bare h2/h3/figure inside a
+   `.card` div and rely on the host page to style the shell. */
+.card {
+  border: 1px solid var(--line);
+  background: white;
+  padding: 1rem;
+  margin: 0 0 2rem;
+}
+
+.card h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.card h3 {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.card figure {
+  margin: 0;
+}
+
+.map-toolbar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+  align-items: start;
+}
+
+.plot-block,
+.control-block {
+  margin: 1.25rem 0 3rem;
+}
+
+@media (max-width: 900px) {
+  .r2015-article {
+    max-width: calc(100vw - 32px);
+  }
+
+  .hero h1 {
+    max-width: none;
+  }
+}
